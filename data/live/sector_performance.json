@@ -1,0 +1,60 @@
+{
+  "asOf": "2026-08-07",
+  "sectors": [
+    {
+      "name": "Auto",
+      "relativeStrength": 2.0,
+      "count": 15
+    },
+    {
+      "name": "It",
+      "relativeStrength": 1.29,
+      "count": 10
+    },
+    {
+      "name": "Metal",
+      "relativeStrength": 0.44,
+      "count": 15
+    },
+    {
+      "name": "Energy",
+      "relativeStrength": 0.22,
+      "count": 40
+    },
+    {
+      "name": "Psu Bank",
+      "relativeStrength": 0.14,
+      "count": 12
+    },
+    {
+      "name": "Pharma",
+      "relativeStrength": 0.09,
+      "count": 20
+    },
+    {
+      "name": "Fmcg",
+      "relativeStrength": -0.01,
+      "count": 15
+    },
+    {
+      "name": "Realty",
+      "relativeStrength": -0.11,
+      "count": 10
+    },
+    {
+      "name": "Media",
+      "relativeStrength": -0.35,
+      "count": 10
+    },
+    {
+      "name": "Chemicals",
+      "relativeStrength": -0.49,
+      "count": 20
+    },
+    {
+      "name": "Bank",
+      "relativeStrength": -0.73,
+      "count": 9
+    }
+  ]
+}
