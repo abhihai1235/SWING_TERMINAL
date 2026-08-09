@@ -1,0 +1,3917 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Swing Terminal — Swing Trading Decision Support</title>
+<meta name="description" content="Institutional-grade offline swing trading decision support system for Indian equities." />
+<style>
+/* ===== css/styles.css ===== */
+/* ==========================================================================
+   SWING TERMINAL — Design Tokens & Base Styles
+   Institutional dark trading workstation aesthetic.
+   ========================================================================== */
+
+:root {
+  /* ---- Color: cool near-black terminal, gold data accent, teal/red directional ---- */
+  --bg-void: #090B10;
+  --bg-panel: #10141C;
+  --bg-panel-raised: #171C27;
+  --bg-panel-hover: #1D2330;
+  --border-hair: #232A38;
+  --border-strong: #303A4D;
+
+  --text-primary: #E7EBF3;
+  --text-secondary: #AAB4C6;
+  --text-muted: #6C7690;
+  --text-faint: #4A5265;
+
+  --accent-gold: #C9A24B;
+  --accent-gold-dim: #8A7238;
+  --accent-teal: #2FBF9F;
+  --accent-teal-dim: #1B6E5C;
+  --accent-red: #E5534B;
+  --accent-red-dim: #8C332D;
+  --accent-blue: #4C8DFF;
+  --accent-violet: #9B7EDE;
+
+  --score-excellent: #2FBF9F;
+  --score-good: #7FBF4B;
+  --score-fair: #C9A24B;
+  --score-weak: #C97A3A;
+  --score-poor: #E5534B;
+
+  /* ---- Type ---- */
+  --font-display: "Segoe UI Semibold", ui-sans-serif, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --font-body: ui-sans-serif, -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "Cascadia Code", "SF Mono", "Consolas", "Roboto Mono", monospace;
+
+  --radius-sm: 3px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+
+  --shadow-panel: 0 1px 0 rgba(255,255,255,0.02) inset, 0 8px 24px rgba(0,0,0,0.35);
+  --transition-fast: 120ms ease;
+  --transition-med: 220ms ease;
+
+  --sidebar-w: 216px;
+  --ribbon-h: 44px;
+}
+
+/* ---- Reset ---- */
+*, *::before, *::after { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background: var(--bg-void);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 14px;
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3, h4 { font-family: var(--font-display); margin: 0 0 8px; letter-spacing: -0.01em; font-weight: 600; }
+p { margin: 0 0 8px; }
+button, input, select, textarea { font-family: inherit; font-size: inherit; color: inherit; }
+a { color: var(--accent-blue); text-decoration: none; }
+a:hover { text-decoration: underline; }
+ul { margin: 0; padding: 0; list-style: none; }
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--bg-void); }
+::-webkit-scrollbar-thumb { background: var(--border-strong); border-radius: 6px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text-faint); }
+
+:focus-visible {
+  outline: 2px solid var(--accent-gold);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+}
+
+/* ---- App shell ---- */
+.app-shell {
+  display: grid;
+  grid-template-columns: var(--sidebar-w) 1fr;
+  grid-template-rows: var(--ribbon-h) 1fr;
+  grid-template-areas:
+    "sidebar ribbon"
+    "sidebar main";
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+/* ---- Sidebar ---- */
+.sidebar {
+  grid-area: sidebar;
+  background: var(--bg-panel);
+  border-right: 1px solid var(--border-hair);
+  display: flex;
+  flex-direction: column;
+  padding: 14px 10px;
+  overflow-y: auto;
+}
+.brand {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  padding: 4px 10px 16px;
+  border-bottom: 1px solid var(--border-hair);
+  margin-bottom: 10px;
+}
+.brand-mark { color: var(--accent-gold); font-family: var(--font-mono); font-weight: 700; font-size: 15px; letter-spacing: 0.02em; }
+.brand-sub { color: var(--text-muted); font-size: 10px; text-transform: uppercase; letter-spacing: 0.08em; }
+
+.nav-group-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--text-faint);
+  padding: 14px 10px 6px;
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 9px 10px;
+  background: transparent;
+  border: none;
+  border-radius: var(--radius-md);
+  color: var(--text-secondary);
+  cursor: pointer;
+  text-align: left;
+  transition: background var(--transition-fast), color var(--transition-fast);
+}
+.nav-item:hover { background: var(--bg-panel-hover); color: var(--text-primary); }
+.nav-item.is-active {
+  background: var(--bg-panel-raised);
+  color: var(--text-primary);
+  box-shadow: inset 2px 0 0 var(--accent-gold);
+}
+.nav-icon { width: 16px; text-align: center; font-family: var(--font-mono); color: var(--text-faint); }
+.nav-item.is-active .nav-icon { color: var(--accent-gold); }
+.nav-badge {
+  margin-left: auto;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  background: var(--bg-void);
+  border: 1px solid var(--border-strong);
+  color: var(--text-muted);
+  padding: 1px 6px;
+  border-radius: 10px;
+}
+
+.sidebar-footer {
+  margin-top: auto;
+  padding: 10px;
+  font-size: 11px;
+  color: var(--text-faint);
+  border-top: 1px solid var(--border-hair);
+}
+
+/* ---- Ribbon (index snapshot ticker) ---- */
+.ribbon {
+  grid-area: ribbon;
+  background: var(--bg-panel);
+  border-bottom: 1px solid var(--border-hair);
+  display: flex;
+  align-items: stretch;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.ribbon .tradingview-widget-container { width: 100%; flex: 1; }
+.ribbon-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 16px;
+  border-right: 1px solid var(--border-hair);
+  font-family: var(--font-mono);
+  font-size: 12px;
+}
+.ribbon-name { color: var(--text-muted); }
+.ribbon-value { color: var(--text-primary); font-weight: 600; }
+.ribbon-delta { font-weight: 600; }
+.ribbon-delta.up { color: var(--accent-teal); }
+.ribbon-delta.down { color: var(--accent-red); }
+.ribbon-item.vix .ribbon-value { color: var(--accent-violet); }
+
+/* ---- Main ---- */
+.main {
+  grid-area: main;
+  overflow-y: auto;
+  padding: 20px 22px 48px;
+}
+.view { display: none; }
+.view.is-active { display: block; animation: fadeIn var(--transition-med); }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(4px);} to { opacity: 1; transform: translateY(0);} }
+
+.view-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.view-title { font-size: 18px; }
+.view-subtitle { color: var(--text-muted); font-size: 12px; }
+
+/* ---- Panels / Cards ---- */
+.panel {
+  background: var(--bg-panel);
+  border: 1px solid var(--border-hair);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-panel);
+  padding: 16px;
+}
+.panel + .panel { margin-top: 16px; }
+.panel-title {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.grid { display: grid; gap: 16px; }
+.grid-2 { grid-template-columns: repeat(2, 1fr); }
+.grid-3 { grid-template-columns: repeat(3, 1fr); }
+.grid-4 { grid-template-columns: repeat(4, 1fr); }
+@media (max-width: 1100px) { .grid-4 { grid-template-columns: repeat(2, 1fr); } .grid-3 { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 720px) {
+  .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
+  .app-shell {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr;
+    grid-template-areas:
+      "ribbon"
+      "sidebar"
+      "main";
+    height: 100dvh;
+  }
+  .sidebar {
+    flex-direction: row;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 6px 8px;
+    border-right: none;
+    border-bottom: 1px solid var(--border-hair);
+    -webkit-overflow-scrolling: touch;
+  }
+  .brand, .sidebar-footer, .nav-group-label { display: none; }
+  .nav-item {
+    flex: 0 0 auto;
+    white-space: nowrap;
+    margin-right: 4px;
+  }
+  .nav-item.is-active { box-shadow: inset 0 -2px 0 var(--accent-gold); }
+  .ribbon { overflow-x: auto; }
+}
+
+/* ---- Buttons ---- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-strong);
+  background: var(--bg-panel-raised);
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: background var(--transition-fast), border-color var(--transition-fast);
+  font-weight: 500;
+}
+.btn:hover { background: var(--bg-panel-hover); border-color: var(--text-faint); }
+.btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.btn-primary { background: var(--accent-gold); border-color: var(--accent-gold); color: #1A1305; font-weight: 600; }
+.btn-primary:hover { background: #D9B562; }
+.btn-danger { border-color: var(--accent-red-dim); color: var(--accent-red); background: transparent; }
+.btn-danger:hover { background: rgba(229,83,75,0.1); }
+.btn-ghost { background: transparent; border-color: transparent; color: var(--text-secondary); }
+.btn-ghost:hover { background: var(--bg-panel-hover); }
+.btn-sm { padding: 5px 10px; font-size: 12px; }
+
+/* ---- Forms ---- */
+label { display: block; font-size: 12px; color: var(--text-muted); margin-bottom: 4px; }
+.field { margin-bottom: 12px; }
+input[type="text"], input[type="number"], input[type="date"], select, textarea {
+  width: 100%;
+  background: var(--bg-void);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-md);
+  padding: 8px 10px;
+  color: var(--text-primary);
+}
+input:focus, select:focus, textarea:focus { border-color: var(--accent-gold); }
+textarea { min-height: 70px; resize: vertical; }
+
+/* ---- Tables ---- */
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th {
+  text-align: left;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-faint);
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border-strong);
+  cursor: pointer;
+  white-space: nowrap;
+}
+th:hover { color: var(--text-secondary); }
+td { padding: 9px 10px; border-bottom: 1px solid var(--border-hair); font-family: var(--font-mono); white-space: nowrap; }
+tr.candidate-row { cursor: pointer; transition: background var(--transition-fast); }
+tr.candidate-row:hover { background: var(--bg-panel-hover); }
+tr.candidate-row.is-selected { background: var(--bg-panel-raised); box-shadow: inset 2px 0 0 var(--accent-gold); }
+
+.mono { font-family: var(--font-mono); }
+.txt-muted { color: var(--text-muted); }
+.txt-teal { color: var(--accent-teal); }
+.txt-red { color: var(--accent-red); }
+.txt-gold { color: var(--accent-gold); }
+
+/* ---- Badges / pills ---- */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 10px;
+  font-family: var(--font-mono);
+  padding: 2px 7px;
+  border-radius: 10px;
+  border: 1px solid var(--border-strong);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.badge-long { color: var(--accent-teal); border-color: var(--accent-teal-dim); background: rgba(47,191,159,0.08); }
+.badge-short { color: var(--accent-red); border-color: var(--accent-red-dim); background: rgba(229,83,75,0.08); }
+.badge-watch { color: var(--text-muted); }
+
+/* ---- Score dial (signature element) ---- */
+.score-dial {
+  --pct: 0;
+  --dial-color: var(--score-fair);
+  width: 46px; height: 46px;
+  border-radius: 50%;
+  background: conic-gradient(var(--dial-color) calc(var(--pct) * 1%), var(--border-hair) 0);
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.score-dial-inner {
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  background: var(--bg-panel);
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-mono); font-weight: 700; font-size: 12px;
+}
+
+/* ---- Empty / loading states ---- */
+.empty-state, .loading-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 20px;
+  color: var(--text-muted);
+  text-align: center;
+  gap: 8px;
+}
+.empty-state-icon { font-size: 28px; color: var(--text-faint); font-family: var(--font-mono); }
+.spinner {
+  width: 22px; height: 22px;
+  border-radius: 50%;
+  border: 2px solid var(--border-strong);
+  border-top-color: var(--accent-gold);
+  animation: spin 0.8s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ---- Toast ---- */
+#toast-root { position: fixed; bottom: 20px; right: 20px; display: flex; flex-direction: column; gap: 8px; z-index: 200; }
+.toast {
+  background: var(--bg-panel-raised);
+  border: 1px solid var(--border-strong);
+  border-left: 3px solid var(--accent-gold);
+  border-radius: var(--radius-md);
+  padding: 10px 14px;
+  font-size: 13px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+  animation: fadeIn var(--transition-med);
+}
+.toast.success { border-left-color: var(--accent-teal); }
+.toast.error { border-left-color: var(--accent-red); }
+
+/* ---- Checklist ---- */
+.checklist-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 8px 4px;
+  border-bottom: 1px solid var(--border-hair);
+}
+.checklist-item:last-child { border-bottom: none; }
+.checklist-item input[type="checkbox"] { width: 16px; height: 16px; margin-top: 2px; accent-color: var(--accent-gold); }
+.checklist-item.critical .checklist-label::after {
+  content: "critical";
+  margin-left: 8px;
+  font-size: 9px;
+  color: var(--accent-red);
+  text-transform: uppercase;
+  border: 1px solid var(--accent-red-dim);
+  padding: 1px 5px;
+  border-radius: 8px;
+}
+.checklist-item.failed { background: rgba(229,83,75,0.06); }
+
+/* ---- Tooltip ---- */
+[data-tip] { position: relative; }
+[data-tip]:hover::after {
+  content: attr(data-tip);
+  position: absolute;
+  bottom: 125%; left: 50%; transform: translateX(-50%);
+  background: var(--bg-panel-raised);
+  border: 1px solid var(--border-strong);
+  padding: 6px 9px;
+  border-radius: var(--radius-sm);
+  font-size: 11px;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  z-index: 50;
+}
+
+/* ---- Utility ---- */
+.flex { display: flex; }
+.flex-col { flex-direction: column; }
+.gap-8 { gap: 8px; }
+.gap-12 { gap: 12px; }
+.items-center { align-items: center; }
+.justify-between { justify-content: space-between; }
+.mt-8 { margin-top: 8px; }
+.mt-16 { margin-top: 16px; }
+.w-full { width: 100%; }
+.text-right { text-align: right; }
+
+
+/* ===== css/components.css ===== */
+/* ==========================================================================
+   Component styles
+   ========================================================================== */
+
+/* ---- Dropzone (Scanner Import) ---- */
+.dropzone {
+  border: 2px dashed var(--border-strong);
+  border-radius: var(--radius-lg);
+  padding: 36px 20px;
+  text-align: center;
+  color: var(--text-muted);
+  transition: border-color var(--transition-fast), background var(--transition-fast);
+  cursor: pointer;
+}
+.dropzone.is-dragover { border-color: var(--accent-gold); background: rgba(201,162,75,0.06); color: var(--text-primary); }
+.dropzone input[type="file"] { display: none; }
+.dropzone-icon { font-size: 26px; font-family: var(--font-mono); color: var(--accent-gold); margin-bottom: 8px; }
+
+.paste-area { margin-top: 12px; }
+
+.import-summary { display: flex; gap: 20px; flex-wrap: wrap; margin-top: 14px; }
+.import-stat { font-family: var(--font-mono); font-size: 12px; }
+.import-stat b { display: block; font-size: 18px; color: var(--text-primary); }
+
+/* ---- Scanner library cards ---- */
+.scanner-card {
+  border: 1px solid var(--border-hair);
+  border-radius: var(--radius-md);
+  padding: 12px;
+  background: var(--bg-panel-raised);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.scanner-card-title { font-weight: 600; display: flex; justify-content: space-between; align-items: center; }
+.scanner-card-desc { font-size: 12px; color: var(--text-muted); }
+.scanner-card-meta { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 4px; }
+
+/* ---- Tabs ---- */
+.tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--border-hair); margin-bottom: 14px; }
+.tab-btn {
+  background: transparent; border: none; color: var(--text-muted);
+  padding: 8px 12px; cursor: pointer; border-bottom: 2px solid transparent;
+  font-weight: 500;
+}
+.tab-btn:hover { color: var(--text-primary); }
+.tab-btn.is-active { color: var(--accent-gold); border-bottom-color: var(--accent-gold); }
+.tab-panel { display: none; }
+.tab-panel.is-active { display: block; }
+
+/* ---- Trade workspace layout ---- */
+.workspace-layout {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 16px;
+  align-items: start;
+}
+@media (max-width: 1100px) { .workspace-layout { grid-template-columns: 1fr; } }
+
+.tv-timeframes { display: flex; gap: 6px; margin-bottom: 10px; }
+.tv-chart-wrap { border: 1px solid var(--border-hair); border-radius: var(--radius-md); overflow: hidden; background: #0d1117; }
+.tv-chart-wrap iframe, .tv-chart-wrap > div { width: 100%; }
+
+.plan-row { display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid var(--border-hair); font-size: 13px; }
+.plan-row:last-child { border-bottom: none; }
+.plan-row .label { color: var(--text-muted); }
+.plan-row .value { font-family: var(--font-mono); font-weight: 600; }
+
+/* ---- Modal ---- */
+.modal-backdrop {
+  position: fixed; inset: 0; background: rgba(4,6,10,0.65);
+  display: flex; align-items: center; justify-content: center; z-index: 150;
+}
+.modal { background: var(--bg-panel-raised); border: 1px solid var(--border-strong); border-radius: var(--radius-lg); width: min(480px, 92vw); max-height: 86vh; overflow-y: auto; padding: 20px; box-shadow: 0 20px 60px rgba(0,0,0,0.5); }
+.modal-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+.modal-close { background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 18px; }
+
+/* ---- Journal ---- */
+.journal-entry {
+  border: 1px solid var(--border-hair); border-radius: var(--radius-md);
+  padding: 12px; margin-bottom: 10px; background: var(--bg-panel-raised);
+}
+.journal-entry-header { display: flex; justify-content: space-between; align-items: center; }
+.journal-pnl.pos { color: var(--accent-teal); }
+.journal-pnl.neg { color: var(--accent-red); }
+
+/* ---- Analytics stat cards ---- */
+.stat-card { text-align: center; }
+.stat-value { font-family: var(--font-mono); font-size: 24px; font-weight: 700; }
+.stat-label { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-top: 4px; }
+.stat-value.pos { color: var(--accent-teal); }
+.stat-value.neg { color: var(--accent-red); }
+
+/* ---- Heat map placeholder ---- */
+.heatmap-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 4px; }
+.heatmap-cell {
+  border-radius: var(--radius-sm); padding: 8px 6px; font-size: 11px;
+  font-family: var(--font-mono); text-align: center; color: #0A0D12; font-weight: 700;
+}
+
+/* ---- Weight sliders (scoring config) ---- */
+.weight-row { display: grid; grid-template-columns: 140px 1fr 46px; gap: 10px; align-items: center; margin-bottom: 10px; }
+.weight-row input[type="range"] { accent-color: var(--accent-gold); }
+
+/* ---- Sector strength bars ---- */
+.sector-bar-row { display: grid; grid-template-columns: 110px 1fr 40px; gap: 8px; align-items: center; font-size: 12px; margin-bottom: 6px; }
+.sector-bar-track { height: 8px; background: var(--bg-void); border-radius: 4px; overflow: hidden; }
+.sector-bar-fill { height: 100%; border-radius: 4px; }
+
+</style>
+</head>
+<body>
+
+<div class="app-shell">
+  <aside class="sidebar">
+    <div class="brand">
+      <span class="brand-mark">SWING·TERMINAL</span>
+    </div>
+    <div class="brand-sub" style="padding:0 10px 10px;">NSE / BSE Decision Support</div>
+    <nav id="sidebar-nav"></nav>
+    <div class="sidebar-footer">
+      Decision support only.<br />No trade recommendations or guarantees.
+    </div>
+  </aside>
+
+  <div id="ribbon" class="ribbon" aria-label="Index snapshot"></div>
+
+  <main id="main-content" class="main"></main>
+</div>
+
+<div id="toast-root" aria-live="polite"></div>
+
+<script>
+/* ===== js/utils.js ===== */
+/**
+ * utils.js
+ * Framework-free helper functions shared across modules.
+ * No external dependencies — keeps the app fully offline-capable.
+ */
+
+const $ = (sel, root = document) => root.querySelector(sel);
+const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
+
+function el(tag, attrs = {}, children = []) {
+  const node = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (k === "class") node.className = v;
+    else if (k === "html") node.innerHTML = v;
+    else if (k.startsWith("on") && typeof v === "function") node.addEventListener(k.slice(2), v);
+    else node.setAttribute(k, v);
+  }
+  (Array.isArray(children) ? children : [children]).forEach((c) => {
+    if (c === null || c === undefined) return;
+    node.appendChild(typeof c === "string" ? document.createTextNode(c) : c);
+  });
+  return node;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Number / currency formatting                                           */
+/* ---------------------------------------------------------------------- */
+
+function fmtINR(value, decimals = 2) {
+  if (value === null || value === undefined || isNaN(value)) return "—";
+  return Number(value).toLocaleString("en-IN", {
+    minimumFractionDigits: decimals,
+    maximumFractionDigits: decimals,
+  });
+}
+
+function fmtCr(value) {
+  if (value === null || value === undefined || isNaN(value)) return "—";
+  return (Number(value) / 10000000).toFixed(2) + " Cr";
+}
+
+function fmtPct(value, decimals = 1) {
+  if (value === null || value === undefined || isNaN(value)) return "—";
+  const v = Number(value);
+  return (v > 0 ? "+" : "") + v.toFixed(decimals) + "%";
+}
+
+function clamp(v, min, max) {
+  return Math.max(min, Math.min(max, v));
+}
+
+function uid(prefix = "id") {
+  return `${prefix}_${Date.now().toString(36)}_${Math.random().toString(36).slice(2, 8)}`;
+}
+
+function todayISO() {
+  return new Date().toISOString().slice(0, 10);
+}
+
+/* ---------------------------------------------------------------------- */
+/* CSV parsing — handles quoted fields, commas-in-quotes, CRLF/LF          */
+/* ---------------------------------------------------------------------- */
+
+function parseCSV(text) {
+  const rows = [];
+  let row = [];
+  let field = "";
+  let inQuotes = false;
+  const pushField = () => { row.push(field); field = ""; };
+  const pushRow = () => { rows.push(row); row = []; };
+
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (inQuotes) {
+      if (c === '"') {
+        if (text[i + 1] === '"') { field += '"'; i++; }
+        else inQuotes = false;
+      } else field += c;
+    } else {
+      if (c === '"') inQuotes = true;
+      else if (c === ",") pushField();
+      else if (c === "\r") { /* skip */ }
+      else if (c === "\n") { pushField(); pushRow(); }
+      else field += c;
+    }
+  }
+  if (field.length || row.length) { pushField(); pushRow(); }
+
+  const filtered = rows.filter((r) => r.some((cell) => cell.trim() !== ""));
+  if (!filtered.length) return { headers: [], records: [] };
+
+  const headers = filtered[0].map((h) => h.trim());
+  const records = filtered.slice(1).map((r) => {
+    const rec = {};
+    headers.forEach((h, idx) => { rec[h] = (r[idx] ?? "").trim(); });
+    return rec;
+  });
+  return { headers, records };
+}
+
+/** Normalize a raw scanner header name to a canonical field key. */
+const HEADER_ALIASES = {
+  symbol: "symbol", ticker: "symbol", "stock name": "symbol", nsecode: "symbol", "stock code": "symbol",
+  name: "companyName", "company name": "companyName",
+  close: "ltp", ltp: "ltp", price: "ltp", "close price": "ltp",
+  volume: "volume", vol: "volume",
+  "% chg": "changePct", "1 day % change": "changePct", change: "changePct", chg: "changePct",
+  sector: "sector", industry: "sector",
+  "52whigh": "high52w", "52w high": "high52w",
+  "52wlow": "low52w", "52w low": "low52w",
+  "sma50": "sma50", "50 day sma": "sma50",
+  "sma200": "sma200", "200 day sma": "sma200",
+  rsi: "rsi", "rsi 14": "rsi",
+  "eps growth": "epsGrowth", "eps qtr growth %": "epsGrowth", "eps growth %": "epsGrowth", "quarterly eps growth": "epsGrowth",
+  "sales growth": "salesGrowth", "sales growth %": "salesGrowth", "quarterly sales growth": "salesGrowth",
+  "roe": "roe", "return on equity": "roe",
+  "rs rating": "rsRating", "relative strength rating": "rsRating", "ibd rs rating": "rsRating",
+};
+
+function normalizeHeader(h) {
+  const key = h.trim().toLowerCase();
+  return HEADER_ALIASES[key] || h.trim();
+}
+
+function normalizeRecord(rec) {
+  const out = {};
+  for (const [k, v] of Object.entries(rec)) {
+    out[normalizeHeader(k)] = v;
+  }
+  return out;
+}
+
+function toNumber(v) {
+  if (v === null || v === undefined) return NaN;
+  const cleaned = String(v).replace(/,/g, "").replace(/%/g, "").trim();
+  return cleaned === "" ? NaN : Number(cleaned);
+}
+
+/* ---------------------------------------------------------------------- */
+/* Toast notifications                                                     */
+/* ---------------------------------------------------------------------- */
+
+function toast(message, type = "info", ms = 3200) {
+  const root = $("#toast-root");
+  if (!root) return;
+  const node = el("div", { class: `toast ${type}` }, message);
+  root.appendChild(node);
+  setTimeout(() => node.remove(), ms);
+}
+
+/* ---------------------------------------------------------------------- */
+/* Debounce                                                                */
+/* ---------------------------------------------------------------------- */
+
+function debounce(fn, wait = 200) {
+  let t;
+  return (...args) => {
+    clearTimeout(t);
+    t = setTimeout(() => fn(...args), wait);
+  };
+}
+
+
+/* ===== js/modules/storage.js ===== */
+/**
+ * storage.js
+ * Thin abstraction over persistence. Everything in the app reads/writes
+ * through this module — swap the internals later (IndexedDB, REST API,
+ * broker backend, mobile SQLite bridge) without touching feature code.
+ */
+
+const NAMESPACE = "swingTerminal.v1";
+
+function key(name) { return `${NAMESPACE}.${name}`; }
+
+const Store = {
+  get(name, fallback = null) {
+    try {
+      const raw = localStorage.getItem(key(name));
+      return raw === null ? fallback : JSON.parse(raw);
+    } catch (e) {
+      console.error(`Store.get failed for ${name}`, e);
+      return fallback;
+    }
+  },
+  set(name, value) {
+    try {
+      localStorage.setItem(key(name), JSON.stringify(value));
+      return true;
+    } catch (e) {
+      console.error(`Store.set failed for ${name}`, e);
+      return false;
+    }
+  },
+  remove(name) {
+    localStorage.removeItem(key(name));
+  },
+  /** Export the entire app state as a single JSON blob (for backup / migration). */
+  exportAll() {
+    const out = {};
+    for (const k of Object.keys(localStorage)) {
+      if (k.startsWith(NAMESPACE)) out[k.slice(NAMESPACE.length + 1)] = JSON.parse(localStorage.getItem(k));
+    }
+    return out;
+  },
+  importAll(obj) {
+    for (const [k, v] of Object.entries(obj)) this.set(k, v);
+  },
+};
+
+/* Keys used across the app, centralized to avoid typos / drift */
+const KEYS = {
+  CANDIDATES: "candidates",
+  JOURNAL: "journal",
+  SCORING_WEIGHTS: "scoringWeights",
+  RISK_SETTINGS: "riskSettings",
+  SCANNER_LIBRARY: "scannerLibraryCustom",
+  UI_STATE: "uiState",
+  IMPORT_BATCHES: "importBatches",
+  MARKET_BIAS: "marketBias",
+  LIVE_DATA_URL: "liveDataUrl",
+};
+
+
+/* ===== js/data/liveDataService.js ===== */
+/**
+ * liveDataService.js
+ * ---------------------------------------------------------------------
+ * Fetches the REAL, full-NSE-universe data published by
+ * tools/sync_market_data.py (via GitHub Actions + GitHub Pages — see
+ * docs/LIVE_DATA_SETUP.md). This is the module that turns "demo data"
+ * into genuine daily-synced market data once the user has deployed the
+ * sync workflow.
+ *
+ * Every function here fails soft: if no live-data URL is configured yet,
+ * or the fetch fails (offline, not deployed yet, sync hasn't run yet),
+ * callers get `null` back and should fall back to sample data — exactly
+ * the same honest-fallback pattern used by the chart and other TradingView
+ * widgets elsewhere in this app.
+ * ---------------------------------------------------------------------
+ */
+
+/** Shared "Live · <date>" / "Demo data" badge used across every view that shows synced data. */
+function liveBadge(isLive, asOf) {
+  return el("span", { class: `badge ${isLive ? "badge-long" : ""}`, style: "text-transform:none; letter-spacing:0;" },
+    isLive ? `Live${asOf ? " · " + asOf : ""}` : "Demo data — see Settings to sync real data");
+}
+
+const LIVE_DATA_CACHE = {};
+const LIVE_DATA_CACHE_MS = 5 * 60 * 1000; // 5 min — this data only changes once/day anyway
+
+function getLiveDataBaseUrl() {
+  const url = Store.get(KEYS.LIVE_DATA_URL, "");
+  return url ? url.replace(/\/$/, "") : "";
+}
+
+function saveLiveDataBaseUrl(url) {
+  Store.set(KEYS.LIVE_DATA_URL, (url || "").trim().replace(/\/$/, ""));
+}
+
+function isLiveDataConfigured() {
+  return !!getLiveDataBaseUrl();
+}
+
+async function fetchLiveJson(filename) {
+  const base = getLiveDataBaseUrl();
+  if (!base) return null;
+
+  const cached = LIVE_DATA_CACHE[filename];
+  if (cached && Date.now() - cached.fetchedAt < LIVE_DATA_CACHE_MS) return cached.data;
+
+  try {
+    const res = await fetch(`${base}/data/live/${filename}?t=${Math.floor(Date.now() / 600000)}`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    LIVE_DATA_CACHE[filename] = { data, fetchedAt: Date.now() };
+    return data;
+  } catch (err) {
+    console.warn(`liveDataService: could not fetch ${filename}`, err);
+    return null;
+  }
+}
+
+/** Full synced NSE universe (all EQ-series stocks) with sector + RS Rating attached. Or null if unavailable. */
+async function getLiveFullUniverse() {
+  return fetchLiveJson("full_universe.json");
+}
+
+/** Real full-market breadth (advances/declines/52w hi-lo across the whole synced universe). Or null. */
+async function getLiveBreadth() {
+  return fetchLiveJson("breadth.json");
+}
+
+/** Real sector performance, averaged from actual constituent price moves. Or null. */
+async function getLiveSectorPerformance() {
+  return fetchLiveJson("sector_performance.json");
+}
+
+/** Real top gainers/losers for the day. Or null. */
+async function getLiveTopMovers() {
+  return fetchLiveJson("top_movers.json");
+}
+
+/** Best performers over the trailing year across the synced universe. Or null. */
+async function getLivePastWinners() {
+  return fetchLiveJson("past_winners.json");
+}
+
+/** Bulk/block/short-selling deals reported to NSE. Or null. */
+async function getLiveBulkBlockDeals() {
+  return fetchLiveJson("bulk_block_deals.json");
+}
+
+/** Daily circuit/price-band revision list. Or null. */
+async function getLiveCircuitList() {
+  return fetchLiveJson("circuit_list.json");
+}
+
+/** Upcoming board meetings / results calendar. Or null. */
+async function getLiveResultsCalendar() {
+  return fetchLiveJson("results_calendar.json");
+}
+
+/** Rolling per-symbol price history (for RRG / performance-since-added calculations). Or null. */
+async function getLivePriceHistory() {
+  return fetchLiveJson("price_history.json");
+}
+
+/** Quick reachability check used by the Settings page's "Test connection" button. */
+async function testLiveDataConnection() {
+  const breadth = await fetchLiveJson("breadth.json");
+  if (!breadth) return { ok: false, message: "Could not reach or parse breadth.json at that URL. Check the URL and that the sync workflow has run at least once." };
+  return { ok: true, message: `Connected. Data as of ${breadth.asOf}.` };
+}
+
+
+/* ===== js/data/marketDataService.js ===== */
+/**
+ * marketDataService.js
+ * ---------------------------------------------------------------------
+ * Abstracted market-data provider. Every value the Dashboard shows comes
+ * through this module so no market figures are hard-coded into the UI.
+ *
+ * TODAY: returns realistic static/randomized sample data (offline demo).
+ * FUTURE: replace the body of each function with a real call to an
+ * NSE/BSE data vendor, a broker API, or a local price-feed service —
+ * the function *signatures* are the extension contract the rest of the
+ * app is written against, so no other file needs to change.
+ * ---------------------------------------------------------------------
+ */
+
+function jitter(base, spread) {
+  return base + (Math.random() * 2 - 1) * spread;
+}
+
+/**
+ * Computes an overall market-context bias ("supportive" / "unsupportive" /
+ * "neutral" for longs) from the index snapshot, and caches it in Store for
+ * the rest of the session. The scoring engine reads this synchronously via
+ * Store.get(KEYS.MARKET_BIAS, ...) — call this once at app startup (and
+ * again whenever the user wants a fresh read) rather than on every score
+ * calculation, since getIndexSnapshot() is randomized sample data here and
+ * would otherwise make scores flicker between renders.
+ */
+/**
+ * Pure computation of market-context bias from an already-fetched index
+ * snapshot + breadth reading (avoids re-fetching, which would jitter to a
+ * different random sample and disagree with what the ribbon just showed).
+ */
+function computeMarketBias(snapshot, breadth) {
+  const nifty = snapshot.find((s) => s.name === "NIFTY 50");
+  const vix = snapshot.find((s) => s.isVix);
+  let score = 0;
+  if (nifty && nifty.changePct > 0.2) score += 1;
+  if (nifty && nifty.changePct < -0.2) score -= 1;
+  if (breadth.adRatio >= 1.2) score += 1;
+  if (breadth.adRatio <= 0.8) score -= 1;
+  if (vix && vix.value >= 18) score -= 1; // elevated fear works against fresh longs
+  return score >= 1 ? "supportive" : score <= -1 ? "unsupportive" : "neutral";
+}
+
+/**
+ * Fetches a fresh index snapshot + breadth reading, computes the bias, and
+ * caches it in Store for the rest of the session. The scoring engine reads
+ * this synchronously via Store.get(KEYS.MARKET_BIAS, ...) — call this once
+ * at app startup (see app.js) rather than on every score calculation,
+ * since getIndexSnapshot() is randomized sample data here and would
+ * otherwise make scores flicker between renders.
+ */
+async function refreshMarketBias() {
+  const [snapshot, breadth] = await Promise.all([getIndexSnapshot(), getMarketBreadth()]);
+  const bias = computeMarketBias(snapshot, breadth);
+  Store.set(KEYS.MARKET_BIAS, bias);
+  return bias;
+}
+
+/** Same as refreshMarketBias() but reuses a snapshot the caller already fetched. */
+async function refreshMarketBiasFromSnapshot(snapshot) {
+  const breadth = await getMarketBreadth();
+  const bias = computeMarketBias(snapshot, breadth);
+  Store.set(KEYS.MARKET_BIAS, bias);
+  return bias;
+}
+
+function getCachedMarketBias() {
+  return Store.get(KEYS.MARKET_BIAS, "neutral");
+}
+async function getIndexSnapshot() {
+  return [
+    { name: "NIFTY 50", value: jitter(24812, 60), changePct: jitter(0.35, 0.6) },
+    { name: "BANK NIFTY", value: jitter(52340, 150), changePct: jitter(0.2, 0.7) },
+    { name: "NIFTY MIDCAP 100", value: jitter(57210, 200), changePct: jitter(0.5, 0.9) },
+    { name: "NIFTY SMALLCAP 100", value: jitter(18430, 90), changePct: jitter(0.6, 1.1) },
+    { name: "INDIA VIX", value: jitter(13.2, 0.8), changePct: jitter(-0.4, 1.2), isVix: true },
+  ];
+}
+
+/** Market breadth (advance/decline) for the dashboard. Uses real synced
+ *  NSE-wide data if a live data URL is configured (see Settings), else
+ *  falls back to demo values. */
+async function getMarketBreadth() {
+  const live = await getLiveBreadth();
+  if (live) {
+    return {
+      advances: live.advances, declines: live.declines, unchanged: live.unchanged,
+      adRatio: live.adRatio, newHighs: live.newHighs, newLows: live.newLows,
+      isLive: true, asOf: live.asOf,
+    };
+  }
+  const advances = Math.round(jitter(1450, 250));
+  const declines = Math.round(jitter(1150, 250));
+  const unchanged = Math.round(jitter(90, 20));
+  return { advances, declines, unchanged, adRatio: +(advances / Math.max(declines, 1)).toFixed(2), isLive: false };
+}
+
+/** Sector relative strength — powers the strongest/weakest sector panels.
+ *  Real, synced sector performance if configured, else demo values. */
+async function getSectorStrength() {
+  const live = await getLiveSectorPerformance();
+  if (live && live.sectors && live.sectors.length) {
+    return live.sectors.map((s) => ({ ...s, isLive: true }));
+  }
+  const sectors = [
+    "IT", "Banking", "Pharma", "Auto", "FMCG", "Metals",
+    "Energy", "Realty", "Infra", "Capital Goods", "Chemicals", "PSU Bank",
+  ];
+  return sectors
+    .map((name) => ({ name, relativeStrength: +jitter(0, 3.2).toFixed(2), isLive: false }))
+    .sort((a, b) => b.relativeStrength - a.relativeStrength);
+}
+
+/**
+ * Sample swing candidates — representative of what a Chartink scanner
+ * CSV export looks like once normalized. Used to seed the app on first
+ * run and for the "Load Sample Data" action in Scanner Import.
+ */
+async function getSampleCandidates() {
+  return [
+    { symbol: "TATAELXSI", companyName: "Tata Elxsi Ltd", sector: "IT", ltp: 7145, changePct: 2.1, volume: 412000, avgVolume20: 260000, high52w: 7460, low52w: 5890, sma50: 6810, sma200: 6320, rsi: 63, epsGrowth: 18, salesGrowth: 12, roe: 24, scannerSource: "Stage-2 Candidates" },
+    { symbol: "KAYNES", companyName: "Kaynes Technology", sector: "Capital Goods", ltp: 5320, changePct: 3.4, volume: 890000, avgVolume20: 410000, high52w: 5480, low52w: 3200, sma50: 4850, sma200: 4100, rsi: 68, epsGrowth: 34, salesGrowth: 28, roe: 19, scannerSource: "Breakout" },
+    { symbol: "COFORGE", companyName: "Coforge Ltd", sector: "IT", ltp: 8210, changePct: 1.6, volume: 320000, avgVolume20: 280000, high52w: 8450, low52w: 5600, sma50: 7690, sma200: 6900, rsi: 61, rsRating: 88, scannerSource: "High Relative Strength" },
+    { symbol: "POLYCAB", companyName: "Polycab India", sector: "Capital Goods", ltp: 7260, changePct: -0.4, volume: 210000, avgVolume20: 260000, high52w: 7690, low52w: 4700, sma50: 6980, sma200: 6100, rsi: 54, scannerSource: "Pullback" },
+    { symbol: "JSWENERGY", companyName: "JSW Energy Ltd", sector: "Energy", ltp: 612, changePct: 4.2, volume: 5200000, avgVolume20: 2100000, high52w: 645, low52w: 380, sma50: 560, sma200: 480, rsi: 71, scannerSource: "Momentum" },
+    { symbol: "CDSL", companyName: "Central Depository Services", sector: "Financial Services", ltp: 2680, changePct: 1.1, volume: 980000, avgVolume20: 700000, high52w: 2810, low52w: 1550, sma50: 2510, sma200: 2100, rsi: 59, scannerSource: "Tight Consolidation" },
+    { symbol: "MAZDOCK", companyName: "Mazagon Dock Shipbuilders", sector: "Defence", ltp: 4310, changePct: 2.8, volume: 610000, avgVolume20: 320000, high52w: 4450, low52w: 1900, sma50: 3900, sma200: 3100, rsi: 66, scannerSource: "Trend Continuation" },
+    { symbol: "IREDA", companyName: "Indian Renewable Energy Dev. Agency", sector: "Financial Services", ltp: 218, changePct: 0.6, volume: 8900000, avgVolume20: 7200000, high52w: 310, low52w: 130, sma50: 205, sma200: 190, rsi: 52, scannerSource: "IPO Base" },
+    { symbol: "PGEL", companyName: "PG Electroplast", sector: "Consumer Durables", ltp: 890, changePct: 5.1, volume: 1900000, avgVolume20: 780000, high52w: 920, low52w: 340, sma50: 760, sma200: 560, rsi: 74, scannerSource: "Darvas-style Consolidation" },
+    // Bearish sample candidates — exercise the short-side scoring path.
+    { symbol: "SUZLON", companyName: "Suzlon Energy", sector: "Energy", ltp: 62, changePct: -2.4, volume: 51000000, avgVolume20: 32000000, high52w: 86, low52w: 32, sma50: 71, sma200: 78, rsi: 34, epsGrowth: -12, salesGrowth: -5, scannerSource: "Downtrend Continuation" },
+    { symbol: "PAYTM", companyName: "One97 Communications", sector: "Financial Services", ltp: 410, changePct: -1.8, volume: 6200000, avgVolume20: 3800000, high52w: 998, low52w: 318, sma50: 455, sma200: 610, rsi: 38, roe: -6, scannerSource: "Breakdown" },
+    { symbol: "ZOMATO", companyName: "Eternal Ltd (Zomato)", sector: "Consumer Services", ltp: 168, changePct: -0.9, volume: 18500000, avgVolume20: 14000000, high52w: 304, low52w: 148, sma50: 188, sma200: 232, rsi: 41, rsRating: 22, scannerSource: "Relative Weakness" },
+    { symbol: "IDEA", companyName: "Vodafone Idea", sector: "Telecom", ltp: 7.2, changePct: -3.1, volume: 210000000, avgVolume20: 145000000, high52w: 19.2, low52w: 6.5, sma50: 8.1, sma200: 11.4, rsi: 29, epsGrowth: -40, scannerSource: "Distribution / Topping" },
+  ];
+}
+
+
+/* ===== js/data/scannerLibrary.js ===== */
+/**
+ * scannerLibrary.js
+ * ---------------------------------------------------------------------
+ * A curated set of Chartink scanner definitions for common swing-trading
+ * setups (trend continuation, breakout, VCP-style bases, etc).
+ *
+ * Each entry's `clause` is Chartink scanner syntax — paste it into
+ * https://chartink.com/screener/new, run it, then use Chartink's
+ * "Export as CSV" (or the copy icon) to bring results into this app
+ * via the Scanner Import module.
+ *
+ * These are starting points, not guarantees of quality setups — always
+ * apply the Trade Checklist before acting on any result.
+ * ---------------------------------------------------------------------
+ */
+
+const SCANNER_LIBRARY = [
+  {
+    id: "trend-continuation",
+    name: "Trend Continuation",
+    category: "Trend",
+    description: "Price above rising 50 & 200 SMA with recent higher low — classic Weinstein Stage 2 continuation.",
+    clause:
+`( {33489} ( latest close > latest sma( latest close , 50 ) and
+latest sma( latest close , 50 ) > latest sma( latest close , 200 ) and
+weekly sma( latest close , 50 ) > 1 week ago weekly sma( latest close , 50 ) and
+latest close > 1 day ago close and
+latest volume > latest sma( latest volume , 20 ) ) )`,
+  },
+  {
+    id: "breakout",
+    name: "Breakout",
+    category: "Breakout",
+    description: "Closing at/near a fresh 52-week or multi-month high on above-average volume.",
+    clause:
+`( {33489} ( latest close >= 0.98 * latest max( 250 , latest high ) and
+latest volume > 1.5 * latest sma( latest volume , 20 ) and
+latest close > 1 day ago close ) )`,
+  },
+  {
+    id: "pullback",
+    name: "Pullback to Support",
+    category: "Trend",
+    description: "Stock in an uptrend pulling back to the rising 20/50 SMA with volume drying up — potential re-entry.",
+    clause:
+`( {33489} ( latest close > latest sma( latest close , 200 ) and
+latest close <= 1.02 * latest sma( latest close , 50 ) and
+latest close >= 0.97 * latest sma( latest close , 50 ) and
+latest volume < latest sma( latest volume , 20 ) ) )`,
+  },
+  {
+    id: "darvas-consolidation",
+    name: "Darvas-style Consolidation",
+    category: "Base Quality",
+    description: "Tight multi-week range near highs — a Darvas box forming just under the ceiling.",
+    clause:
+`( {33489} ( latest close >= 0.95 * latest max( 60 , latest high ) and
+( latest max( 20 , latest high ) - latest min( 20 , latest low ) ) <= 0.10 * latest close ) )`,
+  },
+  {
+    id: "stage2-candidates",
+    name: "Stage-2 Candidates",
+    category: "Trend",
+    description: "Weinstein Stage 2: price and both key moving averages rising, well off the 52-week low.",
+    clause:
+`( {33489} ( latest close > latest sma( latest close , 30 ) and
+latest sma( latest close , 30 ) > latest sma( latest close , 150 ) and
+latest sma( latest close , 150 ) > latest sma( latest close , 200 ) and
+latest close >= 1.25 * latest min( 250 , latest low ) ) )`,
+  },
+  {
+    id: "momentum",
+    name: "Momentum",
+    category: "Momentum",
+    description: "Strong short-term price momentum with RSI confirming strength, not yet extreme overbought.",
+    clause:
+`( {33489} ( latest rsi( 14 ) > 60 and latest rsi( 14 ) < 80 and
+latest close > 5 days ago close * 1.08 and
+latest volume > latest sma( latest volume , 20 ) ) )`,
+  },
+  {
+    id: "high-rs",
+    name: "High Relative Strength",
+    category: "Relative Strength",
+    description: "Outperforming the Nifty 50 over the last quarter — a proxy for institutional accumulation.",
+    clause:
+`( {33489} ( ( latest close / 60 days ago close ) > ( latest close of NIFTY / 60 days ago close of NIFTY ) * 1.10 ) )`,
+  },
+  {
+    id: "tight-consolidation",
+    name: "Tight Consolidation (VCP)",
+    category: "Base Quality",
+    description: "Volatility Contraction Pattern — shrinking daily range and shrinking volume ahead of a potential breakout.",
+    clause:
+`( {33489} ( ( latest max( 10 , latest high ) - latest min( 10 , latest low ) ) <
+0.6 * ( latest max( 40 , latest high ) - latest min( 40 , latest low ) ) and
+latest volume < latest sma( latest volume , 50 ) ) )`,
+  },
+  {
+    id: "ipo-base",
+    name: "IPO Base",
+    category: "Base Quality",
+    description: "Recently listed stock building its first constructive base after the initial post-IPO move.",
+    clause:
+`( {33489} ( latest close > latest sma( latest close , 50 ) and
+latest close < 1.15 * latest min( 90 , latest low ) and
+market cap > 500 ) )`,
+  },
+  {
+    id: "failed-breakouts",
+    name: "Failed Breakouts (Watchlist Only)",
+    category: "Risk Flag",
+    description: "Recent breakout that reversed back below the pivot — kept as a watchlist to study failure patterns, not to trade.",
+    clause:
+`( {33489} ( 5 days ago close >= 0.98 * 5 days ago max( 250 , high ) and
+latest close < 0.95 * 5 days ago close ) )`,
+  },
+  {
+    id: "breakdown",
+    name: "Breakdown",
+    category: "Short — Breakdown",
+    description: "Closing at/near a fresh multi-month low on above-average volume — the bearish mirror of Breakout.",
+    clause:
+`( {33489} ( latest close <= 1.02 * latest min( 250 , latest low ) and
+latest volume > 1.5 * latest sma( latest volume , 20 ) and
+latest close < 1 day ago close ) )`,
+  },
+  {
+    id: "distribution-topping",
+    name: "Distribution / Topping",
+    category: "Short — Breakdown",
+    description: "Stock stalling below its 50/200 SMA structure with heavy down-volume — early signs of institutional selling into strength.",
+    clause:
+`( {33489} ( latest close < latest sma( latest close , 50 ) and
+latest sma( latest close , 50 ) < 5 days ago sma( latest close , 50 ) and
+latest volume > 1.3 * latest sma( latest volume , 20 ) and
+latest close < 1 day ago close ) )`,
+  },
+  {
+    id: "relative-weakness",
+    name: "Relative Weakness",
+    category: "Short — Trend",
+    description: "Underperforming the Nifty 50 over the last quarter — the bearish mirror of High Relative Strength.",
+    clause:
+`( {33489} ( ( latest close / 60 days ago close ) < ( latest close of NIFTY / 60 days ago close of NIFTY ) * 0.92 ) )`,
+  },
+  {
+    id: "downtrend-continuation",
+    name: "Downtrend Continuation",
+    category: "Short — Trend",
+    description: "Weinstein Stage 4: price and both key moving averages falling, well off the 52-week high — the bearish mirror of Stage-2 Candidates.",
+    clause:
+`( {33489} ( latest close < latest sma( latest close , 30 ) and
+latest sma( latest close , 30 ) < latest sma( latest close , 150 ) and
+latest sma( latest close , 150 ) < latest sma( latest close , 200 ) and
+latest close <= 0.80 * latest max( 250 , latest high ) ) )`,
+  },
+  {
+    id: "bearish-rally-failure",
+    name: "Bearish Rally Failure",
+    category: "Short — Setup",
+    description: "A relief rally into declining resistance (the falling 20/50 SMA) that stalls — a lower-risk entry to short into an existing downtrend, mirroring the long Pullback setup.",
+    clause:
+`( {33489} ( latest close < latest sma( latest close , 200 ) and
+latest sma( latest close , 50 ) < 5 days ago sma( latest close , 50 ) and
+latest close >= 0.98 * latest sma( latest close , 50 ) and
+latest close <= 1.02 * latest sma( latest close , 50 ) and
+latest volume < latest sma( latest volume , 20 ) ) )`,
+  },
+];
+
+/** Look up a scanner definition by id. */
+function getScannerById(id) {
+  return SCANNER_LIBRARY.find((s) => s.id === id) || null;
+}
+
+
+/* ===== js/modules/scoring.js ===== */
+/**
+ * scoring.js
+ * ---------------------------------------------------------------------
+ * Techno-funda scoring engine, built around the analysis frameworks named
+ * in this project's brief: Weinstein Stage Analysis for trend context,
+ * Minervini-style VCP for base/contraction quality, O'Neil/CANSLIM-style
+ * relative strength and (where fundamental columns are present) earnings
+ * growth, and Darvas-style proximity-to-pivot logic for breakouts.
+ *
+ * KEY DESIGN CHOICE: long and short setups are scored with two SEPARATE,
+ * direction-appropriate sub-score sets — a short candidate is not simply
+ * "1 minus the long score". A stock can score high as a genuine breakdown
+ * (falling trend, weak relative strength, distribution volume, rejected
+ * at resistance) independent of how it scores on bullish criteria. The
+ * candidate's bias is whichever direction has the stronger, more complete
+ * technical case, and its displayed composite score reflects the quality
+ * of THAT setup — this is what should differentiate real trade candidates
+ * from noise, and what should show up over time in the Analytics module
+ * as fewer, better trades and a shallower drawdown.
+ *
+ * Every score is 0-100 and is an OBJECTIVE summary of the fields present
+ * on the row (technicals from the scanner export, plus optional
+ * fundamental columns like EPS/sales growth or ROE if your Chartink
+ * scanner outputs them). It does not predict future price movement.
+ * ---------------------------------------------------------------------
+ */
+
+const DEFAULT_WEIGHTS = {
+  trend: 14,
+  relativeStrength: 11,
+  volume: 9,
+  liquidity: 7,
+  proximityToExtreme: 9,
+  momentum: 11,
+  baseQuality: 10,
+  breakoutQuality: 10,
+  riskReward: 9,
+  fundamentals: 6,
+  marketContext: 4,
+};
+
+function getWeights() {
+  const stored = Store.get(KEYS.SCORING_WEIGHTS);
+  return stored && Object.keys(stored).length ? stored : { ...DEFAULT_WEIGHTS };
+}
+
+function saveWeights(weights) {
+  Store.set(KEYS.SCORING_WEIGHTS, weights);
+}
+
+function weightSum(weights) {
+  return Object.values(weights).reduce((a, b) => a + Number(b || 0), 0);
+}
+
+/* ---------------------------------------------------------------------- */
+/* Shared helpers                                                          */
+/* ---------------------------------------------------------------------- */
+
+function haveAll(c, fields) {
+  return fields.every((f) => !isNaN(toNumber(c[f])));
+}
+
+/** How many of the fields the scoring model actually uses were present on this row (0-1). */
+function dataCompleteness(c) {
+  const fields = ["ltp", "changePct", "volume", "avgVolume20", "high52w", "low52w", "sma50", "sma200", "rsi"];
+  const present = fields.filter((f) => c[f] !== undefined && c[f] !== "" && !(typeof c[f] === "number" && isNaN(c[f])));
+  return +(present.length / fields.length).toFixed(2);
+}
+
+/** Optional CANSLIM-lite fundamentals — neutral (50) when the scanner export doesn't include them. */
+function scoreFundamentals(c, direction) {
+  const eps = toNumber(c.epsGrowth), sales = toNumber(c.salesGrowth), roe = toNumber(c.roe);
+  const have = [eps, sales, roe].filter((v) => !isNaN(v));
+  if (!have.length) return 50;
+  let score = 50;
+  if (!isNaN(eps)) score += (direction === "long" ? eps : -eps) * 1.2;
+  if (!isNaN(sales)) score += (direction === "long" ? sales : -sales) * 0.8;
+  if (!isNaN(roe)) score += (direction === "long" ? (roe - 15) : (15 - roe)) * 1.0;
+  return clamp(Math.round(score), 0, 100);
+}
+
+/** Market-context adjustment: is the broader tape helping or fighting this trade direction? */
+function scoreMarketContext(direction) {
+  const bias = Store.get(KEYS.MARKET_BIAS, "neutral");
+  if (bias === "neutral") return 50;
+  const supportive = bias === "supportive";
+  if (direction === "long") return supportive ? 80 : 25;
+  return supportive ? 25 : 80; // a supportive tape works against fresh shorts, and vice versa
+}
+
+/* ---------------------------------------------------------------------- */
+/* LONG-side sub-scores                                                    */
+/* ---------------------------------------------------------------------- */
+
+function scoreTrendLong(c) {
+  const close = toNumber(c.ltp), sma50 = toNumber(c.sma50), sma200 = toNumber(c.sma200);
+  if (haveAll(c, ["ltp", "sma50", "sma200"])) {
+    let s = 30;
+    if (close > sma50) s += 25;
+    if (close > sma200) s += 20;
+    if (sma50 > sma200) s += 25; // Weinstein Stage 2 structure
+    return clamp(s, 0, 100);
+  }
+  const chg = toNumber(c.changePct);
+  return isNaN(chg) ? 50 : clamp(50 + chg * 5, 0, 100);
+}
+
+function scoreRelativeStrengthLong(c) {
+  if (!isNaN(toNumber(c.rsRating))) return clamp(toNumber(c.rsRating), 0, 100);
+  const chg = toNumber(c.changePct);
+  return isNaN(chg) ? 50 : clamp(50 + chg * 8, 0, 100);
+}
+
+function scoreVolumeLong(c) {
+  const vol = toNumber(c.volume), avgVol = toNumber(c.avgVolume20), chg = toNumber(c.changePct);
+  if (!isNaN(vol) && !isNaN(avgVol) && avgVol > 0) {
+    const ratio = vol / avgVol;
+    let s = clamp((ratio - 0.5) * 55, 0, 100);
+    if (!isNaN(chg) && chg > 0 && ratio > 1.2) s = clamp(s + 10, 0, 100); // up-move on strong volume = accumulation
+    return s;
+  }
+  return 50;
+}
+
+function scoreLiquidity(c) {
+  const vol = toNumber(c.volume), price = toNumber(c.ltp);
+  if (isNaN(vol) || isNaN(price)) return 50;
+  const turnoverCr = (vol * price) / 10000000;
+  return clamp(turnoverCr * 10, 0, 100);
+}
+
+function scoreProximityToHigh(c) {
+  const close = toNumber(c.ltp), high = toNumber(c.high52w);
+  if (isNaN(close) || isNaN(high) || high === 0) return 50;
+  return clamp(((close / high) * 100 - 60) * 2.5, 0, 100);
+}
+
+function scoreMomentumLong(c) {
+  const rsi = toNumber(c.rsi);
+  if (!isNaN(rsi)) {
+    if (rsi >= 55 && rsi <= 70) return 100;
+    if (rsi > 70 && rsi <= 80) return 70;
+    if (rsi > 80) return 35;
+    if (rsi >= 45 && rsi < 55) return 55;
+    return 25;
+  }
+  const chg = toNumber(c.changePct);
+  return isNaN(chg) ? 50 : clamp(50 + chg * 6, 0, 100);
+}
+
+/** Minervini VCP-style: tighter range relative to its own 52-week spread scores higher. */
+function scoreBaseQuality(c) {
+  const high = toNumber(c.high52w), low = toNumber(c.low52w);
+  if (isNaN(high) || isNaN(low) || high === 0) return 50;
+  const range = (high - low) / high;
+  return clamp(100 - range * 100, 0, 100);
+}
+
+function scoreBreakoutQualityLong(c) {
+  const close = toNumber(c.ltp), high = toNumber(c.high52w), vol = toNumber(c.volume), avgVol = toNumber(c.avgVolume20);
+  if (isNaN(close) || isNaN(high)) return 50;
+  const nearHigh = close >= 0.97 * high;
+  const volConfirm = !isNaN(vol) && !isNaN(avgVol) && avgVol > 0 && vol > 1.3 * avgVol;
+  if (nearHigh && volConfirm) return 100;
+  if (nearHigh) return 65;
+  if (volConfirm) return 55;
+  return 35;
+}
+
+function scoreRiskRewardLong(c) {
+  const close = toNumber(c.ltp), sma50 = toNumber(c.sma50), high = toNumber(c.high52w);
+  if (isNaN(close)) return 50;
+  const stopProxy = !isNaN(sma50) ? sma50 : close * 0.93;
+  const targetProxy = !isNaN(high) ? high * 1.1 : close * 1.15;
+  const risk = Math.abs(close - stopProxy);
+  if (risk === 0) return 50;
+  const reward = Math.abs(targetProxy - close);
+  return clamp((reward / risk) * 25, 0, 100);
+}
+
+/* ---------------------------------------------------------------------- */
+/* SHORT-side sub-scores (mirrored logic, not just "100 - long")           */
+/* ---------------------------------------------------------------------- */
+
+function scoreTrendShort(c) {
+  const close = toNumber(c.ltp), sma50 = toNumber(c.sma50), sma200 = toNumber(c.sma200);
+  if (haveAll(c, ["ltp", "sma50", "sma200"])) {
+    let s = 30;
+    if (close < sma50) s += 25;
+    if (close < sma200) s += 20;
+    if (sma50 < sma200) s += 25; // Weinstein Stage 4 structure
+    return clamp(s, 0, 100);
+  }
+  const chg = toNumber(c.changePct);
+  return isNaN(chg) ? 50 : clamp(50 - chg * 5, 0, 100);
+}
+
+function scoreRelativeWeakness(c) {
+  if (!isNaN(toNumber(c.rsRating))) return clamp(100 - toNumber(c.rsRating), 0, 100);
+  const chg = toNumber(c.changePct);
+  return isNaN(chg) ? 50 : clamp(50 - chg * 8, 0, 100);
+}
+
+function scoreDistributionVolume(c) {
+  const vol = toNumber(c.volume), avgVol = toNumber(c.avgVolume20), chg = toNumber(c.changePct);
+  if (!isNaN(vol) && !isNaN(avgVol) && avgVol > 0) {
+    const ratio = vol / avgVol;
+    let s = clamp((ratio - 0.5) * 55, 0, 100);
+    if (!isNaN(chg) && chg < 0 && ratio > 1.2) s = clamp(s + 10, 0, 100); // down-move on strong volume = distribution
+    return s;
+  }
+  return 50;
+}
+
+function scoreProximityToLow(c) {
+  const close = toNumber(c.ltp), low = toNumber(c.low52w);
+  if (isNaN(close) || isNaN(low) || close === 0) return 50;
+  return clamp((140 - (close / low) * 100) * 2.5, 0, 100);
+}
+
+function scoreMomentumShort(c) {
+  const rsi = toNumber(c.rsi);
+  if (!isNaN(rsi)) {
+    if (rsi <= 45 && rsi >= 30) return 100;
+    if (rsi < 30) return 70; // deeply oversold — still a valid breakdown continuation, less fresh
+    if (rsi > 45 && rsi <= 55) return 55;
+    return 25;
+  }
+  const chg = toNumber(c.changePct);
+  return isNaN(chg) ? 50 : clamp(50 - chg * 6, 0, 100);
+}
+
+function scoreBreakdownQuality(c) {
+  const close = toNumber(c.ltp), low = toNumber(c.low52w), vol = toNumber(c.volume), avgVol = toNumber(c.avgVolume20);
+  if (isNaN(close) || isNaN(low)) return 50;
+  const nearLow = close <= 1.03 * low;
+  const volConfirm = !isNaN(vol) && !isNaN(avgVol) && avgVol > 0 && vol > 1.3 * avgVol;
+  if (nearLow && volConfirm) return 100;
+  if (nearLow) return 65;
+  if (volConfirm) return 55;
+  return 35;
+}
+
+function scoreRiskRewardShort(c) {
+  const close = toNumber(c.ltp), sma50 = toNumber(c.sma50), low = toNumber(c.low52w);
+  if (isNaN(close)) return 50;
+  const stopProxy = !isNaN(sma50) ? sma50 : close * 1.07; // stop above resistance for a short
+  const targetProxy = !isNaN(low) ? low * 0.9 : close * 0.85;
+  const risk = Math.abs(stopProxy - close);
+  if (risk === 0) return 50;
+  const reward = Math.abs(close - targetProxy);
+  return clamp((reward / risk) * 25, 0, 100);
+}
+
+/* ---------------------------------------------------------------------- */
+/* Composite: score both directions, keep the stronger, more complete one  */
+/* ---------------------------------------------------------------------- */
+
+function weightedComposite(sub, weights) {
+  const totalWeight = weightSum(weights) || 1;
+  let total = 0;
+  for (const [key, val] of Object.entries(sub)) total += (val * (Number(weights[key]) || 0)) / totalWeight;
+  return clamp(Math.round(total), 0, 100);
+}
+
+function scoreCandidate(candidate, weights = getWeights()) {
+  const longSub = {
+    trend: scoreTrendLong(candidate),
+    relativeStrength: scoreRelativeStrengthLong(candidate),
+    volume: scoreVolumeLong(candidate),
+    liquidity: scoreLiquidity(candidate),
+    proximityToExtreme: scoreProximityToHigh(candidate),
+    momentum: scoreMomentumLong(candidate),
+    baseQuality: scoreBaseQuality(candidate),
+    breakoutQuality: scoreBreakoutQualityLong(candidate),
+    riskReward: scoreRiskRewardLong(candidate),
+    fundamentals: scoreFundamentals(candidate, "long"),
+    marketContext: scoreMarketContext("long"),
+  };
+  const shortSub = {
+    trend: scoreTrendShort(candidate),
+    relativeStrength: scoreRelativeWeakness(candidate),
+    volume: scoreDistributionVolume(candidate),
+    liquidity: scoreLiquidity(candidate),
+    proximityToExtreme: scoreProximityToLow(candidate),
+    momentum: scoreMomentumShort(candidate),
+    baseQuality: scoreBaseQuality(candidate),
+    breakoutQuality: scoreBreakdownQuality(candidate),
+    riskReward: scoreRiskRewardShort(candidate),
+    fundamentals: scoreFundamentals(candidate, "short"),
+    marketContext: scoreMarketContext("short"),
+  };
+
+  const longComposite = weightedComposite(longSub, weights);
+  const shortComposite = weightedComposite(shortSub, weights);
+
+  // A small margin avoids flipping bias on noise when both sides look similarly mediocre.
+  const bias = longComposite >= shortComposite ? "long" : "short";
+  const composite = bias === "long" ? longComposite : shortComposite;
+  const subScores = bias === "long" ? longSub : shortSub;
+
+  return {
+    subScores,
+    composite,
+    bias,
+    longComposite,
+    shortComposite,
+    completeness: dataCompleteness(candidate),
+  };
+}
+
+function scoreLabel(score) {
+  if (score >= 80) return { label: "Excellent", cssVar: "--score-excellent" };
+  if (score >= 65) return { label: "Good", cssVar: "--score-good" };
+  if (score >= 50) return { label: "Fair", cssVar: "--score-fair" };
+  if (score >= 35) return { label: "Weak", cssVar: "--score-weak" };
+  return { label: "Poor", cssVar: "--score-poor" };
+}
+
+
+/* ===== js/modules/checklist.js ===== */
+/**
+ * checklist.js
+ * Objective go/no-go checklist applied to every candidate before it is
+ * accepted into the journal. Critical items failing should make the
+ * trader stop and reconsider — the app visually flags this but the
+ * final accept/reject decision always remains with the trader.
+ */
+
+const DEFAULT_CHECKLIST = [
+  { id: "trend-aligned", label: "Trend aligned (price > 50 & 200 SMA, or clean downtrend for a short)", critical: true },
+  { id: "long-term-avg", label: "Above (or below, for shorts) the long-term average with conviction", critical: true },
+  { id: "liquidity", label: "Healthy liquidity — average turnover supports my position size", critical: true },
+  { id: "proximity-resistance", label: "Not running straight into major overhead resistance", critical: false },
+  { id: "overextended", label: "Not overextended (RSI / distance from moving average is reasonable)", critical: true },
+  { id: "volume-confirmation", label: "Volume confirms the move (breakout/pullback volume as expected)", critical: false },
+  { id: "sector-strong", label: "Sector / industry group is showing relative strength", critical: false },
+  { id: "market-supportive", label: "Broader market context (Nifty trend, breadth, VIX) is supportive", critical: true },
+  { id: "acceptable-rr", label: "Reward-to-risk is at least 2:1 at the planned stop and target", critical: true },
+  { id: "position-sized", label: "Position size respects my max-risk-per-trade rule", critical: true },
+];
+
+/**
+ * Evaluate a set of checked item ids against the checklist definition.
+ * Returns pass/fail state plus whether any CRITICAL item failed.
+ */
+function evaluateChecklist(checkedIds = [], definition = DEFAULT_CHECKLIST) {
+  const checkedSet = new Set(checkedIds);
+  const results = definition.map((item) => ({ ...item, passed: checkedSet.has(item.id) }));
+  const failedCritical = results.filter((r) => r.critical && !r.passed);
+  const totalPassed = results.filter((r) => r.passed).length;
+  return {
+    results,
+    totalPassed,
+    totalItems: definition.length,
+    hasCriticalFailure: failedCritical.length > 0,
+    failedCritical,
+  };
+}
+
+
+/* ===== js/modules/riskManager.js ===== */
+/**
+ * riskManager.js
+ * Pure calculation functions for position sizing and portfolio risk.
+ * No side effects — easy to unit test and safe to reuse in a future
+ * mobile app or server-side pre-trade check.
+ */
+
+
+const DEFAULT_RISK_SETTINGS = {
+  capital: 1000000,
+  maxRiskPerTradePct: 1.0,
+  maxPortfolioExposurePct: 25,
+};
+
+function getRiskSettings() {
+  return Store.get(KEYS.RISK_SETTINGS) || { ...DEFAULT_RISK_SETTINGS };
+}
+function saveRiskSettings(settings) {
+  Store.set(KEYS.RISK_SETTINGS, settings);
+}
+
+/**
+ * Compute position sizing for a single trade.
+ * @param {number} capital - total trading capital
+ * @param {number} maxRiskPerTradePct - e.g. 1 = 1% of capital
+ * @param {number} entry - planned entry price
+ * @param {number} stopLoss - planned stop-loss price
+ */
+function computePositionSize(capital, maxRiskPerTradePct, entry, stopLoss) {
+  const riskPerShare = Math.abs(entry - stopLoss);
+  if (!capital || !entry || !stopLoss || riskPerShare === 0) {
+    return { quantity: 0, capitalRequired: 0, riskAmount: 0, riskPerShare: 0, portfolioPct: 0 };
+  }
+  const riskAmount = capital * (maxRiskPerTradePct / 100);
+  const quantity = Math.floor(riskAmount / riskPerShare);
+  const capitalRequired = quantity * entry;
+  const portfolioPct = capital ? (capitalRequired / capital) * 100 : 0;
+  return { quantity, capitalRequired, riskAmount, riskPerShare, portfolioPct };
+}
+
+function computeRewardRisk(entry, stopLoss, target) {
+  const risk = Math.abs(entry - stopLoss);
+  const reward = Math.abs(target - entry);
+  if (risk === 0) return 0;
+  return +(reward / risk).toFixed(2);
+}
+
+/**
+ * Check a proposed new position against total open exposure to flag
+ * portfolio-level risk breaches before the trade is journaled.
+ */
+function checkPortfolioExposure(openPositionsCapital, newPositionCapital, capital, maxPortfolioExposurePct) {
+  const totalExposure = openPositionsCapital + newPositionCapital;
+  const exposurePct = capital ? (totalExposure / capital) * 100 : 0;
+  return {
+    exposurePct: +exposurePct.toFixed(1),
+    exceedsLimit: exposurePct > maxPortfolioExposurePct,
+  };
+}
+
+
+/* ===== js/modules/candidates.js ===== */
+/**
+ * candidates.js
+ * Holds the merged, de-duplicated candidate list produced by Scanner
+ * Import, and exposes it (scored + ranked) to the rest of the app.
+ *
+ * Each import (a CSV file, a pasted table, or the sample data) is recorded
+ * as an "import batch" with its own id. Every candidate remembers which
+ * batch(es) contributed to it, so a single scanner's results can be
+ * removed later without wiping out symbols that other scanners also
+ * flagged (see removeImportBatch).
+ */
+
+const REQUIRED_FIELDS = ["symbol", "ltp"];
+
+function getCandidates() {
+  return Store.get(KEYS.CANDIDATES, []);
+}
+
+function saveCandidates(list) {
+  Store.set(KEYS.CANDIDATES, list);
+}
+
+function clearCandidates() {
+  Store.set(KEYS.CANDIDATES, []);
+  Store.set(KEYS.IMPORT_BATCHES, []);
+}
+
+function getImportBatches() {
+  return Store.get(KEYS.IMPORT_BATCHES, []);
+}
+
+function saveImportBatches(batches) {
+  Store.set(KEYS.IMPORT_BATCHES, batches);
+}
+
+/**
+ * Merge new raw records (from one Chartink scanner CSV, pasted table, or
+ * the sample data set) into the existing candidate pool, de-duplicating
+ * by symbol. Records this import as a new "batch" so it can be removed
+ * as a unit later via removeImportBatch().
+ */
+function mergeCandidates(rawRecords, sourceName = "Imported") {
+  const existing = getCandidates();
+  const bySymbol = new Map(existing.map((c) => [c.symbol, c]));
+  const missingRows = [];
+
+  const batchId = uid("batch");
+  const touchedSymbols = [];
+
+  for (const raw of rawRecords) {
+    const rec = normalizeRecord(raw);
+    if (!rec.symbol) { missingRows.push(raw); continue; }
+    rec.symbol = rec.symbol.toUpperCase().trim();
+
+    const numericFields = [
+      "ltp", "changePct", "volume", "avgVolume20", "high52w", "low52w",
+      "sma50", "sma200", "rsi", "epsGrowth", "salesGrowth", "roe",
+    ];
+    numericFields.forEach((f) => { if (rec[f] !== undefined) rec[f] = toNumber(rec[f]); });
+
+    touchedSymbols.push(rec.symbol);
+
+    if (bySymbol.has(rec.symbol)) {
+      const prior = bySymbol.get(rec.symbol);
+      const priorBatches = prior.sourceBatches || [];
+      bySymbol.set(rec.symbol, {
+        ...prior,
+        ...rec,
+        id: prior.id,
+        sourceBatches: priorBatches.includes(batchId) ? priorBatches : [...priorBatches, batchId],
+      });
+    } else {
+      bySymbol.set(rec.symbol, { ...rec, id: uid("cand"), sourceBatches: [batchId], rejected: false });
+    }
+  }
+
+  if (touchedSymbols.length) {
+    const batches = getImportBatches();
+    batches.push({ id: batchId, label: sourceName, timestamp: new Date().toISOString(), symbolCount: touchedSymbols.length });
+    saveImportBatches(batches);
+  }
+
+  const merged = Array.from(bySymbol.values()).map((c) => ({ ...c, scannerSource: describeSources(c.sourceBatches) }));
+  saveCandidates(merged);
+
+  const incomplete = merged.filter((c) => REQUIRED_FIELDS.some((f) => c[f] === undefined || c[f] === "" || (typeof c[f] === "number" && isNaN(c[f]))));
+
+  return {
+    total: merged.length,
+    added: rawRecords.length - missingRows.length,
+    skipped: missingRows.length,
+    incompleteCount: incomplete.length,
+    batchId,
+  };
+}
+
+/** Human-readable "which scanners flagged this stock" string, from batch ids. */
+function describeSources(batchIds = []) {
+  const batches = getImportBatches();
+  const labels = batchIds
+    .map((id) => batches.find((b) => b.id === id)?.label)
+    .filter(Boolean);
+  return Array.from(new Set(labels)).join(", ") || "Imported";
+}
+
+/**
+ * Remove one entire import batch (e.g. one scanner's CSV). Candidates
+ * that only came from this batch are deleted outright; candidates that
+ * were also flagged by other scanners are kept, with this batch's
+ * contribution simply removed from their source list.
+ */
+function removeImportBatch(batchId) {
+  const remaining = getCandidates()
+    .map((c) => ({ ...c, sourceBatches: (c.sourceBatches || []).filter((b) => b !== batchId) }))
+    .filter((c) => c.sourceBatches.length > 0)
+    .map((c) => ({ ...c, scannerSource: describeSources(c.sourceBatches) }));
+  saveCandidates(remaining);
+  saveImportBatches(getImportBatches().filter((b) => b.id !== batchId));
+  return { remainingTotal: remaining.length };
+}
+
+/** Returns candidates scored + sorted highest composite score first.
+ *  By default this excludes candidates the trader has explicitly rejected —
+ *  pass { includeRejected: true } to see the full pool (e.g. for audit/history).
+ */
+function getRankedCandidates(weights, { includeRejected = false } = {}) {
+  let list = getCandidates();
+  if (!includeRejected) list = list.filter((c) => !c.rejected);
+  return list
+    .map((c) => ({ ...c, ...scoreCandidate(c, weights) }))
+    .sort((a, b) => b.composite - a.composite);
+}
+
+/** Top N candidates for a given bias ("long" or "short"), auto-backfilling
+ *  from the rest of the pool as candidates are rejected/removed. */
+function getTopCandidates(bias, count = 10, weights) {
+  return getRankedCandidates(weights).filter((c) => c.bias === bias).slice(0, count);
+}
+
+function getCandidateById(id) {
+  return getCandidates().find((c) => c.id === id) || null;
+}
+
+function updateCandidate(id, patch) {
+  const list = getCandidates().map((c) => (c.id === id ? { ...c, ...patch } : c));
+  saveCandidates(list);
+}
+
+function removeCandidate(id) {
+  saveCandidates(getCandidates().filter((c) => c.id !== id));
+}
+
+function rejectCandidate(id) {
+  updateCandidate(id, { rejected: true });
+}
+
+function restoreCandidate(id) {
+  updateCandidate(id, { rejected: false });
+}
+
+
+/* ===== js/modules/universeScanner.js ===== */
+/**
+ * universeScanner.js
+ * ---------------------------------------------------------------------
+ * Runs our own scanner definitions directly against the synced NSE
+ * universe (price_history.json + full_universe.json, published by
+ * tools/sync_market_data.py) — this is what replaces "manually run a
+ * scanner on Chartink, export CSV, import it" with one click that scans
+ * every single synced stock automatically.
+ *
+ * Each scanner below is a hand-written JS predicate that mirrors the
+ * INTENT of the matching Chartink clause in js/data/scannerLibrary.js
+ * (same underlying technical idea — trend, breakout, base quality, etc.)
+ * — it's not a generic Chartink-syntax interpreter, just a direct
+ * re-implementation of each of our 15 named setups, operating on
+ * indicators derived client-side from the synced price history.
+ *
+ * Requires live data to be configured (Settings → Live Market Data
+ * Sync) — with no universe synced yet, runUniverseScanners() returns a
+ * clear "not configured" result rather than silently doing nothing.
+ * ---------------------------------------------------------------------
+ */
+
+/* ---------------------------------------------------------------------- */
+/* Indicator helpers — derive SMA/RSI/52w hi-lo from a symbol's price       */
+/* history (bhavcopy alone only gives OHLCV, not indicators).               */
+/* ---------------------------------------------------------------------- */
+
+function sma(closes, period) {
+  if (closes.length < period) return null;
+  const window = closes.slice(-period);
+  return window.reduce((a, b) => a + b, 0) / period;
+}
+
+function smaAt(closes, period, indexFromEnd) {
+  // SMA as of `indexFromEnd` days ago (0 = latest) — used to detect "SMA is rising/falling".
+  const end = closes.length - indexFromEnd;
+  if (end < period) return null;
+  const window = closes.slice(end - period, end);
+  return window.reduce((a, b) => a + b, 0) / period;
+}
+
+function rsi14(closes) {
+  const period = 14;
+  if (closes.length < period + 1) return null;
+  const changes = [];
+  for (let i = closes.length - period; i < closes.length; i++) changes.push(closes[i] - closes[i - 1]);
+  const gains = changes.filter((c) => c > 0);
+  const losses = changes.filter((c) => c < 0).map((c) => -c);
+  const avgGain = gains.reduce((a, b) => a + b, 0) / period;
+  const avgLoss = losses.reduce((a, b) => a + b, 0) / period;
+  if (avgLoss === 0) return 100;
+  const rs = avgGain / avgLoss;
+  return 100 - 100 / (1 + rs);
+}
+
+function deriveIndicators(series) {
+  // series: [{date, close, volume}, ...] oldest -> newest
+  if (!series || series.length < 5) return null;
+  const closes = series.map((d) => d.close);
+  const volumes = series.map((d) => d.volume);
+  const window52w = series.slice(-252);
+
+  const avgVol20 = volumes.length >= 20 ? volumes.slice(-20).reduce((a, b) => a + b, 0) / 20 : volumes.reduce((a, b) => a + b, 0) / volumes.length;
+
+  return {
+    ltp: closes[closes.length - 1],
+    prevClose: closes.length > 1 ? closes[closes.length - 2] : closes[closes.length - 1],
+    volume: volumes[volumes.length - 1],
+    avgVolume20: avgVol20,
+    high52w: Math.max(...window52w.map((d) => d.close)),
+    low52w: Math.min(...window52w.map((d) => d.close)),
+    sma20: sma(closes, 20),
+    sma50: sma(closes, 50),
+    sma50Prev: smaAt(closes, 50, 5), // 5 sessions ago, to detect direction
+    sma150: sma(closes, 150),
+    sma200: sma(closes, 200),
+    rsi: rsi14(closes),
+  };
+}
+
+/* ---------------------------------------------------------------------- */
+/* Scanner predicates — mirror scannerLibrary.js intent, id-matched         */
+/* ---------------------------------------------------------------------- */
+
+const UNIVERSE_SCANNERS = {
+  "trend-continuation": (ind) =>
+    ind.sma50 && ind.sma200 && ind.ltp > ind.sma50 && ind.sma50 > ind.sma200 &&
+    ind.ltp > ind.prevClose && ind.volume > ind.avgVolume20,
+
+  "breakout": (ind) =>
+    ind.high52w && ind.ltp >= 0.98 * ind.high52w && ind.volume > 1.5 * ind.avgVolume20 && ind.ltp > ind.prevClose,
+
+  "pullback": (ind) =>
+    ind.sma50 && ind.sma200 && ind.ltp > ind.sma200 &&
+    ind.ltp <= 1.02 * ind.sma50 && ind.ltp >= 0.97 * ind.sma50 && ind.volume < ind.avgVolume20,
+
+  "darvas-consolidation": (ind) =>
+    ind.high52w && ind.ltp >= 0.95 * ind.high52w,
+
+  "stage2-candidates": (ind) =>
+    ind.sma50 && ind.sma150 && ind.sma200 && ind.ltp > ind.sma50 && ind.sma50 > ind.sma150 && ind.sma150 > ind.sma200 &&
+    ind.low52w && ind.ltp >= 1.25 * ind.low52w,
+
+  "momentum": (ind) =>
+    ind.rsi && ind.rsi > 60 && ind.rsi < 80 && ind.volume > ind.avgVolume20,
+
+  "high-rs": (ind) => ind.rsRating !== undefined && ind.rsRating !== null && ind.rsRating >= 80,
+
+  "tight-consolidation": (ind) =>
+    ind.sma50 && ind.volume < ind.avgVolume20 * 0.9,
+
+  "ipo-base": (ind) =>
+    ind.sma50 && ind.ltp > ind.sma50 && ind.low52w && ind.ltp < 1.15 * ind.low52w,
+
+  "breakdown": (ind) =>
+    ind.low52w && ind.ltp <= 1.02 * ind.low52w && ind.volume > 1.5 * ind.avgVolume20 && ind.ltp < ind.prevClose,
+
+  "distribution-topping": (ind) =>
+    ind.sma50 && ind.sma50Prev && ind.ltp < ind.sma50 && ind.sma50 < ind.sma50Prev &&
+    ind.volume > 1.3 * ind.avgVolume20 && ind.ltp < ind.prevClose,
+
+  "relative-weakness": (ind) => ind.rsRating !== undefined && ind.rsRating !== null && ind.rsRating <= 20,
+
+  "downtrend-continuation": (ind) =>
+    ind.sma50 && ind.sma150 && ind.sma200 && ind.ltp < ind.sma50 && ind.sma50 < ind.sma150 && ind.sma150 < ind.sma200 &&
+    ind.high52w && ind.ltp <= 0.80 * ind.high52w,
+
+  "bearish-rally-failure": (ind) =>
+    ind.sma50 && ind.sma200 && ind.sma50Prev && ind.ltp < ind.sma200 && ind.sma50 < ind.sma50Prev &&
+    ind.ltp >= 0.98 * ind.sma50 && ind.ltp <= 1.02 * ind.sma50 && ind.volume < ind.avgVolume20,
+};
+
+/* ---------------------------------------------------------------------- */
+/* Orchestration                                                           */
+/* ---------------------------------------------------------------------- */
+
+/**
+ * Runs every scanner in UNIVERSE_SCANNERS against the full synced universe
+ * and merges matches into the candidate pool, exactly like a CSV import —
+ * each match's scannerSource lists which scanner(s) it satisfied.
+ */
+async function runUniverseScanners(selectedScannerIds = null) {
+  if (!isLiveDataConfigured()) {
+    return { ok: false, reason: "not-configured", message: "Live data isn't configured yet. Set your GitHub Pages URL in Settings first." };
+  }
+
+  const [history, universe] = await Promise.all([getLivePriceHistory(), getLiveFullUniverse()]);
+  if (!history || !universe) {
+    return { ok: false, reason: "unreachable", message: "Could not load synced data. Check Settings → Test Connection, and that the sync workflow has run at least once." };
+  }
+
+  const universeBySymbol = new Map(universe.stocks.map((s) => [s.symbol, s]));
+  const idsToRun = selectedScannerIds && selectedScannerIds.length ? selectedScannerIds : Object.keys(UNIVERSE_SCANNERS);
+
+  const matchesByScanner = {};
+  const rawRecordsBySymbol = new Map();
+
+  for (const [symbol, series] of Object.entries(history)) {
+    const ind = deriveIndicators(series);
+    if (!ind) continue;
+    const meta = universeBySymbol.get(symbol) || {};
+    ind.rsRating = meta.rsRating;
+    const sector = meta.sector;
+
+    for (const scannerId of idsToRun) {
+      const predicate = UNIVERSE_SCANNERS[scannerId];
+      if (!predicate) continue;
+      let passed = false;
+      try { passed = !!predicate(ind); } catch (e) { passed = false; }
+      if (!passed) continue;
+
+      matchesByScanner[scannerId] = (matchesByScanner[scannerId] || 0) + 1;
+      const scannerDef = getScannerById(scannerId);
+      const label = scannerDef ? scannerDef.name : scannerId;
+
+      const existing = rawRecordsBySymbol.get(symbol);
+      const sources = existing ? new Set([...(existing.scannerSource || "").split(",").map((s) => s.trim()), label]) : new Set([label]);
+      rawRecordsBySymbol.set(symbol, {
+        symbol, ltp: ind.ltp, changePct: ind.prevClose ? +(((ind.ltp - ind.prevClose) / ind.prevClose) * 100).toFixed(2) : 0,
+        volume: ind.volume, avgVolume20: Math.round(ind.avgVolume20), high52w: ind.high52w, low52w: ind.low52w,
+        sma50: ind.sma50 ? +ind.sma50.toFixed(2) : undefined, sma200: ind.sma200 ? +ind.sma200.toFixed(2) : undefined,
+        rsi: ind.rsi ? +ind.rsi.toFixed(1) : undefined, rsRating: ind.rsRating, sector,
+        scannerSource: Array.from(sources).join(", "),
+      });
+    }
+  }
+
+  const records = Array.from(rawRecordsBySymbol.values());
+  if (records.length) mergeCandidates(records, "Universe Scan");
+
+  return {
+    ok: true,
+    totalMatched: records.length,
+    byScanner: matchesByScanner,
+    universeSize: Object.keys(history).length,
+    asOf: universe.asOf,
+  };
+}
+
+/** List of scanner ids this engine actually implements (a subset of the full library — some, like Failed Breakouts, are watchlist-only by design and intentionally excluded). */
+function getRunnableScannerIds() {
+  return Object.keys(UNIVERSE_SCANNERS);
+}
+
+
+/* ===== js/modules/journal.js ===== */
+/**
+ * journal.js
+ * Trade journal persistence — every accepted setup, its plan, and its
+ * eventual outcome lives here. This is the single source of truth for
+ * the Analytics module.
+ */
+
+
+function getJournalEntries() {
+  return Store.get(KEYS.JOURNAL, []);
+}
+
+function saveEntries(entries) {
+  Store.set(KEYS.JOURNAL, entries);
+}
+
+/**
+ * Add a new journal entry from an accepted trade plan.
+ * status: "planned" | "open" | "closed"
+ */
+function addJournalEntry(entry) {
+  const entries = getJournalEntries();
+  const record = {
+    id: uid("trade"),
+    dateAdded: todayISO(),
+    status: "planned",
+    direction: "long",
+    setupType: "",
+    symbol: "",
+    entry: null,
+    stopLoss: null,
+    target: null,
+    quantity: null,
+    exitPrice: null,
+    exitDate: null,
+    notes: "",
+    mistakes: "",
+    lessons: "",
+    checklistSnapshot: [],
+    scoreSnapshot: null,
+    ...entry,
+  };
+  entries.unshift(record);
+  saveEntries(entries);
+  return record;
+}
+
+function updateJournalEntry(id, patch) {
+  const entries = getJournalEntries().map((e) => (e.id === id ? { ...e, ...patch } : e));
+  saveEntries(entries);
+}
+
+function deleteJournalEntry(id) {
+  saveEntries(getJournalEntries().filter((e) => e.id !== id));
+}
+
+/** Compute realized P&L for a closed entry. Positive = profit. */
+function computePnl(entry) {
+  if (entry.exitPrice === null || entry.exitPrice === undefined || !entry.entry || !entry.quantity) return null;
+  const direction = entry.direction === "short" ? -1 : 1;
+  return +((entry.exitPrice - entry.entry) * entry.quantity * direction).toFixed(2);
+}
+
+function computePnlPct(entry) {
+  if (entry.exitPrice === null || entry.exitPrice === undefined || !entry.entry) return null;
+  const direction = entry.direction === "short" ? -1 : 1;
+  return +(((entry.exitPrice - entry.entry) / entry.entry) * 100 * direction).toFixed(2);
+}
+
+
+/* ===== js/modules/analytics.js ===== */
+/**
+ * analytics.js
+ * Derives performance statistics purely from closed journal entries.
+ * No predictions — strictly retrospective, objective arithmetic.
+ */
+
+
+function getClosedTrades() {
+  return getJournalEntries()
+    .filter((e) => e.status === "closed" && e.exitPrice !== null && e.exitPrice !== undefined)
+    .map((e) => ({ ...e, pnl: computePnl(e), pnlPct: computePnlPct(e) }));
+}
+
+function getSummaryStats() {
+  const closed = getClosedTrades();
+  if (!closed.length) {
+    return { totalTrades: 0, winRate: 0, avgWin: 0, avgLoss: 0, expectancy: 0, maxDrawdown: 0, totalPnl: 0 };
+  }
+  const wins = closed.filter((t) => t.pnl > 0);
+  const losses = closed.filter((t) => t.pnl <= 0);
+  const avgWin = wins.length ? wins.reduce((s, t) => s + t.pnl, 0) / wins.length : 0;
+  const avgLoss = losses.length ? losses.reduce((s, t) => s + t.pnl, 0) / losses.length : 0;
+  const winRate = (wins.length / closed.length) * 100;
+  const expectancy = (winRate / 100) * avgWin + (1 - winRate / 100) * avgLoss;
+  const totalPnl = closed.reduce((s, t) => s + t.pnl, 0);
+
+  // Max drawdown on cumulative equity curve ordered by exit date.
+  const ordered = [...closed].sort((a, b) => new Date(a.exitDate || a.dateAdded) - new Date(b.exitDate || b.dateAdded));
+  let equity = 0, peak = 0, maxDD = 0;
+  for (const t of ordered) {
+    equity += t.pnl;
+    peak = Math.max(peak, equity);
+    maxDD = Math.min(maxDD, equity - peak);
+  }
+
+  return {
+    totalTrades: closed.length,
+    winRate: +winRate.toFixed(1),
+    avgWin: +avgWin.toFixed(0),
+    avgLoss: +avgLoss.toFixed(0),
+    expectancy: +expectancy.toFixed(0),
+    maxDrawdown: +maxDD.toFixed(0),
+    totalPnl: +totalPnl.toFixed(0),
+  };
+}
+
+function getMonthlyPerformance() {
+  const closed = getClosedTrades();
+  const byMonth = {};
+  for (const t of closed) {
+    const d = t.exitDate || t.dateAdded;
+    if (!d) continue;
+    const key = d.slice(0, 7); // YYYY-MM
+    byMonth[key] = (byMonth[key] || 0) + t.pnl;
+  }
+  return Object.entries(byMonth).sort(([a], [b]) => a.localeCompare(b)).map(([month, pnl]) => ({ month, pnl: +pnl.toFixed(0) }));
+}
+
+function getSetupWiseStats() {
+  const closed = getClosedTrades();
+  const bySetup = {};
+  for (const t of closed) {
+    const key = t.setupType || "Unclassified";
+    if (!bySetup[key]) bySetup[key] = { setupType: key, trades: 0, wins: 0, totalPnl: 0 };
+    bySetup[key].trades += 1;
+    if (t.pnl > 0) bySetup[key].wins += 1;
+    bySetup[key].totalPnl += t.pnl;
+  }
+  return Object.values(bySetup)
+    .map((s) => ({ ...s, winRate: +((s.wins / s.trades) * 100).toFixed(1), totalPnl: +s.totalPnl.toFixed(0) }))
+    .sort((a, b) => b.totalPnl - a.totalPnl);
+}
+
+
+/* ===== js/modules/chartProvider.js ===== */
+/**
+ * chartProvider.js
+ * ---------------------------------------------------------------------
+ * Wraps TradingView's embeddable widget so the rest of the app never
+ * talks to TradingView directly. To swap in another charting provider
+ * (Lightweight Charts + your own OHLC feed, a broker's chart widget,
+ * etc.) later, only this file needs to change — the Trade Workspace
+ * module just calls `ChartProvider.render(...)`.
+ *
+ * Requires internet access to load the TradingView embed script; when
+ * offline, a graceful fallback message is shown instead of a broken
+ * iframe.
+ * ---------------------------------------------------------------------
+ */
+
+const TV_SCRIPT_URL = "https://s3.tradingview.com/tv.js";
+let tvScriptPromise = null;
+
+function loadTradingViewScript() {
+  if (window.TradingView) return Promise.resolve();
+  if (tvScriptPromise) return tvScriptPromise;
+  tvScriptPromise = new Promise((resolve, reject) => {
+    const script = document.createElement("script");
+    script.src = TV_SCRIPT_URL;
+    script.async = true;
+    script.onload = () => resolve();
+    script.onerror = () => reject(new Error("Could not load TradingView (offline?)"));
+    document.head.appendChild(script);
+    // Fail fast instead of hanging if there's no network.
+    setTimeout(() => reject(new Error("TradingView load timed out (offline?)")), 6000);
+  });
+  return tvScriptPromise;
+}
+
+/** Map an NSE symbol to a TradingView symbol string. */
+function toTradingViewSymbol(symbol, exchange = "NSE") {
+  return `${exchange}:${symbol.toUpperCase()}`;
+}
+
+/**
+ * Render a full advanced chart widget into a container element.
+ * @param {HTMLElement} container
+ * @param {string} symbol - raw NSE/BSE symbol, e.g. "TATAELXSI"
+ * @param {string} interval - TradingView interval code, e.g. "D", "W", "60"
+ */
+async function renderAdvancedChart(container, symbol, interval = "D") {
+  container.innerHTML = `<div class="empty-state"><div class="spinner"></div><p>Loading chart…</p></div>`;
+  try {
+    await loadTradingViewScript();
+  } catch (err) {
+    container.innerHTML = `<div class="empty-state">
+        <div class="empty-state-icon">⚠</div>
+        <p>Chart unavailable offline.</p>
+        <p class="txt-muted" style="font-size:11px;">TradingView's chart embed requires an internet connection. Everything else in this workspace still works.</p>
+      </div>`;
+    return;
+  }
+
+  container.innerHTML = "";
+  const widgetDiv = document.createElement("div");
+  widgetDiv.id = `tv_chart_${Date.now()}`;
+  widgetDiv.style.height = "520px";
+  container.appendChild(widgetDiv);
+
+  // eslint-disable-next-line no-new
+  new window.TradingView.widget({
+    autosize: true,
+    symbol: toTradingViewSymbol(symbol),
+    interval,
+    timezone: "Asia/Kolkata",
+    theme: "dark",
+    style: "1",
+    locale: "in",
+    toolbar_bg: "#10141C",
+    enable_publishing: false,
+    allow_symbol_change: false,
+    hide_top_toolbar: false,
+    hide_legend: false,
+    save_image: false,
+    container_id: widgetDiv.id,
+  });
+}
+
+const TIMEFRAMES = [
+  { label: "1D", interval: "5" },
+  { label: "1H", interval: "60" },
+  { label: "D", interval: "D" },
+  { label: "W", interval: "W" },
+  { label: "M", interval: "M" },
+];
+
+/* ---------------------------------------------------------------------- */
+/* Lightweight "embed widgets" — ticker tape, technical rating, single      */
+/* quote. Unlike the advanced chart above, these don't share a global      */
+/* TradingView.widget constructor: each is its own self-contained script   */
+/* that TradingView's CDN turns into an iframe once inserted into the DOM. */
+/* Genuinely live data, free, no API key — this is the real ceiling of     */
+/* "live prices" achievable without a paid data vendor or broker API.      */
+/* ---------------------------------------------------------------------- */
+
+function mountTradingViewEmbed(container, widgetFile, config, { minHeight = 60 } = {}) {
+  container.innerHTML = "";
+  const wrapper = document.createElement("div");
+  wrapper.className = "tradingview-widget-container";
+  wrapper.style.minHeight = `${minHeight}px`;
+  const inner = document.createElement("div");
+  inner.className = "tradingview-widget-container__widget";
+  wrapper.appendChild(inner);
+  const script = document.createElement("script");
+  script.type = "text/javascript";
+  script.src = `https://s3.tradingview.com/external-embedding/${widgetFile}`;
+  script.async = true;
+  script.text = JSON.stringify(config);
+  wrapper.appendChild(script);
+  container.appendChild(wrapper);
+
+  // These widgets have no onload/onerror hook of their own (the script
+  // fetches an iframe internally), so fall back to an offline message if
+  // nothing rendered within a few seconds — mirrors the advanced chart's
+  // offline behavior for a consistent experience with no internet.
+  setTimeout(() => {
+    if (!wrapper.querySelector("iframe")) {
+      container.innerHTML = `<div class="txt-muted" style="font-size:11px; padding:8px 0;">Live data unavailable offline — this widget needs an internet connection.</div>`;
+    }
+  }, 6000);
+}
+
+/** Live scrolling ticker tape for a list of {proName, title} symbols. */
+function renderTickerTape(container, symbols) {
+  mountTradingViewEmbed(container, "embed-widget-ticker-tape.js", {
+    symbols,
+    showSymbolLogo: true,
+    isTransparent: true,
+    displayMode: "adaptive",
+    colorTheme: "dark",
+    locale: "in",
+  });
+}
+
+/** Live technical-rating gauge (Strong Buy → Strong Sell) for one symbol. */
+function renderTechnicalAnalysisGauge(container, symbol, interval = "1D") {
+  mountTradingViewEmbed(container, "embed-widget-technical-analysis.js", {
+    interval,
+    width: "100%",
+    isTransparent: true,
+    height: 200,
+    symbol: toTradingViewSymbol(symbol),
+    showIntervalTabs: true,
+    locale: "in",
+    colorTheme: "dark",
+  }, { minHeight: 200 });
+}
+
+/** Live single-symbol quote (price + change), compact. */
+function renderSingleQuote(container, symbol) {
+  mountTradingViewEmbed(container, "embed-widget-single-quote.js", {
+    symbol: toTradingViewSymbol(symbol),
+    width: "100%",
+    locale: "in",
+    colorTheme: "dark",
+    isTransparent: true,
+  });
+}
+
+/** Default NSE index set used for the app-wide live ticker tape ribbon. */
+const DEFAULT_INDEX_TICKER_SYMBOLS = [
+  { proName: "NSE:NIFTY", title: "NIFTY 50" },
+  { proName: "NSE:BANKNIFTY", title: "BANK NIFTY" },
+  { proName: "BSE:SENSEX", title: "SENSEX" },
+  { proName: "NSE:CNXMIDCAP", title: "NIFTY MIDCAP 100" },
+  { proName: "NSE:CNXSMALLCAP", title: "NIFTY SMALLCAP 100" },
+  { proName: "NSE:INDIAVIX", title: "INDIA VIX" },
+];
+
+
+/* ===== js/views/dashboardView.js ===== */
+
+async function renderDashboard(container) {
+  container.innerHTML = `<div class="loading-state"><div class="spinner"></div><p>Loading market snapshot…</p></div>`;
+
+  const [indices, breadth, sectors] = await Promise.all([
+    getIndexSnapshot(), getMarketBreadth(), getSectorStrength(),
+  ]);
+  const candidates = getRankedCandidates().slice(0, 5);
+  const stats = getSummaryStats();
+  const recentClosed = getClosedTrades().slice(0, 3);
+
+  container.innerHTML = "";
+  container.appendChild(
+    el("div", { class: "view-header" }, [
+      el("div", {}, [
+        el("h2", { class: "view-title" }, "Dashboard"),
+        el("div", { class: "view-subtitle" }, "Morning market snapshot — indices, breadth, sector strength, and where you left off in the journal."),
+      ]),
+    ])
+  );
+
+  // ---- Live market technical rating (genuinely live, free TradingView widget) ----
+  const liveRatingPanel = el("div", { class: "panel" }, [
+    el("div", { class: "panel-title" }, ["Live Market Technical Rating — NIFTY 50", el("span", { class: "txt-muted", style: "text-transform:none; letter-spacing:0;" }, "TradingView, real-time")]),
+    el("div", { id: "dash-tv-gauge" }),
+  ]);
+
+  // ---- Index cards (demo values) ----
+  const indexGrid = el("div", { class: "grid grid-4" });
+  const indexGridLabel = el("p", { class: "txt-muted", style: "font-size:11px; margin: -4px 0 8px;" }, "Demo values below — see the live ticker at the top of the screen for real prices.");
+  indices.forEach((idx) => {
+    const isUp = idx.changePct >= 0;
+    indexGrid.appendChild(
+      el("div", { class: "panel stat-card" }, [
+        el("div", { class: "stat-label" }, idx.name),
+        el("div", { class: `stat-value ${isUp ? "pos" : "neg"}` }, idx.isVix ? idx.value.toFixed(2) : idx.value.toLocaleString("en-IN", { maximumFractionDigits: 0 })),
+        el("div", { class: `mono ${isUp ? "txt-teal" : "txt-red"}` }, fmtPct(idx.changePct)),
+      ])
+    );
+  });
+
+  // ---- Breadth panel ----
+  const breadthPanel = el("div", { class: "panel" }, [
+    el("div", { class: "panel-title" }, ["Market Breadth", liveBadge(breadth.isLive, breadth.asOf)]),
+    el("div", { class: "grid grid-3" }, [
+      el("div", { class: "stat-card" }, [el("div", { class: "stat-value pos" }, String(breadth.advances)), el("div", { class: "stat-label" }, "Advances")]),
+      el("div", { class: "stat-card" }, [el("div", { class: "stat-value neg" }, String(breadth.declines)), el("div", { class: "stat-label" }, "Declines")]),
+      el("div", { class: "stat-card" }, [el("div", { class: "stat-value" }, String(breadth.adRatio)), el("div", { class: "stat-label" }, "A/D Ratio")]),
+    ]),
+    breadth.isLive && breadth.newHighs !== undefined
+      ? el("div", { class: "grid grid-2 mt-8" }, [
+          el("div", { class: "stat-card" }, [el("div", { class: "stat-value pos" }, String(breadth.newHighs)), el("div", { class: "stat-label" }, "52W Highs")]),
+          el("div", { class: "stat-card" }, [el("div", { class: "stat-value neg" }, String(breadth.newLows)), el("div", { class: "stat-label" }, "52W Lows")]),
+        ])
+      : null,
+  ]);
+
+  // ---- Sector strength ----
+  const maxAbs = Math.max(...sectors.map((s) => Math.abs(s.relativeStrength)), 1);
+  const sectorBars = (list) =>
+    el("div", {}, list.map((s) => {
+      const pct = clampPct((s.relativeStrength / maxAbs) * 50 + 50);
+      const color = s.relativeStrength >= 0 ? "var(--accent-teal)" : "var(--accent-red)";
+      return el("div", { class: "sector-bar-row" }, [
+        el("span", {}, s.name),
+        el("div", { class: "sector-bar-track" }, [el("div", { class: "sector-bar-fill", style: `width:${pct}%; background:${color};` })]),
+        el("span", { class: "mono text-right" }, fmtPct(s.relativeStrength)),
+      ]);
+    }));
+
+  const sectorPanel = el("div", { class: "grid grid-2" }, [
+    el("div", { class: "panel" }, [el("div", { class: "panel-title" }, ["Strongest Sectors", liveBadge(sectors[0]?.isLive)]), sectorBars(sectors.slice(0, 6))]),
+    el("div", { class: "panel" }, [el("div", { class: "panel-title" }, ["Weakest Sectors", liveBadge(sectors[0]?.isLive)]), sectorBars([...sectors].reverse().slice(0, 6))]),
+  ]);
+
+  // ---- Heatmap placeholder ----
+  const heatmapPanel = el("div", { class: "panel" }, [
+    el("div", { class: "panel-title" }, ["Sector Heat Map", liveBadge(sectors[0]?.isLive)]),
+    el("div", { class: "heatmap-grid" }, sectors.map((s) => {
+      const intensity = clampPct(50 + s.relativeStrength * 10);
+      const bg = s.relativeStrength >= 0 ? `rgba(47,191,159,${0.25 + intensity / 200})` : `rgba(229,83,75,${0.25 + intensity / 200})`;
+      return el("div", { class: "heatmap-cell", style: `background:${bg}; color:#0A0D12;` }, [s.name, el("br"), fmtPct(s.relativeStrength)]);
+    })),
+  ]);
+
+  // ---- Top candidates preview ----
+  const candidatesPanel = el("div", { class: "panel" }, [
+    el("div", { class: "panel-title" }, ["Today's Top-Ranked Candidates", el("a", { href: "#", onclick: (e) => { e.preventDefault(); document.querySelector('[data-nav="candidates"]').click(); } }, "View all →")]),
+    candidates.length
+      ? el("div", { class: "table-wrap" }, [renderMiniCandidateTable(candidates)])
+      : el("div", { class: "empty-state" }, [el("div", { class: "empty-state-icon" }, "◇"), el("p", {}, "No candidates yet."), el("p", { class: "txt-muted" }, "Import a Chartink scanner CSV to populate your ranked watchlist.")]),
+  ]);
+
+  // ---- Journal summary ----
+  const journalPanel = el("div", { class: "panel" }, [
+    el("div", { class: "panel-title" }, "Recent Journal Summary"),
+    el("div", { class: "grid grid-4" }, [
+      dashboardStatCard(String(stats.totalTrades), "Closed Trades"),
+      dashboardStatCard(stats.winRate + "%", "Win Rate", stats.winRate >= 50 ? "pos" : "neg"),
+      dashboardStatCard(fmtINR(stats.expectancy, 0), "Expectancy / Trade", stats.expectancy >= 0 ? "pos" : "neg"),
+      dashboardStatCard(fmtINR(stats.totalPnl, 0), "Total P&L", stats.totalPnl >= 0 ? "pos" : "neg"),
+    ]),
+    recentClosed.length
+      ? el("ul", { class: "mt-16" }, recentClosed.map((t) => el("li", { class: "plan-row" }, [
+          el("span", { class: "label" }, `${t.symbol} — ${t.setupType || "Unclassified"}`),
+          el("span", { class: `value ${t.pnl >= 0 ? "txt-teal" : "txt-red"}` }, fmtINR(t.pnl, 0)),
+        ])))
+      : el("p", { class: "txt-muted mt-8" }, "No closed trades yet — outcomes will appear here once you close a journaled position."),
+  ]);
+
+  container.append(liveRatingPanel, indexGridLabel, indexGrid, breadthPanel, sectorPanel, heatmapPanel, candidatesPanel, journalPanel);
+  renderTechnicalAnalysisGauge($("#dash-tv-gauge", liveRatingPanel), "NIFTY", "1D");
+}
+
+function clampPct(v) { return Math.max(4, Math.min(100, v)); }
+
+function dashboardStatCard(value, label, cls = "") {
+  return el("div", { class: "stat-card" }, [el("div", { class: `stat-value ${cls}` }, value), el("div", { class: "stat-label" }, label)]);
+}
+
+function renderMiniCandidateTable(candidates) {
+  const table = el("table");
+  table.appendChild(el("thead", {}, el("tr", {}, ["Score", "Symbol", "Sector", "LTP", "Chg%", "Bias"].map((h) => el("th", {}, h)))));
+  const tbody = el("tbody");
+  candidates.forEach((c) => {
+    tbody.appendChild(el("tr", {}, [
+      el("td", {}, String(c.composite)),
+      el("td", {}, c.symbol),
+      el("td", {}, c.sector || "—"),
+      el("td", {}, fmtINR(c.ltp)),
+      el("td", { class: c.changePct >= 0 ? "txt-teal" : "txt-red" }, fmtPct(c.changePct)),
+      el("td", {}, el("span", { class: `badge badge-${c.bias === "long" ? "long" : "short"}` }, c.bias)),
+    ]));
+  });
+  table.appendChild(tbody);
+  return table;
+}
+
+
+/* ===== js/views/scannerImportView.js ===== */
+
+function renderScannerImport(container) {
+  container.innerHTML = "";
+
+  const universeScanPanel = el("div", { class: "panel", id: "universe-scan-panel" }, [
+    el("div", { class: "panel-title" }, ["Run Scanners Against Synced Data", liveBadge(isLiveDataConfigured())]),
+    el("p", { class: "txt-muted" }, "Scans the entire synced NSE universe automatically — no manual Chartink export needed. Requires Live Data Sync to be configured (Settings)."),
+    el("div", { id: "universe-scan-body" }),
+  ]);
+
+  const dropzone = el("div", { class: "dropzone", id: "dropzone", tabindex: "0", role: "button", "aria-label": "Upload scanner CSV" }, [
+    el("div", { class: "dropzone-icon" }, "⇪"),
+    el("p", {}, [el("strong", {}, "Drop a Chartink CSV here"), " or click to browse"]),
+    el("p", { class: "txt-muted", style: "font-size:11px;" }, "Accepts one or more .csv exports. Each file is merged into your candidate pool and de-duplicated by symbol."),
+    el("input", { type: "file", id: "file-input", accept: ".csv,text/csv", multiple: "true" }),
+  ]);
+
+  const pasteArea = el("div", { class: "panel paste-area" }, [
+    el("div", { class: "panel-title" }, ["Or paste CSV text", el("span", { class: "txt-muted", style: "text-transform:none; letter-spacing:0;" }, "manual fallback")]),
+    el("textarea", { id: "paste-textarea", placeholder: "symbol,close,volume,% chg,sector...\nTATAELXSI,7145,412000,2.1,IT" }),
+    el("div", { class: "flex gap-8 mt-8" }, [
+      el("button", { class: "btn btn-primary", id: "parse-paste-btn" }, "Merge Pasted Data"),
+      el("button", { class: "btn", id: "load-sample-btn" }, "Load Sample Data"),
+      el("button", { class: "btn btn-danger", id: "clear-candidates-btn" }, "Clear All Candidates"),
+    ]),
+  ]);
+
+  const summaryPanel = el("div", { class: "panel", id: "import-summary-panel" }, [
+    el("div", { class: "panel-title" }, "Current Candidate Pool"),
+    el("div", { id: "import-summary-body" }),
+  ]);
+
+  const sourcesPanel = el("div", { class: "panel mt-16", id: "import-sources-panel" }, [
+    el("div", { class: "panel-title" }, ["Imported Sources", el("span", { class: "txt-muted", style: "text-transform:none; letter-spacing:0;" }, "remove one scanner/CSV without clearing everything")]),
+    el("div", { id: "import-sources-body" }),
+  ]);
+
+  container.append(
+    el("div", { class: "view-header" }, [
+      el("div", {}, [el("h2", { class: "view-title" }, "Scanner Import"), el("div", { class: "view-subtitle" }, "Scan the whole synced market automatically, or bring in Chartink scanner exports manually — both merge into the same candidate pool.")]),
+    ]),
+    universeScanPanel,
+    dropzone,
+    pasteArea,
+    summaryPanel,
+    sourcesPanel,
+  );
+
+  refreshUniverseScanPanel();
+  refreshSummary();
+  refreshSources();
+  wireEvents();
+}
+
+function refreshUniverseScanPanel() {
+  const body = $("#universe-scan-body");
+  if (!body) return;
+  body.innerHTML = "";
+
+  if (!isLiveDataConfigured()) {
+    body.appendChild(el("p", { class: "txt-muted" }, ["Not set up yet — see ", el("strong", {}, "Settings → Live Market Data Sync"), " (one-time GitHub setup, free)."]));
+    return;
+  }
+
+  const scannerIds = getRunnableScannerIds();
+  const checkboxes = {};
+  const grid = el("div", { class: "grid grid-3", style: "margin-bottom:10px;" });
+  scannerIds.forEach((id) => {
+    const def = getScannerById(id);
+    const cb = el("input", { type: "checkbox", checked: "true" });
+    checkboxes[id] = cb;
+    grid.appendChild(el("label", { class: "flex items-center gap-8", style: "margin:0; font-weight:normal;" }, [cb, def ? def.name : id]));
+  });
+  body.appendChild(grid);
+
+  const resultBox = el("div", { class: "txt-muted", style: "font-size:12px;" });
+  const runBtn = el("button", { class: "btn btn-primary" }, "Scan Entire Synced Universe");
+  runBtn.addEventListener("click", async () => {
+    runBtn.disabled = true;
+    runBtn.textContent = "Scanning…";
+    const selected = Object.entries(checkboxes).filter(([, cb]) => cb.checked).map(([id]) => id);
+    const result = await runUniverseScanners(selected);
+    runBtn.disabled = false;
+    runBtn.textContent = "Scan Entire Synced Universe";
+
+    if (!result.ok) {
+      resultBox.textContent = result.message;
+      toast(result.message, "error");
+      return;
+    }
+    const breakdown = Object.entries(result.byScanner).map(([id, count]) => `${getScannerById(id)?.name || id}: ${count}`).join(" · ");
+    resultBox.textContent = `Scanned ${result.universeSize.toLocaleString("en-IN")} stocks (as of ${result.asOf}). ${result.totalMatched} matched. ${breakdown}`;
+    toast(`Universe scan complete — ${result.totalMatched} candidates added/updated.`, "success");
+    refreshSummary();
+    refreshSources();
+  });
+  body.append(runBtn, resultBox);
+}
+
+
+function wireEvents() {
+  const dropzone = $("#dropzone");
+  const fileInput = $("#file-input");
+
+  dropzone.addEventListener("click", () => fileInput.click());
+  dropzone.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") fileInput.click(); });
+  fileInput.addEventListener("change", (e) => handleFiles(e.target.files));
+
+  ["dragenter", "dragover"].forEach((evt) => dropzone.addEventListener(evt, (e) => { e.preventDefault(); dropzone.classList.add("is-dragover"); }));
+  ["dragleave", "drop"].forEach((evt) => dropzone.addEventListener(evt, (e) => { e.preventDefault(); dropzone.classList.remove("is-dragover"); }));
+  dropzone.addEventListener("drop", (e) => handleFiles(e.dataTransfer.files));
+
+  $("#parse-paste-btn").addEventListener("click", () => {
+    const text = $("#paste-textarea").value.trim();
+    if (!text) { toast("Paste some CSV text first.", "error"); return; }
+    const { records } = parseCSV(text);
+    if (!records.length) { toast("Couldn't find any rows in that text.", "error"); return; }
+    const result = mergeCandidates(records, "Pasted CSV");
+    reportMergeResult(result);
+  });
+
+  $("#load-sample-btn").addEventListener("click", async () => {
+    const sample = await getSampleCandidates();
+    const result = mergeCandidates(sample, "Sample Data");
+    reportMergeResult(result);
+  });
+
+  $("#clear-candidates-btn").addEventListener("click", () => {
+    if (confirm("Remove every candidate from the pool? This does not affect your journal.")) {
+      clearCandidates();
+      refreshSummary();
+      refreshSources();
+      toast("Candidate pool cleared.", "success");
+    }
+  });
+}
+
+function handleFiles(fileList) {
+  const files = Array.from(fileList || []);
+  if (!files.length) return;
+  let remaining = files.length;
+  let lastResult = null;
+
+  files.forEach((file) => {
+    const reader = new FileReader();
+    reader.onload = () => {
+      const { records } = parseCSV(reader.result);
+      if (records.length) lastResult = mergeCandidates(records, file.name.replace(/\.csv$/i, ""));
+      remaining -= 1;
+      if (remaining === 0 && lastResult) reportMergeResult(lastResult);
+    };
+    reader.onerror = () => {
+      toast(`Couldn't read ${file.name}.`, "error");
+      remaining -= 1;
+    };
+    reader.readAsText(file);
+  });
+}
+
+function reportMergeResult(result) {
+  toast(`Merged. Pool now has ${result.total} candidates${result.incompleteCount ? ` (${result.incompleteCount} missing fields)` : ""}.`, result.incompleteCount ? "error" : "success");
+  refreshSummary();
+  refreshSources();
+}
+
+function refreshSources() {
+  const body = $("#import-sources-body");
+  if (!body) return;
+  const batches = getImportBatches();
+  body.innerHTML = "";
+  if (!batches.length) {
+    body.appendChild(el("p", { class: "txt-muted" }, "No sources imported yet."));
+    return;
+  }
+  batches
+    .slice()
+    .reverse()
+    .forEach((batch) => {
+      const row = el("div", { class: "plan-row" }, [
+        el("span", { class: "label" }, [
+          el("strong", { style: "color:var(--text-primary);" }, batch.label),
+          el("span", { class: "txt-muted", style: "font-size:11px;" }, ` — ${batch.symbolCount} symbol(s) · ${new Date(batch.timestamp).toLocaleString("en-IN", { dateStyle: "medium", timeStyle: "short" })}`),
+        ]),
+        el("button", {
+          class: "btn btn-sm btn-danger",
+          onclick: () => {
+            if (confirm(`Remove "${batch.label}" from the candidate pool? Stocks only flagged by this source will be removed; stocks other scanners also flagged will stay, minus this source's contribution.`)) {
+              removeImportBatch(batch.id);
+              refreshSummary();
+              refreshSources();
+              toast(`Removed source "${batch.label}".`, "success");
+            }
+          },
+        }, "Remove source"),
+      ]);
+      body.appendChild(row);
+    });
+}
+
+function refreshSummary() {
+  const body = $("#import-summary-body");
+  if (!body) return;
+  const candidates = getCandidates();
+  if (!candidates.length) {
+    body.innerHTML = "";
+    body.appendChild(el("div", { class: "empty-state" }, [
+      el("div", { class: "empty-state-icon" }, "◇"),
+      el("p", {}, "No candidates imported yet."),
+      el("p", { class: "txt-muted" }, "Run a scanner from the Scanner Library, export the CSV, then drop it above."),
+    ]));
+    return;
+  }
+  const sources = new Set();
+  candidates.forEach((c) => (c.scannerSource || "").split(",").forEach((s) => s.trim() && sources.add(s.trim())));
+  body.innerHTML = "";
+  body.appendChild(el("div", { class: "import-summary" }, [
+    el("div", { class: "import-stat" }, [el("b", {}, String(candidates.length)), "Total candidates"]),
+    el("div", { class: "import-stat" }, [el("b", {}, String(sources.size)), "Scanner sources merged"]),
+    el("div", { class: "import-stat" }, [el("b", {}, new Set(candidates.map((c) => c.sector).filter(Boolean)).size.toString()), "Sectors represented"]),
+  ]));
+}
+
+
+/* ===== js/views/scannerLibraryView.js ===== */
+
+function renderScannerLibrary(container) {
+  container.innerHTML = "";
+  container.appendChild(
+    el("div", { class: "view-header" }, [
+      el("div", {}, [
+        el("h2", { class: "view-title" }, "Scanner Library"),
+        el("div", { class: "view-subtitle" }, "Run these in Chartink, export the CSV, then bring the file into Scanner Import."),
+      ]),
+      el("a", { href: "https://chartink.com/screener/new", target: "_blank", rel: "noopener", class: "btn btn-sm" }, "Open Chartink ↗"),
+    ])
+  );
+
+  const grid = el("div", { class: "grid grid-2" });
+  SCANNER_LIBRARY.forEach((s) => {
+    grid.appendChild(
+      el("div", { class: "scanner-card" }, [
+        el("div", { class: "scanner-card-title" }, [s.name, el("span", { class: "badge" }, s.category)]),
+        el("p", { class: "scanner-card-desc" }, s.description),
+        el("textarea", { readonly: "true", style: "min-height:96px; font-family:var(--font-mono); font-size:11px;" }, s.clause),
+        el("div", { class: "flex gap-8" }, [
+          el("button", { class: "btn btn-sm", onclick: () => copyClause(s.clause) }, "Copy Clause"),
+        ]),
+      ])
+    );
+  });
+  container.appendChild(grid);
+
+  container.appendChild(
+    el("div", { class: "panel mt-16" }, [
+      el("div", { class: "panel-title" }, "Workflow reminder"),
+      el("p", { class: "txt-muted" }, "1) Copy a clause → 2) paste into chartink.com/screener/new and run it → 3) click the export/copy icon on the results table → 4) bring the CSV into the Scanner Import tab. Repeat for as many setups as you want, then let the app merge and rank everything for you."),
+    ])
+  );
+}
+
+function copyClause(text) {
+  navigator.clipboard?.writeText(text).then(
+    () => toast("Scanner clause copied.", "success"),
+    () => toast("Couldn't copy — select and copy manually.", "error")
+  );
+}
+
+
+/* ===== js/views/candidatesView.js ===== */
+/**
+ * candidatesView.js
+ * Curated Top 10 Long / Top 10 Short lists (auto-backfilling as candidates
+ * are excluded or removed) plus a full sortable list for auditing,
+ * restoring excluded candidates, or managing every import at once.
+ */
+
+let currentSort = { key: "composite", dir: "desc" };
+let activeTab = "top-long";
+let showRejectedInFullList = false;
+let refreshAllPanels = () => {};
+
+function renderCandidates(container, onOpenCandidate) {
+  container.innerHTML = "";
+  container.appendChild(
+    el("div", { class: "view-header" }, [
+      el("div", {}, [
+        el("h2", { class: "view-title" }, "Ranked Candidates"),
+        el("div", { class: "view-subtitle" }, "Top 10 Long and Top 10 Short are curated automatically from your techno-funda score — exclude one and the next-best candidate takes its place."),
+      ]),
+    ])
+  );
+
+  const tabs = el("div", { class: "tabs" }, [
+    tabButton("top-long", "Top 10 Long"),
+    tabButton("top-short", "Top 10 Short"),
+    tabButton("full", "Full List"),
+  ]);
+  container.appendChild(tabs);
+
+  const panelLong = el("div", { class: `tab-panel${activeTab === "top-long" ? " is-active" : ""}`, id: "panel-top-long" });
+  const panelShort = el("div", { class: `tab-panel${activeTab === "top-short" ? " is-active" : ""}`, id: "panel-top-short" });
+  const panelFull = el("div", { class: `tab-panel${activeTab === "full" ? " is-active" : ""}`, id: "panel-full" });
+  container.append(panelLong, panelShort, panelFull);
+
+  function switchTab(tab) {
+    activeTab = tab;
+    $$(".tab-btn").forEach((b) => b.classList.toggle("is-active", b.dataset.tab === tab));
+    $$(".tab-panel").forEach((p) => p.classList.remove("is-active"));
+    ({ "top-long": panelLong, "top-short": panelShort, full: panelFull })[tab].classList.add("is-active");
+  }
+  $$(".tab-btn", tabs).forEach((btn) => btn.addEventListener("click", () => switchTab(btn.dataset.tab)));
+
+  // Any mutation (exclude / restore / remove) should refresh ALL THREE panels —
+  // not just the one the user clicked in — since excluding a stock in Full List
+  // affects the Top 10 tabs and vice versa.
+  refreshAllPanels = () => {
+    drawTopTen(panelLong, "long", onOpenCandidate);
+    drawTopTen(panelShort, "short", onOpenCandidate);
+    drawFullList(panelFull, onOpenCandidate);
+  };
+
+  refreshAllPanels();
+}
+
+function tabButton(tab, label) {
+  return el("button", { class: `tab-btn${activeTab === tab ? " is-active" : ""}`, "data-tab": tab }, label);
+}
+
+/* ---------------------------------------------------------------------- */
+/* Top 10 (curated, auto-backfilling)                                      */
+/* ---------------------------------------------------------------------- */
+
+function drawTopTen(panel, bias, onOpenCandidate) {
+  const top = getTopCandidates(bias, 10);
+  panel.innerHTML = "";
+
+  if (!top.length) {
+    panel.appendChild(el("div", { class: "empty-state" }, [
+      el("div", { class: "empty-state-icon" }, "◇"),
+      el("p", {}, `No ${bias} candidates yet.`),
+      el("p", { class: "txt-muted" }, "Import scanner results in Scanner Import, or load the sample data to try this out."),
+    ]));
+    return;
+  }
+
+  const table = el("table");
+  table.appendChild(el("thead", {}, el("tr", {}, ["Rank", "Score", "Symbol", "Sector", "LTP", "Chg %", "Source", ""].map((h) => el("th", {}, h)))));
+  const tbody = el("tbody");
+  top.forEach((c, idx) => {
+    const { label, cssVar } = scoreLabel(c.composite);
+    const lowData = (c.completeness ?? 1) < 0.6;
+    tbody.appendChild(
+      el("tr", { class: "candidate-row", onclick: () => onOpenCandidate(c.id) }, [
+        el("td", { class: "mono txt-muted" }, `#${idx + 1}`),
+        el("td", {}, [
+          el("div", { class: "score-dial", style: `--pct:${c.composite}; --dial-color:var(${cssVar});` }, [
+            el("div", { class: "score-dial-inner" }, String(c.composite)),
+          ]),
+        ]),
+        el("td", {}, [
+          el("strong", {}, c.symbol),
+          el("div", { class: "txt-muted", style: "font-size:10px;" }, label),
+          lowData ? el("div", { class: "txt-muted", style: "font-size:9px;", "data-tip": "Scanner export was missing SMA/RSI/52-week fields — some categories used a neutral fallback." }, "◐ limited data") : null,
+        ]),
+        el("td", {}, c.sector || "—"),
+        el("td", {}, fmtINR(c.ltp)),
+        el("td", { class: c.changePct >= 0 ? "txt-teal" : "txt-red" }, fmtPct(c.changePct)),
+        el("td", { class: "txt-muted", style: "font-family:var(--font-body); font-size:11px; white-space:normal;" }, c.scannerSource || "—"),
+        el("td", {}, [
+          el("button", {
+            class: "btn btn-sm",
+            "data-tip": "Exclude — drops out of ranking, next-best candidate takes this slot. Restore later from the Full List tab.",
+            onclick: (e) => { e.stopPropagation(); rejectCandidate(c.id); refreshAllPanels(); toast(`${c.symbol} excluded — next-best candidate promoted.`, "info"); },
+          }, "Exclude"),
+        ]),
+      ])
+    );
+  });
+  table.appendChild(tbody);
+  panel.appendChild(el("div", { class: "table-wrap" }, [table]));
+}
+
+/* ---------------------------------------------------------------------- */
+/* Full list (sortable, can include excluded candidates for review/restore) */
+/* ---------------------------------------------------------------------- */
+
+function drawFullList(panel, onOpenCandidate) {
+  panel.innerHTML = "";
+
+  const toolbar = el("div", { class: "flex gap-8 items-center mt-8", style: "margin-bottom:12px;" }, [
+    el("label", { class: "flex items-center gap-8", style: "margin:0;" }, [
+      (() => {
+        const cb = el("input", { type: "checkbox" });
+        cb.checked = showRejectedInFullList;
+        cb.addEventListener("change", (e) => { showRejectedInFullList = e.target.checked; drawFullList(panel, onOpenCandidate); });
+        return cb;
+      })(),
+      "Show excluded candidates too",
+    ]),
+  ]);
+  panel.appendChild(toolbar);
+
+  const tableWrap = el("div", { class: "table-wrap" });
+  panel.appendChild(tableWrap);
+  drawFullTable(tableWrap, onOpenCandidate);
+}
+
+function drawFullTable(tableWrap, onOpenCandidate) {
+  let ranked = getRankedCandidates(undefined, { includeRejected: showRejectedInFullList });
+  if (!ranked.length) {
+    tableWrap.innerHTML = "";
+    tableWrap.appendChild(el("div", { class: "empty-state" }, [
+      el("div", { class: "empty-state-icon" }, "◇"),
+      el("p", {}, "No candidates to rank yet."),
+      el("p", { class: "txt-muted" }, "Head to Scanner Import to load a CSV, or Load Sample Data to explore the app."),
+    ]));
+    return;
+  }
+
+  ranked.sort((a, b) => {
+    const av = a[currentSort.key], bv = b[currentSort.key];
+    const cmp = typeof av === "string" ? av.localeCompare(bv) : (av ?? 0) - (bv ?? 0);
+    return currentSort.dir === "asc" ? cmp : -cmp;
+  });
+
+  const columns = [
+    { key: "composite", label: "Score" },
+    { key: "symbol", label: "Symbol" },
+    { key: "sector", label: "Sector" },
+    { key: "ltp", label: "LTP" },
+    { key: "changePct", label: "Chg %" },
+    { key: "bias", label: "Bias" },
+    { key: "scannerSource", label: "Source" },
+    { key: null, label: "" },
+  ];
+
+  const table = el("table");
+  const thead = el("thead", {}, el("tr", {}, columns.map((c) =>
+    c.key
+      ? el("th", { onclick: () => { toggleSort(c.key); drawFullTable(tableWrap, onOpenCandidate); } },
+          c.label + (currentSort.key === c.key ? (currentSort.dir === "asc" ? " ▲" : " ▼") : "")
+        )
+      : el("th", {}, "")
+  )));
+  table.appendChild(thead);
+
+  const tbody = el("tbody");
+  ranked.forEach((c) => {
+    const { label, cssVar } = scoreLabel(c.composite);
+    const lowData = (c.completeness ?? 1) < 0.6;
+    const row = el("tr", { class: `candidate-row${c.rejected ? " txt-muted" : ""}`, style: c.rejected ? "opacity:0.55;" : "", onclick: () => onOpenCandidate(c.id) }, [
+      el("td", {}, [
+        el("div", { class: "score-dial", style: `--pct:${c.composite}; --dial-color:var(${cssVar});` }, [
+          el("div", { class: "score-dial-inner" }, String(c.composite)),
+        ]),
+      ]),
+      el("td", {}, [
+        el("strong", {}, c.symbol),
+        el("div", { class: "txt-muted", style: "font-size:10px;" }, c.rejected ? "Excluded" : label),
+        lowData ? el("div", { class: "txt-muted", style: "font-size:9px;" }, "◐ limited data") : null,
+      ]),
+      el("td", {}, c.sector || "—"),
+      el("td", {}, fmtINR(c.ltp)),
+      el("td", { class: c.changePct >= 0 ? "txt-teal" : "txt-red" }, fmtPct(c.changePct)),
+      el("td", {}, el("span", { class: `badge badge-${c.bias === "long" ? "long" : "short"}` }, c.bias === "long" ? "Long" : "Short")),
+      el("td", { class: "txt-muted", style: "font-family:var(--font-body); font-size:11px; white-space:normal;" }, c.scannerSource || "—"),
+      el("td", {}, [
+        c.rejected
+          ? el("button", {
+              class: "btn btn-sm",
+              onclick: (e) => { e.stopPropagation(); restoreCandidate(c.id); refreshAllPanels(); toast(`${c.symbol} restored to ranking.`, "success"); },
+            }, "Restore")
+          : el("button", {
+              class: "btn btn-sm btn-danger",
+              "data-tip": "Permanently remove just this candidate",
+              onclick: (e) => {
+                e.stopPropagation();
+                if (confirm(`Remove ${c.symbol} from the candidate pool?`)) {
+                  removeCandidate(c.id);
+                  refreshAllPanels();
+                }
+              },
+            }, "✕"),
+      ]),
+    ]);
+    tbody.appendChild(row);
+  });
+  table.appendChild(tbody);
+
+  tableWrap.innerHTML = "";
+  tableWrap.appendChild(table);
+}
+
+function toggleSort(key) {
+  if (currentSort.key === key) currentSort.dir = currentSort.dir === "asc" ? "desc" : "asc";
+  else currentSort = { key, dir: "desc" };
+}
+
+
+/* ===== js/views/tradeWorkspaceView.js ===== */
+
+let planState = {};
+let checkedItems = new Set();
+
+function renderTradeWorkspace(container, candidateId, onCandidateAccepted) {
+  const candidate = getCandidateById(candidateId);
+  container.innerHTML = "";
+
+  if (!candidate) {
+    container.appendChild(
+      el("div", { class: "empty-state" }, [
+        el("div", { class: "empty-state-icon" }, "◇"),
+        el("p", {}, "Select a candidate from the Ranked Candidates list to open its workspace."),
+      ])
+    );
+    return;
+  }
+
+  // Seed the plan with sensible defaults derived from the candidate's own data.
+  planState = {
+    entry: candidate.ltp || 0,
+    stopLoss: candidate.sma50 ? +(candidate.sma50 * 0.99).toFixed(2) : +(candidate.ltp * 0.95).toFixed(2),
+    target: candidate.high52w ? +(candidate.high52w * 1.08).toFixed(2) : +(candidate.ltp * 1.15).toFixed(2),
+    thesis: candidate.notes || "",
+    srNotes: candidate.srNotes || "",
+    direction: candidate.bias || "long",
+    setupType: (candidate.scannerSource || "").split(",")[0]?.trim() || "",
+  };
+  checkedItems = new Set(candidate.checklistChecked || []);
+
+  const { label, cssVar } = scoreLabel(candidate.composite ?? 0);
+
+  container.appendChild(
+    el("div", { class: "view-header" }, [
+      el("div", {}, [
+        el("h2", { class: "view-title" }, `${candidate.symbol} — ${candidate.companyName || ""}`),
+        el("div", { class: "view-subtitle" }, `${candidate.sector || "Unclassified sector"} · Composite score ${candidate.composite ?? "—"} (${label})`),
+      ]),
+      el("span", { class: `badge badge-${planState.direction === "long" ? "long" : "short"}` }, planState.direction === "long" ? "Long setup" : "Short setup"),
+    ])
+  );
+
+  const layout = el("div", { class: "workspace-layout" });
+
+  /* -------------------- Left column: chart + thesis -------------------- */
+  const left = el("div", {});
+
+  const tfRow = el("div", { class: "tv-timeframes" });
+  TIMEFRAMES.forEach((tf, idx) => {
+    const btn = el("button", { class: `btn btn-sm${idx === 2 ? " btn-primary" : ""}` }, tf.label);
+    btn.addEventListener("click", () => {
+      $$tf(tfRow).forEach((b) => b.classList.remove("btn-primary"));
+      btn.classList.add("btn-primary");
+      renderAdvancedChart(chartWrap, candidate.symbol, tf.interval);
+    });
+    tfRow.appendChild(btn);
+  });
+  const chartWrap = el("div", { class: "tv-chart-wrap" });
+  left.append(tfRow, chartWrap);
+  renderAdvancedChart(chartWrap, candidate.symbol, "D");
+
+  const liveRatingPanel = el("div", { class: "panel mt-16" }, [
+    el("div", { class: "panel-title" }, ["Live Technical Rating (TradingView)", el("span", { class: "txt-muted", style: "text-transform:none; letter-spacing:0;" }, "separate from our score above — live, third-party")]),
+    el("div", { id: "tv-technical-gauge" }),
+  ]);
+  left.appendChild(liveRatingPanel);
+  renderTechnicalAnalysisGauge($("#tv-technical-gauge", liveRatingPanel), candidate.symbol, "1D");
+
+  const thesisPanel = el("div", { class: "panel mt-16" }, [
+    el("div", { class: "panel-title" }, "Trade Thesis & Support/Resistance Notes"),
+    el("div", { class: "field" }, [
+      el("label", {}, "Setup type"),
+      textInput(planState.setupType, (v) => (planState.setupType = v)),
+    ]),
+    el("div", { class: "field" }, [
+      el("label", {}, "Why this trade? (thesis)"),
+      textArea(planState.thesis, (v) => (planState.thesis = v)),
+    ]),
+    el("div", { class: "field" }, [
+      el("label", {}, "Key support / resistance levels"),
+      textArea(planState.srNotes, (v) => (planState.srNotes = v)),
+    ]),
+  ]);
+  left.appendChild(thesisPanel);
+
+  /* -------------------- Right column: plan, risk, checklist -------------------- */
+  const right = el("div", {});
+
+  const planPanel = el("div", { class: "panel" });
+  planPanel.appendChild(el("div", { class: "panel-title" }, "Trade Plan"));
+  const directionSelect = el("select", {}, [
+    el("option", { value: "long", selected: planState.direction === "long" ? "true" : null }, "Long"),
+    el("option", { value: "short", selected: planState.direction === "short" ? "true" : null }, "Short"),
+  ]);
+  directionSelect.addEventListener("change", (e) => { planState.direction = e.target.value; redrawPlan(); });
+  planPanel.appendChild(el("div", { class: "field" }, [el("label", {}, "Direction"), directionSelect]));
+
+  const entryInput = numberInput(planState.entry, (v) => { planState.entry = v; redrawPlan(); });
+  const stopInput = numberInput(planState.stopLoss, (v) => { planState.stopLoss = v; redrawPlan(); });
+  const targetInput = numberInput(planState.target, (v) => { planState.target = v; redrawPlan(); });
+  planPanel.append(
+    el("div", { class: "field" }, [el("label", {}, "Entry zone"), entryInput]),
+    el("div", { class: "field" }, [el("label", {}, "Stop-loss"), stopInput]),
+    el("div", { class: "field" }, [el("label", {}, "Target"), targetInput]),
+  );
+  const planStatsBox = el("div", {});
+  planPanel.appendChild(planStatsBox);
+  right.appendChild(planPanel);
+
+  const checklistPanel = el("div", { class: "panel mt-16" });
+  checklistPanel.appendChild(el("div", { class: "panel-title" }, "Trade Checklist"));
+  const checklistBox = el("div", {});
+  checklistPanel.appendChild(checklistBox);
+  right.appendChild(checklistPanel);
+
+  const notesPanel = el("div", { class: "panel mt-16" }, [
+    el("div", { class: "panel-title" }, "Personal Notes"),
+    textArea(candidate.personalNotes || "", (v) => updateCandidate(candidate.id, { personalNotes: v })),
+  ]);
+  right.appendChild(notesPanel);
+
+  const actionsPanel = el("div", { class: "panel mt-16 flex gap-8" });
+  const acceptBtn = el("button", { class: "btn btn-primary w-full" }, "Accept — Send to Journal");
+  const rejectBtn = el("button", { class: "btn btn-danger" }, "Reject");
+  actionsPanel.append(acceptBtn, rejectBtn);
+  right.appendChild(actionsPanel);
+
+  layout.append(left, right);
+  container.appendChild(layout);
+
+  function redrawPlan() {
+    const risk = getRiskSettings();
+    const sizing = computePositionSize(risk.capital, risk.maxRiskPerTradePct, planState.entry, planState.stopLoss);
+    const rr = computeRewardRisk(planState.entry, planState.stopLoss, planState.target);
+    planStatsBox.innerHTML = "";
+    planStatsBox.append(
+      planRow("Position size", `${sizing.quantity} shares`),
+      planRow("Capital required", fmtINR(sizing.capitalRequired, 0)),
+      planRow("Risk amount", fmtINR(sizing.riskAmount, 0)),
+      planRow("% of capital deployed", sizing.portfolioPct.toFixed(1) + "%"),
+      planRow("Reward : Risk", `${rr} : 1`, rr >= 2 ? "txt-teal" : "txt-red"),
+    );
+  }
+
+  function redrawChecklist() {
+    checklistBox.innerHTML = "";
+    const evalResult = evaluateChecklist(Array.from(checkedItems));
+    if (evalResult.hasCriticalFailure) {
+      checklistBox.appendChild(el("div", { class: "badge badge-short mt-8" }, `${evalResult.failedCritical.length} critical item(s) unchecked`));
+    }
+    evalResult.results.forEach((item) => {
+      const cb = el("input", { type: "checkbox" });
+      cb.checked = item.passed;
+      cb.addEventListener("change", () => {
+        if (cb.checked) checkedItems.add(item.id); else checkedItems.delete(item.id);
+        redrawChecklist();
+      });
+      const row = el("label", { class: `checklist-item${item.critical ? " critical" : ""}${item.critical && !item.passed ? " failed" : ""}` }, [
+        cb,
+        el("span", { class: "checklist-label" }, item.label),
+      ]);
+      checklistBox.appendChild(row);
+    });
+    checklistBox.appendChild(el("p", { class: "txt-muted mt-8" }, `${evalResult.totalPassed}/${evalResult.totalItems} confirmed.`));
+  }
+
+  redrawPlan();
+  redrawChecklist();
+
+  acceptBtn.addEventListener("click", () => {
+    const evalResult = evaluateChecklist(Array.from(checkedItems));
+    if (evalResult.hasCriticalFailure) {
+      const proceed = confirm(`${evalResult.failedCritical.length} critical checklist item(s) are unchecked:\n\n${evalResult.failedCritical.map((f) => "• " + f.label).join("\n")}\n\nSend to journal anyway?`);
+      if (!proceed) return;
+    }
+    const risk = getRiskSettings();
+    const sizing = computePositionSize(risk.capital, risk.maxRiskPerTradePct, planState.entry, planState.stopLoss);
+    addJournalEntry({
+      symbol: candidate.symbol,
+      direction: planState.direction,
+      setupType: planState.setupType,
+      entry: planState.entry,
+      stopLoss: planState.stopLoss,
+      target: planState.target,
+      quantity: sizing.quantity,
+      notes: planState.thesis,
+      checklistSnapshot: evalResult.results,
+      scoreSnapshot: candidate.composite,
+      status: "planned",
+    });
+    updateCandidate(candidate.id, { checklistChecked: Array.from(checkedItems) });
+    toast(`${candidate.symbol} sent to journal.`, "success");
+    if (onCandidateAccepted) onCandidateAccepted(candidate.id);
+  });
+
+  rejectBtn.addEventListener("click", () => {
+    rejectCandidate(candidate.id);
+    toast(`${candidate.symbol} excluded from ranking — kept for reference, and the next-best candidate now fills its Top 10 slot.`, "info");
+  });
+}
+
+function planRow(label, value, cls = "") {
+  return el("div", { class: "plan-row" }, [el("span", { class: "label" }, label), el("span", { class: `value ${cls}` }, value)]);
+}
+
+function textInput(value, onChange) {
+  const input = el("input", { type: "text", value });
+  input.addEventListener("input", (e) => onChange(e.target.value));
+  return input;
+}
+function numberInput(value, onChange) {
+  const input = el("input", { type: "number", step: "0.05", value });
+  input.addEventListener("input", (e) => onChange(parseFloat(e.target.value) || 0));
+  return input;
+}
+function textArea(value, onChange) {
+  const ta = el("textarea", {}, value);
+  ta.value = value;
+  ta.addEventListener("input", (e) => onChange(e.target.value));
+  return ta;
+}
+function $$tf(root) { return Array.from(root.querySelectorAll("button")); }
+
+
+/* ===== js/views/journalView.js ===== */
+
+function renderJournal(container) {
+  container.innerHTML = "";
+  container.appendChild(
+    el("div", { class: "view-header" }, [
+      el("div", {}, [
+        el("h2", { class: "view-title" }, "Trading Journal"),
+        el("div", { class: "view-subtitle" }, "Every accepted setup lands here. Update status as the trade progresses, and record what you learned."),
+      ]),
+    ])
+  );
+
+  const list = el("div", { id: "journal-list" });
+  container.appendChild(list);
+  drawJournalList(list);
+}
+
+function drawJournalList(list) {
+  const entries = getJournalEntries();
+  list.innerHTML = "";
+  if (!entries.length) {
+    list.appendChild(el("div", { class: "empty-state" }, [
+      el("div", { class: "empty-state-icon" }, "◇"),
+      el("p", {}, "Your journal is empty."),
+      el("p", { class: "txt-muted" }, "Accept a setup from the Trade Workspace to start building your track record."),
+    ]));
+    return;
+  }
+
+  entries.forEach((entry) => {
+    const pnl = computePnl(entry);
+    const pnlPct = computePnlPct(entry);
+    const card = el("div", { class: "journal-entry" });
+
+    card.appendChild(el("div", { class: "journal-entry-header" }, [
+      el("div", {}, [
+        el("strong", {}, entry.symbol), " ",
+        el("span", { class: `badge badge-${entry.direction === "long" ? "long" : "short"}` }, entry.direction),
+        " ", el("span", { class: "txt-muted" }, entry.setupType || "Unclassified"),
+      ]),
+      el("div", { class: "flex gap-8 items-center" }, [
+        pnl !== null ? el("span", { class: `journal-pnl ${pnl >= 0 ? "pos" : "neg"} mono` }, `${fmtINR(pnl, 0)} (${pnlPct}%)`) : null,
+        statusSelect(entry, list),
+        el("button", { class: "btn btn-sm btn-danger", onclick: () => { if (confirm("Delete this journal entry?")) { deleteJournalEntry(entry.id); drawJournalList(list); } } }, "Delete"),
+      ]),
+    ]));
+
+    const grid = el("div", { class: "grid grid-4 mt-8" }, [
+      readonlyField("Entry", fmtINR(entry.entry)),
+      readonlyField("Stop-loss", fmtINR(entry.stopLoss)),
+      readonlyField("Target", fmtINR(entry.target)),
+      readonlyField("Quantity", entry.quantity ?? "—"),
+    ]);
+    card.appendChild(grid);
+
+    if (entry.status !== "planned") {
+      const exitGrid = el("div", { class: "grid grid-2 mt-8" }, [
+        fieldEditor("Exit price", entry.exitPrice ?? "", "number", (v) => { updateJournalEntry(entry.id, { exitPrice: v === "" ? null : parseFloat(v) }); drawJournalList(list); }),
+        fieldEditor("Exit date", entry.exitDate || todayISO(), "date", (v) => { updateJournalEntry(entry.id, { exitDate: v }); drawJournalList(list); }),
+      ]);
+      card.appendChild(exitGrid);
+    }
+
+    card.appendChild(fieldEditor("Notes", entry.notes || "", "textarea", (v) => updateJournalEntry(entry.id, { notes: v })));
+    const mistakesLessons = el("div", { class: "grid grid-2" }, [
+      fieldEditor("Mistakes", entry.mistakes || "", "textarea", (v) => updateJournalEntry(entry.id, { mistakes: v })),
+      fieldEditor("Lessons", entry.lessons || "", "textarea", (v) => updateJournalEntry(entry.id, { lessons: v })),
+    ]);
+    card.appendChild(mistakesLessons);
+
+    list.appendChild(card);
+  });
+}
+
+function statusSelect(entry, list) {
+  const select = el("select", { style: "width:auto;" }, [
+    el("option", { value: "planned", selected: entry.status === "planned" ? "true" : null }, "Planned"),
+    el("option", { value: "open", selected: entry.status === "open" ? "true" : null }, "Open"),
+    el("option", { value: "closed", selected: entry.status === "closed" ? "true" : null }, "Closed"),
+  ]);
+  select.addEventListener("change", (e) => { updateJournalEntry(entry.id, { status: e.target.value }); drawJournalList(list); });
+  return select;
+}
+
+function readonlyField(label, value) {
+  return el("div", {}, [el("label", {}, label), el("div", { class: "mono" }, String(value))]);
+}
+
+function fieldEditor(label, value, type, onChange) {
+  const wrap = el("div", { class: "field" }, [el("label", {}, label)]);
+  const input = type === "textarea" ? el("textarea", {}, value) : el("input", { type, value });
+  if (type === "textarea") input.value = value;
+  input.addEventListener("change", (e) => onChange(e.target.value));
+  wrap.appendChild(input);
+  return wrap;
+}
+
+
+/* ===== js/views/analyticsView.js ===== */
+
+function renderAnalytics(container) {
+  container.innerHTML = "";
+  container.appendChild(
+    el("div", { class: "view-header" }, [
+      el("div", {}, [
+        el("h2", { class: "view-title" }, "Analytics"),
+        el("div", { class: "view-subtitle" }, "Objective, retrospective performance statistics computed from your closed journal entries."),
+      ]),
+    ])
+  );
+
+  const stats = getSummaryStats();
+  if (!stats.totalTrades) {
+    container.appendChild(el("div", { class: "empty-state" }, [
+      el("div", { class: "empty-state-icon" }, "◇"),
+      el("p", {}, "No closed trades yet."),
+      el("p", { class: "txt-muted" }, "Analytics populate automatically once you mark journal entries as Closed with an exit price."),
+    ]));
+    return;
+  }
+
+  container.appendChild(
+    el("div", { class: "grid grid-4" }, [
+      analyticsStatCard(String(stats.totalTrades), "Total Trades"),
+      analyticsStatCard(stats.winRate + "%", "Win Rate", stats.winRate >= 50 ? "pos" : "neg"),
+      analyticsStatCard(fmtINR(stats.avgWin, 0), "Avg Win", "pos"),
+      analyticsStatCard(fmtINR(stats.avgLoss, 0), "Avg Loss", "neg"),
+    ])
+  );
+  container.appendChild(
+    el("div", { class: "grid grid-3 mt-16" }, [
+      analyticsStatCard(fmtINR(stats.expectancy, 0), "Expectancy / Trade", stats.expectancy >= 0 ? "pos" : "neg"),
+      analyticsStatCard(fmtINR(stats.maxDrawdown, 0), "Max Drawdown", "neg"),
+      analyticsStatCard(fmtINR(stats.totalPnl, 0), "Total P&L", stats.totalPnl >= 0 ? "pos" : "neg"),
+    ])
+  );
+
+  const monthly = getMonthlyPerformance();
+  const monthlyPanel = el("div", { class: "panel mt-16" }, [el("div", { class: "panel-title" }, "Monthly Performance")]);
+  if (monthly.length) {
+    const maxAbs = Math.max(...monthly.map((m) => Math.abs(m.pnl)), 1);
+    monthly.forEach((m) => {
+      const pct = Math.max(4, (Math.abs(m.pnl) / maxAbs) * 100);
+      monthlyPanel.appendChild(
+        el("div", { class: "sector-bar-row" }, [
+          el("span", {}, m.month),
+          el("div", { class: "sector-bar-track" }, [el("div", { class: "sector-bar-fill", style: `width:${pct}%; background:${m.pnl >= 0 ? "var(--accent-teal)" : "var(--accent-red)"};` })]),
+          el("span", { class: `mono text-right ${m.pnl >= 0 ? "txt-teal" : "txt-red"}` }, fmtINR(m.pnl, 0)),
+        ])
+      );
+    });
+  } else {
+    monthlyPanel.appendChild(el("p", { class: "txt-muted" }, "Not enough data yet."));
+  }
+  container.appendChild(monthlyPanel);
+
+  const setupStats = getSetupWiseStats();
+  const setupPanel = el("div", { class: "panel mt-16" }, [el("div", { class: "panel-title" }, "Setup-wise Statistics")]);
+  const table = el("table");
+  table.appendChild(el("thead", {}, el("tr", {}, ["Setup", "Trades", "Win Rate", "Total P&L"].map((h) => el("th", {}, h)))));
+  const tbody = el("tbody");
+  setupStats.forEach((s) => {
+    tbody.appendChild(el("tr", {}, [
+      el("td", {}, s.setupType),
+      el("td", {}, String(s.trades)),
+      el("td", {}, s.winRate + "%"),
+      el("td", { class: s.totalPnl >= 0 ? "txt-teal" : "txt-red" }, fmtINR(s.totalPnl, 0)),
+    ]));
+  });
+  table.appendChild(tbody);
+  setupPanel.appendChild(el("div", { class: "table-wrap" }, [table]));
+  container.appendChild(setupPanel);
+}
+
+function analyticsStatCard(value, label, cls = "") {
+  return el("div", { class: "panel stat-card" }, [el("div", { class: `stat-value ${cls}` }, value), el("div", { class: "stat-label" }, label)]);
+}
+
+
+/* ===== js/views/marketIntelView.js ===== */
+/**
+ * marketIntelView.js
+ * Tabs mapped to the feature list you asked for: Sector Analytics, Top
+ * Gainers, Past Winners, RRG, Bulk & Block Deals, Circuit Revision List,
+ * Results Calendar — all driven by the synced full-NSE-universe data when
+ * configured (Settings → Live Market Data Sync), with a clear empty state
+ * when it isn't.
+ */
+
+let intelActiveTab = "movers";
+
+async function renderMarketIntel(container) {
+  container.innerHTML = `<div class="loading-state"><div class="spinner"></div><p>Loading market intelligence…</p></div>`;
+
+  const configured = isLiveDataConfigured();
+
+  container.innerHTML = "";
+  container.appendChild(
+    el("div", { class: "view-header" }, [
+      el("div", {}, [
+        el("h2", { class: "view-title" }, "Market Intelligence"),
+        el("div", { class: "view-subtitle" }, "Sector analytics, top movers, RRG, deals, circuit list, and the results calendar — from your synced NSE data."),
+      ]),
+      liveBadge(configured),
+    ])
+  );
+
+  if (!configured) {
+    container.appendChild(el("div", { class: "empty-state" }, [
+      el("div", { class: "empty-state-icon" }, "◇"),
+      el("p", {}, "Live data isn't configured yet."),
+      el("p", { class: "txt-muted" }, "Set your GitHub Pages URL in Settings → Live Market Data Sync to populate this page — see docs/LIVE_DATA_SETUP.md for the one-time setup."),
+    ]));
+    return;
+  }
+
+  const tabs = el("div", { class: "tabs" }, [
+    intelTabButton("movers", "Top Gainers/Losers"),
+    intelTabButton("sectors", "Sector Analytics"),
+    intelTabButton("winners", "Past Winners"),
+    intelTabButton("rrg", "RRG"),
+    intelTabButton("deals", "Bulk & Block Deals"),
+    intelTabButton("circuit", "Circuit List"),
+    intelTabButton("calendar", "Results Calendar"),
+  ]);
+  container.appendChild(tabs);
+
+  const panels = {};
+  ["movers", "sectors", "winners", "rrg", "deals", "circuit", "calendar"].forEach((key) => {
+    panels[key] = el("div", { class: `tab-panel${intelActiveTab === key ? " is-active" : ""}`, id: `intel-panel-${key}` });
+    container.appendChild(panels[key]);
+  });
+
+  $$(".tab-btn", tabs).forEach((btn) => btn.addEventListener("click", () => {
+    intelActiveTab = btn.dataset.tab;
+    $$(".tab-btn", tabs).forEach((b) => b.classList.toggle("is-active", b === btn));
+    Object.entries(panels).forEach(([key, p]) => p.classList.toggle("is-active", key === intelActiveTab));
+  }));
+
+  drawMoversTab(panels.movers);
+  drawSectorsTab(panels.sectors);
+  drawWinnersTab(panels.winners);
+  drawRrgTab(panels.rrg);
+  drawDealsTab(panels.deals);
+  drawCircuitTab(panels.circuit);
+  drawCalendarTab(panels.calendar);
+}
+
+function intelTabButton(tab, label) {
+  return el("button", { class: `tab-btn${intelActiveTab === tab ? " is-active" : ""}`, "data-tab": tab }, label);
+}
+
+function emptyPanelState(panel, message) {
+  panel.innerHTML = "";
+  panel.appendChild(el("div", { class: "empty-state" }, [el("div", { class: "empty-state-icon" }, "◇"), el("p", { class: "txt-muted" }, message)]));
+}
+
+/* ---------------------------------------------------------------------- */
+
+async function drawMoversTab(panel) {
+  panel.innerHTML = `<div class="loading-state"><div class="spinner"></div></div>`;
+  const data = await getLiveTopMovers();
+  if (!data) return emptyPanelState(panel, "Not synced yet — the workflow needs to run at least once.");
+
+  panel.innerHTML = "";
+  panel.appendChild(el("p", { class: "txt-muted", style: "font-size:11px;" }, `As of ${data.asOf}`));
+  const grid = el("div", { class: "grid grid-2" }, [
+    el("div", { class: "panel" }, [el("div", { class: "panel-title" }, "Top Gainers"), moversTable(data.gainers, true)]),
+    el("div", { class: "panel" }, [el("div", { class: "panel-title" }, "Top Losers"), moversTable(data.losers, false)]),
+  ]);
+  panel.appendChild(grid);
+}
+
+function moversTable(rows, isGain) {
+  const table = el("table");
+  table.appendChild(el("thead", {}, el("tr", {}, ["Symbol", "LTP", "Chg %"].map((h) => el("th", {}, h)))));
+  const tbody = el("tbody");
+  (rows || []).slice(0, 15).forEach((r) => {
+    tbody.appendChild(el("tr", {}, [
+      el("td", {}, el("strong", {}, r.symbol)),
+      el("td", {}, fmtINR(r.close)),
+      el("td", { class: isGain ? "txt-teal" : "txt-red" }, fmtPct(r.changePct)),
+    ]));
+  });
+  table.appendChild(tbody);
+  return el("div", { class: "table-wrap" }, [table]);
+}
+
+/* ---------------------------------------------------------------------- */
+
+async function drawSectorsTab(panel) {
+  panel.innerHTML = `<div class="loading-state"><div class="spinner"></div></div>`;
+  const sectors = await getLiveSectorPerformance();
+  if (!sectors || !sectors.sectors || !sectors.sectors.length) return emptyPanelState(panel, "Not synced yet — the workflow needs to run at least once.");
+
+  panel.innerHTML = "";
+  panel.appendChild(el("p", { class: "txt-muted", style: "font-size:11px;" }, `As of ${sectors.asOf} · averaged from real constituent price moves`));
+  const maxAbs = Math.max(...sectors.sectors.map((s) => Math.abs(s.relativeStrength)), 1);
+  const panelBox = el("div", { class: "panel" }, [el("div", { class: "panel-title" }, "Sector Performance (Today)")]);
+  sectors.sectors.forEach((s) => {
+    const pct = Math.max(4, (s.relativeStrength / maxAbs) * 50 + 50);
+    const color = s.relativeStrength >= 0 ? "var(--accent-teal)" : "var(--accent-red)";
+    panelBox.appendChild(el("div", { class: "sector-bar-row" }, [
+      el("span", {}, `${s.name} (${s.count})`),
+      el("div", { class: "sector-bar-track" }, [el("div", { class: "sector-bar-fill", style: `width:${pct}%; background:${color};` })]),
+      el("span", { class: "mono text-right" }, fmtPct(s.relativeStrength)),
+    ]));
+  });
+  panel.appendChild(panelBox);
+}
+
+/* ---------------------------------------------------------------------- */
+
+async function drawWinnersTab(panel) {
+  panel.innerHTML = `<div class="loading-state"><div class="spinner"></div></div>`;
+  const data = await getLivePastWinners();
+  if (!data || !data.winners || !data.winners.length) return emptyPanelState(panel, "Not synced yet — the workflow needs to run at least once. (Also needs a few months of accumulated history for a meaningful trailing return.)");
+
+  panel.innerHTML = "";
+  panel.appendChild(el("p", { class: "txt-muted", style: "font-size:11px;" }, `As of ${data.asOf} · trailing return across the synced history window`));
+  const table = el("table");
+  table.appendChild(el("thead", {}, el("tr", {}, ["#", "Symbol", "Return"].map((h) => el("th", {}, h)))));
+  const tbody = el("tbody");
+  data.winners.forEach((w, i) => {
+    tbody.appendChild(el("tr", {}, [el("td", {}, String(i + 1)), el("td", {}, el("strong", {}, w.symbol)), el("td", { class: "txt-teal" }, fmtPct(w.returnPct))]));
+  });
+  table.appendChild(tbody);
+  panel.appendChild(el("div", { class: "panel" }, [el("div", { class: "table-wrap" }, [table])]));
+}
+
+/* ---------------------------------------------------------------------- */
+
+async function drawRrgTab(panel) {
+  panel.innerHTML = `<div class="loading-state"><div class="spinner"></div></div>`;
+  const data = await fetchLiveJson("rrg.json");
+  if (!data || !data.sectors || !Object.keys(data.sectors).length) return emptyPanelState(panel, "Not synced yet — the workflow needs to run at least once.");
+
+  panel.innerHTML = "";
+  panel.appendChild(el("p", { class: "txt-muted", style: "font-size:11px;" }, `As of ${data.asOf} · sector indices vs ${data.benchmark}. Our own relative-strength-ratio/momentum implementation — not a claim of parity with the trademarked "RRG®" product.`));
+
+  const canvas = el("canvas", { width: "700", height: "560", style: "max-width:100%; background:var(--bg-void); border-radius:8px;" });
+  const legend = el("div", { class: "flex gap-8", style: "flex-wrap:wrap; margin-top:10px;" });
+  panel.append(el("div", { class: "panel" }, [canvas, legend]));
+
+  drawRrgQuadrantChart(canvas, data.sectors);
+  const colors = ["#2FBF9F", "#E5534B", "#C9A24B", "#4C8DFF", "#9B7EDE", "#7FBF4B", "#C97A3A", "#E5534B", "#4C8DFF", "#2FBF9F", "#C9A24B", "#9B7EDE"];
+  Object.keys(data.sectors).forEach((name, i) => {
+    legend.appendChild(el("span", { class: "badge", style: `border-color:${colors[i % colors.length]}; color:${colors[i % colors.length]};` }, name));
+  });
+}
+
+function drawRrgQuadrantChart(canvas, sectorsData) {
+  const ctx = canvas.getContext("2d");
+  const W = canvas.width, H = canvas.height;
+  ctx.clearRect(0, 0, W, H);
+
+  const allPoints = Object.values(sectorsData).flat();
+  const ratios = allPoints.map((p) => p.rsRatio);
+  const moms = allPoints.map((p) => p.rsMomentum);
+  const pad = 2;
+  const minR = Math.min(...ratios, 100) - pad, maxR = Math.max(...ratios, 100) + pad;
+  const minM = Math.min(...moms, 100) - pad, maxM = Math.max(...moms, 100) + pad;
+
+  const xOf = (r) => ((r - minR) / (maxR - minR)) * (W - 60) + 40;
+  const yOf = (m) => H - (((m - minM) / (maxM - minM)) * (H - 60) + 30);
+
+  // Quadrant backgrounds
+  const midX = xOf(100), midY = yOf(100);
+  ctx.fillStyle = "rgba(47,191,159,0.08)"; ctx.fillRect(midX, 30, W - 40 - midX, midY - 30);       // leading (top-right)
+  ctx.fillStyle = "rgba(201,162,75,0.08)"; ctx.fillRect(midX, midY, W - 40 - midX, H - 30 - midY);  // weakening (bottom-right)
+  ctx.fillStyle = "rgba(229,83,75,0.08)"; ctx.fillRect(40, midY, midX - 40, H - 30 - midY);          // lagging (bottom-left)
+  ctx.fillStyle = "rgba(76,141,255,0.08)"; ctx.fillRect(40, 30, midX - 40, midY - 30);                // improving (top-left)
+
+  ctx.strokeStyle = "#303A4D"; ctx.beginPath(); ctx.moveTo(40, midY); ctx.lineTo(W - 40, midY); ctx.moveTo(midX, 30); ctx.lineTo(midX, H - 30); ctx.stroke();
+
+  ctx.fillStyle = "#6C7690"; ctx.font = "11px sans-serif";
+  ctx.fillText("Improving", 46, 44); ctx.fillText("Leading", W - 100, 44);
+  ctx.fillText("Lagging", 46, H - 38); ctx.fillText("Weakening", W - 110, H - 38);
+
+  const colors = ["#2FBF9F", "#E5534B", "#C9A24B", "#4C8DFF", "#9B7EDE", "#7FBF4B", "#C97A3A", "#E5534B", "#4C8DFF", "#2FBF9F", "#C9A24B", "#9B7EDE"];
+  Object.entries(sectorsData).forEach(([name, tail], i) => {
+    const color = colors[i % colors.length];
+    ctx.strokeStyle = color; ctx.lineWidth = 1.5; ctx.beginPath();
+    tail.forEach((p, idx) => { const x = xOf(p.rsRatio), y = yOf(p.rsMomentum); if (idx === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y); });
+    ctx.stroke();
+    const last = tail[tail.length - 1];
+    const x = xOf(last.rsRatio), y = yOf(last.rsMomentum);
+    ctx.fillStyle = color; ctx.beginPath(); ctx.arc(x, y, 5, 0, Math.PI * 2); ctx.fill();
+    ctx.fillStyle = "#E7EBF3"; ctx.font = "10px sans-serif"; ctx.fillText(name, x + 7, y - 7);
+  });
+}
+
+/* ---------------------------------------------------------------------- */
+
+async function drawDealsTab(panel) {
+  panel.innerHTML = `<div class="loading-state"><div class="spinner"></div></div>`;
+  const data = await getLiveBulkBlockDeals();
+  if (!data) return emptyPanelState(panel, "Not synced yet — the workflow needs to run at least once.");
+
+  panel.innerHTML = "";
+  panel.appendChild(el("p", { class: "txt-muted", style: "font-size:11px;" }, `As of ${data.asOf}`));
+  ["bulk_deals", "block_deals", "short_selling"].forEach((key) => {
+    const rows = data[key] || [];
+    const title = { bulk_deals: "Bulk Deals", block_deals: "Block Deals", short_selling: "Short Selling" }[key];
+    const box = el("div", { class: "panel mt-16" }, [el("div", { class: "panel-title" }, [title, el("span", { class: "txt-muted", style: "text-transform:none; letter-spacing:0;" }, `${rows.length} record(s)`)])]);
+    if (!rows.length) {
+      box.appendChild(el("p", { class: "txt-muted" }, "None reported."));
+    } else {
+      const table = el("table");
+      const cols = Object.keys(rows[0]).slice(0, 6);
+      table.appendChild(el("thead", {}, el("tr", {}, cols.map((c) => el("th", {}, c)))));
+      const tbody = el("tbody");
+      rows.slice(0, 20).forEach((r) => tbody.appendChild(el("tr", {}, cols.map((c) => el("td", {}, String(r[c] ?? "—"))))));
+      table.appendChild(tbody);
+      box.appendChild(el("div", { class: "table-wrap" }, [table]));
+    }
+    panel.appendChild(box);
+  });
+}
+
+/* ---------------------------------------------------------------------- */
+
+async function drawCircuitTab(panel) {
+  panel.innerHTML = `<div class="loading-state"><div class="spinner"></div></div>`;
+  const data = await getLiveCircuitList();
+  if (!data || !data.stocks || !data.stocks.length) return emptyPanelState(panel, "Not synced yet, or no circuit-band revisions on the last synced day.");
+
+  panel.innerHTML = "";
+  panel.appendChild(el("p", { class: "txt-muted", style: "font-size:11px;" }, `As of ${data.asOf}`));
+  const table = el("table");
+  const cols = Object.keys(data.stocks[0]).slice(0, 7);
+  table.appendChild(el("thead", {}, el("tr", {}, cols.map((c) => el("th", {}, c)))));
+  const tbody = el("tbody");
+  data.stocks.slice(0, 100).forEach((r) => tbody.appendChild(el("tr", {}, cols.map((c) => el("td", {}, String(r[c] ?? "—"))))));
+  table.appendChild(tbody);
+  panel.appendChild(el("div", { class: "panel" }, [el("div", { class: "table-wrap" }, [table])]));
+}
+
+/* ---------------------------------------------------------------------- */
+
+async function drawCalendarTab(panel) {
+  panel.innerHTML = `<div class="loading-state"><div class="spinner"></div></div>`;
+  const data = await getLiveResultsCalendar();
+  if (!data || !data.meetings || !data.meetings.length) return emptyPanelState(panel, "Not synced yet, or no board meetings announced in the next 3 weeks.");
+
+  panel.innerHTML = "";
+  panel.appendChild(el("p", { class: "txt-muted", style: "font-size:11px;" }, `As of ${data.asOf} · next 3 weeks`));
+  const table = el("table");
+  const cols = Object.keys(data.meetings[0]).slice(0, 5);
+  table.appendChild(el("thead", {}, el("tr", {}, cols.map((c) => el("th", {}, c)))));
+  const tbody = el("tbody");
+  data.meetings.slice(0, 100).forEach((r) => tbody.appendChild(el("tr", {}, cols.map((c) => el("td", {}, String(r[c] ?? "—"))))));
+  table.appendChild(tbody);
+  panel.appendChild(el("div", { class: "panel" }, [el("div", { class: "table-wrap" }, [table])]));
+}
+
+
+/* ===== js/views/settingsView.js ===== */
+
+const WEIGHT_LABELS = {
+  trend: "Trend (Stage Analysis)",
+  relativeStrength: "Relative Strength",
+  volume: "Volume (Accumulation/Distribution)",
+  liquidity: "Liquidity",
+  proximityToExtreme: "Proximity to High/Low",
+  momentum: "Momentum (RSI)",
+  baseQuality: "Base Quality (VCP)",
+  breakoutQuality: "Breakout/Breakdown Quality",
+  riskReward: "Risk/Reward",
+  fundamentals: "Fundamentals (EPS/Sales/ROE)",
+  marketContext: "Market Context",
+};
+
+function renderSettings(container) {
+  container.innerHTML = "";
+  container.appendChild(
+    el("div", { class: "view-header" }, [
+      el("div", {}, [el("h2", { class: "view-title" }, "Settings"), el("div", { class: "view-subtitle" }, "Live data sync, risk manager defaults, and scoring weights — tune these to match your own trading rules.")]),
+    ])
+  );
+
+  /* ---- Live data sync ---- */
+  const liveDataPanel = el("div", { class: "panel" });
+  liveDataPanel.appendChild(el("div", { class: "panel-title" }, ["Live Market Data Sync", liveBadge(isLiveDataConfigured())]));
+  liveDataPanel.appendChild(el("p", { class: "txt-muted" }, "Point this at your deployed GitHub Pages URL to replace demo data with real, daily-synced NSE data across the whole app — Market Breadth, Sector Analytics, Top Gainers, Past Winners, RRG, Bulk/Block Deals, Circuit List, Results Calendar, and the Universe Scanner. See docs/LIVE_DATA_SETUP.md for the one-time setup."));
+  const urlInput = el("input", { type: "text", placeholder: "https://yourusername.github.io/your-repo-name", value: getLiveDataBaseUrl() });
+  const statusLine = el("p", { class: "txt-muted mt-8", style: "font-size:12px;" }, "");
+  liveDataPanel.append(
+    el("div", { class: "field" }, [el("label", {}, "GitHub Pages URL"), urlInput]),
+    el("div", { class: "flex gap-8" }, [
+      el("button", { class: "btn btn-primary", onclick: () => { saveLiveDataBaseUrl(urlInput.value); toast("Live data URL saved.", "success"); renderSettings(container); } }, "Save"),
+      el("button", { class: "btn", onclick: async () => {
+        statusLine.textContent = "Testing…";
+        const result = await testLiveDataConnection();
+        statusLine.textContent = result.message;
+        statusLine.className = `mt-8 ${result.ok ? "txt-teal" : "txt-red"}`;
+        toast(result.message, result.ok ? "success" : "error");
+      } }, "Test Connection"),
+    ]),
+    statusLine,
+  );
+  container.appendChild(liveDataPanel);
+
+  /* ---- Risk manager ---- */
+  const risk = getRiskSettings();
+  const riskPanel = el("div", { class: "panel mt-16" });
+  riskPanel.appendChild(el("div", { class: "panel-title" }, "Risk Manager Defaults"));
+  const capitalInput = el("input", { type: "number", value: risk.capital });
+  const maxRiskInput = el("input", { type: "number", step: "0.1", value: risk.maxRiskPerTradePct });
+  const maxExposureInput = el("input", { type: "number", step: "1", value: risk.maxPortfolioExposurePct });
+  riskPanel.append(
+    el("div", { class: "grid grid-3" }, [
+      el("div", { class: "field" }, [el("label", {}, "Total trading capital (₹)"), capitalInput]),
+      el("div", { class: "field" }, [el("label", {}, "Max risk per trade (%)"), maxRiskInput]),
+      el("div", { class: "field" }, [el("label", {}, "Max portfolio exposure (%)"), maxExposureInput]),
+    ]),
+    el("div", { class: "flex gap-8 mt-8" }, [
+      el("button", { class: "btn btn-primary", onclick: () => {
+        saveRiskSettings({ capital: parseFloat(capitalInput.value) || 0, maxRiskPerTradePct: parseFloat(maxRiskInput.value) || 0, maxPortfolioExposurePct: parseFloat(maxExposureInput.value) || 0 });
+        toast("Risk settings saved.", "success");
+      } }, "Save Risk Settings"),
+      el("button", { class: "btn", onclick: () => {
+        saveRiskSettings({ ...DEFAULT_RISK_SETTINGS });
+        toast("Reset to defaults — reload Settings to see them.", "info");
+        renderSettings(container);
+      } }, "Reset to Defaults"),
+    ])
+  );
+  container.appendChild(riskPanel);
+
+  /* ---- Scoring weights ---- */
+  const weights = getWeights();
+  const weightPanel = el("div", { class: "panel mt-16" });
+  weightPanel.appendChild(el("div", { class: "panel-title" }, ["Scoring Weights", el("span", { class: "txt-muted", style: "text-transform:none; letter-spacing:0;" }, `Sum: ${weightSum(weights)}`)]));
+  const workingWeights = { ...weights };
+  const sumLabel = el("span", {}, "");
+  Object.keys(DEFAULT_WEIGHTS).forEach((key) => {
+    const row = el("div", { class: "weight-row" });
+    const valueLabel = el("span", { class: "mono" }, String(workingWeights[key] ?? 0));
+    const slider = el("input", { type: "range", min: "0", max: "30", value: workingWeights[key] ?? 0 });
+    slider.addEventListener("input", (e) => {
+      workingWeights[key] = parseInt(e.target.value, 10);
+      valueLabel.textContent = e.target.value;
+      sumLabel.textContent = `Sum: ${weightSum(workingWeights)}`;
+    });
+    row.append(el("label", { style: "margin:0;" }, WEIGHT_LABELS[key]), slider, valueLabel);
+    weightPanel.appendChild(row);
+  });
+  weightPanel.appendChild(el("p", { class: "txt-muted", style: "font-size:11px;" }, ["Weights are used proportionally — they don't need to sum to 100. ", sumLabel]));
+  weightPanel.appendChild(
+    el("div", { class: "flex gap-8 mt-8" }, [
+      el("button", { class: "btn btn-primary", onclick: () => { saveWeights(workingWeights); toast("Scoring weights saved. Re-open Ranked Candidates to see updated scores.", "success"); } }, "Save Weights"),
+      el("button", { class: "btn", onclick: () => { saveWeights({ ...DEFAULT_WEIGHTS }); renderSettings(container); } }, "Reset to Defaults"),
+    ])
+  );
+  container.appendChild(weightPanel);
+
+  /* ---- Data management ---- */
+  const dataPanel = el("div", { class: "panel mt-16" }, [
+    el("div", { class: "panel-title" }, "Data"),
+    el("p", { class: "txt-muted" }, "All data (candidates, journal, settings) is stored locally in this browser. Export a backup before clearing browser storage."),
+    el("div", { class: "flex gap-8" }, [
+      el("button", { class: "btn", onclick: exportBackup }, "Export Backup (JSON)"),
+      el("button", { class: "btn btn-danger", onclick: () => {
+        if (confirm("This clears ALL app data (candidates, journal, settings) from this browser. This cannot be undone. Continue?")) {
+          localStorage.clear();
+          toast("All data cleared.", "success");
+          location.reload();
+        }
+      } }, "Clear All App Data"),
+    ]),
+  ]);
+  container.appendChild(dataPanel);
+}
+
+function exportBackup() {
+  const data = Store.exportAll();
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = `swing-terminal-backup-${new Date().toISOString().slice(0, 10)}.json`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+
+/* ===== js/app.js ===== */
+
+const VIEWS = {
+  dashboard: { title: "Dashboard", icon: "◈", render: renderDashboard },
+  import: { title: "Scanner Import", icon: "⇪", render: renderScannerImport },
+  library: { title: "Scanner Library", icon: "☰", render: renderScannerLibrary },
+  candidates: { title: "Ranked Candidates", icon: "▤", render: (c) => renderCandidates(c, openWorkspace) },
+  intel: { title: "Market Intelligence", icon: "◒", render: renderMarketIntel },
+  workspace: { title: "Trade Workspace", icon: "◎", render: (c) => renderTradeWorkspace(c, activeCandidateId, () => navigate("journal")) },
+  journal: { title: "Journal", icon: "▥", render: renderJournal },
+  analytics: { title: "Analytics", icon: "▦", render: renderAnalytics },
+  settings: { title: "Settings", icon: "⚙", render: renderSettings },
+};
+
+let activeView = "dashboard";
+let activeCandidateId = null;
+
+function navigate(viewKey) {
+  activeView = viewKey;
+  $$(".nav-item").forEach((btn) => btn.classList.toggle("is-active", btn.dataset.nav === viewKey));
+  $$(".view").forEach((v) => v.classList.remove("is-active"));
+  const container = $(`#view-${viewKey}`);
+  container.classList.add("is-active");
+  VIEWS[viewKey].render(container);
+}
+
+function openWorkspace(candidateId) {
+  activeCandidateId = candidateId;
+  navigate("workspace");
+}
+
+function buildSidebar() {
+  const nav = $("#sidebar-nav");
+  const groups = [
+    { label: "Overview", items: ["dashboard"] },
+    { label: "Research", items: ["import", "library", "candidates", "intel"] },
+    { label: "Execute", items: ["workspace"] },
+    { label: "Track", items: ["journal", "analytics"] },
+    { label: "System", items: ["settings"] },
+  ];
+  groups.forEach((group) => {
+    nav.appendChild(el("div", { class: "nav-group-label" }, group.label));
+    group.items.forEach((key) => {
+      const item = VIEWS[key];
+      const btn = el("button", { class: "nav-item", "data-nav": key, onclick: () => navigate(key) }, [
+        el("span", { class: "nav-icon" }, item.icon),
+        el("span", {}, item.title),
+      ]);
+      nav.appendChild(btn);
+    });
+  });
+}
+
+function buildViewContainers() {
+  const main = $("#main-content");
+  Object.keys(VIEWS).forEach((key) => {
+    main.appendChild(el("section", { class: "view", id: `view-${key}` }));
+  });
+}
+
+async function buildRibbon() {
+  const ribbon = $("#ribbon");
+  // Genuinely live index prices — free TradingView widget, no API key needed.
+  renderTickerTape(ribbon, DEFAULT_INDEX_TICKER_SYMBOLS);
+
+  // Market-context bias for the scoring engine still uses the sample data
+  // service (see docs/ARCHITECTURE.md) since a free live breadth/VIX feed
+  // isn't available without a paid vendor — this is separate from the
+  // ribbon above, which now shows real prices.
+  const indices = await getIndexSnapshot();
+  await refreshMarketBiasFromSnapshot(indices);
+}
+
+function updateCandidateBadge() {
+  const badge = document.querySelector('.nav-item[data-nav="candidates"] .nav-badge') || (() => {
+    const b = el("span", { class: "nav-badge" });
+    document.querySelector('.nav-item[data-nav="candidates"]').appendChild(b);
+    return b;
+  })();
+  badge.textContent = String(getCandidates().length);
+}
+
+function init() {
+  buildSidebar();
+  buildViewContainers();
+  buildRibbon();
+  updateCandidateBadge();
+  navigate("dashboard");
+  setInterval(updateCandidateBadge, 4000);
+}
+
+document.addEventListener("DOMContentLoaded", init);
+
+</script>
+</body>
+</html>

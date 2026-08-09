@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Swing Terminal — Swing Trading Decision Support</title>
+<meta name="description" content="Institutional-grade offline swing trading decision support system for Indian equities." />
+<link rel="stylesheet" href="css/styles.css" />
+<link rel="stylesheet" href="css/components.css" />
+</head>
+<body>
+
+<div class="app-shell">
+  <aside class="sidebar">
+    <div class="brand">
+      <span class="brand-mark">SWING·TERMINAL</span>
+    </div>
+    <div class="brand-sub" style="padding:0 10px 10px;">NSE / BSE Decision Support</div>
+    <nav id="sidebar-nav"></nav>
+    <div class="sidebar-footer">
+      Decision support only.<br />No trade recommendations or guarantees.
+    </div>
+  </aside>
+
+  <div id="ribbon" class="ribbon" aria-label="Index snapshot"></div>
+
+  <main id="main-content" class="main"></main>
+</div>
+
+<div id="toast-root" aria-live="polite"></div>
+
+<script src="js/utils.js"></script>
+<script src="js/modules/storage.js"></script>
+<script src="js/data/liveDataService.js"></script>
+<script src="js/data/marketDataService.js"></script>
+<script src="js/data/scannerLibrary.js"></script>
+<script src="js/modules/scoring.js"></script>
+<script src="js/modules/checklist.js"></script>
+<script src="js/modules/riskManager.js"></script>
+<script src="js/modules/candidates.js"></script>
+<script src="js/modules/universeScanner.js"></script>
+<script src="js/modules/journal.js"></script>
+<script src="js/modules/analytics.js"></script>
+<script src="js/modules/chartProvider.js"></script>
+<script src="js/views/dashboardView.js"></script>
+<script src="js/views/scannerImportView.js"></script>
+<script src="js/views/scannerLibraryView.js"></script>
+<script src="js/views/candidatesView.js"></script>
+<script src="js/views/tradeWorkspaceView.js"></script>
+<script src="js/views/journalView.js"></script>
+<script src="js/views/analyticsView.js"></script>
+<script src="js/views/marketIntelView.js"></script>
+<script src="js/views/settingsView.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
