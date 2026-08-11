@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-10",
+  "asOf": "2026-08-11",
   "stocks": [
     {
       "Symbol": "21STCENMGM",
@@ -222,6 +222,13 @@
       "Symbol": "RELINFRA",
       "Series": "BE",
       "Security Name": "RELIANCE INFRASTRUCTURE LIMITED",
+      "Band": "2",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SADHNANIQ",
+      "Series": "BE",
+      "Security Name": "SADHANA NITROCHEM LIMITED",
       "Band": "2",
       "Remarks": "-"
     },
@@ -3068,13 +3075,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "ORTEL",
-      "Series": "BZ",
-      "Security Name": "ORTEL COMMUNICATIONS LIMITED",
-      "Band": "5",
-      "Remarks": "GSM STAGE - II"
-    },
-    {
       "Symbol": "ORTINGLOBE",
       "Series": "EQ",
       "Security Name": "ORTIN GLOBAL LIMITED",
@@ -3558,13 +3558,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "SADHNANIQ",
-      "Series": "BE",
-      "Security Name": "SADHANA NITROCHEM LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "SAHASRA",
       "Series": "ST",
       "Security Name": "SAHASRA ELECTRONIC SOLUTIONS LIMITED",
@@ -4006,6 +3999,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "SUDEEPPHRM",
+      "Series": "EQ",
+      "Security Name": "SUDEEP PHARMA LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "SUMEETINDS",
       "Series": "EQ",
       "Security Name": "SUMEET INDUSTRIES LIMITED",
@@ -4078,7 +4078,7 @@
     {
       "Symbol": "TAKE",
       "Series": "EQ",
-      "Security Name": "TAKE SOLUTIONS LIMITED",
+      "Security Name": "TAKE LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -4287,7 +4287,7 @@
     },
     {
       "Symbol": "UFBL",
-      "Series": "EQ",
+      "Series": "BE",
       "Security Name": "UNITED FOODBRANDS LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -4706,6 +4706,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "ZENITHEXPO",
+      "Series": "EQ",
+      "Security Name": "ZENITH EXPORTS LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "ZIMLAB",
       "Series": "BE",
       "Security Name": "ZIM LABORATORIES LIMITED",
@@ -5031,6 +5038,13 @@
       "Symbol": "EMMVEE",
       "Series": "EQ",
       "Security Name": "EMMVEE PHOTOVOLTAIC POWER LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ESCONET",
+      "Series": "SM",
+      "Security Name": "ESCONET TECHNOLOGIES LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -5644,13 +5658,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "SUDEEPPHRM",
-      "Series": "EQ",
-      "Security Name": "SUDEEP PHARMA LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "SUNFLAG",
       "Series": "EQ",
       "Security Name": "SUNFLAG IRON AND STEEL COMPANY LIMITED",
@@ -5756,16 +5763,16 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "YASHO",
-      "Series": "EQ",
-      "Security Name": "YASHO INDUSTRIES LIMITED",
+      "Symbol": "VMARCIND",
+      "Series": "SM",
+      "Security Name": "V MARC INDIA LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
     {
-      "Symbol": "ZENITHEXPO",
+      "Symbol": "YASHO",
       "Series": "EQ",
-      "Security Name": "ZENITH EXPORTS LIMITED",
+      "Security Name": "YASHO INDUSTRIES LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -6695,7 +6702,7 @@
     },
     {
       "Symbol": "ANNAPURNA",
-      "Series": "SM",
+      "Series": "EQ",
       "Security Name": "ANNAPURNA SWADISHT LIMITED",
       "Band": "20",
       "Remarks": "-"
@@ -6900,6 +6907,13 @@
       "Symbol": "ARCHIES",
       "Series": "EQ",
       "Security Name": "ARCHIES LIMITED",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ARDEE",
+      "Series": "EQ",
+      "Security Name": "ARDEE INDUSTRIES LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -10078,13 +10092,6 @@
       "Symbol": "ESABINDIA",
       "Series": "EQ",
       "Security Name": "ESAB INDIA LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "ESCONET",
-      "Series": "SM",
-      "Security Name": "ESCONET TECHNOLOGIES LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -21369,13 +21376,6 @@
       "Symbol": "VLSFINANCE",
       "Series": "EQ",
       "Security Name": "VLS FINANCE LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "VMARCIND",
-      "Series": "SM",
-      "Security Name": "V MARC INDIA LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
