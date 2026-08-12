@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-11",
+  "asOf": "2026-08-12",
   "stocks": [
     {
       "Symbol": "21STCENMGM",
@@ -306,6 +306,13 @@
       "Symbol": "VIJIFIN",
       "Series": "BE",
       "Security Name": "VIJI FINANCE LIMITED",
+      "Band": "2",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "VIPULLTD",
+      "Series": "BE",
+      "Security Name": "VIPUL LIMITED",
       "Band": "2",
       "Remarks": "-"
     },
@@ -1034,6 +1041,13 @@
       "Symbol": "CLEDUCATE",
       "Series": "BE",
       "Security Name": "CL EDUCATE LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "CLSL",
+      "Series": "ST",
+      "Security Name": "CROP LIFE SCIENCE LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -4545,13 +4559,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "VIPULLTD",
-      "Series": "BE",
-      "Security Name": "VIPUL LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "VISACHROME",
       "Series": "BE",
       "Security Name": "VISA CHROME LIMITED",
@@ -4685,13 +4692,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "XTRANET",
-      "Series": "BE",
-      "Security Name": "XTRANET TECHNOLOGIES LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "YUDIZ",
       "Series": "SM",
       "Security Name": "YUDIZ SOLUTIONS LIMITED",
@@ -4737,6 +4737,13 @@
       "Symbol": "ABDL",
       "Series": "EQ",
       "Security Name": "ALLIED BLENDERS AND DISTILLERS LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ABMINTLLTD",
+      "Series": "EQ",
+      "Security Name": "ABM INTERNATIONAL LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -5595,6 +5602,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "SHEKHAWATI",
+      "Series": "EQ",
+      "Security Name": "SHEKHAWATI INDUSTRIES LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "SHREEJISPG",
       "Series": "EQ",
       "Security Name": "SHREEJI SHIPPING GLOBAL LIMITED",
@@ -5962,13 +5976,6 @@
       "Symbol": "ABLBL",
       "Series": "EQ",
       "Security Name": "ADITYA BIRLA LIFESTYLE BRANDS LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "ABMINTLLTD",
-      "Series": "EQ",
-      "Security Name": "ABM INTERNATIONAL LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -8706,13 +8713,6 @@
       "Symbol": "CLSEL",
       "Series": "EQ",
       "Security Name": "CHAMAN LAL SETIA EXPORTS LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "CLSL",
-      "Series": "SM",
-      "Security Name": "CROP LIFE SCIENCE LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -18846,13 +18846,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "SHEKHAWATI",
-      "Series": "EQ",
-      "Security Name": "SHEKHAWATI INDUSTRIES LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "SHIGAN",
       "Series": "SM",
       "Security Name": "SHIGAN QUANTUM TECHNOLOGIES LIMITED",
@@ -20016,7 +20009,7 @@
     },
     {
       "Symbol": "SWARAJ",
-      "Series": "SM",
+      "Series": "EQ",
       "Security Name": "SWARAJ SUITING LIMITED",
       "Band": "20",
       "Remarks": "-"
@@ -21726,6 +21719,13 @@
       "Symbol": "XTGLOBAL",
       "Series": "EQ",
       "Security Name": "XTGLOBAL INFOTECH LIMITED",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "XTRANET",
+      "Series": "EQ",
+      "Security Name": "XTRANET TECHNOLOGIES LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
