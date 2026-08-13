@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-12",
+  "asOf": "2026-08-13",
   "stocks": [
     {
       "Symbol": "21STCENMGM",
@@ -328,6 +328,13 @@
       "Series": "BE",
       "Security Name": "VL E GOVERNANCE & IT SOLUTIONS LIMITED",
       "Band": "2",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "3IINFOLTD",
+      "Series": "BE",
+      "Security Name": "3I INFOTECH LIMITED",
+      "Band": "5",
       "Remarks": "-"
     },
     {
@@ -2067,13 +2074,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "INOXGREEN",
-      "Series": "BE",
-      "Security Name": "INOX GREEN ENERGY SERVICES LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "INSPIRE",
       "Series": "SM",
       "Security Name": "INSPIRE FILMS LIMITED",
@@ -3068,6 +3068,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "OPTIMYSTIX",
+      "Series": "ST",
+      "Security Name": "OPTIMYSTIX ENTERTAINMENT INDIA LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "OPTIVALUE",
       "Series": "ST",
       "Security Name": "OPTIVALUE TEK CONSULTING LIMITED",
@@ -3642,6 +3649,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "SEL",
+      "Series": "SM",
+      "Security Name": "SUNGARNER ENERGIES LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "SEMAC",
       "Series": "BE",
       "Security Name": "SEMAC CONSTRUCTION LIMITED",
@@ -3932,6 +3946,13 @@
       "Symbol": "SPEB",
       "Series": "ST",
       "Security Name": "SPEB ADHESIVES LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SPECIALITY",
+      "Series": "BE",
+      "Security Name": "SPECIALITY RESTAURANTS LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -5504,6 +5525,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "RHETAN",
+      "Series": "EQ",
+      "Security Name": "RHETAN TMT LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "RPSGVENT",
       "Series": "EQ",
       "Security Name": "RPSG VENTURES LIMITED",
@@ -5584,13 +5612,6 @@
       "Symbol": "SBIFUNDS",
       "Series": "EQ",
       "Security Name": "SBI FUNDS MANAGEMENT LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SEL",
-      "Series": "SM",
-      "Security Name": "SUNGARNER ENERGIES LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -5808,13 +5829,6 @@
       "Symbol": "3BBLACKBIO",
       "Series": "EQ",
       "Security Name": "3B BLACKBIO DX LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "3IINFOLTD",
-      "Series": "EQ",
-      "Security Name": "3I INFOTECH LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -12483,6 +12497,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "INOXGREEN",
+      "Series": "EQ",
+      "Security Name": "INOX GREEN ENERGY SERVICES LIMITED",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "INOXINDIA",
       "Series": "EQ",
       "Security Name": "INOX INDIA LIMITED",
@@ -13900,6 +13921,13 @@
       "Symbol": "LCL",
       "Series": "EQ",
       "Security Name": "LOHIA CORP LIMITED",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "LEAPIND",
+      "Series": "EQ",
+      "Security Name": "LEAP INDIA LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -17663,13 +17691,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "RHETAN",
-      "Series": "EQ",
-      "Security Name": "RHETAN TMT LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "RHIM",
       "Series": "EQ",
       "Security Name": "RHI MAGNESITA INDIA LTD",
@@ -19014,6 +19035,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "SHUKRAPHAR",
+      "Series": "EQ",
+      "Security Name": "SHUKRA PHARMACEUTICALS LIMITED",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "SHYAMMETL",
       "Series": "EQ",
       "Security Name": "SHYAM METALICS AND ENERGY LIMITED",
@@ -19486,13 +19514,6 @@
       "Symbol": "SPCON",
       "Series": "SM",
       "Security Name": "SRINIBAS PRADHAN CONSTRUCTIONS LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SPECIALITY",
-      "Series": "EQ",
-      "Security Name": "SPECIALITY RESTAURANTS LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -20284,6 +20305,13 @@
       "Symbol": "TECH",
       "Series": "EQ",
       "Security Name": "ADITYA BIRLA SUN LIFE MUTUAL FUND - ADITYA BIRLA SUN LIFE NIFTY IT ETF",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "TECHNOCRAF",
+      "Series": "EQ",
+      "Security Name": "TECHNOCRAFT VENTURES LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -21888,6 +21916,20 @@
       "Series": "EQ",
       "Security Name": "ZYDUS WELLNESS LIMITED",
       "Band": "20",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GENESYS-RE",
+      "Series": "BE",
+      "Security Name": "GENESYS INTERNATIONAL CORPORATION LIMITED-RE",
+      "Band": "40",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SHANTI-RE",
+      "Series": "BE",
+      "Security Name": "SHANTI GOLD INTERNATIONAL LIMITED-RE",
+      "Band": "40",
       "Remarks": "-"
     },
     {
