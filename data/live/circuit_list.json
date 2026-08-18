@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-17",
+  "asOf": "2026-08-18",
   "stocks": [
     {
       "Symbol": "21STCENMGM",
@@ -264,6 +264,13 @@
       "Symbol": "SWASTIK",
       "Series": "ST",
       "Security Name": "SWASTIK PIPE LIMITED",
+      "Band": "2",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "UCL",
+      "Series": "ST",
+      "Security Name": "USHANTI COLOUR CHEM LIMITED",
       "Band": "2",
       "Remarks": "-"
     },
@@ -3173,6 +3180,20 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "PRAMODINI",
+      "Series": "ST",
+      "Security Name": "PRAMODINI MEDICARE LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "PRAXIS",
+      "Series": "EQ",
+      "Security Name": "PRAXIS HOME RETAIL LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "PRECISION",
       "Series": "ST",
       "Security Name": "PRECISION METALIKS LIMITED",
@@ -4125,6 +4146,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "TEJA",
+      "Series": "SM",
+      "Security Name": "TEJA ENGINEERING INDUSTRIES LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "TEJASCARGO",
       "Series": "SM",
       "Security Name": "TEJAS CARGO INDIA LIMITED",
@@ -4249,13 +4277,6 @@
       "Security Name": "TV VISION LIMITED",
       "Band": "5",
       "Remarks": "GSM STAGE - 0"
-    },
-    {
-      "Symbol": "UCL",
-      "Series": "ST",
-      "Security Name": "USHANTI COLOUR CHEM LIMITED",
-      "Band": "5",
-      "Remarks": "-"
     },
     {
       "Symbol": "UEL",
@@ -5000,6 +5021,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "DOLPHIN",
+      "Series": "EQ",
+      "Security Name": "DOLPHIN OFFSHORE ENTERPRISES (INDIA) LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "DPEL",
       "Series": "SM",
       "Security Name": "DIVINE POWER ENERGY LIMITED",
@@ -5581,13 +5609,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "PRAXIS",
-      "Series": "EQ",
-      "Security Name": "PRAXIS HOME RETAIL LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "RBA",
       "Series": "EQ",
       "Security Name": "RESTAURANT BRANDS ASIA LIMITED",
@@ -5801,13 +5822,6 @@
       "Symbol": "TATACAP",
       "Series": "EQ",
       "Security Name": "TATA CAPITAL LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "TEJA",
-      "Series": "SM",
-      "Security Name": "TEJA ENGINEERING INDUSTRIES LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -8297,6 +8311,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "BLEL",
+      "Series": "EQ",
+      "Security Name": "BEHARI LAL ENGINEERING LIMITED",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "BLIL",
       "Series": "EQ",
       "Security Name": "BALMER LAWRIE INVESTMENTS LIMITED",
@@ -9861,13 +9882,6 @@
       "Symbol": "DOLLEX",
       "Series": "SM",
       "Security Name": "DOLLEX AGROTECH LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "DOLPHIN",
-      "Series": "EQ",
-      "Security Name": "DOLPHIN OFFSHORE ENTERPRISES (INDIA) LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -19679,6 +19693,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "SHIPROCKET",
+      "Series": "EQ",
+      "Security Name": "SHIPROCKET LIMITED",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "SHIVAAGRO",
       "Series": "EQ",
       "Security Name": "SHIVA GLOBAL AGRO INDUSTRIES LIMITED",
@@ -20459,13 +20480,6 @@
       "Symbol": "SSEGL",
       "Series": "SM",
       "Security Name": "SATHLOKHAR SYNERGYS E&C GLOBAL LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SSFLPP",
-      "Series": "E1",
-      "Security Name": "SPANDANA SPHOORTY FINANCIAL LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -22945,20 +22959,6 @@
       "Series": "EQ",
       "Security Name": "ZYDUS WELLNESS LIMITED",
       "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GENESYS-RE",
-      "Series": "BE",
-      "Security Name": "GENESYS INTERNATIONAL CORPORATION LIMITED-RE",
-      "Band": "40",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SHANTI-RE",
-      "Series": "BE",
-      "Security Name": "SHANTI GOLD INTERNATIONAL LIMITED-RE",
-      "Band": "40",
       "Remarks": "-"
     },
     {
