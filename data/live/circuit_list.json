@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-18",
+  "asOf": "2026-08-19",
   "stocks": [
     {
       "Symbol": "21STCENMGM",
@@ -506,6 +506,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "ALPHAGEO",
+      "Series": "BE",
+      "Security Name": "ALPHAGEO (INDIA) LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "AMANTA",
       "Series": "BE",
       "Security Name": "AMANTA HEALTHCARE LIMITED",
@@ -807,6 +814,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "BI",
+      "Series": "BE",
+      "Security Name": "BILCARE LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "BIKEWO",
       "Series": "ST",
       "Security Name": "BIKEWO GREEN TECH LIMITED",
@@ -1090,6 +1104,13 @@
       "Symbol": "CRAYONS",
       "Series": "SM",
       "Security Name": "CRAYONS ADVERTISING LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "CREDENT",
+      "Series": "ST",
+      "Security Name": "CREDENT CONNECT N CARE LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -1755,6 +1776,13 @@
       "Symbol": "GROWWLIQID",
       "Series": "EQ",
       "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY 1D RATE LIQUID ETF",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GSEC10ADD",
+      "Series": "EQ",
+      "Security Name": "DSP MUTUAL FUND - DSP NIFTY 10 YR BENCHMARK G-SEC ETF",
       "Band": "5",
       "Remarks": "-"
     },
@@ -2537,7 +2565,7 @@
     },
     {
       "Symbol": "MARINETRAN",
-      "Series": "SM",
+      "Series": "ST",
       "Security Name": "MARINETRANS INDIA LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -3530,6 +3558,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "SALSTEEL",
+      "Series": "EQ",
+      "Security Name": "S.A.L. STEEL LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "SAMAY",
       "Series": "ST",
       "Security Name": "SAMAY PROJECT SERVICES LIMITED",
@@ -3792,6 +3827,13 @@
       "Symbol": "SIDDHIKA",
       "Series": "SM",
       "Security Name": "SIDDHIKA COATINGS LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SIEL",
+      "Series": "EQ",
+      "Security Name": "SIEL LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -4279,6 +4321,13 @@
       "Remarks": "GSM STAGE - 0"
     },
     {
+      "Symbol": "UCAL",
+      "Series": "BE",
+      "Security Name": "UCAL LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "UEL",
       "Series": "EQ",
       "Security Name": "UJAAS ENERGY LIMITED",
@@ -4427,7 +4476,7 @@
     },
     {
       "Symbol": "VCL",
-      "Series": "EQ",
+      "Series": "BE",
       "Security Name": "VAXTEX COTFAB LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -4783,13 +4832,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "ALPHAGEO",
-      "Series": "EQ",
-      "Security Name": "ALPHAGEO (INDIA) LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "ANLON",
       "Series": "SM",
       "Security Name": "ANLON TECHNOLOGY SOLUTIONS LIMITED",
@@ -4884,13 +4926,6 @@
       "Symbol": "BHANDARI",
       "Series": "EQ",
       "Security Name": "BHANDARI HOSIERY EXPORTS LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "BI",
-      "Series": "EQ",
-      "Security Name": "BILCARE LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -5679,13 +5714,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "SALSTEEL",
-      "Series": "EQ",
-      "Security Name": "S.A.L. STEEL LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "SANATHAN",
       "Series": "EQ",
       "Security Name": "SANATHAN TEXTILES LIMITED",
@@ -5747,13 +5775,6 @@
       "Security Name": "SHYAM TELECOM LIMITED",
       "Band": "10",
       "Remarks": "GSM STAGE - 0"
-    },
-    {
-      "Symbol": "SIEL",
-      "Series": "EQ",
-      "Security Name": "SIEL LIMITED",
-      "Band": "10",
-      "Remarks": "-"
     },
     {
       "Symbol": "SIGIND",
@@ -14401,6 +14422,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "LARGEMID50",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET BSE LARGEMID (60:40) STABLE DIVIDEND 50 ETF",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "LASA",
       "Series": "EQ",
       "Security Name": "LASA SUPERGENERICS LIMITED",
@@ -16560,6 +16588,13 @@
       "Symbol": "NIFTYIETF",
       "Series": "EQ",
       "Security Name": "ICICI PRUDENTIAL NIFTY 50 ETF",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "NIFTYJBLK",
+      "Series": "EQ",
+      "Security Name": "JIO BLACKROCK MUTUAL FUND - JIO BLACKROCK NIFTY 50 ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -21782,13 +21817,6 @@
       "Symbol": "UBL",
       "Series": "EQ",
       "Security Name": "UNITED BREWERIES LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "UCAL",
-      "Series": "EQ",
-      "Security Name": "UCAL LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
