@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-19",
+  "asOf": "2026-08-20",
   "stocks": [
     {
       "Symbol": "21STCENMGM",
@@ -110,6 +110,13 @@
       "Symbol": "INNOMET",
       "Series": "ST",
       "Security Name": "INNOMET ADVANCED MATERIALS LIMITED",
+      "Band": "2",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "INVPRECQ",
+      "Series": "BE",
+      "Security Name": "INVESTMENT & PRECISION CASTINGS LIMITED",
       "Band": "2",
       "Remarks": "-"
     },
@@ -324,6 +331,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "AARNAV",
+      "Series": "BE",
+      "Security Name": "AARNAV FASHIONS LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "AARTECH",
       "Series": "BE",
       "Security Name": "AARTECH SOLONICS LIMITED",
@@ -523,6 +537,13 @@
       "Symbol": "AMBAAUTO",
       "Series": "SM",
       "Security Name": "AMBA AUTO SALES AND SERVICES LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "AMBALALSA",
+      "Series": "BE",
+      "Security Name": "AMBALAL SARABHAI ENTERPRISES LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -1864,6 +1885,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "HAPPYFORGE",
+      "Series": "EQ",
+      "Security Name": "HAPPY FORGINGS LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "HDFCLIQUID",
       "Series": "EQ",
       "Security Name": "HDFC NIFTY 1D RATE LIQUID ETF - GROWTH",
@@ -2056,13 +2084,6 @@
       "Symbol": "INTEGRITY",
       "Series": "ST",
       "Security Name": "INTEGRITY INFRABUILD DEVELOPERS LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "INVPRECQ",
-      "Series": "BE",
-      "Security Name": "INVESTMENT & PRECISION CASTINGS LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -3880,6 +3901,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "SKYTECH",
+      "Series": "ST",
+      "Security Name": "SKYTECH INFINITE PLATFORM LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "SLONE",
       "Series": "ST",
       "Security Name": "SLONE INFOSYSTEMS LIMITED",
@@ -5021,6 +5049,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "CRSL",
+      "Series": "EQ",
+      "Security Name": "CRESSANDA RAILWAY SOLUTIONS LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "DANGEE",
       "Series": "EQ",
       "Security Name": "DANGEE DUMS LIMITED",
@@ -5259,13 +5294,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "HAPPYFORGE",
-      "Series": "EQ",
-      "Security Name": "HAPPY FORGINGS LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "HBSL",
       "Series": "EQ",
       "Security Name": "HB STOCKHOLDINGS LIMITED",
@@ -5420,6 +5448,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "KOHINOOR",
+      "Series": "EQ",
+      "Security Name": "KOHINOOR FOODS LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "KSR",
       "Series": "EQ",
       "Security Name": "KSR FOOTWEAR LIMITED",
@@ -5518,6 +5553,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "MOREPENLAB",
+      "Series": "EQ",
+      "Security Name": "MOREPEN LABORATORIES LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "MSPL",
       "Series": "EQ",
       "Security Name": "MSP STEEL & POWER LIMITED",
@@ -5528,6 +5570,13 @@
       "Symbol": "MSTCLTD",
       "Series": "EQ",
       "Security Name": "MSTC LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MYSORPETRO",
+      "Series": "EQ",
+      "Security Name": "MYSORE PETROCHEMICALS LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -5668,6 +5717,13 @@
       "Symbol": "RHETAN",
       "Series": "EQ",
       "Security Name": "RHETAN TMT LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "RPEL",
+      "Series": "EQ",
+      "Security Name": "RAGHAV PRODUCTIVITY ENHANCERS LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -6046,13 +6102,6 @@
       "Symbol": "AARADHYA",
       "Series": "SM",
       "Security Name": "AARADHYA DISPOSAL INDUSTRIES LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "AARNAV",
-      "Series": "EQ",
-      "Security Name": "AARNAV FASHIONS LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -6809,13 +6858,6 @@
       "Symbol": "AMARJOTHI",
       "Series": "EQ",
       "Security Name": "AMARJOTHI SPINNING MILLS LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "AMBALALSA",
-      "Series": "EQ",
-      "Security Name": "AMBALAL SARABHAI ENTERPRISES LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -9322,13 +9364,6 @@
       "Symbol": "CROWN",
       "Series": "EQ",
       "Security Name": "CROWN LIFTERS LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "CRSL",
-      "Series": "EQ",
-      "Security Name": "CRESSANDA RAILWAY SOLUTIONS LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -13246,6 +13281,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "IVZBANKNF",
+      "Series": "EQ",
+      "Security Name": "INVESCO MUTUAL FUND - INVESCO INDIA NIFTY BANK ETF",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "IVZINGOLD",
       "Series": "EQ",
       "Security Name": "INVESCO INDIA GOLD EXCHANGE TRADED FUND",
@@ -13256,6 +13298,13 @@
       "Symbol": "IVZINNIFTY",
       "Series": "EQ",
       "Security Name": "INVESCO INDIA NIFTY 50 EXCHANGE TRADED FUND",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "IVZSENSEX",
+      "Series": "EQ",
+      "Security Name": "INVESCO MUTUAL FUND - INVESCO INDIA BSE SENSEX ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -14072,13 +14121,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "KOHINOOR",
-      "Series": "EQ",
-      "Security Name": "KOHINOOR FOODS LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "KOKUYOCMLN",
       "Series": "EQ",
       "Security Name": "KOKUYO CAMLIN LIMITED",
@@ -14424,7 +14466,7 @@
     {
       "Symbol": "LARGEMID50",
       "Series": "EQ",
-      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET BSE LARGEMID (60:40) STABLE DIVIDEND 50 ETF",
+      "Security Name": "MIRAE ASSET BSE LARGEMID (60:40) STABLE DIVIDEND 50 ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -15920,13 +15962,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "MOREPENLAB",
-      "Series": "EQ",
-      "Security Name": "MOREPEN LABORATORIES LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "MOSCHIP",
       "Series": "EQ",
       "Security Name": "MOSCHIP TECHNOLOGIES LIMITED",
@@ -16147,13 +16182,6 @@
       "Symbol": "MYMUDRA",
       "Series": "SM",
       "Security Name": "MY MUDRA FINCORP LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MYSORPETRO",
-      "Series": "EQ",
-      "Security Name": "MYSORE PETROCHEMICALS LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -16594,7 +16622,7 @@
     {
       "Symbol": "NIFTYJBLK",
       "Series": "EQ",
-      "Security Name": "JIO BLACKROCK MUTUAL FUND - JIO BLACKROCK NIFTY 50 ETF",
+      "Security Name": "JIO BLACKROCK MUTUAL FUND - JIOBLACKROCK NIFTY 50 ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -18685,13 +18713,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "RPEL",
-      "Series": "EQ",
-      "Security Name": "RAGHAV PRODUCTIVITY ENHANCERS LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "RPGLIFE",
       "Series": "EQ",
       "Security Name": "RPG LIFE SCIENCES LIMITED",
@@ -20725,6 +20746,13 @@
       "Symbol": "SUMMITSEC",
       "Series": "EQ",
       "Security Name": "SUMMIT SECURITIES LIMITED",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SUN-RE",
+      "Series": "ST",
+      "Security Name": "SUNREST LIFESCIENCE LIMITED-RE",
       "Band": "20",
       "Remarks": "-"
     },
@@ -22987,13 +23015,6 @@
       "Series": "EQ",
       "Security Name": "ZYDUS WELLNESS LIMITED",
       "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SUN-RE",
-      "Series": "ST",
-      "Security Name": "SUNREST LIFESCIENCE LIMITED-RE",
-      "Band": "40",
       "Remarks": "-"
     },
     {
