@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-25",
+  "asOf": "2026-08-26",
   "stocks": [
     {
       "Symbol": "21STCENMGM",
@@ -327,6 +327,13 @@
       "Symbol": "VIVIMEDLAB",
       "Series": "BE",
       "Security Name": "VIVIMED LABS LIMITED",
+      "Band": "2",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "WELINV",
+      "Series": "BE",
+      "Security Name": "WELSPUN INVESTMENTS AND COMMERCIALS LIMITED",
       "Band": "2",
       "Remarks": "-"
     },
@@ -1458,6 +1465,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "ELITECON",
+      "Series": "EQ",
+      "Security Name": "ELITECON INTERNATIONAL LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "EMAMIPAP",
       "Series": "BE",
       "Security Name": "EMAMI PAPER MILLS LIMITED",
@@ -2340,6 +2354,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "KOTARISUG",
+      "Series": "BE",
+      "Security Name": "KOTHARI SUGARS AND CHEMICALS LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "KOTYARK",
       "Series": "BE",
       "Security Name": "KOTYARK INDUSTRIES LIMITED",
@@ -2847,6 +2868,13 @@
       "Symbol": "MOXSH",
       "Series": "SM",
       "Security Name": "MOXSH OVERSEAS EDUCON LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MPDL",
+      "Series": "BE",
+      "Security Name": "MPDL LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -3565,6 +3593,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "S&SPOWER",
+      "Series": "EQ",
+      "Security Name": "S&S POWER SWITCHGEARS LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "SAAKSHI",
       "Series": "ST",
       "Security Name": "SAAKSHI MEDTECH AND PANELS LIMITED",
@@ -3936,6 +3971,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "SIMCA",
+      "Series": "ST",
+      "Security Name": "SIMCA ADVERTISING LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "SIMPLXREA",
       "Series": "EQ",
       "Security Name": "SIMPLEX REALTY LIMITED",
@@ -4128,6 +4170,13 @@
       "Symbol": "SUNDRMBRAK",
       "Series": "BE",
       "Security Name": "SUNDARAM BRAKE LININGS LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SUPTANERY",
+      "Series": "BE",
+      "Security Name": "SUPER TANNERY LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -4783,13 +4832,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "WELINV",
-      "Series": "BE",
-      "Security Name": "WELSPUN INVESTMENTS AND COMMERCIALS LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "WINNY",
       "Series": "SM",
       "Security Name": "WINNY IMMIGRATION & EDUCATION SERVICES LIMITED",
@@ -5189,13 +5231,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "ELITECON",
-      "Series": "EQ",
-      "Security Name": "ELITECON INTERNATIONAL LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "ELLEN",
       "Series": "EQ",
       "Security Name": "ELLENBARRIE INDUSTRIAL GASES LIMITED",
@@ -5511,9 +5546,9 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "KOTARISUG",
-      "Series": "EQ",
-      "Security Name": "KOTHARI SUGARS AND CHEMICALS LIMITED",
+      "Symbol": "KORE",
+      "Series": "SM",
+      "Security Name": "JAY JALARAM TECHNOLOGIES LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -5640,13 +5675,6 @@
       "Symbol": "MOREPENLAB",
       "Series": "EQ",
       "Security Name": "MOREPEN LABORATORIES LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MPDL",
-      "Series": "EQ",
-      "Security Name": "MPDL LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -5798,6 +5826,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "RAMBHAJO",
+      "Series": "EQ",
+      "Security Name": "ADVIT JEWELS LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "RBA",
       "Series": "EQ",
       "Security Name": "RESTAURANT BRANDS ASIA LIMITED",
@@ -5857,13 +5892,6 @@
       "Symbol": "RRECL",
       "Series": "EQ",
       "Security Name": "RDB REAL ESTATE CONSTRUCTIONS LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "S&SPOWER",
-      "Series": "EQ",
-      "Security Name": "S&S POWER SWITCHGEARS LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -6018,13 +6046,6 @@
       "Symbol": "SUNFLAG",
       "Series": "EQ",
       "Security Name": "SUNFLAG IRON AND STEEL COMPANY LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SUPTANERY",
-      "Series": "EQ",
-      "Security Name": "SUPER TANNERY LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -14240,13 +14261,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "KORE",
-      "Series": "SM",
-      "Security Name": "JAY JALARAM TECHNOLOGIES LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "KOTHARIPET",
       "Series": "EQ",
       "Security Name": "KOTHARI PETROCHEMICALS LIMITED",
@@ -18286,13 +18300,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "RAMBHAJO",
-      "Series": "EQ",
-      "Security Name": "ADVIT JEWELS LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "RAMCOCEM",
       "Series": "EQ",
       "Security Name": "THE RAMCO CEMENTS LIMITED",
@@ -20102,13 +20109,6 @@
       "Symbol": "SILVERIETF",
       "Series": "EQ",
       "Security Name": "ICICI PRUDENTIAL MUTUAL FUND - ICICI PRUDENTIAL SILVER ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SIMCA",
-      "Series": "SM",
-      "Security Name": "SIMCA ADVERTISING LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -23036,6 +23036,13 @@
       "Series": "EQ",
       "Security Name": "ZYDUS WELLNESS LIMITED",
       "Band": "20",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "KSHITIJ-RE",
+      "Series": "BE",
+      "Security Name": "KSHITIJ POLYLINE LIMITED-RE",
+      "Band": "40",
       "Remarks": "-"
     },
     {
