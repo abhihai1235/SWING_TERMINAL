@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-26",
+  "asOf": "2026-08-27",
   "stocks": [
     {
       "Symbol": "21STCENMGM",
@@ -16,11 +16,25 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "ABMINTLLTD",
+      "Series": "BE",
+      "Security Name": "ABM INTERNATIONAL LIMITED",
+      "Band": "2",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "AMANTA",
       "Series": "BE",
       "Security Name": "AMANTA HEALTHCARE LIMITED",
       "Band": "2",
       "Remarks": "-"
+    },
+    {
+      "Symbol": "ANKITMETAL",
+      "Series": "BZ",
+      "Security Name": "ANKIT METAL & POWER LIMITED",
+      "Band": "2",
+      "Remarks": "GSM STAGE - 0"
     },
     {
       "Symbol": "ANSALAPI",
@@ -310,6 +324,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "UMAEXPORTS",
+      "Series": "BE",
+      "Security Name": "UMA EXPORTS LIMITED",
+      "Band": "2",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "VIJIFIN",
       "Series": "BE",
       "Security Name": "VIJI FINANCE LIMITED",
@@ -397,13 +418,6 @@
       "Symbol": "ABINFRA",
       "Series": "BE",
       "Security Name": "A B INFRABUILD LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "ABMINTLLTD",
-      "Series": "BE",
-      "Security Name": "ABM INTERNATIONAL LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -602,13 +616,6 @@
       "Security Name": "AMEYA PRECISION ENGINEERS LIMITED",
       "Band": "5",
       "Remarks": "-"
-    },
-    {
-      "Symbol": "ANKITMETAL",
-      "Series": "BZ",
-      "Security Name": "ANKIT METAL & POWER LIMITED",
-      "Band": "5",
-      "Remarks": "GSM STAGE - 0"
     },
     {
       "Symbol": "AONELIQUID",
@@ -1059,11 +1066,11 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "CLCIND",
-      "Series": "BE",
-      "Security Name": "CLC INDUSTRIES LIMITED",
+      "Symbol": "CLASSICEIL",
+      "Series": "SM",
+      "Security Name": "CLASSIC ELECTRODES (INDIA) LIMITED",
       "Band": "5",
-      "Remarks": "GSM STAGE - II"
+      "Remarks": "-"
     },
     {
       "Symbol": "CLEDUCATE",
@@ -2984,6 +2991,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "NECLIFE",
+      "Series": "EQ",
+      "Security Name": "NECTAR LIFESCIENCES LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "NEELAM",
       "Series": "SM",
       "Security Name": "NEELAM LINENS AND GARMENTS (INDIA) LIMITED",
@@ -3113,13 +3127,6 @@
       "Symbol": "ONYX",
       "Series": "ST",
       "Security Name": "ONYX BIOTEC LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "OPTIMYSTIX",
-      "Series": "ST",
-      "Security Name": "OPTIMYSTIX ENTERTAINMENT INDIA LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -3390,6 +3397,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "PVP",
+      "Series": "EQ",
+      "Security Name": "PVP VENTURES LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "QFIL",
       "Series": "SM",
       "Security Name": "QUALITY FOILS (INDIA) LIMITED",
@@ -3615,7 +3629,7 @@
     },
     {
       "Symbol": "SABAR",
-      "Series": "SM",
+      "Series": "ST",
       "Security Name": "SABAR FLEX INDIA LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -3659,6 +3673,13 @@
       "Symbol": "SAMAY",
       "Series": "ST",
       "Security Name": "SAMAY PROJECT SERVICES LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SAMBANDAM",
+      "Series": "EQ",
+      "Security Name": "SAMBANDAM SPINNING MILLS LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -3944,7 +3965,7 @@
     },
     {
       "Symbol": "SIGMAADV",
-      "Series": "EQ",
+      "Series": "BE",
       "Security Name": "SIGMA ADVANCED SYSTEMS LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -4272,6 +4293,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "TAURIAN",
+      "Series": "ST",
+      "Security Name": "TAURIAN MPS LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "TCIFINANCE",
       "Series": "BE",
       "Security Name": "TCI FINANCE LIMITED",
@@ -4468,13 +4496,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "UMAEXPORTS",
-      "Series": "BE",
-      "Security Name": "UMA EXPORTS LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "UNIDT",
       "Series": "BE",
       "Security Name": "UNITED DRILLING TOOLS LIMITED",
@@ -4553,7 +4574,7 @@
     },
     {
       "Symbol": "VALIANTLAB",
-      "Series": "EQ",
+      "Series": "BE",
       "Security Name": "VALIANT LABORATORIES LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -4846,6 +4867,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "WOMANCART",
+      "Series": "ST",
+      "Security Name": "WOMANCART LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "YUDIZ",
       "Series": "SM",
       "Security Name": "YUDIZ SOLUTIONS LIMITED",
@@ -5091,13 +5119,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "CLASSICEIL",
-      "Series": "SM",
-      "Security Name": "CLASSIC ELECTRODES (INDIA) LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "CMRGREEN",
       "Series": "EQ",
       "Security Name": "CMR GREEN TECHNOLOGIES LIMITED",
@@ -5129,6 +5150,13 @@
       "Symbol": "DANGEE",
       "Series": "EQ",
       "Security Name": "DANGEE DUMS LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "DAVANGERE",
+      "Series": "EQ",
+      "Security Name": "DAVANGERE SUGAR COMPANY LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -5700,9 +5728,9 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "NECLIFE",
+      "Symbol": "NATCAPSUQ",
       "Series": "EQ",
-      "Security Name": "NECTAR LIFESCIENCES LIMITED",
+      "Security Name": "NATURAL CAPSULES LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -5819,13 +5847,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "PVP",
-      "Series": "EQ",
-      "Security Name": "PVP VENTURES LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "RAMBHAJO",
       "Series": "EQ",
       "Security Name": "ADVIT JEWELS LIMITED",
@@ -5913,13 +5934,6 @@
       "Symbol": "SAKUMA",
       "Series": "EQ",
       "Security Name": "SAKUMA EXPORTS LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SAMBANDAM",
-      "Series": "EQ",
-      "Security Name": "SAMBANDAM SPINNING MILLS LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -9606,6 +9620,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "DALBHARAT",
+      "Series": "EQ",
+      "Security Name": "DALMIA BHARAT LIMITED",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "DALMIASUG",
       "Series": "EQ",
       "Security Name": "DALMIA BHARAT SUGAR AND INDUSTRIES LIMITED",
@@ -9637,13 +9658,6 @@
       "Symbol": "DATAPATTNS",
       "Series": "EQ",
       "Security Name": "DATA PATTERNS (INDIA) LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "DAVANGERE",
-      "Series": "EQ",
-      "Security Name": "DAVANGERE SUGAR COMPANY LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -16291,13 +16305,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "NATCAPSUQ",
-      "Series": "EQ",
-      "Security Name": "NATURAL CAPSULES LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "NATCOPHARM",
       "Series": "EQ",
       "Security Name": "NATCO PHARMA LIMITED",
@@ -16609,6 +16616,13 @@
       "Symbol": "NIF100IETF",
       "Series": "EQ",
       "Security Name": "ICICI PRUDENTIAL NIFTY 100 ETF",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "NIF500BETA",
+      "Series": "EQ",
+      "Security Name": "UTI MUTUAL FUND - UTI NIFTY 500 EXCHANGE TRADED FUND",
       "Band": "20",
       "Remarks": "-"
     },
@@ -17085,6 +17099,13 @@
       "Symbol": "OPTIFIN",
       "Series": "EQ",
       "Security Name": "OPTIMUS FINANCE LIMITED",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "OPTIMYSTIX",
+      "Series": "SM",
+      "Security Name": "OPTIMYSTIX ENTERTAINMENT INDIA LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -21219,13 +21240,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "TAURIAN",
-      "Series": "SM",
-      "Security Name": "TAURIAN MPS LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "TBI",
       "Series": "SM",
       "Security Name": "TBI CORN LIMITED",
@@ -21348,6 +21362,13 @@
       "Symbol": "TEMBO",
       "Series": "EQ",
       "Security Name": "TEMBO GLOBAL INDUSTRIES LIMITED",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "TEMPSENS",
+      "Series": "EQ",
+      "Security Name": "TEMPSENS INSTRUMENTS (INDIA) LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -22780,13 +22801,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "WOMANCART",
-      "Series": "SM",
-      "Security Name": "WOMANCART LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "WONDERLA",
       "Series": "EQ",
       "Security Name": "WONDERLA HOLIDAYS LIMITED",
@@ -23041,7 +23055,7 @@
     {
       "Symbol": "KSHITIJ-RE",
       "Series": "BE",
-      "Security Name": "KSHITIJ POLYLINE LIMITED-RE",
+      "Security Name": "KSHITIJ POLYLINE LTD-RE",
       "Band": "40",
       "Remarks": "-"
     },
@@ -23413,13 +23427,6 @@
       "Symbol": "DABUR",
       "Series": "EQ",
       "Security Name": "DABUR INDIA LIMITED",
-      "Band": "No Band",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "DALBHARAT",
-      "Series": "EQ",
-      "Security Name": "DALMIA BHARAT LIMITED",
       "Band": "No Band",
       "Remarks": "-"
     },
