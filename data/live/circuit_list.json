@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-02",
+  "asOf": "2026-09-03",
   "stocks": [
     {
       "Symbol": "21STCENMGM",
@@ -341,6 +341,13 @@
       "Symbol": "UMAEXPORTS",
       "Series": "BE",
       "Security Name": "UMA EXPORTS LIMITED",
+      "Band": "2",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "URAVIDEF",
+      "Series": "BE",
+      "Security Name": "URAVI DEFENCE AND TECHNOLOGY LIMITED",
       "Band": "2",
       "Remarks": "-"
     },
@@ -3222,6 +3229,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "PAR",
+      "Series": "BE",
+      "Security Name": "PAR DRUGS AND CHEMICALS LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "PARAMOUNT",
       "Series": "SM",
       "Security Name": "PARAMOUNT DYE TEC LIMITED",
@@ -3372,6 +3386,13 @@
       "Symbol": "PRIMECAB",
       "Series": "ST",
       "Security Name": "PRIME CABLE INDUSTRIES LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "PRIORITY",
+      "Series": "BE",
+      "Security Name": "PRIORITY JEWELS LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -4034,13 +4055,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "SKYTECH",
-      "Series": "ST",
-      "Security Name": "SKYTECH INFINITE PLATFORM LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "SLONE",
       "Series": "ST",
       "Security Name": "SLONE INFOSYSTEMS LIMITED",
@@ -4226,6 +4240,13 @@
       "Symbol": "SUNDRMBRAK",
       "Series": "BE",
       "Security Name": "SUNDARAM BRAKE LININGS LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SUNTECH",
+      "Series": "SM",
+      "Security Name": "SUNTECH INFRA SOLUTIONS LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -4419,6 +4440,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "TIJARIA",
+      "Series": "BE",
+      "Security Name": "TIJARIA POLYPIPES LIMITED",
+      "Band": "5",
+      "Remarks": "GSM STAGE - 0"
+    },
+    {
       "Symbol": "TIL",
       "Series": "BE",
       "Security Name": "TIL LIMITED",
@@ -4555,13 +4583,6 @@
       "Symbol": "UPHOT",
       "Series": "EQ",
       "Security Name": "U P HOTELS LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "URAVIDEF",
-      "Series": "BE",
-      "Security Name": "URAVI DEFENCE AND TECHNOLOGY LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -4968,6 +4989,13 @@
       "Symbol": "AJAXENGG",
       "Series": "EQ",
       "Security Name": "AJAX ENGINEERING LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "AKI",
+      "Series": "EQ",
+      "Security Name": "AKI INDIA LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -5840,13 +5868,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "PAR",
-      "Series": "EQ",
-      "Security Name": "PAR DRUGS AND CHEMICALS LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "PARACABLES",
       "Series": "EQ",
       "Security Name": "PARAMOUNT COMMUNICATIONS LIMITED",
@@ -5864,6 +5885,13 @@
       "Symbol": "PARKHOSPS",
       "Series": "EQ",
       "Security Name": "PARK MEDI WORLD LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "PENTAGON",
+      "Series": "SM",
+      "Security Name": "PENTAGON RUBBER LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -6071,6 +6099,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "SKYTECH",
+      "Series": "SM",
+      "Security Name": "SKYTECH INFINITE PLATFORM LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "SMLMAH",
       "Series": "EQ",
       "Security Name": "SML MAHINDRA LIMITED",
@@ -6116,13 +6151,6 @@
       "Symbol": "SUNFLAG",
       "Series": "EQ",
       "Security Name": "SUNFLAG IRON AND STEEL COMPANY LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SUNTECH",
-      "Series": "SM",
-      "Security Name": "SUNTECH INFRA SOLUTIONS LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -6914,13 +6942,6 @@
       "Symbol": "AKG",
       "Series": "EQ",
       "Security Name": "AKG EXIM LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "AKI",
-      "Series": "EQ",
-      "Security Name": "AKI INDIA LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -10785,6 +10806,13 @@
       "Symbol": "ESCORTS",
       "Series": "EQ",
       "Security Name": "ESCORTS KUBOTA LIMITED",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ESDS",
+      "Series": "EQ",
+      "Security Name": "ESDS SOFTWARE SOLUTION LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -17551,13 +17579,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "PENTAGON",
-      "Series": "SM",
-      "Security Name": "PENTAGON RUBBER LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "PERMAGN",
       "Series": "EQ",
       "Security Name": "PERMANENT MAGNETS LIMITED",
@@ -21597,13 +21618,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "TIJARIA",
-      "Series": "EQ",
-      "Security Name": "TIJARIA POLYPIPES LIMITED",
-      "Band": "20",
-      "Remarks": "GSM STAGE - 0"
-    },
-    {
       "Symbol": "TIMETECHNO",
       "Series": "EQ",
       "Security Name": "TIME TECHNOPLAST LIMITED",
@@ -23132,21 +23146,14 @@
     {
       "Symbol": "DUCON-RE1",
       "Series": "BE",
-      "Security Name": "DUCON INFRATECHNOLOGIES LIMITED-RE",
-      "Band": "40",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "RATNA-RE",
-      "Series": "BE",
-      "Security Name": "RATNAVEER PRECISION ENGINEERING LIMITED-RE",
+      "Security Name": "DUCON INFRATECH LTD-RE",
       "Band": "40",
       "Remarks": "-"
     },
     {
       "Symbol": "VHLTD-RE1",
       "Series": "BE",
-      "Security Name": "VICEROY HOTELS LIMITED-RE",
+      "Security Name": "VICEROY HOTELS LTD-RE",
       "Band": "40",
       "Remarks": "-"
     },
