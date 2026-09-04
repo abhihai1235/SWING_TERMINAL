@@ -1,4 +1,105 @@
 {
-  "asOf": "2026-09-03",
-  "winners": []
+  "asOf": "2026-09-04",
+  "winners": [
+    {
+      "symbol": "PVP",
+      "returnPct": 95.6
+    },
+    {
+      "symbol": "TBZ",
+      "returnPct": 76.1
+    },
+    {
+      "symbol": "BIRLAPREC",
+      "returnPct": 65.2
+    },
+    {
+      "symbol": "DOLPHIN",
+      "returnPct": 64.0
+    },
+    {
+      "symbol": "AKI",
+      "returnPct": 61.2
+    },
+    {
+      "symbol": "OMAXE",
+      "returnPct": 57.8
+    },
+    {
+      "symbol": "LANCORHOL",
+      "returnPct": 56.6
+    },
+    {
+      "symbol": "INDSWFTLAB",
+      "returnPct": 55.8
+    },
+    {
+      "symbol": "SHANTIGEAR",
+      "returnPct": 54.7
+    },
+    {
+      "symbol": "SYNCOMF",
+      "returnPct": 53.0
+    },
+    {
+      "symbol": "PRABHA",
+      "returnPct": 49.1
+    },
+    {
+      "symbol": "RATNAVEER",
+      "returnPct": 47.9
+    },
+    {
+      "symbol": "JINDWORLD",
+      "returnPct": 47.7
+    },
+    {
+      "symbol": "ARIES",
+      "returnPct": 47.4
+    },
+    {
+      "symbol": "ENTERO",
+      "returnPct": 47.1
+    },
+    {
+      "symbol": "SETL",
+      "returnPct": 45.5
+    },
+    {
+      "symbol": "RAMBHAJO",
+      "returnPct": 45.1
+    },
+    {
+      "symbol": "RPEL",
+      "returnPct": 43.8
+    },
+    {
+      "symbol": "KOHINOOR",
+      "returnPct": 42.2
+    },
+    {
+      "symbol": "MANINDS",
+      "returnPct": 42.1
+    },
+    {
+      "symbol": "KENNAMET",
+      "returnPct": 41.7
+    },
+    {
+      "symbol": "MOREPENLAB",
+      "returnPct": 41.7
+    },
+    {
+      "symbol": "WELCORP",
+      "returnPct": 40.8
+    },
+    {
+      "symbol": "SUDEEPPHRM",
+      "returnPct": 38.8
+    },
+    {
+      "symbol": "UFLEX",
+      "returnPct": 38.2
+    }
+  ]
 }

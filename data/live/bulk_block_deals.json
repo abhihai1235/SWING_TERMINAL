@@ -1,910 +1,778 @@
 {
-  "asOf": "2026-09-03",
+  "asOf": "2026-09-04",
   "bulk_deals": [
     {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ALOKINDS",
-      "BD_SCRIP_NAME": "Alok Industries Limited",
-      "BD_CLIENT_NAME": "JM FINANCIAL ASSET RECONSTRUCTION COMPANY LIMITED",
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "AKI",
+      "BD_SCRIP_NAME": "AKI India Limited",
+      "BD_CLIENT_NAME": "S A CAPITALS",
+      "BD_BUY_SELL": "BUY",
+      "BD_QTY_TRD": 550000,
+      "BD_TP_WATP": 6.57,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "ALEMBICLTD",
+      "BD_SCRIP_NAME": "Alembic Limited",
+      "BD_CLIENT_NAME": "MICROCURVES TRADING PRIVATE LIMITED",
+      "BD_BUY_SELL": "BUY",
+      "BD_QTY_TRD": 1866187,
+      "BD_TP_WATP": 113.87,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "ALEMBICLTD",
+      "BD_SCRIP_NAME": "Alembic Limited",
+      "BD_CLIENT_NAME": "MICROCURVES TRADING PRIVATE LIMITED",
       "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 35000000,
-      "BD_TP_WATP": 7.44,
+      "BD_QTY_TRD": 1866187,
+      "BD_TP_WATP": 113.99,
       "BD_REMARKS": "-"
     },
     {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ANNU",
-      "BD_SCRIP_NAME": "Annu Projects Limited",
-      "BD_CLIENT_NAME": "CHANAKYA OPPORTUNITIES FUND I",
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "ALEMBICLTD",
+      "BD_SCRIP_NAME": "Alembic Limited",
+      "BD_CLIENT_NAME": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+      "BD_BUY_SELL": "BUY",
+      "BD_QTY_TRD": 1446441,
+      "BD_TP_WATP": 113.11,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "ALEMBICLTD",
+      "BD_SCRIP_NAME": "Alembic Limited",
+      "BD_CLIENT_NAME": "NK SECURITIES RESEARCH PRIVATE LIMITED",
       "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 668650,
-      "BD_TP_WATP": 75.6,
+      "BD_QTY_TRD": 1446441,
+      "BD_TP_WATP": 113.15,
       "BD_REMARKS": "-"
     },
     {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ANNU",
-      "BD_SCRIP_NAME": "Annu Projects Limited",
-      "BD_CLIENT_NAME": "INDUBALA MUKESHCHAND JAIN",
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "ANTELOPUS",
+      "BD_SCRIP_NAME": "Antelopus Selan Enrgy Ltd",
+      "BD_CLIENT_NAME": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+      "BD_BUY_SELL": "SELL",
+      "BD_QTY_TRD": 263078,
+      "BD_TP_WATP": 1018.91,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "ANTELOPUS",
+      "BD_SCRIP_NAME": "Antelopus Selan Enrgy Ltd",
+      "BD_CLIENT_NAME": "ALPHAGREP SECURITIES PRIVATE LIMITED",
       "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 467000,
-      "BD_TP_WATP": 72,
+      "BD_QTY_TRD": 263078,
+      "BD_TP_WATP": 1018.59,
       "BD_REMARKS": "-"
     },
     {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ANNU",
-      "BD_SCRIP_NAME": "Annu Projects Limited",
-      "BD_CLIENT_NAME": "MUKESH CHAND JAIN",
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "ANTELOPUS",
+      "BD_SCRIP_NAME": "Antelopus Selan Enrgy Ltd",
+      "BD_CLIENT_NAME": "BLITZQUANT RESEARCH LLP",
       "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 825000,
-      "BD_TP_WATP": 72,
+      "BD_QTY_TRD": 266770,
+      "BD_TP_WATP": 1028.42,
       "BD_REMARKS": "-"
     },
     {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ANNU",
-      "BD_SCRIP_NAME": "Annu Projects Limited",
-      "BD_CLIENT_NAME": "PR ENERGY AND MINCHEM PRIVATE LIMITED",
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "ANTELOPUS",
+      "BD_SCRIP_NAME": "Antelopus Selan Enrgy Ltd",
+      "BD_CLIENT_NAME": "BLITZQUANT RESEARCH LLP",
+      "BD_BUY_SELL": "SELL",
+      "BD_QTY_TRD": 266770,
+      "BD_TP_WATP": 1028.82,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "ANTELOPUS",
+      "BD_SCRIP_NAME": "Antelopus Selan Enrgy Ltd",
+      "BD_CLIENT_NAME": "DIPAN MEHTA COMMODITIES PRIVATE LIMITED",
       "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 600000,
-      "BD_TP_WATP": 72,
+      "BD_QTY_TRD": 355341,
+      "BD_TP_WATP": 1018.42,
       "BD_REMARKS": "-"
     },
     {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "ANTELOPUS",
+      "BD_SCRIP_NAME": "Antelopus Selan Enrgy Ltd",
+      "BD_CLIENT_NAME": "DIPAN MEHTA COMMODITIES PRIVATE LIMITED",
+      "BD_BUY_SELL": "SELL",
+      "BD_QTY_TRD": 362474,
+      "BD_TP_WATP": 1020.96,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "ANTELOPUS",
+      "BD_SCRIP_NAME": "Antelopus Selan Enrgy Ltd",
+      "BD_CLIENT_NAME": "ELIXIR WEALTH MANAGEMENT PRIVATE LIMITED",
+      "BD_BUY_SELL": "SELL",
+      "BD_QTY_TRD": 553959,
+      "BD_TP_WATP": 1020.86,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "ANTELOPUS",
+      "BD_SCRIP_NAME": "Antelopus Selan Enrgy Ltd",
+      "BD_CLIENT_NAME": "ELIXIR WEALTH MANAGEMENT PRIVATE LIMITED",
+      "BD_BUY_SELL": "BUY",
+      "BD_QTY_TRD": 555880,
+      "BD_TP_WATP": 1018.57,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
       "BD_SYMBOL": "ANTELOPUS",
       "BD_SCRIP_NAME": "Antelopus Selan Enrgy Ltd",
       "BD_CLIENT_NAME": "GRT STRATEGIC VENTURES LLP",
       "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 252850,
-      "BD_TP_WATP": 900.11,
+      "BD_QTY_TRD": 371108,
+      "BD_TP_WATP": 1024.86,
       "BD_REMARKS": "-"
     },
     {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
       "BD_SYMBOL": "ANTELOPUS",
       "BD_SCRIP_NAME": "Antelopus Selan Enrgy Ltd",
       "BD_CLIENT_NAME": "GRT STRATEGIC VENTURES LLP",
       "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 252850,
-      "BD_TP_WATP": 900.45,
+      "BD_QTY_TRD": 371108,
+      "BD_TP_WATP": 1025.28,
       "BD_REMARKS": "-"
     },
     {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "ANTELOPUS",
+      "BD_SCRIP_NAME": "Antelopus Selan Enrgy Ltd",
+      "BD_CLIENT_NAME": "HRTI PRIVATE LIMITED",
+      "BD_BUY_SELL": "SELL",
+      "BD_QTY_TRD": 166110,
+      "BD_TP_WATP": 1014.86,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "ANTELOPUS",
+      "BD_SCRIP_NAME": "Antelopus Selan Enrgy Ltd",
+      "BD_CLIENT_NAME": "HRTI PRIVATE LIMITED",
+      "BD_BUY_SELL": "BUY",
+      "BD_QTY_TRD": 180440,
+      "BD_TP_WATP": 1011.89,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "ANTELOPUS",
+      "BD_SCRIP_NAME": "Antelopus Selan Enrgy Ltd",
+      "BD_CLIENT_NAME": "IRAGE BROKING SERVICES LLP",
+      "BD_BUY_SELL": "SELL",
+      "BD_QTY_TRD": 261716,
+      "BD_TP_WATP": 1024.38,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "ANTELOPUS",
+      "BD_SCRIP_NAME": "Antelopus Selan Enrgy Ltd",
+      "BD_CLIENT_NAME": "IRAGE BROKING SERVICES LLP",
+      "BD_BUY_SELL": "BUY",
+      "BD_QTY_TRD": 470209,
+      "BD_TP_WATP": 1022.63,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
       "BD_SYMBOL": "ANTELOPUS",
       "BD_SCRIP_NAME": "Antelopus Selan Enrgy Ltd",
       "BD_CLIENT_NAME": "JUNOMONETA FINSOL PRIVATE LIMITED",
       "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 477798,
-      "BD_TP_WATP": 899.19,
+      "BD_QTY_TRD": 754663,
+      "BD_TP_WATP": 1019.89,
       "BD_REMARKS": "-"
     },
     {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
       "BD_SYMBOL": "ANTELOPUS",
       "BD_SCRIP_NAME": "Antelopus Selan Enrgy Ltd",
       "BD_CLIENT_NAME": "JUNOMONETA FINSOL PRIVATE LIMITED",
       "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 493439,
-      "BD_TP_WATP": 900.39,
+      "BD_QTY_TRD": 763598,
+      "BD_TP_WATP": 1019.41,
       "BD_REMARKS": "-"
     },
     {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
       "BD_SYMBOL": "ANTELOPUS",
       "BD_SCRIP_NAME": "Antelopus Selan Enrgy Ltd",
       "BD_CLIENT_NAME": "MICROCURVES TRADING PRIVATE LIMITED",
       "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 831463,
-      "BD_TP_WATP": 900.6,
+      "BD_QTY_TRD": 1329277,
+      "BD_TP_WATP": 1021.83,
       "BD_REMARKS": "-"
     },
     {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
       "BD_SYMBOL": "ANTELOPUS",
       "BD_SCRIP_NAME": "Antelopus Selan Enrgy Ltd",
       "BD_CLIENT_NAME": "MICROCURVES TRADING PRIVATE LIMITED",
       "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 831463,
-      "BD_TP_WATP": 900.1,
+      "BD_QTY_TRD": 1329277,
+      "BD_TP_WATP": 1021.09,
       "BD_REMARKS": "-"
     },
     {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "ANTELOPUS",
+      "BD_SCRIP_NAME": "Antelopus Selan Enrgy Ltd",
+      "BD_CLIENT_NAME": "MUSIGMA SECURITIES",
+      "BD_BUY_SELL": "SELL",
+      "BD_QTY_TRD": 178010,
+      "BD_TP_WATP": 1023.41,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "ANTELOPUS",
+      "BD_SCRIP_NAME": "Antelopus Selan Enrgy Ltd",
+      "BD_CLIENT_NAME": "MUSIGMA SECURITIES",
+      "BD_BUY_SELL": "BUY",
+      "BD_QTY_TRD": 178010,
+      "BD_TP_WATP": 1023.1,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "ANTELOPUS",
+      "BD_SCRIP_NAME": "Antelopus Selan Enrgy Ltd",
+      "BD_CLIENT_NAME": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+      "BD_BUY_SELL": "SELL",
+      "BD_QTY_TRD": 768314,
+      "BD_TP_WATP": 1021.3,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
       "BD_SYMBOL": "ANTELOPUS",
       "BD_SCRIP_NAME": "Antelopus Selan Enrgy Ltd",
       "BD_CLIENT_NAME": "NK SECURITIES RESEARCH PRIVATE LIMITED",
       "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 496962,
-      "BD_TP_WATP": 899.49,
+      "BD_QTY_TRD": 768314,
+      "BD_TP_WATP": 1020.77,
       "BD_REMARKS": "-"
     },
     {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
       "BD_SYMBOL": "ANTELOPUS",
       "BD_SCRIP_NAME": "Antelopus Selan Enrgy Ltd",
+      "BD_CLIENT_NAME": "QE SECURITIES LLP",
+      "BD_BUY_SELL": "BUY",
+      "BD_QTY_TRD": 593062,
+      "BD_TP_WATP": 1018.34,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "ANTELOPUS",
+      "BD_SCRIP_NAME": "Antelopus Selan Enrgy Ltd",
+      "BD_CLIENT_NAME": "QE SECURITIES LLP",
+      "BD_BUY_SELL": "SELL",
+      "BD_QTY_TRD": 594719,
+      "BD_TP_WATP": 1017.61,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "ANTELOPUS",
+      "BD_SCRIP_NAME": "Antelopus Selan Enrgy Ltd",
+      "BD_CLIENT_NAME": "SANJAY KUMAR GUPTA",
+      "BD_BUY_SELL": "BUY",
+      "BD_QTY_TRD": 214079,
+      "BD_TP_WATP": 1015.33,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "ANTELOPUS",
+      "BD_SCRIP_NAME": "Antelopus Selan Enrgy Ltd",
+      "BD_CLIENT_NAME": "SANJAY KUMAR GUPTA",
+      "BD_BUY_SELL": "SELL",
+      "BD_QTY_TRD": 227221,
+      "BD_TP_WATP": 1016.64,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "ASIANTILES",
+      "BD_SCRIP_NAME": "Asian Granito India Limit",
+      "BD_CLIENT_NAME": "CORE INC",
+      "BD_BUY_SELL": "BUY",
+      "BD_QTY_TRD": 1484152,
+      "BD_TP_WATP": 49.95,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "ASIANTILES",
+      "BD_SCRIP_NAME": "Asian Granito India Limit",
+      "BD_CLIENT_NAME": "CORE INC",
+      "BD_BUY_SELL": "SELL",
+      "BD_QTY_TRD": 1484152,
+      "BD_TP_WATP": 49.96,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "ASIANTILES",
+      "BD_SCRIP_NAME": "Asian Granito India Limit",
+      "BD_CLIENT_NAME": "THAKKAR NILESHKUMAR FARSHURAM HUF",
+      "BD_BUY_SELL": "BUY",
+      "BD_QTY_TRD": 2518702,
+      "BD_TP_WATP": 49.96,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "ATALREAL",
+      "BD_SCRIP_NAME": "Atal Realtech Limited",
+      "BD_CLIENT_NAME": "HRTI PRIVATE LIMITED",
+      "BD_BUY_SELL": "BUY",
+      "BD_QTY_TRD": 391001,
+      "BD_TP_WATP": 25.88,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "ATALREAL",
+      "BD_SCRIP_NAME": "Atal Realtech Limited",
+      "BD_CLIENT_NAME": "HRTI PRIVATE LIMITED",
+      "BD_BUY_SELL": "SELL",
+      "BD_QTY_TRD": 719439,
+      "BD_TP_WATP": 25.92,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "ATALREAL",
+      "BD_SCRIP_NAME": "Atal Realtech Limited",
+      "BD_CLIENT_NAME": "L7 HITECH PRIVATE LIMITED",
+      "BD_BUY_SELL": "BUY",
+      "BD_QTY_TRD": 1717174,
+      "BD_TP_WATP": 25.79,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "ATALREAL",
+      "BD_SCRIP_NAME": "Atal Realtech Limited",
+      "BD_CLIENT_NAME": "L7 HITECH PRIVATE LIMITED",
+      "BD_BUY_SELL": "SELL",
+      "BD_QTY_TRD": 1775117,
+      "BD_TP_WATP": 25.88,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "ATALREAL",
+      "BD_SCRIP_NAME": "Atal Realtech Limited",
+      "BD_CLIENT_NAME": "MAHESH MULCHAND WAGHELA",
+      "BD_BUY_SELL": "BUY",
+      "BD_QTY_TRD": 692892,
+      "BD_TP_WATP": 25.86,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "ATALREAL",
+      "BD_SCRIP_NAME": "Atal Realtech Limited",
+      "BD_CLIENT_NAME": "MAHESH MULCHAND WAGHELA",
+      "BD_BUY_SELL": "SELL",
+      "BD_QTY_TRD": 692892,
+      "BD_TP_WATP": 25.88,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "ATALREAL",
+      "BD_SCRIP_NAME": "Atal Realtech Limited",
+      "BD_CLIENT_NAME": "MANSI SHARE AND STOCK BROKING PRIVATE LIMITED",
+      "BD_BUY_SELL": "SELL",
+      "BD_QTY_TRD": 1100000,
+      "BD_TP_WATP": 25.85,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "BFUTILITIE",
+      "BD_SCRIP_NAME": "BF Utilities Limited",
+      "BD_CLIENT_NAME": "MICROCURVES TRADING PRIVATE LIMITED",
+      "BD_BUY_SELL": "BUY",
+      "BD_QTY_TRD": 194104,
+      "BD_TP_WATP": 571.43,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "BFUTILITIE",
+      "BD_SCRIP_NAME": "BF Utilities Limited",
+      "BD_CLIENT_NAME": "MICROCURVES TRADING PRIVATE LIMITED",
+      "BD_BUY_SELL": "SELL",
+      "BD_QTY_TRD": 194104,
+      "BD_TP_WATP": 571.64,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "BFUTILITIE",
+      "BD_SCRIP_NAME": "BF Utilities Limited",
       "BD_CLIENT_NAME": "NK SECURITIES RESEARCH PRIVATE LIMITED",
       "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 497342,
-      "BD_TP_WATP": 899.92,
+      "BD_QTY_TRD": 271863,
+      "BD_TP_WATP": 564.48,
       "BD_REMARKS": "-"
     },
     {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ANTELOPUS",
-      "BD_SCRIP_NAME": "Antelopus Selan Enrgy Ltd",
-      "BD_CLIENT_NAME": "QE SECURITIES LLP",
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "BFUTILITIE",
+      "BD_SCRIP_NAME": "BF Utilities Limited",
+      "BD_CLIENT_NAME": "NK SECURITIES RESEARCH PRIVATE LIMITED",
       "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 177225,
-      "BD_TP_WATP": 894.28,
+      "BD_QTY_TRD": 271991,
+      "BD_TP_WATP": 564.04,
       "BD_REMARKS": "-"
     },
     {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ANTELOPUS",
-      "BD_SCRIP_NAME": "Antelopus Selan Enrgy Ltd",
-      "BD_CLIENT_NAME": "QE SECURITIES LLP",
-      "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 179151,
-      "BD_TP_WATP": 906.12,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ASTERDM",
-      "BD_SCRIP_NAME": "Aster DM Quality Care Ltd",
-      "BD_CLIENT_NAME": "CENTELLA MAURITIUS HOLDINGS LIMITED",
-      "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 4609800,
-      "BD_TP_WATP": 760,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ASTERDM",
-      "BD_SCRIP_NAME": "Aster DM Quality Care Ltd",
-      "BD_CLIENT_NAME": "UNION (MAURITIUS) HOLDINGS LIMITED",
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "BIOPOL",
+      "BD_SCRIP_NAME": "Biopol Chemicals Limited",
+      "BD_CLIENT_NAME": "NEO APEX SHARE BROKING SERVICES LLP",
       "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 4609800,
-      "BD_TP_WATP": 760,
+      "BD_QTY_TRD": 33600,
+      "BD_TP_WATP": 39.64,
       "BD_REMARKS": "-"
     },
     {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ATALREAL",
-      "BD_SCRIP_NAME": "Atal Realtech Limited",
-      "BD_CLIENT_NAME": "BULLPULSE MARKETEDGE PRIVATE LIMITED",
-      "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 1125000,
-      "BD_TP_WATP": 25.55,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ATALREAL",
-      "BD_SCRIP_NAME": "Atal Realtech Limited",
-      "BD_CLIENT_NAME": "BULLPULSE MARKETEDGE PRIVATE LIMITED",
-      "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 1125000,
-      "BD_TP_WATP": 25.55,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ATALREAL",
-      "BD_SCRIP_NAME": "Atal Realtech Limited",
-      "BD_CLIENT_NAME": "CHAUBARA EATS PRIVATE LIMITED",
-      "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 1125000,
-      "BD_TP_WATP": 25.63,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ATALREAL",
-      "BD_SCRIP_NAME": "Atal Realtech Limited",
-      "BD_CLIENT_NAME": "CHAUBARA EATS PRIVATE LIMITED",
-      "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 1125000,
-      "BD_TP_WATP": 25.55,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ATALREAL",
-      "BD_SCRIP_NAME": "Atal Realtech Limited",
-      "BD_CLIENT_NAME": "GARG SIYA RAM",
-      "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 870000,
-      "BD_TP_WATP": 25.2,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ATALREAL",
-      "BD_SCRIP_NAME": "Atal Realtech Limited",
-      "BD_CLIENT_NAME": "HARENDRA M PARIKH",
-      "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 700000,
-      "BD_TP_WATP": 25.53,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ATALREAL",
-      "BD_SCRIP_NAME": "Atal Realtech Limited",
-      "BD_CLIENT_NAME": "HJS SECURITIES PRIVATE LIMITED",
-      "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 1125024,
-      "BD_TP_WATP": 25.63,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ATALREAL",
-      "BD_SCRIP_NAME": "Atal Realtech Limited",
-      "BD_CLIENT_NAME": "HJS SECURITIES PRIVATE LIMITED",
-      "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 1125024,
-      "BD_TP_WATP": 25.53,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ATALREAL",
-      "BD_SCRIP_NAME": "Atal Realtech Limited",
-      "BD_CLIENT_NAME": "HRTI PRIVATE LIMITED",
-      "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 2894091,
-      "BD_TP_WATP": 25.61,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ATALREAL",
-      "BD_SCRIP_NAME": "Atal Realtech Limited",
-      "BD_CLIENT_NAME": "HRTI PRIVATE LIMITED",
-      "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 3154976,
-      "BD_TP_WATP": 25.54,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ATALREAL",
-      "BD_SCRIP_NAME": "Atal Realtech Limited",
-      "BD_CLIENT_NAME": "IMC INDIA SECURITIES PRIVATE LIMITED",
-      "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 303157,
-      "BD_TP_WATP": 25.53,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ATALREAL",
-      "BD_SCRIP_NAME": "Atal Realtech Limited",
-      "BD_CLIENT_NAME": "IMC INDIA SECURITIES PRIVATE LIMITED",
-      "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 757553,
-      "BD_TP_WATP": 25.5,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ATALREAL",
-      "BD_SCRIP_NAME": "Atal Realtech Limited",
-      "BD_CLIENT_NAME": "JIAUM BROKING LLP",
-      "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 1125000,
-      "BD_TP_WATP": 25.55,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ATALREAL",
-      "BD_SCRIP_NAME": "Atal Realtech Limited",
-      "BD_CLIENT_NAME": "JIAUM BROKING LLP",
-      "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 1125000,
-      "BD_TP_WATP": 25.53,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ATALREAL",
-      "BD_SCRIP_NAME": "Atal Realtech Limited",
-      "BD_CLIENT_NAME": "JUNOMONETA FINSOL PRIVATE LIMITED",
-      "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 678750,
-      "BD_TP_WATP": 25.6,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ATALREAL",
-      "BD_SCRIP_NAME": "Atal Realtech Limited",
-      "BD_CLIENT_NAME": "JUNOMONETA FINSOL PRIVATE LIMITED",
-      "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 687056,
-      "BD_TP_WATP": 25.56,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ATALREAL",
-      "BD_SCRIP_NAME": "Atal Realtech Limited",
-      "BD_CLIENT_NAME": "KARAN RASHMIKANT SHAH",
-      "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 600000,
-      "BD_TP_WATP": 25.52,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ATALREAL",
-      "BD_SCRIP_NAME": "Atal Realtech Limited",
-      "BD_CLIENT_NAME": "KARAN RASHMIKANT SHAH",
-      "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 633834,
-      "BD_TP_WATP": 25.69,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ATALREAL",
-      "BD_SCRIP_NAME": "Atal Realtech Limited",
-      "BD_CLIENT_NAME": "L7 HITECH PRIVATE LIMITED",
-      "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 7085545,
-      "BD_TP_WATP": 25.45,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ATALREAL",
-      "BD_SCRIP_NAME": "Atal Realtech Limited",
-      "BD_CLIENT_NAME": "L7 HITECH PRIVATE LIMITED",
-      "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 7185554,
-      "BD_TP_WATP": 25.51,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ATALREAL",
-      "BD_SCRIP_NAME": "Atal Realtech Limited",
-      "BD_CLIENT_NAME": "MAHESH MULCHAND WAGHELA",
-      "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 785019,
-      "BD_TP_WATP": 25.21,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ATALREAL",
-      "BD_SCRIP_NAME": "Atal Realtech Limited",
-      "BD_CLIENT_NAME": "MAHESH MULCHAND WAGHELA",
-      "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 2210000,
-      "BD_TP_WATP": 25.42,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ATALREAL",
-      "BD_SCRIP_NAME": "Atal Realtech Limited",
-      "BD_CLIENT_NAME": "PRRSAAR COMMODITIES PVT LTD",
-      "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 752090,
-      "BD_TP_WATP": 25.54,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ATALREAL",
-      "BD_SCRIP_NAME": "Atal Realtech Limited",
-      "BD_CLIENT_NAME": "PRRSAAR COMMODITIES PVT LTD",
-      "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 752090,
-      "BD_TP_WATP": 25.47,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ATALREAL",
-      "BD_SCRIP_NAME": "Atal Realtech Limited",
-      "BD_CLIENT_NAME": "QE SECURITIES LLP",
-      "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 2043662,
-      "BD_TP_WATP": 25.45,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ATALREAL",
-      "BD_SCRIP_NAME": "Atal Realtech Limited",
-      "BD_CLIENT_NAME": "QE SECURITIES LLP",
-      "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 2047883,
-      "BD_TP_WATP": 25.55,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ATALREAL",
-      "BD_SCRIP_NAME": "Atal Realtech Limited",
-      "BD_CLIENT_NAME": "RATHOD DIGVIJAYSINH RAJENDRASINH",
-      "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 100000,
-      "BD_TP_WATP": 25.65,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ATALREAL",
-      "BD_SCRIP_NAME": "Atal Realtech Limited",
-      "BD_CLIENT_NAME": "RATHOD DIGVIJAYSINH RAJENDRASINH",
-      "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 775000,
-      "BD_TP_WATP": 25.58,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
       "BD_SYMBOL": "BIOPOL",
       "BD_SCRIP_NAME": "Biopol Chemicals Limited",
       "BD_CLIENT_NAME": "NEO APEX SHARE BROKING SERVICES LLP",
       "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 57600,
-      "BD_TP_WATP": 41.55,
+      "BD_QTY_TRD": 70800,
+      "BD_TP_WATP": 41.38,
       "BD_REMARKS": "-"
     },
     {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "BODALCHEM",
-      "BD_SCRIP_NAME": "Bodal Chemicals Ltd",
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "BULKCORP",
+      "BD_SCRIP_NAME": "Bulkcorp International L",
+      "BD_CLIENT_NAME": "CARE WEALTH ADVISORS LLP",
+      "BD_BUY_SELL": "SELL",
+      "BD_QTY_TRD": 91200,
+      "BD_TP_WATP": 75.6,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "BULKCORP",
+      "BD_SCRIP_NAME": "Bulkcorp International L",
+      "BD_CLIENT_NAME": "CHANAKYA OPPORTUNITIES FUND I",
+      "BD_BUY_SELL": "BUY",
+      "BD_QTY_TRD": 108000,
+      "BD_TP_WATP": 75.59,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "CENTENKA",
+      "BD_SCRIP_NAME": "Century Enka Ltd",
       "BD_CLIENT_NAME": "JUNOMONETA FINSOL PRIVATE LIMITED",
       "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 1194151,
-      "BD_TP_WATP": 139.48,
+      "BD_QTY_TRD": 122662,
+      "BD_TP_WATP": 616.37,
       "BD_REMARKS": "-"
     },
     {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "BODALCHEM",
-      "BD_SCRIP_NAME": "Bodal Chemicals Ltd",
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "CENTENKA",
+      "BD_SCRIP_NAME": "Century Enka Ltd",
       "BD_CLIENT_NAME": "JUNOMONETA FINSOL PRIVATE LIMITED",
       "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 1206051,
-      "BD_TP_WATP": 139.61,
+      "BD_QTY_TRD": 123699,
+      "BD_TP_WATP": 617.19,
       "BD_REMARKS": "-"
     },
     {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "BODALCHEM",
-      "BD_SCRIP_NAME": "Bodal Chemicals Ltd",
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "CLASSICEIL",
+      "BD_SCRIP_NAME": "Classic Electrode (Ind) L",
+      "BD_CLIENT_NAME": "SHINCHO ASIA CAPITAL (INCORPORATED VCC SUB-FUND)",
+      "BD_BUY_SELL": "BUY",
+      "BD_QTY_TRD": 206400,
+      "BD_TP_WATP": 55.2,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "CLEANMAX",
+      "BD_SCRIP_NAME": "Clean Max Enviro En Sol L",
+      "BD_CLIENT_NAME": "DSDG HOLDING APS",
+      "BD_BUY_SELL": "SELL",
+      "BD_QTY_TRD": 1633727,
+      "BD_TP_WATP": 1220,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "GANGAFORGE",
+      "BD_SCRIP_NAME": "Ganga Forging Limited",
+      "BD_CLIENT_NAME": "NEO APEX SHARE BROKING SERVICES LLP",
+      "BD_BUY_SELL": "BUY",
+      "BD_QTY_TRD": 1700000,
+      "BD_TP_WATP": 1.76,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "GANGAFORGE",
+      "BD_SCRIP_NAME": "Ganga Forging Limited",
+      "BD_CLIENT_NAME": "NEO APEX SHARE BROKING SERVICES LLP",
+      "BD_BUY_SELL": "SELL",
+      "BD_QTY_TRD": 1700000,
+      "BD_TP_WATP": 1.76,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "GCSL",
+      "BD_SCRIP_NAME": "Gretex Corporate Services",
+      "BD_CLIENT_NAME": "MANSUKH SECURITIES & FINANCE LIMITED",
+      "BD_BUY_SELL": "BUY",
+      "BD_QTY_TRD": 166189,
+      "BD_TP_WATP": 575.6,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "GCSL",
+      "BD_SCRIP_NAME": "Gretex Corporate Services",
+      "BD_CLIENT_NAME": "MANSUKH SECURITIES & FINANCE LIMITED",
+      "BD_BUY_SELL": "SELL",
+      "BD_QTY_TRD": 303920,
+      "BD_TP_WATP": 570.81,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "GCSL",
+      "BD_SCRIP_NAME": "Gretex Corporate Services",
+      "BD_CLIENT_NAME": "TALISMAN SECURITIES PRIVATE LIMITED",
+      "BD_BUY_SELL": "SELL",
+      "BD_QTY_TRD": 5000,
+      "BD_TP_WATP": 580,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "GCSL",
+      "BD_SCRIP_NAME": "Gretex Corporate Services",
+      "BD_CLIENT_NAME": "TALISMAN SECURITIES PRIVATE LIMITED",
+      "BD_BUY_SELL": "BUY",
+      "BD_QTY_TRD": 134000,
+      "BD_TP_WATP": 570,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "GOCLCORP",
+      "BD_SCRIP_NAME": "Gulf Oil Corp. Ltd.",
+      "BD_CLIENT_NAME": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+      "BD_BUY_SELL": "SELL",
+      "BD_QTY_TRD": 335026,
+      "BD_TP_WATP": 434.37,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "GOCLCORP",
+      "BD_SCRIP_NAME": "Gulf Oil Corp. Ltd.",
+      "BD_CLIENT_NAME": "NK SECURITIES RESEARCH PRIVATE LIMITED",
+      "BD_BUY_SELL": "BUY",
+      "BD_QTY_TRD": 335062,
+      "BD_TP_WATP": 434.04,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "HIKAL",
+      "BD_SCRIP_NAME": "Hikal Limited",
+      "BD_CLIENT_NAME": "JUNOMONETA FINSOL PRIVATE LIMITED",
+      "BD_BUY_SELL": "SELL",
+      "BD_QTY_TRD": 742316,
+      "BD_TP_WATP": 230.43,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "HIKAL",
+      "BD_SCRIP_NAME": "Hikal Limited",
+      "BD_CLIENT_NAME": "JUNOMONETA FINSOL PRIVATE LIMITED",
+      "BD_BUY_SELL": "BUY",
+      "BD_QTY_TRD": 743947,
+      "BD_TP_WATP": 230.26,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "HIKAL",
+      "BD_SCRIP_NAME": "Hikal Limited",
       "BD_CLIENT_NAME": "MICROCURVES TRADING PRIVATE LIMITED",
       "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 2103735,
-      "BD_TP_WATP": 142.04,
+      "BD_QTY_TRD": 778907,
+      "BD_TP_WATP": 229.87,
       "BD_REMARKS": "-"
     },
     {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "BODALCHEM",
-      "BD_SCRIP_NAME": "Bodal Chemicals Ltd",
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "HIKAL",
+      "BD_SCRIP_NAME": "Hikal Limited",
       "BD_CLIENT_NAME": "MICROCURVES TRADING PRIVATE LIMITED",
       "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 2103735,
-      "BD_TP_WATP": 142.12,
+      "BD_QTY_TRD": 778907,
+      "BD_TP_WATP": 230.14,
       "BD_REMARKS": "-"
     },
     {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "BODALCHEM",
-      "BD_SCRIP_NAME": "Bodal Chemicals Ltd",
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "HIKAL",
+      "BD_SCRIP_NAME": "Hikal Limited",
       "BD_CLIENT_NAME": "NK SECURITIES RESEARCH PRIVATE LIMITED",
       "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 1088638,
-      "BD_TP_WATP": 140.11,
+      "BD_QTY_TRD": 944937,
+      "BD_TP_WATP": 230.25,
       "BD_REMARKS": "-"
     },
     {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "BODALCHEM",
-      "BD_SCRIP_NAME": "Bodal Chemicals Ltd",
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "HIKAL",
+      "BD_SCRIP_NAME": "Hikal Limited",
       "BD_CLIENT_NAME": "NK SECURITIES RESEARCH PRIVATE LIMITED",
       "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 1088638,
-      "BD_TP_WATP": 140.2,
+      "BD_QTY_TRD": 950837,
+      "BD_TP_WATP": 230.41,
       "BD_REMARKS": "-"
     },
     {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "CENTENKA",
-      "BD_SCRIP_NAME": "Century Enka Ltd",
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "HINDOILEXP",
+      "BD_SCRIP_NAME": "Hind. Oil Exploration",
+      "BD_CLIENT_NAME": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+      "BD_BUY_SELL": "BUY",
+      "BD_QTY_TRD": 783342,
+      "BD_TP_WATP": 184.72,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "HINDOILEXP",
+      "BD_SCRIP_NAME": "Hind. Oil Exploration",
+      "BD_CLIENT_NAME": "ALPHAGREP SECURITIES PRIVATE LIMITED",
+      "BD_BUY_SELL": "SELL",
+      "BD_QTY_TRD": 783342,
+      "BD_TP_WATP": 184.68,
+      "BD_REMARKS": "-"
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "HINDOILEXP",
+      "BD_SCRIP_NAME": "Hind. Oil Exploration",
       "BD_CLIENT_NAME": "BLITZQUANT RESEARCH LLP",
       "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 164918,
-      "BD_TP_WATP": 602.5,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "CENTENKA",
-      "BD_SCRIP_NAME": "Century Enka Ltd",
-      "BD_CLIENT_NAME": "BLITZQUANT RESEARCH LLP",
-      "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 164918,
-      "BD_TP_WATP": 602.81,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "CENTENKA",
-      "BD_SCRIP_NAME": "Century Enka Ltd",
-      "BD_CLIENT_NAME": "CLT RESEARCH TECH PRIVATE LTD",
-      "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 119782,
-      "BD_TP_WATP": 592.27,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "CENTENKA",
-      "BD_SCRIP_NAME": "Century Enka Ltd",
-      "BD_CLIENT_NAME": "CLT RESEARCH TECH PRIVATE LTD",
-      "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 119782,
-      "BD_TP_WATP": 592.04,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "CENTENKA",
-      "BD_SCRIP_NAME": "Century Enka Ltd",
-      "BD_CLIENT_NAME": "GRT STRATEGIC VENTURES LLP",
-      "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 222414,
-      "BD_TP_WATP": 594.16,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "CENTENKA",
-      "BD_SCRIP_NAME": "Century Enka Ltd",
-      "BD_CLIENT_NAME": "GRT STRATEGIC VENTURES LLP",
-      "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 222414,
-      "BD_TP_WATP": 593.91,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "CENTENKA",
-      "BD_SCRIP_NAME": "Century Enka Ltd",
-      "BD_CLIENT_NAME": "IRAGE BROKING SERVICES LLP",
-      "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 243119,
-      "BD_TP_WATP": 596.16,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "CENTENKA",
-      "BD_SCRIP_NAME": "Century Enka Ltd",
-      "BD_CLIENT_NAME": "IRAGE BROKING SERVICES LLP",
-      "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 267554,
-      "BD_TP_WATP": 595.37,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "CENTENKA",
-      "BD_SCRIP_NAME": "Century Enka Ltd",
-      "BD_CLIENT_NAME": "J4S FINANCIAL SOLUTIONS LLP",
-      "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 122281,
-      "BD_TP_WATP": 597.23,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "CENTENKA",
-      "BD_SCRIP_NAME": "Century Enka Ltd",
-      "BD_CLIENT_NAME": "J4S FINANCIAL SOLUTIONS LLP",
-      "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 122281,
-      "BD_TP_WATP": 597.56,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "CENTENKA",
-      "BD_SCRIP_NAME": "Century Enka Ltd",
-      "BD_CLIENT_NAME": "JUNOMONETA FINSOL PRIVATE LIMITED",
-      "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 338531,
-      "BD_TP_WATP": 594.92,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "CENTENKA",
-      "BD_SCRIP_NAME": "Century Enka Ltd",
-      "BD_CLIENT_NAME": "JUNOMONETA FINSOL PRIVATE LIMITED",
-      "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 341421,
-      "BD_TP_WATP": 595.26,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "CENTENKA",
-      "BD_SCRIP_NAME": "Century Enka Ltd",
-      "BD_CLIENT_NAME": "NK SECURITIES RESEARCH PRIVATE LIMITED",
-      "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 488570,
-      "BD_TP_WATP": 598.7,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "CENTENKA",
-      "BD_SCRIP_NAME": "Century Enka Ltd",
-      "BD_CLIENT_NAME": "NK SECURITIES RESEARCH PRIVATE LIMITED",
-      "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 488570,
-      "BD_TP_WATP": 598.26,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "CENTENKA",
-      "BD_SCRIP_NAME": "Century Enka Ltd",
-      "BD_CLIENT_NAME": "QE SECURITIES LLP",
-      "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 178820,
-      "BD_TP_WATP": 598.08,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "CENTENKA",
-      "BD_SCRIP_NAME": "Century Enka Ltd",
-      "BD_CLIENT_NAME": "QE SECURITIES LLP",
-      "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 192236,
-      "BD_TP_WATP": 595.74,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "CENTENKA",
-      "BD_SCRIP_NAME": "Century Enka Ltd",
-      "BD_CLIENT_NAME": "SILVERLEAF CAPITAL SERVICES PRIVATE LIMITED",
-      "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 263746,
-      "BD_TP_WATP": 599.3,
-      "BD_REMARKS": "-"
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "CENTENKA",
-      "BD_SCRIP_NAME": "Century Enka Ltd",
-      "BD_CLIENT_NAME": "SILVERLEAF CAPITAL SERVICES PRIVATE LIMITED",
-      "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 263746,
-      "BD_TP_WATP": 599.54,
+      "BD_QTY_TRD": 972992,
+      "BD_TP_WATP": 185.64,
       "BD_REMARKS": "-"
     }
   ],
   "block_deals": [
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ASTERDM",
-      "BD_SCRIP_NAME": "Aster DM Quality Care Ltd",
-      "BD_CLIENT_NAME": "CENTELLA MAURITIUS HOLDINGS LIMITED",
-      "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 4609800,
-      "BD_TP_WATP": 760,
-      "BD_REMARKS": null
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "ASTERDM",
-      "BD_SCRIP_NAME": "Aster DM Quality Care Ltd",
-      "BD_CLIENT_NAME": "UNION (MAURITIUS) HOLDINGS LIMITED",
-      "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 4609800,
-      "BD_TP_WATP": 760,
-      "BD_REMARKS": null
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "PINELABS",
-      "BD_SCRIP_NAME": "Pine Labs Limited",
-      "BD_CLIENT_NAME": "ALPHA WAVE VENTURES II LP",
-      "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 35456317,
-      "BD_TP_WATP": 155.1,
-      "BD_REMARKS": null
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "PINELABS",
-      "BD_SCRIP_NAME": "Pine Labs Limited",
-      "BD_CLIENT_NAME": "EDELWEISS MUTUAL FUND",
-      "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 2578981,
-      "BD_TP_WATP": 155.1,
-      "BD_REMARKS": null
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "PINELABS",
-      "BD_SCRIP_NAME": "Pine Labs Limited",
-      "BD_CLIENT_NAME": "GOLDMAN SACHS INVESTMENTS MAURITIUS I LIMITED",
-      "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 4162862,
-      "BD_TP_WATP": 155.1,
-      "BD_REMARKS": null
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "PINELABS",
-      "BD_SCRIP_NAME": "Pine Labs Limited",
-      "BD_CLIENT_NAME": "ICICI PRUDENTIAL LIFE INSURANCE COMPANY LIMITED",
-      "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 10315925,
-      "BD_TP_WATP": 155.1,
-      "BD_REMARKS": null
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "PINELABS",
-      "BD_SCRIP_NAME": "Pine Labs Limited",
-      "BD_CLIENT_NAME": "INTEGRATED CORE STRATEGIES (ASIA) PTE.LTD.",
-      "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 2450000,
-      "BD_TP_WATP": 155.1,
-      "BD_REMARKS": null
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "PINELABS",
-      "BD_SCRIP_NAME": "Pine Labs Limited",
-      "BD_CLIENT_NAME": "JM FINANCIAL MUTUAL FUND",
-      "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 1611865,
-      "BD_TP_WATP": 155.1,
-      "BD_REMARKS": null
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "PINELABS",
-      "BD_SCRIP_NAME": "Pine Labs Limited",
-      "BD_CLIENT_NAME": "MORGAN STANLEY ASIA SINGAPORE PTE",
-      "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 2448742,
-      "BD_TP_WATP": 155.1,
-      "BD_REMARKS": null
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "PINELABS",
-      "BD_SCRIP_NAME": "Pine Labs Limited",
-      "BD_CLIENT_NAME": "NORGES BANK ON ACCOUNT OF THE GOVERNMENT PENSION FUND GLOBAL",
-      "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 3223726,
-      "BD_TP_WATP": 155.1,
-      "BD_REMARKS": null
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "PINELABS",
-      "BD_SCRIP_NAME": "Pine Labs Limited",
-      "BD_CLIENT_NAME": "SOCIETE GENERALE",
-      "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 4531963,
-      "BD_TP_WATP": 155.1,
-      "BD_REMARKS": null
-    },
-    {
-      "BD_DT_DATE": "02-SEP-2026",
-      "BD_DT_ORDER": "2026-09-01T18:30:00.000Z",
-      "BD_SYMBOL": "PINELABS",
-      "BD_SCRIP_NAME": "Pine Labs Limited",
-      "BD_CLIENT_NAME": "VIRIDIAN ASIA OPPORTUNITIES MASTER FUND",
-      "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 4132253,
-      "BD_TP_WATP": 155.1,
-      "BD_REMARKS": null
-    },
     {
       "BD_DT_DATE": "03-SEP-2026",
       "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
@@ -1242,17 +1110,6 @@
       "BD_SCRIP_NAME": "Meesho Limited",
       "BD_CLIENT_NAME": "FRANKLIN TEMPLETON MUTUAL FUND",
       "BD_BUY_SELL": "BUY",
-      "BD_QTY_TRD": 1498142,
-      "BD_TP_WATP": 206.3,
-      "BD_REMARKS": null
-    },
-    {
-      "BD_DT_DATE": "03-SEP-2026",
-      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
-      "BD_SYMBOL": "MEESHO",
-      "BD_SCRIP_NAME": "Meesho Limited",
-      "BD_CLIENT_NAME": "FRANKLIN TEMPLETON MUTUAL FUND",
-      "BD_BUY_SELL": "BUY",
       "BD_QTY_TRD": 4832713,
       "BD_TP_WATP": 206.3,
       "BD_REMARKS": null
@@ -1265,6 +1122,17 @@
       "BD_CLIENT_NAME": "FRANKLIN TEMPLETON MUTUAL FUND",
       "BD_BUY_SELL": "BUY",
       "BD_QTY_TRD": 169145,
+      "BD_TP_WATP": 206.3,
+      "BD_REMARKS": null
+    },
+    {
+      "BD_DT_DATE": "03-SEP-2026",
+      "BD_DT_ORDER": "2026-09-02T18:30:00.000Z",
+      "BD_SYMBOL": "MEESHO",
+      "BD_SCRIP_NAME": "Meesho Limited",
+      "BD_CLIENT_NAME": "FRANKLIN TEMPLETON MUTUAL FUND",
+      "BD_BUY_SELL": "BUY",
+      "BD_QTY_TRD": 1498142,
       "BD_TP_WATP": 206.3,
       "BD_REMARKS": null
     },
@@ -1473,7 +1341,7 @@
       "BD_SCRIP_NAME": "Meesho Limited",
       "BD_CLIENT_NAME": "SVF II MEERKAT (DE) LLC",
       "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 44682672,
+      "BD_QTY_TRD": 35317328,
       "BD_TP_WATP": 206.3,
       "BD_REMARKS": null
     },
@@ -1484,501 +1352,523 @@
       "BD_SCRIP_NAME": "Meesho Limited",
       "BD_CLIENT_NAME": "SVF II MEERKAT (DE) LLC",
       "BD_BUY_SELL": "SELL",
-      "BD_QTY_TRD": 35317328,
+      "BD_QTY_TRD": 44682672,
       "BD_TP_WATP": 206.3,
+      "BD_REMARKS": null
+    },
+    {
+      "BD_DT_DATE": "04-SEP-2026",
+      "BD_DT_ORDER": "2026-09-03T18:30:00.000Z",
+      "BD_SYMBOL": "NXST",
+      "BD_SCRIP_NAME": "Nexus Select Trust",
+      "BD_CLIENT_NAME": "BREP ASIA SG FORUM HOLDING (NQ) PTE LIMITED",
+      "BD_BUY_SELL": "SELL",
+      "BD_QTY_TRD": 7495149,
+      "BD_TP_WATP": 164,
+      "BD_REMARKS": null
+    },
+    {
+      "BD_DT_DATE": "04-SEP-2026",
+      "BD_DT_ORDER": "2026-09-03T18:30:00.000Z",
+      "BD_SYMBOL": "NXST",
+      "BD_SCRIP_NAME": "Nexus Select Trust",
+      "BD_CLIENT_NAME": "WHITEOAK CAPITAL MUTUAL FUND",
+      "BD_BUY_SELL": "BUY",
+      "BD_QTY_TRD": 7495149,
+      "BD_TP_WATP": 164,
       "BD_REMARKS": null
     }
   ],
   "short_selling": [
     {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "ABB",
-      "SS_NAME": "ABB LTD.",
-      "SS_QTY": 500
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "63MOONS",
+      "SS_NAME": "63 MOONS TECHNOLOGIES LTD",
+      "SS_QTY": 6
     },
     {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "ADANIENSOL",
-      "SS_NAME": "ADANI ENERGY SOLUTION LTD",
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "AADHARHFC",
+      "SS_NAME": "AADHAR HOUSING FINANCE L",
+      "SS_QTY": 21
+    },
+    {
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "AARTIDRUGS",
+      "SS_NAME": "AARTI DRUGS LTD",
+      "SS_QTY": 35
+    },
+    {
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "AAVAS",
+      "SS_NAME": "AAVAS FINANCIERS LIMITED",
+      "SS_QTY": 8
+    },
+    {
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "ABB",
+      "SS_NAME": "ABB LTD.",
+      "SS_QTY": 27
+    },
+    {
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "ABLBL",
+      "SS_NAME": "ADITYA BIRLA LIFES BRAN L",
+      "SS_QTY": 121
+    },
+    {
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "ABREL",
+      "SS_NAME": "ADITYA BIRLA REAL EST LTD",
+      "SS_QTY": 478
+    },
+    {
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "ADANIPORTS",
+      "SS_NAME": "ADANI PORT & SEZ LTD",
       "SS_QTY": 1
     },
     {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
       "SS_SYMBOL": "ADANIPOWER",
       "SS_NAME": "ADANI POWER LTD",
       "SS_QTY": 1
     },
     {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "AEGISVOPAK",
-      "SS_NAME": "AEGIS VOPAK TERMINALS LTD",
-      "SS_QTY": 2
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "ADVENZYMES",
+      "SS_NAME": "ADVANCED ENZYME TECH LTD   ",
+      "SS_QTY": 47
     },
     {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "ALOKINDS",
-      "SS_NAME": "ALOKINDS",
-      "SS_QTY": 1000
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "AGARWALEYE",
+      "SS_NAME": "DR AGARWALS HEALTH CARE L",
+      "SS_QTY": 31
     },
     {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "ATHERENERG",
-      "SS_NAME": "ATHER ENERGY LIMITED",
-      "SS_QTY": 397
-    },
-    {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "AXISBANK",
-      "SS_NAME": "AXIS BANK LIMITED",
-      "SS_QTY": 1
-    },
-    {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "BAJAJHIND",
-      "SS_NAME": "BAJAJ HINDUSTAN LTD",
-      "SS_QTY": 300
-    },
-    {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "BAJFINANCE",
-      "SS_NAME": "BAJAJ FINANCE LIMITED",
-      "SS_QTY": 2000
-    },
-    {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "BANKBARODA",
-      "SS_NAME": "BANK OF BARODA",
-      "SS_QTY": 200
-    },
-    {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "BHEL",
-      "SS_NAME": "BHEL",
-      "SS_QTY": 7250
-    },
-    {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "BSE",
-      "SS_NAME": "BSE LIMITED",
-      "SS_QTY": 1600
-    },
-    {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "CANBK",
-      "SS_NAME": "CANARA BANK",
-      "SS_QTY": 1
-    },
-    {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "CHOLAHLDNG",
-      "SS_NAME": "CHOLAMANDALAM FIN HOL LTD",
-      "SS_QTY": 50
-    },
-    {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "COALINDIA",
-      "SS_NAME": "COALINDIA",
-      "SS_QTY": 685
-    },
-    {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "CONCOR",
-      "SS_NAME": "CONTAINER CORP OF IND LTD",
-      "SS_QTY": 1149
-    },
-    {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "EMMVEE",
-      "SS_NAME": "EMMVEE PHOTOVOLTAIC PWR L",
-      "SS_QTY": 100
-    },
-    {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "EPL",
-      "SS_NAME": "EPL",
-      "SS_QTY": 1
-    },
-    {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "ETERNAL",
-      "SS_NAME": "ETERNAL LIMITED",
-      "SS_QTY": 36
-    },
-    {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "FORCEMOT",
-      "SS_NAME": "FORCE MOTORS LIMITED",
-      "SS_QTY": 125
-    },
-    {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "GOLDIAM",
-      "SS_NAME": "GOLDIAM INTERNATIONAL LTD",
-      "SS_QTY": 11
-    },
-    {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "HAVELLS",
-      "SS_NAME": "HAVELLS INDIA LIMITED",
-      "SS_QTY": 3000
-    },
-    {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "HCC",
-      "SS_NAME": "HINDUSTAN CONSTRUCTION CO",
-      "SS_QTY": 4
-    },
-    {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "HERITGFOOD",
-      "SS_NAME": "HERITAGE FOODS LTD    ",
-      "SS_QTY": 1
-    },
-    {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "HEROMOTOCO",
-      "SS_NAME": "HERO MOTOCORP LTD",
-      "SS_QTY": 1500
-    },
-    {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "HFCL",
-      "SS_NAME": "HIMACHAL FUTURISTIC COMMUNICATIONS LIMITED",
-      "SS_QTY": 5
-    },
-    {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "HINDCOPPER",
-      "SS_NAME": "HINDUSTAN COPPER LIMITED",
-      "SS_QTY": 4
-    },
-    {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "HNGSNGBEES",
-      "SS_NAME": "HNGSNGBEES",
-      "SS_QTY": 10
-    },
-    {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "HSCL",
-      "SS_NAME": "HIMADRI SPECIALITY CHEMICAL LIMITED",
-      "SS_QTY": 200
-    },
-    {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "IDEA",
-      "SS_NAME": "Vodafone Idea Limited",
-      "SS_QTY": 1
-    },
-    {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "IFCI",
-      "SS_NAME": "IFCI LTD",
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "AIIL",
+      "SS_NAME": "AUTHUM INVEST & INFRA LTD",
       "SS_QTY": 20
     },
     {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "INFY",
-      "SS_NAME": "INFOSYS TECHNOLOGIES LTD",
-      "SS_QTY": 61
-    },
-    {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "INNOVACAP",
-      "SS_NAME": "INNOVA CAPTAB LIMITED",
-      "SS_QTY": 50
-    },
-    {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "INOXGREEN",
-      "SS_NAME": "INOX GREEN ENERGY SER LTD",
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "AJANTPHARM",
+      "SS_NAME": "AJANTA PHARMA LIMITED",
       "SS_QTY": 1
     },
     {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "IOC",
-      "SS_NAME": "INDIAN OIL CORP LTD",
-      "SS_QTY": 100
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "ALIVUS",
+      "SS_NAME": "ALIVUS LIFE SCIENCES LTD",
+      "SS_QTY": 14
     },
     {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "IRCTC",
-      "SS_NAME": "INDIAN RAIL TOUR CORP LTD",
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "ALKYLAMINE",
+      "SS_NAME": "ALKYL AMINES CHEM. LTD",
+      "SS_QTY": 16
+    },
+    {
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "ALPHA",
+      "SS_NAME": "KOTAKMAMC - KOTAKALPHA",
+      "SS_QTY": 259
+    },
+    {
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "ANANDRATHI",
+      "SS_NAME": "ANAND RATHI WEALTH LTD",
+      "SS_QTY": 23
+    },
+    {
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "ANANTRAJ",
+      "SS_NAME": "ANANT RAJ LIMITED",
+      "SS_QTY": 200
+    },
+    {
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "ANUP",
+      "SS_NAME": "THE ANUP ENGINEERING LTD",
+      "SS_QTY": 18
+    },
+    {
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "APLLTD",
+      "SS_NAME": "ALEMBIC PHARMA LTD",
       "SS_QTY": 12
     },
     {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "IREDA",
-      "SS_NAME": "INDIAN RENEWABLE ENERGY",
-      "SS_QTY": 85974
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "APOLLO",
+      "SS_NAME": "APOLLO MICRO SYSTEMS LTD",
+      "SS_QTY": 70
     },
     {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "ITC",
-      "SS_NAME": "ITC LTD",
-      "SS_QTY": 75
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "APOLLOTYRE",
+      "SS_NAME": "APOLLO TYRES LTD",
+      "SS_QTY": 46
     },
     {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "JSWENERGY",
-      "SS_NAME": "JSW ENERGY LIMITED",
-      "SS_QTY": 90
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "APTUS",
+      "SS_NAME": "APTUS VALUE HSG FIN I LTD",
+      "SS_QTY": 39
     },
     {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "JUSTDIAL",
-      "SS_NAME": "JUST DIAL LIMITED",
-      "SS_QTY": 1
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "ARMANFIN",
+      "SS_NAME": "ARMAN FIN SERV LTD",
+      "SS_QTY": 16
     },
     {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "JYOTHYLAB",
-      "SS_NAME": "JYOTHY LABORATORIES LIMITED",
-      "SS_QTY": 5601
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "ARVINDFASN",
+      "SS_NAME": "ARVIND FASHIONS LIMITED",
+      "SS_QTY": 9
     },
     {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "KALYANKJIL",
-      "SS_NAME": "KALYAN JEWELLERS IND LTD",
-      "SS_QTY": 1
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "ASAHIINDIA",
+      "SS_NAME": "ASAHI INDIA GLASS LIMITED",
+      "SS_QTY": 22
     },
     {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "KAYNES",
-      "SS_NAME": "KAYNES TECHNOLOGY IND LTD",
-      "SS_QTY": 1300
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "ASHAPURMIN",
+      "SS_NAME": "ASHAPURA MINECHEM LTD",
+      "SS_QTY": 18
     },
     {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "KEI",
-      "SS_NAME": "KEI INDUSTRIES LTD.      ",
-      "SS_QTY": 10
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "AUTOBEES",
+      "SS_NAME": "NIPPONAMC - NETFAUTO",
+      "SS_QTY": 28
     },
     {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "LIQUIDBEES",
-      "SS_NAME": "NIP IND ETF LIQUID BEES",
-      "SS_QTY": 377
-    },
-    {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "MAHABANK",
-      "SS_NAME": "MAHABANK",
-      "SS_QTY": 9673
-    },
-    {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "MARUTI",
-      "SS_NAME": "MARUTI SUZUKI INDIA LTD.",
-      "SS_QTY": 11
-    },
-    {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "MOTHERSON",
-      "SS_NAME": "SAMVRDHNA MTHRSN INT",
-      "SS_QTY": 216
-    },
-    {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "MOTILALOFS",
-      "SS_NAME": "MOTILAL OSWAL FIN LTD   ",
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "AXISBANK",
+      "SS_NAME": "AXIS BANK LIMITED",
       "SS_QTY": 6
     },
     {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "NEPHROPLUS",
-      "SS_NAME": "NEPHROCARE HEALTH SERV L",
-      "SS_QTY": 20
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "BAJAJCON",
+      "SS_NAME": "BAJAJ CONSUMER CARE LTD",
+      "SS_QTY": 11
     },
     {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "NESTLEIND",
-      "SS_NAME": "NESTLE INDIA LIMITED",
-      "SS_QTY": 50
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "BAJAJELEC",
+      "SS_NAME": "BAJAJ ELECT.LTD",
+      "SS_QTY": 184
     },
     {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "NETWEB",
-      "SS_NAME": "NETWEB TECH INDIA LTD",
-      "SS_QTY": 10
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "BAJAJHFL",
+      "SS_NAME": "BAJAJ HOUSING FINANCE LTD",
+      "SS_QTY": 240
     },
     {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "PARAGMILK",
-      "SS_NAME": "PARAG MILK FOODS LTD.   ",
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "BAJFINANCE",
+      "SS_NAME": "BAJAJ FINANCE LIMITED",
       "SS_QTY": 1
     },
     {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "PARAS",
-      "SS_NAME": "PARAS DEF AND SPCE TECH L",
-      "SS_QTY": 21
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "BANKBARODA",
+      "SS_NAME": "BANK OF BARODA",
+      "SS_QTY": 7
     },
     {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "PAYTM",
-      "SS_NAME": "ONE 97 COMMUNICATIONS LTD",
-      "SS_QTY": 500
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "BANKIETF",
+      "SS_NAME": "ICICIPRAMC - IPRU5008",
+      "SS_QTY": 24
     },
     {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "PCJEWELLER",
-      "SS_NAME": "PC JEWELLER LTD          ",
-      "SS_QTY": 1
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "BANKINDIA",
+      "SS_NAME": "BANK OF INDIA",
+      "SS_QTY": 3374
     },
     {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "PIIND",
-      "SS_NAME": "PI INDUSTRIES LTD        ",
-      "SS_QTY": 165
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "BAYERCROP",
+      "SS_NAME": "BAYER CROPSCIENCE LTD    ",
+      "SS_QTY": 3
     },
     {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "POLICYBZR",
-      "SS_NAME": "PB FINTECH LIMITED",
-      "SS_QTY": 5
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "BBETF0432",
+      "SS_NAME": "EDELAMC - BBETF0432",
+      "SS_QTY": 14
     },
     {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "POLYCAB",
-      "SS_NAME": "POLYCAB INDIA LIMITED",
-      "SS_QTY": 1
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "BBL",
+      "SS_NAME": "BHARAT BIJLEE LTD",
+      "SS_QTY": 32
     },
     {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "PREMIERENE",
-      "SS_NAME": "PREMIER ENERGIES LIMITED",
-      "SS_QTY": 100
-    },
-    {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "RAIN",
-      "SS_NAME": "RAIN INDUSTRIES LIMITED",
-      "SS_QTY": 75
-    },
-    {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "RECLTD",
-      "SS_NAME": "RURAL ELEC CORP. LTD.",
-      "SS_QTY": 1
-    },
-    {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "RPOWER",
-      "SS_NAME": "RELIANCE POWER LTD.",
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "BBTC",
+      "SS_NAME": "BOMBAY BURMAH TRADING COR",
       "SS_QTY": 64
     },
     {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "SAGILITY",
-      "SS_NAME": "SAGILITY INDIA LIMITED",
-      "SS_QTY": 2
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "BDL",
+      "SS_NAME": "BHARAT DYNAMICS LIMITED",
+      "SS_QTY": 978
     },
     {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "SAIL",
-      "SS_NAME": "STEEL AUTHORITY OF INDIA",
-      "SS_QTY": 49
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "BECTORFOOD",
+      "SS_NAME": "MRS BECTORS FOOD SPE LTD",
+      "SS_QTY": 88
     },
     {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "SIEMENS",
-      "SS_NAME": "SIEMENS LTD",
-      "SS_QTY": 2450
-    },
-    {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "SOLARINDS",
-      "SS_NAME": "SOLAR INDUSTRIES (I) LTD",
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "BEL",
+      "SS_NAME": "BHARAT ELECTRONICS LTD",
       "SS_QTY": 1
     },
     {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "SOUTHBANK",
-      "SS_NAME": "THE SOUTH INDIAN BANK LTD",
-      "SS_QTY": 5
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "BHARATCOAL",
+      "SS_NAME": "BHARAT COKING COAL LTD",
+      "SS_QTY": 576
     },
     {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "SWIGGY",
-      "SS_NAME": "SWIGGY LIMITED",
-      "SS_QTY": 3651
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "BIKAJI",
+      "SS_NAME": "BIKAJI FOODS INTERN LTD",
+      "SS_QTY": 17
     },
     {
-      "SS_DATE": "02-SEP-2026",
-      "SS_DATE_ORDER": "2026-09-01T18:30:00.000Z",
-      "SS_SYMBOL": "TATAPOWER",
-      "SS_NAME": "TATA POWER CO LTD",
-      "SS_QTY": 550
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "BRIGADE",
+      "SS_NAME": "BRIGADE ENTER. LTD",
+      "SS_QTY": 10
+    },
+    {
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "BUILDPRO",
+      "SS_NAME": "SHANKARA BUILDPRO LIMITED",
+      "SS_QTY": 23
+    },
+    {
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "CAMPUS",
+      "SS_NAME": "CAMPUS ACTIVEWEAR LIMITED",
+      "SS_QTY": 151
+    },
+    {
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "CANHLIFE",
+      "SS_NAME": "CANARA HSBC LIFE INS CO L",
+      "SS_QTY": 130
+    },
+    {
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "CARERATING",
+      "SS_NAME": "CARE LIMITED",
+      "SS_QTY": 1
+    },
+    {
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "CARYSIL",
+      "SS_NAME": "CARYSIL LIMITED",
+      "SS_QTY": 32
+    },
+    {
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "CCAVENUE",
+      "SS_NAME": "AVENUESAI LIMITED",
+      "SS_QTY": 81
+    },
+    {
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "CCL",
+      "SS_NAME": "CCL PRODUCTS (I) LTD     ",
+      "SS_QTY": 9
+    },
+    {
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "CEMPRO",
+      "SS_NAME": "CEMINDIA PROJECTS LIMITED",
+      "SS_QTY": 10
+    },
+    {
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "CENTRALBK",
+      "SS_NAME": "CENTRAL BANK OF INDIA",
+      "SS_QTY": 329
+    },
+    {
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "CLEANMAX",
+      "SS_NAME": "CLEAN MAX ENVIRO EN SOL L",
+      "SS_QTY": 7
+    },
+    {
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "CONCORDBIO",
+      "SS_NAME": "CONCORD BIOTECH LIMITED",
+      "SS_QTY": 28
+    },
+    {
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "COSMOFIRST",
+      "SS_NAME": "COSMO FIRST LIMITED",
+      "SS_QTY": 2
+    },
+    {
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "CREDITACC",
+      "SS_NAME": "CREDITACCESS GRAMEEN LTD",
+      "SS_QTY": 8
+    },
+    {
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "CRISIL",
+      "SS_NAME": "CRISIL LIMITED",
+      "SS_QTY": 1
+    },
+    {
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "DCAL",
+      "SS_NAME": "DISHMAN CARBO AMCIS LTD",
+      "SS_QTY": 52
+    },
+    {
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "DEEPINDS",
+      "SS_NAME": "DEEP INDUSTRIES LIMITED",
+      "SS_QTY": 60
+    },
+    {
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "DLF",
+      "SS_NAME": "DLF LIMITED",
+      "SS_QTY": 2
+    },
+    {
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "DRREDDY",
+      "SS_NAME": "DR. REDDY'S LABORATORIES",
+      "SS_QTY": 20
+    },
+    {
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "EDELWEISS",
+      "SS_NAME": "EDELWEISS FIN SERV LTD",
+      "SS_QTY": 1
+    },
+    {
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "EFCIL",
+      "SS_NAME": "EFC (I) LIMITED",
+      "SS_QTY": 50
+    },
+    {
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "ELECTCAST",
+      "SS_NAME": "ELECTROSTEEL CASTINGS LTD",
+      "SS_QTY": 234
+    },
+    {
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "ELGIEQUIP",
+      "SS_NAME": "ELGI EQUIPMENTS LTD",
+      "SS_QTY": 10
+    },
+    {
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "EMIL",
+      "SS_NAME": "ELECTRONICS MART IND LTD",
+      "SS_QTY": 514
+    },
+    {
+      "SS_DATE": "03-SEP-2026",
+      "SS_DATE_ORDER": "2026-09-02T18:30:00.000Z",
+      "SS_SYMBOL": "EPACK",
+      "SS_NAME": "EPACK DURABLE LIMITED",
+      "SS_QTY": 143
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-03",
+  "asOf": "2026-09-04",
   "stocks": [
     {
       "Symbol": "21STCENMGM",
@@ -65,6 +65,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "BLUECHIP",
+      "Series": "BE",
+      "Security Name": "BLUE CHIP INDIA LIMITED",
+      "Band": "2",
+      "Remarks": "GSM STAGE - III"
+    },
+    {
       "Symbol": "DSKULKARNI",
       "Series": "BE",
       "Security Name": "DS KULKARNI DEVELOPERS LIMITED",
@@ -86,13 +93,6 @@
       "Remarks": "GSM STAGE - 0"
     },
     {
-      "Symbol": "FAIRCHEMOR",
-      "Series": "BE",
-      "Security Name": "FAIRCHEM ORGANICS LIMITED",
-      "Band": "2",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "FEL",
       "Series": "BZ",
       "Security Name": "FUTURE ENTERPRISES LIMITED",
@@ -105,6 +105,13 @@
       "Security Name": "GVK POWER & INFRASTRUCTURE LIMITED",
       "Band": "2",
       "Remarks": "GSM STAGE - 0"
+    },
+    {
+      "Symbol": "HOACFOODS",
+      "Series": "ST",
+      "Security Name": "HOAC FOODS INDIA LIMITED",
+      "Band": "2",
+      "Remarks": "-"
     },
     {
       "Symbol": "IMPEXFERRO",
@@ -184,13 +191,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "NRL",
-      "Series": "BE",
-      "Security Name": "NUPUR RECYCLERS LIMITED",
-      "Band": "2",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "OILCOUNTUB",
       "Series": "BE",
       "Security Name": "OIL COUNTRY TUBULAR LIMITED",
@@ -250,6 +250,13 @@
       "Symbol": "RELINFRA",
       "Series": "BE",
       "Security Name": "RELIANCE INFRASTRUCTURE LIMITED",
+      "Band": "2",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SABAR",
+      "Series": "ST",
+      "Security Name": "SABAR FLEX INDIA LIMITED",
       "Band": "2",
       "Remarks": "-"
     },
@@ -590,13 +597,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "ALKALI",
-      "Series": "BE",
-      "Security Name": "ALKALI METALS LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "ALPHAGEO",
       "Series": "BE",
       "Security Name": "ALPHAGEO (INDIA) LIMITED",
@@ -730,6 +730,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "ASHUTOSH",
+      "Series": "ST",
+      "Security Name": "ASHUTOSH FIBRE LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "ASMS",
       "Series": "BE",
       "Security Name": "AVIO SMART MARKET STACK LIMITED",
@@ -835,13 +842,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "BAWEJA",
-      "Series": "ST",
-      "Security Name": "BAWEJA STUDIOS LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "BDR",
       "Series": "IT",
       "Security Name": "BDR BUILDCON LIMITED",
@@ -852,6 +852,13 @@
       "Symbol": "BEACON",
       "Series": "SM",
       "Security Name": "BEACON TRUSTEESHIP LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "BGLOBAL",
+      "Series": "BZ",
+      "Security Name": "BHARATIYA GLOBAL INFOMEDIA LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -927,7 +934,7 @@
     },
     {
       "Symbol": "BIRLACABLE",
-      "Series": "BE",
+      "Series": "EQ",
       "Security Name": "BIRLA CABLE LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -948,7 +955,7 @@
     },
     {
       "Symbol": "BLUECOAST",
-      "Series": "BE",
+      "Series": "EQ",
       "Security Name": "BLUE COAST HOTELS LIMITED",
       "Band": "5",
       "Remarks": "GSM STAGE - 0"
@@ -978,13 +985,6 @@
       "Symbol": "BOSS",
       "Series": "SM",
       "Security Name": "BOSS PACKAGING SOLUTIONS LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "BROOKS",
-      "Series": "BE",
-      "Security Name": "BROOKS LABORATORIES LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -1094,8 +1094,15 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "CLEDUCATE",
+      "Symbol": "CLCIND",
       "Series": "BE",
+      "Security Name": "CLC INDUSTRIES LIMITED",
+      "Band": "5",
+      "Remarks": "GSM STAGE - III"
+    },
+    {
+      "Symbol": "CLEDUCATE",
+      "Series": "EQ",
       "Security Name": "CL EDUCATE LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -1108,16 +1115,16 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "CMICABLES",
+      "Series": "BZ",
+      "Security Name": "CMI LIMITED",
+      "Band": "5",
+      "Remarks": "GSM STAGE - 0"
+    },
+    {
       "Symbol": "CMRSL",
       "Series": "SM",
       "Security Name": "CYBER MEDIA RESEARCH & SERVICES LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "COFFEEDAY",
-      "Series": "BE",
-      "Security Name": "COFFEE DAY ENTERPRISES LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -1207,7 +1214,7 @@
     },
     {
       "Symbol": "DAICHI",
-      "Series": "EQ",
+      "Series": "BE",
       "Security Name": "DAI-ICHI KARKARIA LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -1216,13 +1223,6 @@
       "Symbol": "DAMODARIND",
       "Series": "BE",
       "Security Name": "DAMODAR INDUSTRIES LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "DBEIL",
-      "Series": "BE",
-      "Security Name": "DEEPAK BUILDERS & ENGINEERS INDIA LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -1458,16 +1458,16 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "EDUCOMP",
+      "Series": "BZ",
+      "Security Name": "EDUCOMP SOLUTIONS LIMITED",
+      "Band": "5",
+      "Remarks": "GSM STAGE - 0"
+    },
+    {
       "Symbol": "EEPL",
       "Series": "ST",
       "Security Name": "EPPELTONE ENGINEERS LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "EFFWA",
-      "Series": "ST",
-      "Security Name": "EFFWA INFRA & RESEARCH LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -1536,7 +1536,7 @@
     },
     {
       "Symbol": "ESCONET",
-      "Series": "SM",
+      "Series": "ST",
       "Security Name": "ESCONET TECHNOLOGIES LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -1563,9 +1563,9 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "FASCINATE",
-      "Series": "ST",
-      "Security Name": "FASCINATE TEXTILES LIMITED",
+      "Symbol": "FAIRCHEMOR",
+      "Series": "BE",
+      "Security Name": "FAIRCHEM ORGANICS LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -1724,30 +1724,16 @@
       "Remarks": "GSM STAGE - 0"
     },
     {
+      "Symbol": "GFSTEELS",
+      "Series": "BE",
+      "Security Name": "GRAND FOUNDRY LIMITED",
+      "Band": "5",
+      "Remarks": "GSM STAGE - IV"
+    },
+    {
       "Symbol": "GICL",
       "Series": "EQ",
       "Security Name": "GLOBE INTERNATIONAL CARRIERS LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GILT10BETA",
-      "Series": "EQ",
-      "Security Name": "UTI MUTUAL FUND - UTI NIFTY 10 YR BENCHMARK G-SEC ETF",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GILT5BETA",
-      "Series": "EQ",
-      "Security Name": "UTI MUTUAL FUND - UTI NIFTY 5 YR BENCHMARK G-SEC ETF",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GILT5YBEES",
-      "Series": "EQ",
-      "Security Name": "NIPPON INDIA ETF NIFTY 5 YR BENCHMARK GSEC",
       "Band": "5",
       "Remarks": "-"
     },
@@ -1788,7 +1774,7 @@
     },
     {
       "Symbol": "GLOBALPET",
-      "Series": "ST",
+      "Series": "SM",
       "Security Name": "GLOBAL PET INDUSTRIES LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -1825,13 +1811,6 @@
       "Symbol": "GOLDTECH",
       "Series": "BE",
       "Security Name": "AION-TECH SOLUTIONS LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GPECO",
-      "Series": "ST",
-      "Security Name": "GP ECO SOLUTIONS INDIA LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -1881,34 +1860,6 @@
       "Symbol": "GROWWLIQID",
       "Series": "EQ",
       "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY 1D RATE LIQUID ETF",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GSEC10ADD",
-      "Series": "EQ",
-      "Security Name": "DSP MUTUAL FUND - DSP NIFTY 10 YR BENCHMARK G-SEC ETF",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GSEC10IETF",
-      "Series": "EQ",
-      "Security Name": "ICICI PRU MUTUAL FUND-ICICI PRUDENTIAL NIFTY 10 YR BENCHMARK G-SEC ETF",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GSEC10YEAR",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY 8-13 YR G-SEC ETF",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GSEC5IETF",
-      "Series": "EQ",
-      "Security Name": "ICICI PRUDENTIAL NIFTY 5 YR BENCHMARK G-SEC ETF",
       "Band": "5",
       "Remarks": "-"
     },
@@ -1997,6 +1948,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "HEG",
+      "Series": "BE",
+      "Security Name": "HEG LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "HEXAGON",
       "Series": "BE",
       "Security Name": "HEXAGON NUTRITION LIMITED",
@@ -2042,13 +2000,6 @@
       "Symbol": "HMVL",
       "Series": "BE",
       "Security Name": "HINDUSTAN MEDIA VENTURES LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "HOACFOODS",
-      "Series": "ST",
-      "Security Name": "HOAC FOODS INDIA LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -2194,7 +2145,7 @@
     },
     {
       "Symbol": "INTEGRITY",
-      "Series": "ST",
+      "Series": "SM",
       "Security Name": "INTEGRITY INFRABUILD DEVELOPERS LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -2280,13 +2231,6 @@
       "Symbol": "JKIPL",
       "Series": "EQ",
       "Security Name": "JINKUSHAL INDUSTRIES LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "JOCIL",
-      "Series": "BE",
-      "Security Name": "JOCIL LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -2432,7 +2376,7 @@
     },
     {
       "Symbol": "KRIDHANINF",
-      "Series": "BE",
+      "Series": "EQ",
       "Security Name": "KRIDHAN INFRA LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -2490,13 +2434,6 @@
       "Symbol": "LEMERITE",
       "Series": "EQ",
       "Security Name": "LE MERITE EXPORTS LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "LICNETFGSC",
-      "Series": "EQ",
-      "Security Name": "LIC MF - LIC MF G-SEC LT ETF - GO",
       "Band": "5",
       "Remarks": "-"
     },
@@ -2613,20 +2550,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "LTGILTBEES",
-      "Series": "EQ",
-      "Security Name": "NIPPON INDIA ETF NIFTY 8-13 YR G-SEC LONG TERM GILT",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "LTGILTCASE",
-      "Series": "EQ",
-      "Security Name": "ZERODHA FUND HOUSE - ZERODHA NIFTY 8-13 YR G-SEC ETF",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "MADHAVBAUG",
       "Series": "ST",
       "Security Name": "VAIDYA SANE AYURVED LABORATORIES LIMITED",
@@ -2683,8 +2606,15 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "MAL",
+      "Series": "SM",
+      "Security Name": "MANGALAM ALLOYS LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "MANAKSTEEL",
-      "Series": "EQ",
+      "Series": "BE",
       "Security Name": "MANAKSIA STEELS LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -2816,13 +2746,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "MGEL",
-      "Series": "BE",
-      "Security Name": "MANGALAM GLOBAL ENTERPRISE LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "MHHL",
       "Series": "SM",
       "Security Name": "MOHINI HEALTH & HYGIENE LIMITED",
@@ -2865,13 +2788,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "MITCON",
-      "Series": "BE",
-      "Security Name": "MITCON CONSULTANCY & ENGINEERING SERVICES LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "MMWL",
       "Series": "EQ",
       "Security Name": "MEDIA MATRIX WORLDWIDE LIMITED",
@@ -2893,13 +2809,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "MOGSEC",
-      "Series": "EQ",
-      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL 5 YEAR G SEC ETF - GROWTH",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "MOLDTECH",
       "Series": "BE",
       "Security Name": "MOLD-TEK TECHNOLOGIES LIMITED",
@@ -2914,16 +2823,16 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "MORARJEE",
+      "Series": "BZ",
+      "Security Name": "MORARJEE TEXTILES LIMITED",
+      "Band": "5",
+      "Remarks": "GSM STAGE - IV"
+    },
+    {
       "Symbol": "MOS",
       "Series": "ST",
       "Security Name": "MOS UTILITY LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MOTOGENFIN",
-      "Series": "BE",
-      "Security Name": "THE MOTOR & GENERAL FINANCE LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -3003,6 +2912,13 @@
       "Security Name": "MYSORE PETROCHEMICALS LIMITED",
       "Band": "5",
       "Remarks": "-"
+    },
+    {
+      "Symbol": "NAGAFERT",
+      "Series": "BZ",
+      "Security Name": "NAGARJUNA FERTILIZERS AND CHEMICALS LIMITED",
+      "Band": "5",
+      "Remarks": "GSM STAGE - 0"
     },
     {
       "Symbol": "NAMAN",
@@ -3117,6 +3033,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "NRL",
+      "Series": "BE",
+      "Security Name": "NUPUR RECYCLERS LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "NURECA",
       "Series": "BE",
       "Security Name": "NURECA LIMITED",
@@ -3208,6 +3131,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "ORTEL",
+      "Series": "BZ",
+      "Security Name": "ORTEL COMMUNICATIONS LIMITED",
+      "Band": "5",
+      "Remarks": "GSM STAGE - III"
+    },
+    {
       "Symbol": "ORTINGLOBE",
       "Series": "EQ",
       "Security Name": "ORTIN GLOBAL LIMITED",
@@ -3223,7 +3153,7 @@
     },
     {
       "Symbol": "PALREDTEC",
-      "Series": "BE",
+      "Series": "EQ",
       "Security Name": "PALRED TECHNOLOGIES LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -3281,13 +3211,6 @@
       "Symbol": "PEARLPOLY",
       "Series": "EQ",
       "Security Name": "PEARL POLYMERS LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "PENINLAND",
-      "Series": "BE",
-      "Security Name": "PENINSULA LAND LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -3488,18 +3411,18 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "QUICKHEAL",
-      "Series": "BE",
-      "Security Name": "QUICK HEAL TECHNOLOGIES LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "QUICKTOUCH",
       "Series": "SM",
       "Security Name": "QUICKTOUCH TECHNOLOGIES LIMITED",
       "Band": "5",
       "Remarks": "-"
+    },
+    {
+      "Symbol": "QUINTEGRA",
+      "Series": "BE",
+      "Security Name": "QUINTEGRA SOLUTIONS LIMITED",
+      "Band": "5",
+      "Remarks": "GSM STAGE - 0"
     },
     {
       "Symbol": "QVCEL",
@@ -3537,9 +3460,23 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "RAJVIR",
+      "Series": "BZ",
+      "Security Name": "RAJVIR INDUSTRIES LIMITED",
+      "Band": "5",
+      "Remarks": "GSM STAGE - 0"
+    },
+    {
       "Symbol": "RAMCOSYS",
       "Series": "EQ",
       "Security Name": "RAMCO SYSTEMS LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "RCDL",
+      "Series": "SM",
+      "Security Name": "RAJGOR CASTOR DERIVATIVES LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -3586,6 +3523,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "RHETAN",
+      "Series": "EQ",
+      "Security Name": "RHETAN TMT LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "RHFL",
       "Series": "BZ",
       "Security Name": "RELIANCE HOME FINANCE LIMITED",
@@ -3615,7 +3559,7 @@
     },
     {
       "Symbol": "RNBDENIMS",
-      "Series": "EQ",
+      "Series": "BE",
       "Security Name": "R&B DENIMS LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -3663,13 +3607,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "RUBYMILLS",
-      "Series": "BE",
-      "Security Name": "THE RUBY MILLS LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "S&SPOWER",
       "Series": "EQ",
       "Security Name": "S&S POWER SWITCHGEARS LIMITED",
@@ -3691,13 +3628,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "SABAR",
-      "Series": "ST",
-      "Security Name": "SABAR FLEX INDIA LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "SADBHAV",
       "Series": "EQ",
       "Security Name": "SADBHAV ENGINEERING LIMITED",
@@ -3713,7 +3643,7 @@
     },
     {
       "Symbol": "SAHASRA",
-      "Series": "ST",
+      "Series": "SM",
       "Security Name": "SAHASRA ELECTRONIC SOLUTIONS LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -3803,6 +3733,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "SECL",
+      "Series": "SZ",
+      "Security Name": "SALASAR EXTERIORS AND CONTOUR LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "SEJALLTD",
       "Series": "EQ",
       "Security Name": "SEJAL GLASS LIMITED",
@@ -3834,13 +3771,6 @@
       "Symbol": "SETCO",
       "Series": "BE",
       "Security Name": "SETCO AUTOMOTIVE LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SETF10GILT",
-      "Series": "EQ",
-      "Security Name": "SBI MUTUAL FUND - SBI-ETF 10 YEAR GILT",
       "Band": "5",
       "Remarks": "-"
     },
@@ -3887,6 +3817,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "SHANTIINOR",
+      "Series": "ST",
+      "Security Name": "SHANTI INORGANICS LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "SHARDUL",
       "Series": "BE",
       "Security Name": "SHARDUL SECURITIES LIMITED",
@@ -3911,13 +3848,6 @@
       "Symbol": "SHEMAROO",
       "Series": "BE",
       "Security Name": "SHEMAROO ENTERTAINMENT LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SHIVALIK",
-      "Series": "BE",
-      "Security Name": "SHIVALIK RASAYAN LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -4053,6 +3983,13 @@
       "Security Name": "SIMPLEX REALTY LIMITED",
       "Band": "5",
       "Remarks": "-"
+    },
+    {
+      "Symbol": "SKIL",
+      "Series": "BZ",
+      "Security Name": "SKIL INFRASTRUCTURE LIMITED",
+      "Band": "5",
+      "Remarks": "GSM STAGE - 0"
     },
     {
       "Symbol": "SLONE",
@@ -4412,13 +4349,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "THACKER",
-      "Series": "BE",
-      "Security Name": "THACKER & COMPANY LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "THANGAMAYL",
       "Series": "EQ",
       "Security Name": "THANGAMAYIL JEWELLERY LIMITED",
@@ -4566,6 +4496,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "UNIVAFOODS",
+      "Series": "BE",
+      "Security Name": "UNIVA FOODS LIMITED",
+      "Band": "5",
+      "Remarks": "GSM STAGE - IV"
+    },
+    {
       "Symbol": "UNIVASTU",
       "Series": "BE",
       "Security Name": "UNIVASTU INDIA LIMITED",
@@ -4597,13 +4534,6 @@
       "Symbol": "UTKAL",
       "Series": "SM",
       "Security Name": "UTKAL SPECIALITY INDUSTRIES INDIA LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "UTSSAV",
-      "Series": "ST",
-      "Security Name": "UTSSAV CZ GOLD JEWELS LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -4748,13 +4678,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "VIGOR",
-      "Series": "ST",
-      "Security Name": "VIGOR PLAST INDIA LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "VIJSOLX",
       "Series": "EQ",
       "Security Name": "VIJAY SOLVEX LIMITED",
@@ -4825,13 +4748,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "VIVIANA",
-      "Series": "BE",
-      "Security Name": "VIVIANA POWER TECH LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "VIVO",
       "Series": "ST",
       "Security Name": "VIVO COLLABORATION SOLUTIONS LIMITED",
@@ -4840,7 +4756,7 @@
     },
     {
       "Symbol": "VLEGOV",
-      "Series": "BE",
+      "Series": "EQ",
       "Security Name": "VL E GOVERNANCE & IT SOLUTIONS LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -5119,6 +5035,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "BAWEJA",
+      "Series": "SM",
+      "Security Name": "BAWEJA STUDIOS LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "BBOX",
       "Series": "EQ",
       "Security Name": "BLACK BOX LIMITED",
@@ -5143,6 +5066,13 @@
       "Symbol": "BHANDARI",
       "Series": "EQ",
       "Security Name": "BHANDARI HOSIERY EXPORTS LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "BIRLAPREC",
+      "Series": "EQ",
+      "Security Name": "BIRLA PRECISION TECHNOLOGIES LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -5182,6 +5112,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "BROOKS",
+      "Series": "EQ",
+      "Security Name": "BROOKS LABORATORIES LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "BSHSL",
       "Series": "EQ",
       "Security Name": "BOMBAY SUPER HYBRID SEEDS LIMITED",
@@ -5210,6 +5147,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "COFFEEDAY",
+      "Series": "EQ",
+      "Security Name": "COFFEE DAY ENTERPRISES LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "COMMITTED",
       "Series": "SM",
       "Security Name": "COMMITTED CARGO CARE LIMITED",
@@ -5227,6 +5171,13 @@
       "Symbol": "CRIZAC",
       "Series": "EQ",
       "Security Name": "CRIZAC LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "CYBERMEDIA",
+      "Series": "EQ",
+      "Security Name": "CYBER MEDIA (INDIA) LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -5374,6 +5325,13 @@
       "Symbol": "ESFL",
       "Series": "SM",
       "Security Name": "ESSEN SPECIALITY FILMS LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "FASCINATE",
+      "Series": "SM",
+      "Security Name": "FASCINATE TEXTILES LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -5574,6 +5532,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "JINDWORLD",
+      "Series": "EQ",
+      "Security Name": "JINDAL WORLDWIDE LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "JITFINFRA",
       "Series": "EQ",
       "Security Name": "JITF INFRALOGISTICS LIMITED",
@@ -5651,13 +5616,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "KSHITIJ-RE",
-      "Series": "BE",
-      "Security Name": "KSHITIJ POLYLINE LTD-RE",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "KSR",
       "Series": "EQ",
       "Security Name": "KSR FOOTWEAR LIMITED",
@@ -5717,13 +5675,6 @@
       "Symbol": "MAKERSL",
       "Series": "EQ",
       "Security Name": "MAKERS LABORATORIES LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MAL",
-      "Series": "SM",
-      "Security Name": "MANGALAM ALLOYS LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -5941,20 +5892,6 @@
       "Symbol": "RBS",
       "Series": "SM",
       "Security Name": "RAMDEVBABA SOLVENT LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "RCDL",
-      "Series": "SM",
-      "Security Name": "RAJGOR CASTOR DERIVATIVES LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "RHETAN",
-      "Series": "EQ",
-      "Security Name": "RHETAN TMT LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -6281,6 +6218,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "VIGOR",
+      "Series": "SM",
+      "Security Name": "VIGOR PLAST INDIA LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "VIPCLOTHNG",
       "Series": "EQ",
       "Security Name": "VIP CLOTHING LIMITED",
@@ -6456,13 +6400,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "ABGSEC",
-      "Series": "EQ",
-      "Security Name": "ADITYABIRLASUNLIFEMF-ADITYA BIRLA SUN LIFE CRISIL BROAD BASED GILT ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "ABHAPOWER",
       "Series": "SM",
       "Security Name": "ABHA POWER AND STEEL LIMITED",
@@ -6491,44 +6428,9 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "ABSL10BANK",
-      "Series": "EQ",
-      "Security Name": "ADITYA BIRLA SUN LIFE MF - ADITYA BIRLA SUN LIFE BSE TOP 10 BANKS ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "ABSLAMC",
       "Series": "EQ",
       "Security Name": "ADITYA BIRLA SUN LIFE AMC LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "ABSLBANETF",
-      "Series": "EQ",
-      "Security Name": "ADITYA BIRLA SUN LIFE NIFTY BANK ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "ABSLMSCIN",
-      "Series": "EQ",
-      "Security Name": "ADITYA BIRLA SUN LIFE MF- ADITYA BIRLA SUN LIFE MSCI INDIA ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "ABSLNN50ET",
-      "Series": "EQ",
-      "Security Name": "ADITYA BIRLA SUN LIFE NIFTY NEXT 50 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "ABSLPSE",
-      "Series": "EQ",
-      "Security Name": "ADITYA BIRLA SUN LIFE MUTUAL FUND-ADITYA BIRLA SUN LIFE NIFTY PSE ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -7009,6 +6911,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "ALKALI",
+      "Series": "EQ",
+      "Security Name": "ALKALI METALS LIMITED",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "ALKYLAMINE",
       "Series": "EQ",
       "Security Name": "ALKYL AMINES CHEMICALS LIMITED",
@@ -7051,30 +6960,9 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "ALPHA",
-      "Series": "EQ",
-      "Security Name": "KOTAK MAHINDRA MUTUAL FUND - KOTAK NIFTY ALPHA 50 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "ALPHAETF",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY 200 ALPHA 30 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "ALPINETEX",
       "Series": "EQ",
       "Security Name": "ALPINE TEXWORLD LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "ALPL30IETF",
-      "Series": "EQ",
-      "Security Name": "ICICI PRUDENTIAL NIFTY ALPHA LOW VOLATILITY 30 ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -7306,41 +7194,6 @@
       "Symbol": "ANZEN",
       "Series": "IV",
       "Security Name": "ANZEN INDIA ENERGY YIELD PLUS TRUST",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "AONEGOLD",
-      "Series": "EQ",
-      "Security Name": "ANGEL ONE MUTUAL FUND - ANGEL ONE GOLD ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "AONENIFTY",
-      "Series": "EQ",
-      "Security Name": "ANGEL ONE MUTUAL FUND - ANGEL ONE NIFTY 50 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "AONESILVER",
-      "Series": "EQ",
-      "Security Name": "ANGEL ONE MUTUAL FUND - ANGEL ONE SILVER ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "AONETMMQ50",
-      "Series": "EQ",
-      "Security Name": "ANGEL ONE MF - ANGEL ONE NIFTY TOTAL MARKET MOMENTUM QUALITY 50 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "AONETOTAL",
-      "Series": "EQ",
-      "Security Name": "ANGEL ONE MUTUAL FUND - ANGEL ONE NIFTY TOTAL MARKET ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -7842,20 +7695,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "AUTOBEES",
-      "Series": "EQ",
-      "Security Name": "NIPPON INDIA MUTUAL FUND - NIPPON INDIA NIFTY AUTO ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "AUTOIETF",
-      "Series": "EQ",
-      "Security Name": "ICICI PRUDENTIAL MUTUAL FUND - ICICI PRUDENTIAL  NIFTY AUTO ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "AUTOIND",
       "Series": "EQ",
       "Security Name": "AUTOLINE INDUSTRIES LIMITED",
@@ -8185,76 +8024,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "BANK10ADD",
-      "Series": "EQ",
-      "Security Name": "DSP MUTUAL FUND - DSP BSE TOP 10 BANKS ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "BANK10BETF",
-      "Series": "EQ",
-      "Security Name": "BAJAJ FINSERV MUTUAL FUND - BAJAJ FINSERV BSE TOP 10 BANKS ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "BANKADD",
-      "Series": "EQ",
-      "Security Name": "DSP  MUTUAL FUND - DSP NIFTY BANK ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "BANKBEES",
-      "Series": "EQ",
-      "Security Name": "NIPPON INDIA ETF NIFTY BANK BEES",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "BANKBETA",
-      "Series": "EQ",
-      "Security Name": "UTI NIFTY BANK ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "BANKBETF",
-      "Series": "EQ",
-      "Security Name": "BAJAJ FINSERV MUTUAL FUND - BAJAJ FINSERV NIFTY BANK ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "BANKETF",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY BANK ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "BANKIETF",
-      "Series": "EQ",
-      "Security Name": "ICICI PRUDENTIAL NIFTY BANK ETF - NIFTY BANK INDEX",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "BANKNIFTY1",
-      "Series": "EQ",
-      "Security Name": "KOTAK NIFTY BANK ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "BANKPSU",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY PSU BANK ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "BANSALWIRE",
       "Series": "EQ",
       "Security Name": "BANSAL WIRE INDUSTRIES LIMITED",
@@ -8311,30 +8080,9 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "BBETF0432",
-      "Series": "EQ",
-      "Security Name": "EDELWEISS MUTUAL FUND - BHARAT BOND ETF - APRIL 2032 - GROWTH",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "BBL",
       "Series": "EQ",
       "Security Name": "BHARAT BIJLEE LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "BBNPNBETF",
-      "Series": "EQ",
-      "Security Name": "BARODA BNP PARIBAS MUTUAL FUND- BARODA BNP PARIBAS NIFTY BANK ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "BBNPPGOLD",
-      "Series": "EQ",
-      "Security Name": "BARODA BNP PARIBAS MUTUAL FUND - BARODA BNP PARIBAS GOLD ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -8472,13 +8220,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "BFSI",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY FINANCIAL SERVICES ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "BFUTILITIE",
       "Series": "EQ",
       "Security Name": "BF UTILITIES LIMITED",
@@ -8587,13 +8328,6 @@
       "Symbol": "BIRLANU",
       "Series": "EQ",
       "Security Name": "BIRLANU LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "BIRLAPREC",
-      "Series": "EQ",
-      "Security Name": "BIRLA PRECISION TECHNOLOGIES LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -8710,13 +8444,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "BNKETFAXIS",
-      "Series": "EQ",
-      "Security Name": "AXIS MUTUAL FUND - AXIS NIFTY BANK ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "BOMDYEING",
       "Series": "EQ",
       "Security Name": "BOMBAY DYEING & MFG COMPANY LIMITED",
@@ -8815,37 +8542,9 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "BSE500IETF",
-      "Series": "EQ",
-      "Security Name": "ICICI PRUDENTIAL BSE 500 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "BSL",
       "Series": "EQ",
       "Security Name": "BSL LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "BSLGOLDETF",
-      "Series": "EQ",
-      "Security Name": "ADITYA BIRLA SUN LIFE GOLD ETF - GROWTH",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "BSLNIFTY",
-      "Series": "EQ",
-      "Security Name": "ADITYA BIRLA SUN LIFE NIFTY 50 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "BSLSENETFG",
-      "Series": "EQ",
-      "Security Name": "ADITYA BIRLA SUN LIFE BSE SENSEX ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -9081,13 +8780,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "CEMNTGROWW",
-      "Series": "EQ",
-      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY CEMENTS ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "CENTENKA",
       "Series": "EQ",
       "Security Name": "CENTURY ENKA LIMITED",
@@ -9235,13 +8927,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "CHEMICAL",
-      "Series": "EQ",
-      "Security Name": "KOTAK MAHINDRA MUTUAL FUND - KOTAK NIFTY CHEMICALS ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "CHEMPLASTS",
       "Series": "EQ",
       "Security Name": "CHEMPLAST SANMAR LIMITED",
@@ -9259,13 +8944,6 @@
       "Symbol": "CHEVIOT",
       "Series": "EQ",
       "Security Name": "CHEVIOT COMPANY LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "CHOICEGOLD",
-      "Series": "EQ",
-      "Security Name": "CHOICE MUTUAL FUND - CHOICE GOLD ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -9417,13 +9095,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "COMMOIETF",
-      "Series": "EQ",
-      "Security Name": "ICICI PRUDENTIAL MUTUAL FUND - ICICI PRUDENTIAL NIFTY COMMODITIES ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "COMPEAU",
       "Series": "EQ",
       "Security Name": "COMPETENT AUTOMOBILES COMPANY LIMITED",
@@ -9455,41 +9126,6 @@
       "Symbol": "CONNPLEX",
       "Series": "SM",
       "Security Name": "CONNPLEX CINEMAS LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "CONS",
-      "Series": "EQ",
-      "Security Name": "KOTAK NIFTY INDIA CONSUMPTION ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "CONSUMAXIS",
-      "Series": "EQ",
-      "Security Name": "AXIS MUTUAL FUND - AXIS NIFTY INDIA CONSUMPTION ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "CONSUMBEES",
-      "Series": "EQ",
-      "Security Name": "NIPPON INDIA ETF NIFTY INDIA CONSUMPTION",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "CONSUMER",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET MF- MIRAE ASSET NIFTY INDIA NEW AGE CONSUMPTION ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "CONSUMIETF",
-      "Series": "EQ",
-      "Security Name": "ICICI PRUDENTIAL NIFTY INDIA CONSUMPTION ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -9553,13 +9189,6 @@
       "Symbol": "CPL",
       "Series": "EQ",
       "Security Name": "CAPTAIN POLYPLAST LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "CPSEETF",
-      "Series": "EQ",
-      "Security Name": "CPSE ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -9711,13 +9340,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "CYBERMEDIA",
-      "Series": "EQ",
-      "Security Name": "CYBER MEDIA (INDIA) LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "CYIENT",
       "Series": "EQ",
       "Security Name": "CYIENT LIMITED",
@@ -9777,6 +9399,13 @@
       "Symbol": "DBCORP",
       "Series": "EQ",
       "Security Name": "D.B.CORP LIMITED",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "DBEIL",
+      "Series": "EQ",
+      "Security Name": "DEEPAK BUILDERS & ENGINEERS INDIA LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -9910,13 +9539,6 @@
       "Symbol": "DEEPINDS",
       "Series": "EQ",
       "Security Name": "DEEP INDUSTRIES LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "DEFENCE",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET BSE INDIA DEFENCE ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -10124,20 +9746,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "DIVIDEND",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET BSE 500 DIVIDEND LEADERS 50 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "DIVOPPBEES",
-      "Series": "EQ",
-      "Security Name": "NIPPON INDIA ETF NIFTY DIVIDEND OPPORTUNITIES 50",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "DKEGL",
       "Series": "SM",
       "Security Name": "D.K. ENTERPRISES GLOBAL LIMITED",
@@ -10327,48 +9935,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "EBANK10",
-      "Series": "EQ",
-      "Security Name": "EDELWEISS MUTUAL FUND - EDELWEISS BSE TOP 10 BANK ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "EBANKNIFTY",
-      "Series": "EQ",
-      "Security Name": "EDELWEISS MUTUAL FUND - EDELWEISS NIFTY BANK ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "EBBETF0430",
-      "Series": "EQ",
-      "Security Name": "EDELWEISS MUTUAL FUND - BHARAT BOND  ETF - APRIL 2030",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "EBBETF0431",
-      "Series": "EQ",
-      "Security Name": "EDELWEISS MUTUAL FUND - BHARAT BOND ETF - APRIL 2031",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "EBBETF0433",
-      "Series": "EQ",
-      "Security Name": "EDELWEISS MUTUAL FUND - BHARAT BOND ETF-APRIL 2033",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "ECAPINSURE",
-      "Series": "EQ",
-      "Security Name": "EDELWEISS MUTUAL FUND - EDELWEISS BSE CAPITAL MARKETS & INSURANCE ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "ECLERX",
       "Series": "EQ",
       "Security Name": "ECLERX SERVICES LIMITED",
@@ -10404,16 +9970,16 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "EFORCE",
+      "Symbol": "EFFWA",
       "Series": "SM",
-      "Security Name": "ELECTRO FORCE (INDIA) LIMITED",
+      "Security Name": "EFFWA INFRA & RESEARCH LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
     {
-      "Symbol": "EGOLD",
-      "Series": "EQ",
-      "Security Name": "EDELWEISS MUTUAL FUND -EDELWEISS GOLD ETF",
+      "Symbol": "EFORCE",
+      "Series": "SM",
+      "Security Name": "ELECTRO FORCE (INDIA) LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -10530,20 +10096,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "ELM250",
-      "Series": "EQ",
-      "Security Name": "EDELWEISS MUTUAL FUND - EDELWEISS NIFTY LARGEMIDCAP 250 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "ELMDIV",
-      "Series": "EQ",
-      "Security Name": "EDELWEISS MF - EDELWEISS BSE LARGEMID (60:40) STABLE DIVIDEND 50 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "EMAMILTD",
       "Series": "EQ",
       "Security Name": "EMAMI LIMITED",
@@ -10561,13 +10113,6 @@
       "Symbol": "EMBASSY",
       "Series": "RR",
       "Security Name": "EMBASSY OFFICE PARKS REIT",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "EMETAL",
-      "Series": "EQ",
-      "Security Name": "EDELWEISS MUTUAL FUND - EDELWEISS NIFTY METAL ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -10621,13 +10166,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "EMULTIMQ",
-      "Series": "EQ",
-      "Security Name": "EDELWEISS MF - EDELWEISS NIFTY500 MULTICAP MOMENTUM QUALITY 50 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "ENCOMPAS",
       "Series": "SM",
       "Security Name": "ENCOMPASS DESIGN INDIA LIMITED",
@@ -10642,30 +10180,9 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "ENERGY",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY ENERGY ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "ENERGYAXIS",
-      "Series": "EQ",
-      "Security Name": "AXIS MUTUAL FUND - AXIS NIFTY ENERGY ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "ENERGYDEV",
       "Series": "EQ",
       "Security Name": "ENERGY DEVELOPMENT COMPANY LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "ENEXT50",
-      "Series": "EQ",
-      "Security Name": "EDELWEISS MUTUAL FUND - EDELWEISS NIFTY NEXT 50 ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -10680,13 +10197,6 @@
       "Symbol": "ENGINERSIN",
       "Series": "EQ",
       "Security Name": "ENGINEERS INDIA LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "ENIFTY",
-      "Series": "EQ",
-      "Security Name": "EDELWEISS MUTUAL FUND - EDELWEISS NIFTY 50 ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -10761,27 +10271,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "EQUAL200",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET BSE 200 EQUAL WEIGHT ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "EQUAL50",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY50 EQUAL WEIGHT ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "EQUAL50ADD",
-      "Series": "EQ",
-      "Security Name": "DSP  MUTUAL FUND - DSP NIFTY 50 EQUAL WEIGHT ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "EQUITASBNK",
       "Series": "EQ",
       "Security Name": "EQUITAS SMALL FINANCE BANK LIMITED",
@@ -10813,27 +10302,6 @@
       "Symbol": "ESDS",
       "Series": "EQ",
       "Security Name": "ESDS SOFTWARE SOLUTION LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "ESENSEX",
-      "Series": "EQ",
-      "Security Name": "EDELWEISS MUTUAL FUND - EDELWEISS BSE SENSEX ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "ESG",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY 100 ESG SECTOR LEADERS ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "ESILVER",
-      "Series": "EQ",
-      "Security Name": "EDELWEISS MUTUAL FUND - EDELWEISS SILVER ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -10904,20 +10372,6 @@
       "Symbol": "EVEREADY",
       "Series": "EQ",
       "Security Name": "EVEREADY INDUSTRIES INDIA LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "EVIETF",
-      "Series": "EQ",
-      "Security Name": "ICICI PRUDENTIAL MF-ICICI PRUDENTIAL NIFTY EV & NEW AGE AUTOMOTIVE ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "EVINDIA",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET MF - MIRAE ASSET NIFTY EV AND NEW AGE AUTOMOTIVE ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -11069,13 +10523,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "FINIETF",
-      "Series": "EQ",
-      "Security Name": "ICICI PRUDENTIAL MUTUAL FUND - ICICI PRU NIFTY FIN SER EX-BANK ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "FINKURVE",
       "Series": "EQ",
       "Security Name": "FINKURVE FINANCIAL SERVICES LIMITED",
@@ -11118,13 +10565,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "FLEXIADD",
-      "Series": "EQ",
-      "Security Name": "DSP MUTUAL FUND - DSP NIFTY500 FLEXICAP QUALITY 30 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "FLUOROCHEM",
       "Series": "EQ",
       "Security Name": "GUJARAT FLUOROCHEMICALS LIMITED",
@@ -11135,20 +10575,6 @@
       "Symbol": "FLYSBS",
       "Series": "SM",
       "Security Name": "FLYSBS AVIATION LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "FMCGADD",
-      "Series": "EQ",
-      "Security Name": "DSP MUTUAL FUND - DSP NIFTY FMCG ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "FMCGIETF",
-      "Series": "EQ",
-      "Security Name": "ICICI PRUDENTIAL MUTUAL FUND - ICICI PRUDENTIAL NIFTY FMCG ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -11657,79 +11083,9 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "GOLD1",
-      "Series": "EQ",
-      "Security Name": "KOTAK MUTUAL FUND - GOLD EXCHANGE TRADED FUND",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GOLD360",
-      "Series": "EQ",
-      "Security Name": "360 ONE MUTUAL FUND - 360 ONE GOLD ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GOLDADD",
-      "Series": "EQ",
-      "Security Name": "DSP MUTUAL FUND - DSP GOLD ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GOLDAXIS",
-      "Series": "EQ",
-      "Security Name": "AXIS MUTUAL FUND - AXIS GOLD ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GOLDBEES",
-      "Series": "EQ",
-      "Security Name": "NIPPON INDIA ETF GOLD BEES",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GOLDBETA",
-      "Series": "EQ",
-      "Security Name": "UTI MUTUAL FUND - UTI GOLD EXCHANGE TRADED FUND",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GOLDBND",
-      "Series": "EQ",
-      "Security Name": "BANDHAN MUTUAL FUND - BANDHAN GOLD ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GOLDCASE",
-      "Series": "EQ",
-      "Security Name": "ZERODHA FUND HOUSE - ZERODHA GOLD ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GOLDETF",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET GOLD ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "GOLDIAM",
       "Series": "EQ",
       "Security Name": "GOLDIAM INTERNATIONAL LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GOLDIETF",
-      "Series": "EQ",
-      "Security Name": "ICICI PRUDENTIAL GOLD ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -11758,6 +11114,13 @@
       "Symbol": "GOYALSALT",
       "Series": "SM",
       "Security Name": "GOYAL SALT LIMITED",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GPECO",
+      "Series": "SM",
+      "Security Name": "GP ECO SOLUTIONS INDIA LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -11895,153 +11258,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "GROWWCAPM",
-      "Series": "EQ",
-      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY CAPITAL MARKETS ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GROWWCHEM",
-      "Series": "EQ",
-      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY CHEMICALS ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GROWWDEFNC",
-      "Series": "EQ",
-      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY INDIA DEFENCE ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GROWWEV",
-      "Series": "EQ",
-      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY EV & NEW AGE AUTOMOTIVE ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GROWWGOLD",
-      "Series": "EQ",
-      "Security Name": "GROWW MUTUAL FUND - GROWW GOLD ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GROWWHOSPI",
-      "Series": "EQ",
-      "Security Name": "GROWW MUTUAL FUND - GROWW BSE HOSPITALS ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GROWWLOVOL",
-      "Series": "EQ",
-      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY 500 LOW VOLATILITY 50 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GROWWMC150",
-      "Series": "EQ",
-      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY MIDCAP 150 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GROWWMETAL",
-      "Series": "EQ",
-      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY METAL ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GROWWMOM50",
-      "Series": "EQ",
-      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY 500 MOMENTUM 50 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GROWWN200",
-      "Series": "EQ",
-      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY 200 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GROWWNET",
-      "Series": "EQ",
-      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY INDIA INTERNET ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GROWWNIFTY",
-      "Series": "EQ",
-      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY 50 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GROWWNXT50",
-      "Series": "EQ",
-      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY NEXT 50 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GROWWPOWER",
-      "Series": "EQ",
-      "Security Name": "GROWW MUTUAL FUND - GROWW BSE POWER ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GROWWPSE",
-      "Series": "EQ",
-      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY PSE ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GROWWPSUBK",
-      "Series": "EQ",
-      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY PSU BANK ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GROWWRAIL",
-      "Series": "EQ",
-      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY INDIA RAILWAYS PSU ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GROWWRLTY",
-      "Series": "EQ",
-      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY REALTY ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GROWWSC250",
-      "Series": "EQ",
-      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY SMALLCAP 250 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GROWWSLVR",
-      "Series": "EQ",
-      "Security Name": "GROWW MUTUAL FUND - GROWW SILVER ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "GRPLTD",
       "Series": "EQ",
       "Security Name": "GRP LIMITED",
@@ -12059,13 +11275,6 @@
       "Symbol": "GRWRHITECH",
       "Series": "EQ",
       "Security Name": "GARWARE HI-TECH FILMS LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GSEC10ABSL",
-      "Series": "EQ",
-      "Security Name": "ADITYABIRLASUNLIFEMF - ADITYA BIRLA SUN LIFE CRISIL 10 YEAR GILT ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -12308,170 +11517,9 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "HDFCBSE500",
-      "Series": "EQ",
-      "Security Name": "HDFC BSE 500 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "HDFCGOLD",
-      "Series": "EQ",
-      "Security Name": "HDFC GOLD ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "HDFCGROWTH",
-      "Series": "EQ",
-      "Security Name": "HDFC MUTUAL FUND - HDFC NIFTY GROWTH SECTORS 15 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "HDFCLOWVOL",
-      "Series": "EQ",
-      "Security Name": "HDFC MUTUAL FUND - HDFC NIFTY100 LOW VOLATILITY 30 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "HDFCMID150",
-      "Series": "EQ",
-      "Security Name": "HDFC MUTUAL FUND - HDFC NIFTY MIDCAP 150 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "HDFCMOMENT",
-      "Series": "EQ",
-      "Security Name": "HDFC MUTUAL FUND - HDFC NIFTY200 MOMENTUM 30 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "HDFCNEXT50",
-      "Series": "EQ",
-      "Security Name": "HDFC MUTUAL FUND - HDFC NIFTY NEXT 50 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "HDFCNIF100",
-      "Series": "EQ",
-      "Security Name": "HDFC MUTUAL FUND - HDFC NIFTY 100 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "HDFCNIFBAN",
-      "Series": "EQ",
-      "Security Name": "HDFC NIFTY BANK ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "HDFCNIFIT",
-      "Series": "EQ",
-      "Security Name": "HDFC MUTUAL FUND - HDFC NIFTY IT ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "HDFCNIFTY",
-      "Series": "EQ",
-      "Security Name": "HDFC NIFTY 50 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "HDFCNIMEG",
-      "Series": "EQ",
-      "Security Name": "HDFC MUTUAL FUND - HDFC NIFTY METAL ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "HDFCPSUBK",
-      "Series": "EQ",
-      "Security Name": "HDFC MUTUAL FUND -HDFC NIFTY PSU BANK ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "HDFCPVTBAN",
-      "Series": "EQ",
-      "Security Name": "HDFC MUTUAL FUND - HDFC NIFTY PRIVATE BANK ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "HDFCQUAL",
-      "Series": "EQ",
-      "Security Name": "HDFC MUTUAL FUND - HDFC NIFTY100 QUALITY 30 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "HDFCSENSEX",
-      "Series": "EQ",
-      "Security Name": "HDFC BSE SENSEX ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "HDFCSILVER",
-      "Series": "EQ",
-      "Security Name": "HDFC MUTUAL FUND - HDFC SILVER ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "HDFCSML250",
-      "Series": "EQ",
-      "Security Name": "HDFC MUTUAL FUND - HDFC NIFTY SMALLCAP 250 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "HDFCVALUE",
-      "Series": "EQ",
-      "Security Name": "HDFC MUTUAL FUND - HDFC NIFTY50 VALUE 20 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "HEADSUP",
       "Series": "EQ",
       "Security Name": "HEADS UP VENTURES LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "HEALTHADD",
-      "Series": "EQ",
-      "Security Name": "DSP MUTUAL FUND - DSP NIFTY HEALTHCARE ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "HEALTHAXIS",
-      "Series": "EQ",
-      "Security Name": "AXIS MUTUAL FUND - AXIS NIFTY HEALTHCARE ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "HEALTHCARE",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY 500 HEALTHCARE ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "HEALTHIETF",
-      "Series": "EQ",
-      "Security Name": "ICICI PRUDENTIAL MUTUAL FUND - ICICI PRUDENTIAL NIFTY HEALTHCARE ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -12483,23 +11531,9 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "HEALTHY",
-      "Series": "EQ",
-      "Security Name": "ADITYA BIRLA SUN LIFE MF-ADITYA BIRLA SUN LIFE NIFTY HEALTHCARE ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "HECPROJECT",
       "Series": "EQ",
       "Security Name": "HEC INFRA PROJECTS LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "HEG",
-      "Series": "EQ",
-      "Security Name": "HEG LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -12679,13 +11713,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "HNGSNGBEES",
-      "Series": "EQ",
-      "Security Name": "NIPPON INDIA ETF HANG SENG BEES",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "HOMEFIRST",
       "Series": "EQ",
       "Security Name": "HOME FIRST FINANCE COMPANY INDIA LIMITED",
@@ -12742,13 +11769,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "HSBCGOLD",
-      "Series": "EQ",
-      "Security Name": "HSBC MUTUAL FUND - HSBC GOLD ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "HSCL",
       "Series": "EQ",
       "Security Name": "HIMADRI SPECIALITY CHEMICAL LIMITED",
@@ -12784,13 +11804,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "HYBRIDETF",
-      "Series": "EQ",
-      "Security Name": "MIRAE MF-MIRAE ASSET NIFTY200 MOMENTUM 30PLUS 8-13 YR G-SEC 50:50 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "ICELCO",
       "Series": "SM",
       "Security Name": "IC ELECTRICALS COMPANY LIMITED",
@@ -12801,13 +11814,6 @@
       "Symbol": "ICEMAKE",
       "Series": "EQ",
       "Security Name": "ICE MAKE REFRIGERATION LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "ICICIB22",
-      "Series": "EQ",
-      "Security Name": "ICICI PRUDENTIAL MUTUAL FUND - BHARAT 22 ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -12843,13 +11849,6 @@
       "Symbol": "IDENTICAL",
       "Series": "SM",
       "Security Name": "IDENTICAL BRAINS STUDIOS LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "IDFNIFTYET",
-      "Series": "EQ",
-      "Security Name": "BANDHAN NIFTY 50 ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -13169,27 +12168,6 @@
       "Remarks": "GSM STAGE - 0"
     },
     {
-      "Symbol": "INFRA",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET MF-MIRAE ASSET NIFTY INDIA INFRASTRUCTURE & LOGISTICS ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "INFRABEES",
-      "Series": "EQ",
-      "Security Name": "NIPPON INDIA ETF NIFTY INFRASTRUCTURE BEES",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "INFRAIETF",
-      "Series": "EQ",
-      "Security Name": "ICICI PRUDENTIAL MUTUAL FUND-ICICI PRUDENTIAL NIFTY INFRASTRUCTURE ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "INGERRAND",
       "Series": "EQ",
       "Security Name": "INGERSOLL RAND (INDIA) LIMITED",
@@ -13246,13 +12224,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "INSUREIETF",
-      "Series": "EQ",
-      "Security Name": "ICICI PRUDENTIAL MUTUAL FUND - ICICI PRUDENTIAL BSE INSURANCE ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "INTELLECT",
       "Series": "EQ",
       "Security Name": "INTELLECT DESIGN ARENA LIMITED",
@@ -13277,13 +12248,6 @@
       "Symbol": "INTERISE",
       "Series": "IV",
       "Security Name": "INTERISE TRUST",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "INTERNET",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY INDIA INTERNET ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -13442,41 +12406,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "IT",
-      "Series": "EQ",
-      "Security Name": "KOTAK NIFTY IT ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "ITADD",
-      "Series": "EQ",
-      "Security Name": "DSP MUTUAL FUND - DSP NIFTY IT ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "ITAXIS",
-      "Series": "EQ",
-      "Security Name": "AXIS MUTUAL FUND - AXIS NIFTY IT ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "ITBEES",
-      "Series": "EQ",
-      "Security Name": "NIPPON LIFE INDIA ASSET MANAGEMENT LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "ITBETA",
-      "Series": "EQ",
-      "Security Name": "UTI MUTUAL FUND - UTI NIFTY IT ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "ITCHOTELS",
       "Series": "EQ",
       "Security Name": "ITC HOTELS LIMITED",
@@ -13491,23 +12420,9 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "ITETF",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY IT ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "ITI",
       "Series": "EQ",
       "Security Name": "ITI LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "ITIETF",
-      "Series": "EQ",
-      "Security Name": "ICICI PRUDENTIAL MUTUAL FUND - ICICI PRUDENTIAL NIFTY IT ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -13529,34 +12444,6 @@
       "Symbol": "IVC",
       "Series": "EQ",
       "Security Name": "IL&FS INVESTMENT MANAGERS LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "IVZBANKNF",
-      "Series": "EQ",
-      "Security Name": "INVESCO MUTUAL FUND - INVESCO INDIA NIFTY BANK ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "IVZINGOLD",
-      "Series": "EQ",
-      "Security Name": "INVESCO INDIA GOLD EXCHANGE TRADED FUND",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "IVZINNIFTY",
-      "Series": "EQ",
-      "Security Name": "INVESCO INDIA NIFTY 50 EXCHANGE TRADED FUND",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "IVZSENSEX",
-      "Series": "EQ",
-      "Security Name": "INVESCO MUTUAL FUND - INVESCO INDIA BSE SENSEX ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -13736,13 +12623,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "JINDWORLD",
-      "Series": "EQ",
-      "Security Name": "JINDAL WORLDWIDE LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "JISLDVREQS",
       "Series": "EQ",
       "Security Name": "JAIN IRRIGATION SYSTEMS LIMITED",
@@ -13823,6 +12703,13 @@
       "Symbol": "JNKINDIA",
       "Series": "EQ",
       "Security Name": "JNK INDIA LIMITED",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "JOCIL",
+      "Series": "EQ",
+      "Security Name": "JOCIL LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -13921,13 +12808,6 @@
       "Symbol": "JUBLPHARMA",
       "Series": "EQ",
       "Security Name": "JUBILANT PHARMOVA LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "JUNIORBEES",
-      "Series": "EQ",
-      "Security Name": "NIPPON INDIA ETF NIFTY NEXT 50 JUNIOR BEES",
       "Band": "20",
       "Remarks": "-"
     },
@@ -14681,13 +13561,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "LARGEMID50",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET BSE LARGEMID (60:40) STABLE DIVIDEND 50 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "LASA",
       "Series": "EQ",
       "Security Name": "LASA SUPERGENERICS LIMITED",
@@ -14800,41 +13673,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "LICMFGOLD",
-      "Series": "EQ",
-      "Security Name": "LIC MF GOLD EXCHANGE TRADED FUND",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "LICNETFN50",
-      "Series": "EQ",
-      "Security Name": "LIC MF - LIC MF EXCHANGE TRADED FUND - NIFTY 50",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "LICNETFSEN",
-      "Series": "EQ",
-      "Security Name": "LIC MUTUAL FUND - LIC MF EXCHANGE TRADED FUND - SENSEX",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "LICNFNHGP",
-      "Series": "EQ",
-      "Security Name": "LIC MF - LIC MF ETF - NIFTY 100",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "LICNMID100",
-      "Series": "EQ",
-      "Security Name": "LIC MUTUAL FUND - LIC MF NIFTY MIDCAP 100 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "LIKHITHA",
       "Series": "EQ",
       "Security Name": "LIKHITHA INFRASTRUCTURE LIMITED",
@@ -14922,27 +13760,6 @@
       "Symbol": "LOVABLE",
       "Series": "EQ",
       "Security Name": "LOVABLE LINGERIE LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "LOWVOL",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY 100 LOW VOLATILITY 30 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "LOWVOL1",
-      "Series": "EQ",
-      "Security Name": "KOTAK NIFTY 100 LOW VOLATILITY 30 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "LOWVOLIETF",
-      "Series": "EQ",
-      "Security Name": "ICICI PRUDENTIAL NIFTY 100 LOW VOLATILITY 30 ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -15059,13 +13876,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "MAFANG",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NYSE FANG+ ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "MAFATIND",
       "Series": "EQ",
       "Security Name": "MAFATLAL INDUSTRIES LIMITED",
@@ -15115,13 +13925,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "MAHKTECH",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET HANG SENG TECH ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "MAHLIFE",
       "Series": "EQ",
       "Security Name": "MAHINDRA LIFESPACE DEVELOPERS LIMITED",
@@ -15160,13 +13963,6 @@
       "Symbol": "MAITREYA",
       "Series": "SM",
       "Security Name": "MAITREYA MEDICARE LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MAKEINDIA",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY INDIA MANUFACTURING ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -15283,13 +14079,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "MANUFGBEES",
-      "Series": "EQ",
-      "Security Name": "NIPPON INDIA MUTUAL FUND - NIPPON INDIA NIFTY INDIA MANUFACTURING ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "MANYAVAR",
       "Series": "EQ",
       "Security Name": "VEDANT FASHIONS LIMITED",
@@ -15377,13 +14166,6 @@
       "Symbol": "MASON",
       "Series": "SM",
       "Security Name": "MASON INFRATECH LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MASPTOP50",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET S&P 500 TOP 50 ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -15577,20 +14359,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "METAL",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY METAL ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "METALIETF",
-      "Series": "EQ",
-      "Security Name": "ICICI PRUDENTIAL MUTUAL FUND - ICICI PRUDENTIAL NIFTY METAL ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "METROBRAND",
       "Series": "EQ",
       "Security Name": "METRO BRANDS LIMITED",
@@ -15615,6 +14383,13 @@
       "Symbol": "MFML",
       "Series": "EQ",
       "Security Name": "MAHALAXMI FABRIC MILLS LIMITED",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MGEL",
+      "Series": "EQ",
+      "Security Name": "MANGALAM GLOBAL ENTERPRISE LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -15647,93 +14422,9 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "MID150",
-      "Series": "EQ",
-      "Security Name": "KOTAK MAHINDRA MUTUAL FUND - KOTAK NIFTY MIDCAP 150 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MID150BEES",
-      "Series": "EQ",
-      "Security Name": "NIPPON INDIA ETF NIFTY MIDCAP 150",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MID150CASE",
-      "Series": "EQ",
-      "Security Name": "ZERODHA FUND HOUSE - ZERODHA NIFTY MIDCAP 150 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MIDBANKADD",
-      "Series": "EQ",
-      "Security Name": "DSP MUTUAL FUND - DSP BSE MIDSMALL PRIVATE BANKS ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MIDCAP",
-      "Series": "EQ",
-      "Security Name": "KOTAK NIFTY MIDCAP 50 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MIDCAPADD",
-      "Series": "EQ",
-      "Security Name": "DSP MUTUAL FUND - DSP NIFTY MIDCAP 150 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MIDCAPBETA",
-      "Series": "EQ",
-      "Security Name": "UTI MUTUAL FUND - UTI NIFTY MIDCAP 150 EXCHANGE TRADED FUND (ETF)",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MIDCAPETF",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY MIDCAP 150 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MIDCAPIETF",
-      "Series": "EQ",
-      "Security Name": "ICICI PRUDENTIAL MUTUAL FUND - ICICI PRUDENTIAL NIFTY MIDCAP 150 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "MIDHANI",
       "Series": "EQ",
       "Security Name": "MISHRA DHATU NIGAM LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MIDQ50ADD",
-      "Series": "EQ",
-      "Security Name": "DSP  MUTUAL FUND - DSP NIFTY MIDCAP 150 QUALITY 50 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MIDSELIETF",
-      "Series": "EQ",
-      "Security Name": "ICICI PRUDENTIAL BSE MIDCAP SELECT ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MIDSMALL",
-      "Series": "EQ",
-      "Security Name": "MIRAEASSETMF-MIRAE ASSET NIFTY MIDSMALLCAP400 MOMENTUM QUALITY 100 ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -15769,6 +14460,13 @@
       "Symbol": "MIRZAINT",
       "Series": "EQ",
       "Security Name": "MIRZA INTERNATIONAL LIMITED",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MITCON",
+      "Series": "EQ",
+      "Security Name": "MITCON CONSULTANCY & ENGINEERING SERVICES LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -15822,44 +14520,9 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "MNC",
-      "Series": "EQ",
-      "Security Name": "KOTAK MAHINDRA MUTUAL FUND - KOTAK NIFTY MNC ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MOALPHA50",
-      "Series": "EQ",
-      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY ALPHA 50 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MOBANK10",
-      "Series": "EQ",
-      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL BSE TOP 10 BANKS ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "MOBIKWIK",
       "Series": "EQ",
       "Security Name": "ONE MOBIKWIK SYSTEMS LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MOCAPITAL",
-      "Series": "EQ",
-      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY CAPITAL MARKET ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MODEFENCE",
-      "Series": "EQ",
-      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY INDIA DEFENCE ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -15892,27 +14555,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "MOENERGY",
-      "Series": "EQ",
-      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY ENERGY ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MOGOLD",
-      "Series": "EQ",
-      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL GOLD ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MOHEALTH",
-      "Series": "EQ",
-      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL S&P BSE HEALTHCARE ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "MOHITE",
       "Series": "EQ",
       "Security Name": "MOHITE INDUSTRIES LIMITED",
@@ -15930,20 +14572,6 @@
       "Symbol": "MOIL",
       "Series": "EQ",
       "Security Name": "MOIL LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MOINFRA",
-      "Series": "EQ",
-      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL BSE INDIA INFRASTRUCTURE ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MOIPO",
-      "Series": "EQ",
-      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL BSE SELECT IPO ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -15976,121 +14604,9 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "MOLOWVOL",
-      "Series": "EQ",
-      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL S&P BSE LOW VOLATILITY ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MOM100",
-      "Series": "EQ",
-      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL MOST SHARES M100 ETF GO",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MOM30IETF",
-      "Series": "EQ",
-      "Security Name": "ICICI PRUDENTIAL MUTUAL FUND -  ICICI PRU NIFTY 200 MOMENTUM 30 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MOM50",
-      "Series": "EQ",
-      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL MOST SHARES M50 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MOMENTUM",
-      "Series": "EQ",
-      "Security Name": "ADITYA BIRLA SUN LIFE MUTUAL FUND - ADITYA BIRLA SUN LIFE NIFTY 200 MO",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MOMENTUM30",
-      "Series": "EQ",
-      "Security Name": "KOTAK MAHINDRA MUTUAL FUND - KOTAK NIFTY 200 MOMENTUM 30 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MOMENTUM50",
-      "Series": "EQ",
-      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY 500 MOMENTUM 50 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MOMETAL",
-      "Series": "EQ",
-      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY METAL ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MOMGF",
-      "Series": "EQ",
-      "Security Name": "MOTILAL OSWAL MUTUAL FUND-MOTILAL OSWAL NIFTY INDIA MANUFACTURING ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MOMIDMTM",
-      "Series": "EQ",
-      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY MIDCAP150 MOMENTUM 50",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MOMMIDCAP",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET BSE MIDCAP 150 MOMENTUM 30 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MOMNC",
-      "Series": "EQ",
-      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY MNC ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MOMOMENTUM",
-      "Series": "EQ",
-      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY 200 MOMENTUM 30 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MON100",
-      "Series": "EQ",
-      "Security Name": "MOTILAL OSWAL MUTUAL FUND-MOTILAL OSWAL MOST SHARES NASDAQ 100 ETF -GO",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MON50EQUAL",
-      "Series": "EQ",
-      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY 50 EQUAL WEIGHT ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "MONARCH",
       "Series": "EQ",
       "Security Name": "MONARCH NETWORTH CAPITAL LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MONEXT50",
-      "Series": "EQ",
-      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY NEXT 50 ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -16102,30 +14618,9 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "MONIFTY100",
-      "Series": "EQ",
-      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY 100 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MONIFTY500",
-      "Series": "EQ",
-      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY 500 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "MONOLITH",
       "Series": "SM",
       "Security Name": "MONOLITHISCH INDIA LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MONQ50",
-      "Series": "EQ",
-      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NASDAQ Q 50 ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -16137,58 +14632,9 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "MOOILGAS",
-      "Series": "EQ",
-      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY OIL & GAS ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MOPSE",
-      "Series": "EQ",
-      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY PSE ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MOQUALITY",
-      "Series": "EQ",
-      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL S&P BSE QUALITY ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MOREALTY",
-      "Series": "EQ",
-      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY REALTY ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "MOSCHIP",
       "Series": "EQ",
       "Security Name": "MOSCHIP TECHNOLOGIES LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MOSERVICE",
-      "Series": "EQ",
-      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY SERVICES SECTOR ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MOSILVER",
-      "Series": "EQ",
-      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL SILVER ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MOSMALL250",
-      "Series": "EQ",
-      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY SMALLCAP 250 ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -16200,16 +14646,9 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "MOTOUR",
+      "Symbol": "MOTOGENFIN",
       "Series": "EQ",
-      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY INDIA TOURISM ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MOVALUE",
-      "Series": "EQ",
-      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL SP BSE ENHANCED VALUE ETF",
+      "Security Name": "THE MOTOR & GENERAL FINANCE LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -16231,27 +14670,6 @@
       "Symbol": "MRPL",
       "Series": "EQ",
       "Security Name": "MANGALORE REFINERY AND PETROCHEMICALS LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MSCI360",
-      "Series": "EQ",
-      "Security Name": "360 ONE MUTUAL FUND - 360 ONE MSCI INDIA ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MSCIADD",
-      "Series": "EQ",
-      "Security Name": "DSP MUTUAL FUND - DSP MSCI INDIA ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MSCIINDIA",
-      "Series": "EQ",
-      "Security Name": "KOTAK MAHINDRA MUTUAL FUND - KOTAK MSCI INDIA ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -16301,13 +14719,6 @@
       "Symbol": "MUKKA",
       "Series": "EQ",
       "Security Name": "MUKKA PROTEINS LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MULTICAP",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY 500 MULTICAP 50:25:25 ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -16599,13 +15010,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "NETF",
-      "Series": "EQ",
-      "Security Name": "TATA NIFTY 50 EXCHANGE TRADED FUND",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "NETWEB",
       "Series": "EQ",
       "Security Name": "NETWEB TECHNOLOGIES INDIA LIMITED",
@@ -16630,48 +15034,6 @@
       "Symbol": "NEWGEN",
       "Series": "EQ",
       "Security Name": "NEWGEN SOFTWARE TECHNOLOGIES LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "NEXT30ADD",
-      "Series": "EQ",
-      "Security Name": "DSP MUTUAL FUND - DSP BSE SENSEX NEXT 30 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "NEXT50",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY NEXT 50 ETF (MANXT50) - MI",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "NEXT50ADD",
-      "Series": "EQ",
-      "Security Name": "DSP MUTUAL FUND - DSP NIFTY NEXT 50 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "NEXT50BETA",
-      "Series": "EQ",
-      "Security Name": "UTI MUTUAL FUND - UTI NIFTY NEXT 50 EXCHANGE TRADED FUND - UTI NIFTY N",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "NEXT50ETF",
-      "Series": "EQ",
-      "Security Name": "KOTAK MAHINDRA MUTUAL FUND - KOTAK NIFTY NEXT 50 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "NEXT50IETF",
-      "Series": "EQ",
-      "Security Name": "ICICI PRUDENTIAL MUTUAL FUND - ICICI PRUDENTIAL NIFTY NEXT 50 ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -16728,111 +15090,6 @@
       "Symbol": "NIDAN",
       "Series": "SM",
       "Security Name": "NIDAN LABORATORIES AND HEALTHCARE LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "NIF100BEES",
-      "Series": "EQ",
-      "Security Name": "NIPPON INDIA ETF NIFTY 100",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "NIF100IETF",
-      "Series": "EQ",
-      "Security Name": "ICICI PRUDENTIAL NIFTY 100 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "NIF500BETA",
-      "Series": "EQ",
-      "Security Name": "UTI MUTUAL FUND - UTI NIFTY 500 EXCHANGE TRADED FUND",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "NIFTY1",
-      "Series": "EQ",
-      "Security Name": "KOTAK NIFTY 50 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "NIFTY100EW",
-      "Series": "EQ",
-      "Security Name": "KOTAK MAHINDRA MUTUAL FUND - KOTAK NIFTY 100 EQUAL WEIGHT ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "NIFTYADD",
-      "Series": "EQ",
-      "Security Name": "DSP  MUTUAL FUND - DSP NIFTY 50 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "NIFTYAXIS",
-      "Series": "EQ",
-      "Security Name": "AXIS MUTUAL FUND - AXIS NIFTY 50 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "NIFTYBEES",
-      "Series": "EQ",
-      "Security Name": "NIPPON INDIA ETF NIFTY 50 BEES",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "NIFTYBETA",
-      "Series": "EQ",
-      "Security Name": "UTI NIFTY 50 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "NIFTYBETF",
-      "Series": "EQ",
-      "Security Name": "BAJAJ FINSERV MUTUAL FUND - BAJAJ FINSERV NIFTY 50 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "NIFTYCASE",
-      "Series": "EQ",
-      "Security Name": "ZERODHA FUND HOUSE - ZERODHA NIFTY 50 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "NIFTYETF",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY 50 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "NIFTYIETF",
-      "Series": "EQ",
-      "Security Name": "ICICI PRUDENTIAL NIFTY 50 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "NIFTYJBLK",
-      "Series": "EQ",
-      "Security Name": "JIO BLACKROCK MUTUAL FUND - JIOBLACKROCK NIFTY 50 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "NIFTYQLITY",
-      "Series": "EQ",
-      "Security Name": "ADITYA BIRLA SUN LIFE MUTUAL FUND - ABSL NIFTY 200 QUALITY 30 ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -16984,13 +15241,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "NPBET",
-      "Series": "EQ",
-      "Security Name": "TATA NIFTY PRIVATE BANK EXCHANGE TRADED FUND",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "NPST",
       "Series": "EQ",
       "Security Name": "NETWORK PEOPLE SERVICES TECHNOLOGIES LIMITED",
@@ -17068,27 +15318,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "NV20",
-      "Series": "EQ",
-      "Security Name": "KOTAK NIFTY 50 VALUE 20 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "NV20BEES",
-      "Series": "EQ",
-      "Security Name": "NIPPON INDIA ETF NIFTY 50 VALUE 20",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "NV20IETF",
-      "Series": "EQ",
-      "Security Name": "ICICI PRUDENTIAL NIFTY50 VALUE 20 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "NXST",
       "Series": "RR",
       "Security Name": "NEXUS SELECT TRUST",
@@ -17120,13 +15349,6 @@
       "Symbol": "ODYCORP",
       "Series": "EQ",
       "Security Name": "ODYSSEY CORPORATION LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "OILIETF",
-      "Series": "EQ",
-      "Security Name": "ICICI PRUDENTIAL MUTUAL FUND - ICICI PRUDENTIAL NIFTY OIL & GAS ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -17579,9 +15801,23 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "PENINLAND",
+      "Series": "EQ",
+      "Security Name": "PENINSULA LAND LIMITED",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "PERMAGN",
       "Series": "EQ",
       "Security Name": "PERMANENT MAGNETS LIMITED",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "PERNIASPOP",
+      "Series": "EQ",
+      "Security Name": "PURPLE STYLE LABS LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -17638,13 +15874,6 @@
       "Symbol": "PHANTOMFX",
       "Series": "SM",
       "Security Name": "PHANTOM DIGITAL EFFECTS LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "PHARMABEES",
-      "Series": "EQ",
-      "Security Name": "NIPPON INDIA MUTUAL FUND - NIPPON INDIA NIFTY PHARMA ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -18111,34 +16340,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "PSUBANK",
-      "Series": "EQ",
-      "Security Name": "KOTAK NIFTY PSU BANK ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "PSUBANKADD",
-      "Series": "EQ",
-      "Security Name": "DSP MUTUAL FUND - DSP NIFTY PSU BANK ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "PSUBNKBEES",
-      "Series": "EQ",
-      "Security Name": "NIPPON INDIA ETF NIFTY PSU BANK BEES",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "PSUBNKIETF",
-      "Series": "EQ",
-      "Security Name": "ICICI PRUDENTIAL MUTUAL FUND - ICICI PRUDENTIAL NIFTY PSU BANK ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "PTC",
       "Series": "EQ",
       "Security Name": "PTC INDIA LIMITED",
@@ -18195,34 +16396,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "PVTBANIETF",
-      "Series": "EQ",
-      "Security Name": "ICICI PRUDENTIAL NIFTY PRIVATE BANK ETF - NIFTY PRIVATE BANK INDEX",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "PVTBANK",
-      "Series": "EQ",
-      "Security Name": "KOTAK MAHINDRA MUTUAL FUND - KOTAK NIFTY PRIVATE BANK ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "PVTBANKADD",
-      "Series": "EQ",
-      "Security Name": "DSP MUTUAL FUND - DSP NIFTY PRIVATE BANK ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "PVTBKGROWW",
-      "Series": "EQ",
-      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY PRIVATE BANK ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "PWL",
       "Series": "EQ",
       "Security Name": "PHYSICSWALLAH LIMITED",
@@ -18237,13 +16410,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "QGOLDHALF",
-      "Series": "EQ",
-      "Security Name": "QUANTUM GOLD ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "QLINE",
       "Series": "SM",
       "Security Name": "Q-LINE BIOTECH LIMITED",
@@ -18251,30 +16417,9 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "QNIFTY",
-      "Series": "EQ",
-      "Security Name": "QUANTUM NIFTY 50 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "QUADFUTURE",
       "Series": "EQ",
       "Security Name": "QUADRANT FUTURE TEK LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "QUAL30IETF",
-      "Series": "EQ",
-      "Security Name": "ICICI PRUDENTIAL MF - ICICI PRUDENTIAL NIFTY 200 QUALITY 30 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "QUALITY30",
-      "Series": "EQ",
-      "Security Name": "KOTAK MAHINDRA MUTUAL FUND - KOTAK NIFTY200 QUALITY 30 ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -18289,6 +16434,13 @@
       "Symbol": "QUESTLAB",
       "Series": "SM",
       "Security Name": "QUEST LABORATORIES LIMITED",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "QUICKHEAL",
+      "Series": "EQ",
+      "Security Name": "QUICK HEAL TECHNOLOGIES LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -18986,6 +17138,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "RUBYMILLS",
+      "Series": "EQ",
+      "Security Name": "THE RUBY MILLS LIMITED",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "RUCHINFRA",
       "Series": "EQ",
       "Security Name": "RUCHI INFRASTRUCTURE LIMITED",
@@ -19385,83 +17544,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "SBIBPB",
-      "Series": "EQ",
-      "Security Name": "SBI MUTUAL FUND - SBI BSE PSU BANK ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SBIETFCON",
-      "Series": "EQ",
-      "Security Name": "SBI MUTUAL FUND - SBI ETF CONSUMPTION",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SBIETFIT",
-      "Series": "EQ",
-      "Security Name": "SBI MUTUAL FUND-SBI ETF IT",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SBIETFPB",
-      "Series": "EQ",
-      "Security Name": "SBI MUTUAL FUND - SBI ETF PRIVATE BANK - SBI ETF PRIVATE BANK",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SBIETFQLTY",
-      "Series": "EQ",
-      "Security Name": "SBI MUTUAL FUND - SBI - ETF QUALITY - SBI-ETF QUALITY",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SBIMIDMOM",
-      "Series": "EQ",
-      "Security Name": "SBI NIFTY MIDCAP150 MOMENTUM 50 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SBINEQWETF",
-      "Series": "EQ",
-      "Security Name": "SBI MUTUAL FUND - SBI NIFTY50 EQUAL WEIGHT ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SBINMID150",
-      "Series": "EQ",
-      "Security Name": "SBI MUTUAL FUND - SBI NIFTY MIDCAP 150 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SBISILVER",
-      "Series": "EQ",
-      "Security Name": "SBI MUTUAL FUND - SBI SILVER ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SBISMLETF",
-      "Series": "EQ",
-      "Security Name": "SBI MUTUAL FUND - SBI NIFTY SMALLCAP 250 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SBIVALETF",
-      "Series": "EQ",
-      "Security Name": "SBI MUTUAL FUND - SBI NIFTY200 VALUE 30 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "SCHAEFFLER",
       "Series": "EQ",
       "Security Name": "SCHAEFFLER INDIA LIMITED",
@@ -19574,13 +17656,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "SELECTIPO",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET BSE SELECT IPO ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "SELLOWRAP",
       "Series": "SM",
       "Security Name": "SELLOWRAP INDUSTRIES LIMITED",
@@ -19609,41 +17684,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "SENSEXADD",
-      "Series": "EQ",
-      "Security Name": "DSP BSE SENSEX ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SENSEXAXIS",
-      "Series": "EQ",
-      "Security Name": "AXIS BSE SENSEX ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SENSEXBETA",
-      "Series": "EQ",
-      "Security Name": "UTI BSE SENSEX ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SENSEXETF",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET S&P BSE SENSEX ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SENSEXIETF",
-      "Series": "EQ",
-      "Security Name": "ICICI PRUDENTIAL BSE SENSEX ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "SEPC",
       "Series": "EQ",
       "Security Name": "SEPC LIMITED",
@@ -19661,34 +17701,6 @@
       "Symbol": "SESHAPAPER",
       "Series": "EQ",
       "Security Name": "SESHASAYEE PAPER AND BOARDS LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SETFGOLD",
-      "Series": "EQ",
-      "Security Name": "SBI-ETF GOLD",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SETFNIF50",
-      "Series": "EQ",
-      "Security Name": "SBI-ETF NIFTY 50",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SETFNIFBK",
-      "Series": "EQ",
-      "Security Name": "SBI-ETF NIFTY BANK",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SETFNN50",
-      "Series": "EQ",
-      "Security Name": "SBI-ETF NIFTY NEXT 50",
       "Band": "20",
       "Remarks": "-"
     },
@@ -19826,13 +17838,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "SHARIABEES",
-      "Series": "EQ",
-      "Security Name": "NIPPON INDIA ETF NIFTY 50 SHARIAH BEES",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "SHBAJRG",
       "Series": "EQ",
       "Security Name": "SHRI BAJRANG ALLIANCE LIMITED",
@@ -19920,6 +17925,13 @@
       "Symbol": "SHIVACEM",
       "Series": "EQ",
       "Security Name": "SHIVA CEMENT LIMITED",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SHIVALIK",
+      "Series": "EQ",
+      "Security Name": "SHIVALIK RASAYAN LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -20169,90 +18181,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "SILVER",
-      "Series": "EQ",
-      "Security Name": "ADITYA BIRLA SUN LIFE MUTUAL FUND - ADITYA BIRLA SUN LIFE SILVER ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SILVER001",
-      "Series": "EQ",
-      "Security Name": "QUANT MUTUAL FUND - QUANT SILVER ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SILVER1",
-      "Series": "EQ",
-      "Security Name": "KOTAK MAHINDRA MUTUAL FUND - KOTAK SILVER ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SILVER360",
-      "Series": "EQ",
-      "Security Name": "360 ONE MUTUAL FUND - 360 ONE SILVER ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SILVERADD",
-      "Series": "EQ",
-      "Security Name": "DSP  MUTUAL FUND - DSP SILVER ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SILVERAG",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET SILVER ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SILVERAXIS",
-      "Series": "EQ",
-      "Security Name": "AXIS MUTUAL FUND - AXIS SILVER ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SILVERBEES",
-      "Series": "EQ",
-      "Security Name": "NIPPON INDIA MUTUAL FUND - NIPPON INDIA SILVER ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SILVERBETA",
-      "Series": "EQ",
-      "Security Name": "UTI MUTUAL FUND - UTI SILVER EXCHANGE TRADED FUND (UTI SILVER ETF)",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SILVERBND",
-      "Series": "EQ",
-      "Security Name": "BANDHAN MUTUAL FUND - BANDHAN SILVER ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SILVERCASE",
-      "Series": "EQ",
-      "Security Name": "ZERODHA FUND HOUSE - ZERODHA SILVER ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SILVERIETF",
-      "Series": "EQ",
-      "Security Name": "ICICI PRUDENTIAL MUTUAL FUND - ICICI PRUDENTIAL SILVER ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "SIMPLEXINF",
       "Series": "EQ",
       "Security Name": "SIMPLEX INFRASTRUCTURES LIMITED",
@@ -20379,41 +18307,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "SMALL250",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY SMALLCAP 250 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SMALLADD",
-      "Series": "EQ",
-      "Security Name": "DSP MUTUAL FUND - DSP NIFTY SMALLCAP 250 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SMALLCAP",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET MF-MIRAE ASSET NIFTY SMALLCAP 250 MOMENTUM QUALITY 100 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SMALLGROWW",
-      "Series": "EQ",
-      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY SMALLCAP 250 MOMENTUM QUALITY 100 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SMALLIETF",
-      "Series": "EQ",
-      "Security Name": "ICICI PRUDENTIAL MUTUAL FUND - ICICI PRUDENTIAL NIFTY SMALLCAP 250 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "SMARTWORKS",
       "Series": "EQ",
       "Security Name": "SMARTWORKS COWORKING SPACES LIMITED",
@@ -20424,13 +18317,6 @@
       "Symbol": "SMCGLOBAL",
       "Series": "EQ",
       "Security Name": "SMC GLOBAL SECURITIES LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SML100CASE",
-      "Series": "EQ",
-      "Security Name": "ZERODHA FUND HOUSE - ZERODHA NIFTY SMALLCAP 100 ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -20459,20 +18345,6 @@
       "Symbol": "SNOWMAN",
       "Series": "EQ",
       "Security Name": "SNOWMAN LOGISTICS LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SNXT30BEES",
-      "Series": "EQ",
-      "Security Name": "NIPPON INDIA MUTUAL FUND - NIPPON INDIA BSE SENSEX NEXT 30 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SNXT50BETA",
-      "Series": "EQ",
-      "Security Name": "UTI BSE SENSEX NEXT 50 ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -21310,13 +19182,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "TATAGOLD",
-      "Series": "EQ",
-      "Security Name": "TATA MUTUAL FUND TATA GOLD EXCHANGE TRADED FUND",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "TATAINVEST",
       "Series": "EQ",
       "Security Name": "TATA INVESTMENT CORPORATION LIMITED",
@@ -21327,13 +19192,6 @@
       "Symbol": "TATATECH",
       "Series": "EQ",
       "Security Name": "TATA TECHNOLOGIES LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "TATSILV",
-      "Series": "EQ",
-      "Security Name": "TATA MUTUAL FUND TATA SILVER EXCHANGE TRADED FUND",
       "Band": "20",
       "Remarks": "-"
     },
@@ -21411,13 +19269,6 @@
       "Symbol": "TEAMLEASE",
       "Series": "EQ",
       "Security Name": "TEAMLEASE SERVICES LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "TECH",
-      "Series": "EQ",
-      "Security Name": "ADITYA BIRLA SUN LIFE MUTUAL FUND - ADITYA BIRLA SUN LIFE NIFTY IT ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -21544,6 +19395,13 @@
       "Symbol": "TGVSL",
       "Series": "EQ",
       "Security Name": "TGV SRAAC LIMITED",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "THACKER",
+      "Series": "EQ",
+      "Security Name": "THACKER & COMPANY LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -21688,13 +19546,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "TNIDETF",
-      "Series": "EQ",
-      "Security Name": "TATA MUTUAL FUND - TATA NIFTY INDIA DIGITAL EXCHANGE TRADED FUND",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "TNPETRO",
       "Series": "EQ",
       "Security Name": "TAMILNADU PETROPRODUCTS LIMITED",
@@ -21719,34 +19570,6 @@
       "Symbol": "TOLINS",
       "Series": "EQ",
       "Security Name": "TOLINS TYRES LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "TOP100CASE",
-      "Series": "EQ",
-      "Security Name": "ZERODHA FUND HOUSE - ZERODHA NIFTY 100 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "TOP10ADD",
-      "Series": "EQ",
-      "Security Name": "DSP MUTUAL FUND - DSP NIFTY TOP 10 EQUAL WEIGHT ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "TOP15IETF",
-      "Series": "EQ",
-      "Security Name": "ICICI PRUDENTIAL MF - ICICI PRUDENTIAL NIFTY TOP 15 EQUAL WEIGHT ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "TOP20",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY TOP 20 EQUAL WEIGHT ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -21968,13 +19791,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "TWCGOLDETF",
-      "Series": "EQ",
-      "Security Name": "THE WEALTH COMPANY MUTUAL FUND - THE WEALTH COMPANY GOLD ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "UBL",
       "Series": "EQ",
       "Security Name": "UNITED BREWERIES LIMITED",
@@ -22094,13 +19910,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "UNIONGOLD",
-      "Series": "EQ",
-      "Security Name": "UNION MUTUAL FUND - UNION GOLD ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "UNIPARTS",
       "Series": "EQ",
       "Security Name": "UNIPARTS INDIA LIMITED",
@@ -22185,6 +19994,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "UTSSAV",
+      "Series": "SM",
+      "Security Name": "UTSSAV CZ GOLD JEWELS LIMITED",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "UTTAMSUGAR",
       "Series": "EQ",
       "Security Name": "UTTAM SUGAR MILLS LIMITED",
@@ -22227,30 +20043,9 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "VAL30IETF",
-      "Series": "EQ",
-      "Security Name": "ICICI PRUDENTIAL MUTUAL FUND - ICICI PRUDENTIAL NIFTY200 VALUE 30 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "VALUE",
-      "Series": "EQ",
-      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY 500 VALUE 50 ETF",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "VALUE360",
       "Series": "SM",
       "Security Name": "VALUE 360 COMMUNICATIONS LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "VALUEAXIS",
-      "Series": "EQ",
-      "Security Name": "AXIS MUTUAL FUND - AXIS NIFTY500 VALUE 50 ETF",
       "Band": "20",
       "Remarks": "-"
     },
@@ -22552,6 +20347,13 @@
       "Symbol": "VISHWARAJ",
       "Series": "EQ",
       "Security Name": "VISHWARAJ SUGAR INDUSTRIES LIMITED",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "VIVIANA",
+      "Series": "EQ",
+      "Security Name": "VIVIANA POWER TECH LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -23151,6 +20953,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "JAYKAY-RE1",
+      "Series": "BE",
+      "Security Name": "JAYKAY ENTERPRISES LIMITED-RE",
+      "Band": "40",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "VHLTD-RE1",
       "Series": "BE",
       "Security Name": "VICEROY HOTELS LTD-RE",
@@ -23175,6 +20984,48 @@
       "Symbol": "ABCAPITAL",
       "Series": "EQ",
       "Security Name": "ADITYA BIRLA CAPITAL LIMITED",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ABGSEC",
+      "Series": "EQ",
+      "Security Name": "ADITYABIRLASUNLIFEMF-ADITYA BIRLA SUN LIFE CRISIL BROAD BASED GILT ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ABSL10BANK",
+      "Series": "EQ",
+      "Security Name": "ADITYA BIRLA SUN LIFE MF - ADITYA BIRLA SUN LIFE BSE TOP 10 BANKS ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ABSLBANETF",
+      "Series": "EQ",
+      "Security Name": "ADITYA BIRLA SUN LIFE NIFTY BANK ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ABSLMSCIN",
+      "Series": "EQ",
+      "Security Name": "ADITYA BIRLA SUN LIFE MF- ADITYA BIRLA SUN LIFE MSCI INDIA ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ABSLNN50ET",
+      "Series": "EQ",
+      "Security Name": "ADITYA BIRLA SUN LIFE NIFTY NEXT 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ABSLPSE",
+      "Series": "EQ",
+      "Security Name": "ADITYA BIRLA SUN LIFE MUTUAL FUND-ADITYA BIRLA SUN LIFE NIFTY PSE ETF",
       "Band": "No Band",
       "Remarks": "-"
     },
@@ -23221,6 +21072,27 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "ALPHA",
+      "Series": "EQ",
+      "Security Name": "KOTAK MAHINDRA MUTUAL FUND - KOTAK NIFTY ALPHA 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ALPHAETF",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY 200 ALPHA 30 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ALPL30IETF",
+      "Series": "EQ",
+      "Security Name": "ICICI PRUDENTIAL NIFTY ALPHA LOW VOLATILITY 30 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "AMBER",
       "Series": "EQ",
       "Security Name": "AMBER ENTERPRISES INDIA LIMITED",
@@ -23238,6 +21110,41 @@
       "Symbol": "ANGELONE",
       "Series": "EQ",
       "Security Name": "ANGEL ONE LIMITED",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "AONEGOLD",
+      "Series": "EQ",
+      "Security Name": "ANGEL ONE MUTUAL FUND - ANGEL ONE GOLD ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "AONENIFTY",
+      "Series": "EQ",
+      "Security Name": "ANGEL ONE MUTUAL FUND - ANGEL ONE NIFTY 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "AONESILVER",
+      "Series": "EQ",
+      "Security Name": "ANGEL ONE MUTUAL FUND - ANGEL ONE SILVER ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "AONETMMQ50",
+      "Series": "EQ",
+      "Security Name": "ANGEL ONE MF - ANGEL ONE NIFTY TOTAL MARKET MOMENTUM QUALITY 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "AONETOTAL",
+      "Series": "EQ",
+      "Security Name": "ANGEL ONE MUTUAL FUND - ANGEL ONE NIFTY TOTAL MARKET ETF",
       "Band": "No Band",
       "Remarks": "-"
     },
@@ -23298,6 +21205,20 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "AUTOBEES",
+      "Series": "EQ",
+      "Security Name": "NIPPON INDIA MUTUAL FUND - NIPPON INDIA NIFTY AUTO ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "AUTOIETF",
+      "Series": "EQ",
+      "Security Name": "ICICI PRUDENTIAL MUTUAL FUND - ICICI PRUDENTIAL  NIFTY AUTO ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "AXISBANK",
       "Series": "EQ",
       "Security Name": "AXIS BANK LIMITED",
@@ -23340,6 +21261,27 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "BANK10ADD",
+      "Series": "EQ",
+      "Security Name": "DSP MUTUAL FUND - DSP BSE TOP 10 BANKS ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "BANK10BETF",
+      "Series": "EQ",
+      "Security Name": "BAJAJ FINSERV MUTUAL FUND - BAJAJ FINSERV BSE TOP 10 BANKS ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "BANKADD",
+      "Series": "EQ",
+      "Security Name": "DSP  MUTUAL FUND - DSP NIFTY BANK ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "BANKBARODA",
       "Series": "EQ",
       "Security Name": "BANK OF BARODA",
@@ -23347,9 +21289,79 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "BANKBEES",
+      "Series": "EQ",
+      "Security Name": "NIPPON INDIA ETF NIFTY BANK BEES",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "BANKBETA",
+      "Series": "EQ",
+      "Security Name": "UTI NIFTY BANK ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "BANKBETF",
+      "Series": "EQ",
+      "Security Name": "BAJAJ FINSERV MUTUAL FUND - BAJAJ FINSERV NIFTY BANK ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "BANKETF",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY BANK ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "BANKIETF",
+      "Series": "EQ",
+      "Security Name": "ICICI PRUDENTIAL NIFTY BANK ETF - NIFTY BANK INDEX",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "BANKINDIA",
       "Series": "EQ",
       "Security Name": "BANK OF INDIA",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "BANKNIFTY1",
+      "Series": "EQ",
+      "Security Name": "KOTAK NIFTY BANK ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "BANKPSU",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY PSU BANK ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "BBETF0432",
+      "Series": "EQ",
+      "Security Name": "EDELWEISS MUTUAL FUND - BHARAT BOND ETF - APRIL 2032 - GROWTH",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "BBNPNBETF",
+      "Series": "EQ",
+      "Security Name": "BARODA BNP PARIBAS MUTUAL FUND- BARODA BNP PARIBAS NIFTY BANK ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "BBNPPGOLD",
+      "Series": "EQ",
+      "Security Name": "BARODA BNP PARIBAS MUTUAL FUND - BARODA BNP PARIBAS GOLD ETF",
       "Band": "No Band",
       "Remarks": "-"
     },
@@ -23364,6 +21376,13 @@
       "Symbol": "BEL",
       "Series": "EQ",
       "Security Name": "BHARAT ELECTRONICS LIMITED",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "BFSI",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY FINANCIAL SERVICES ETF",
       "Band": "No Band",
       "Remarks": "-"
     },
@@ -23403,6 +21422,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "BNKETFAXIS",
+      "Series": "EQ",
+      "Security Name": "AXIS MUTUAL FUND - AXIS NIFTY BANK ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "BOSCHLTD",
       "Series": "EQ",
       "Security Name": "BOSCH LIMITED",
@@ -23431,6 +21457,34 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "BSE500IETF",
+      "Series": "EQ",
+      "Security Name": "ICICI PRUDENTIAL BSE 500 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "BSLGOLDETF",
+      "Series": "EQ",
+      "Security Name": "ADITYA BIRLA SUN LIFE GOLD ETF - GROWTH",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "BSLNIFTY",
+      "Series": "EQ",
+      "Security Name": "ADITYA BIRLA SUN LIFE NIFTY 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "BSLSENETFG",
+      "Series": "EQ",
+      "Security Name": "ADITYA BIRLA SUN LIFE BSE SENSEX ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "CAMS",
       "Series": "EQ",
       "Security Name": "COMPUTER AGE MANAGEMENT SERVICES LIMITED",
@@ -23452,9 +21506,30 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "CEMNTGROWW",
+      "Series": "EQ",
+      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY CEMENTS ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "CGPOWER",
       "Series": "EQ",
       "Security Name": "CG POWER AND INDUSTRIAL SOLUTIONS LIMITED",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "CHEMICAL",
+      "Series": "EQ",
+      "Security Name": "KOTAK MAHINDRA MUTUAL FUND - KOTAK NIFTY CHEMICALS ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "CHOICEGOLD",
+      "Series": "EQ",
+      "Security Name": "CHOICE MUTUAL FUND - CHOICE GOLD ETF",
       "Band": "No Band",
       "Remarks": "-"
     },
@@ -23501,9 +21576,58 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "COMMOIETF",
+      "Series": "EQ",
+      "Security Name": "ICICI PRUDENTIAL MUTUAL FUND - ICICI PRUDENTIAL NIFTY COMMODITIES ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "CONCOR",
       "Series": "EQ",
       "Security Name": "CONTAINER CORPORATION OF INDIA LIMITED",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "CONS",
+      "Series": "EQ",
+      "Security Name": "KOTAK NIFTY INDIA CONSUMPTION ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "CONSUMAXIS",
+      "Series": "EQ",
+      "Security Name": "AXIS MUTUAL FUND - AXIS NIFTY INDIA CONSUMPTION ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "CONSUMBEES",
+      "Series": "EQ",
+      "Security Name": "NIPPON INDIA ETF NIFTY INDIA CONSUMPTION",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "CONSUMER",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MF- MIRAE ASSET NIFTY INDIA NEW AGE CONSUMPTION ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "CONSUMIETF",
+      "Series": "EQ",
+      "Security Name": "ICICI PRUDENTIAL NIFTY INDIA CONSUMPTION ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "CPSEETF",
+      "Series": "EQ",
+      "Security Name": "CPSE ETF",
       "Band": "No Band",
       "Remarks": "-"
     },
@@ -23529,6 +21653,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "DEFENCE",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET BSE INDIA DEFENCE ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "DELHIVERY",
       "Series": "EQ",
       "Security Name": "DELHIVERY LIMITED",
@@ -23536,9 +21667,23 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "DIVIDEND",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET BSE 500 DIVIDEND LEADERS 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "DIVISLAB",
       "Series": "EQ",
       "Security Name": "DIVI'S LABORATORIES LIMITED",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "DIVOPPBEES",
+      "Series": "EQ",
+      "Security Name": "NIPPON INDIA ETF NIFTY DIVIDEND OPPORTUNITIES 50",
       "Band": "No Band",
       "Remarks": "-"
     },
@@ -23571,9 +21716,156 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "EBANK10",
+      "Series": "EQ",
+      "Security Name": "EDELWEISS MUTUAL FUND - EDELWEISS BSE TOP 10 BANK ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "EBANKNIFTY",
+      "Series": "EQ",
+      "Security Name": "EDELWEISS MUTUAL FUND - EDELWEISS NIFTY BANK ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "EBBETF0430",
+      "Series": "EQ",
+      "Security Name": "EDELWEISS MUTUAL FUND - BHARAT BOND  ETF - APRIL 2030",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "EBBETF0431",
+      "Series": "EQ",
+      "Security Name": "EDELWEISS MUTUAL FUND - BHARAT BOND ETF - APRIL 2031",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "EBBETF0433",
+      "Series": "EQ",
+      "Security Name": "EDELWEISS MUTUAL FUND - BHARAT BOND ETF-APRIL 2033",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ECAPINSURE",
+      "Series": "EQ",
+      "Security Name": "EDELWEISS MUTUAL FUND - EDELWEISS BSE CAPITAL MARKETS & INSURANCE ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "EGOLD",
+      "Series": "EQ",
+      "Security Name": "EDELWEISS MUTUAL FUND -EDELWEISS GOLD ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "EICHERMOT",
       "Series": "EQ",
       "Security Name": "EICHER MOTORS LIMITED",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ELM250",
+      "Series": "EQ",
+      "Security Name": "EDELWEISS MUTUAL FUND - EDELWEISS NIFTY LARGEMIDCAP 250 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ELMDIV",
+      "Series": "EQ",
+      "Security Name": "EDELWEISS MF - EDELWEISS BSE LARGEMID (60:40) STABLE DIVIDEND 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "EMETAL",
+      "Series": "EQ",
+      "Security Name": "EDELWEISS MUTUAL FUND - EDELWEISS NIFTY METAL ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "EMULTIMQ",
+      "Series": "EQ",
+      "Security Name": "EDELWEISS MF - EDELWEISS NIFTY500 MULTICAP MOMENTUM QUALITY 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ENERGY",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY ENERGY ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ENERGYAXIS",
+      "Series": "EQ",
+      "Security Name": "AXIS MUTUAL FUND - AXIS NIFTY ENERGY ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ENEXT50",
+      "Series": "EQ",
+      "Security Name": "EDELWEISS MUTUAL FUND - EDELWEISS NIFTY NEXT 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ENIFTY",
+      "Series": "EQ",
+      "Security Name": "EDELWEISS MUTUAL FUND - EDELWEISS NIFTY 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "EQUAL200",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET BSE 200 EQUAL WEIGHT ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "EQUAL50",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY50 EQUAL WEIGHT ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "EQUAL50ADD",
+      "Series": "EQ",
+      "Security Name": "DSP  MUTUAL FUND - DSP NIFTY 50 EQUAL WEIGHT ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ESENSEX",
+      "Series": "EQ",
+      "Security Name": "EDELWEISS MUTUAL FUND - EDELWEISS BSE SENSEX ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ESG",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY 100 ESG SECTOR LEADERS ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ESILVER",
+      "Series": "EQ",
+      "Security Name": "EDELWEISS MUTUAL FUND - EDELWEISS SILVER ETF",
       "Band": "No Band",
       "Remarks": "-"
     },
@@ -23585,9 +21877,51 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "EVIETF",
+      "Series": "EQ",
+      "Security Name": "ICICI PRUDENTIAL MF-ICICI PRUDENTIAL NIFTY EV & NEW AGE AUTOMOTIVE ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "EVINDIA",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MF - MIRAE ASSET NIFTY EV AND NEW AGE AUTOMOTIVE ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "FEDERALBNK",
       "Series": "EQ",
       "Security Name": "THE FEDERAL BANK  LIMITED",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "FINIETF",
+      "Series": "EQ",
+      "Security Name": "ICICI PRUDENTIAL MUTUAL FUND - ICICI PRU NIFTY FIN SER EX-BANK ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "FLEXIADD",
+      "Series": "EQ",
+      "Security Name": "DSP MUTUAL FUND - DSP NIFTY500 FLEXICAP QUALITY 30 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "FMCGADD",
+      "Series": "EQ",
+      "Security Name": "DSP MUTUAL FUND - DSP NIFTY FMCG ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "FMCGIETF",
+      "Series": "EQ",
+      "Security Name": "ICICI PRUDENTIAL MUTUAL FUND - ICICI PRUDENTIAL NIFTY FMCG ETF",
       "Band": "No Band",
       "Remarks": "-"
     },
@@ -23609,6 +21943,27 @@
       "Symbol": "GAIL",
       "Series": "EQ",
       "Security Name": "GAIL (INDIA) LIMITED",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GILT10BETA",
+      "Series": "EQ",
+      "Security Name": "UTI MUTUAL FUND - UTI NIFTY 10 YR BENCHMARK G-SEC ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GILT5BETA",
+      "Series": "EQ",
+      "Security Name": "UTI MUTUAL FUND - UTI NIFTY 5 YR BENCHMARK G-SEC ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GILT5YBEES",
+      "Series": "EQ",
+      "Security Name": "NIPPON INDIA ETF NIFTY 5 YR BENCHMARK GSEC",
       "Band": "No Band",
       "Remarks": "-"
     },
@@ -23648,9 +22003,261 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "GOLD1",
+      "Series": "EQ",
+      "Security Name": "KOTAK MUTUAL FUND - GOLD EXCHANGE TRADED FUND",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GOLD360",
+      "Series": "EQ",
+      "Security Name": "360 ONE MUTUAL FUND - 360 ONE GOLD ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GOLDADD",
+      "Series": "EQ",
+      "Security Name": "DSP MUTUAL FUND - DSP GOLD ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GOLDAXIS",
+      "Series": "EQ",
+      "Security Name": "AXIS MUTUAL FUND - AXIS GOLD ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GOLDBEES",
+      "Series": "EQ",
+      "Security Name": "NIPPON INDIA ETF GOLD BEES",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GOLDBETA",
+      "Series": "EQ",
+      "Security Name": "UTI MUTUAL FUND - UTI GOLD EXCHANGE TRADED FUND",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GOLDBND",
+      "Series": "EQ",
+      "Security Name": "BANDHAN MUTUAL FUND - BANDHAN GOLD ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GOLDCASE",
+      "Series": "EQ",
+      "Security Name": "ZERODHA FUND HOUSE - ZERODHA GOLD ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GOLDETF",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET GOLD ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GOLDIETF",
+      "Series": "EQ",
+      "Security Name": "ICICI PRUDENTIAL GOLD ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "GRASIM",
       "Series": "EQ",
       "Security Name": "GRASIM INDUSTRIES LIMITED",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GROWWCAPM",
+      "Series": "EQ",
+      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY CAPITAL MARKETS ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GROWWCHEM",
+      "Series": "EQ",
+      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY CHEMICALS ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GROWWDEFNC",
+      "Series": "EQ",
+      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY INDIA DEFENCE ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GROWWEV",
+      "Series": "EQ",
+      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY EV & NEW AGE AUTOMOTIVE ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GROWWGOLD",
+      "Series": "EQ",
+      "Security Name": "GROWW MUTUAL FUND - GROWW GOLD ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GROWWHOSPI",
+      "Series": "EQ",
+      "Security Name": "GROWW MUTUAL FUND - GROWW BSE HOSPITALS ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GROWWLOVOL",
+      "Series": "EQ",
+      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY 500 LOW VOLATILITY 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GROWWMC150",
+      "Series": "EQ",
+      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY MIDCAP 150 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GROWWMETAL",
+      "Series": "EQ",
+      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY METAL ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GROWWMOM50",
+      "Series": "EQ",
+      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY 500 MOMENTUM 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GROWWN200",
+      "Series": "EQ",
+      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY 200 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GROWWNET",
+      "Series": "EQ",
+      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY INDIA INTERNET ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GROWWNIFTY",
+      "Series": "EQ",
+      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GROWWNXT50",
+      "Series": "EQ",
+      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY NEXT 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GROWWPOWER",
+      "Series": "EQ",
+      "Security Name": "GROWW MUTUAL FUND - GROWW BSE POWER ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GROWWPSE",
+      "Series": "EQ",
+      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY PSE ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GROWWPSUBK",
+      "Series": "EQ",
+      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY PSU BANK ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GROWWRAIL",
+      "Series": "EQ",
+      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY INDIA RAILWAYS PSU ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GROWWRLTY",
+      "Series": "EQ",
+      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY REALTY ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GROWWSC250",
+      "Series": "EQ",
+      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY SMALLCAP 250 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GROWWSLVR",
+      "Series": "EQ",
+      "Security Name": "GROWW MUTUAL FUND - GROWW SILVER ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GSEC10ABSL",
+      "Series": "EQ",
+      "Security Name": "ADITYABIRLASUNLIFEMF - ADITYA BIRLA SUN LIFE CRISIL 10 YEAR GILT ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GSEC10ADD",
+      "Series": "EQ",
+      "Security Name": "DSP MUTUAL FUND - DSP NIFTY 10 YR BENCHMARK G-SEC ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GSEC10IETF",
+      "Series": "EQ",
+      "Security Name": "ICICI PRU MUTUAL FUND-ICICI PRUDENTIAL NIFTY 10 YR BENCHMARK G-SEC ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GSEC10YEAR",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY 8-13 YR G-SEC ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GSEC5IETF",
+      "Series": "EQ",
+      "Security Name": "ICICI PRUDENTIAL NIFTY 5 YR BENCHMARK G-SEC ETF",
       "Band": "No Band",
       "Remarks": "-"
     },
@@ -23697,9 +22304,177 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "HDFCBSE500",
+      "Series": "EQ",
+      "Security Name": "HDFC BSE 500 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "HDFCGOLD",
+      "Series": "EQ",
+      "Security Name": "HDFC GOLD ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "HDFCGROWTH",
+      "Series": "EQ",
+      "Security Name": "HDFC MUTUAL FUND - HDFC NIFTY GROWTH SECTORS 15 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "HDFCLIFE",
       "Series": "EQ",
       "Security Name": "HDFC LIFE INSURANCE COMPANY LIMITED",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "HDFCLOWVOL",
+      "Series": "EQ",
+      "Security Name": "HDFC MUTUAL FUND - HDFC NIFTY100 LOW VOLATILITY 30 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "HDFCMID150",
+      "Series": "EQ",
+      "Security Name": "HDFC MUTUAL FUND - HDFC NIFTY MIDCAP 150 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "HDFCMOMENT",
+      "Series": "EQ",
+      "Security Name": "HDFC MUTUAL FUND - HDFC NIFTY200 MOMENTUM 30 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "HDFCNEXT50",
+      "Series": "EQ",
+      "Security Name": "HDFC MUTUAL FUND - HDFC NIFTY NEXT 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "HDFCNIF100",
+      "Series": "EQ",
+      "Security Name": "HDFC MUTUAL FUND - HDFC NIFTY 100 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "HDFCNIFBAN",
+      "Series": "EQ",
+      "Security Name": "HDFC NIFTY BANK ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "HDFCNIFIT",
+      "Series": "EQ",
+      "Security Name": "HDFC MUTUAL FUND - HDFC NIFTY IT ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "HDFCNIFTY",
+      "Series": "EQ",
+      "Security Name": "HDFC NIFTY 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "HDFCNIMEG",
+      "Series": "EQ",
+      "Security Name": "HDFC MUTUAL FUND - HDFC NIFTY METAL ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "HDFCPSUBK",
+      "Series": "EQ",
+      "Security Name": "HDFC MUTUAL FUND -HDFC NIFTY PSU BANK ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "HDFCPVTBAN",
+      "Series": "EQ",
+      "Security Name": "HDFC MUTUAL FUND - HDFC NIFTY PRIVATE BANK ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "HDFCQUAL",
+      "Series": "EQ",
+      "Security Name": "HDFC MUTUAL FUND - HDFC NIFTY100 QUALITY 30 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "HDFCSENSEX",
+      "Series": "EQ",
+      "Security Name": "HDFC BSE SENSEX ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "HDFCSILVER",
+      "Series": "EQ",
+      "Security Name": "HDFC MUTUAL FUND - HDFC SILVER ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "HDFCSML250",
+      "Series": "EQ",
+      "Security Name": "HDFC MUTUAL FUND - HDFC NIFTY SMALLCAP 250 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "HDFCVALUE",
+      "Series": "EQ",
+      "Security Name": "HDFC MUTUAL FUND - HDFC NIFTY50 VALUE 20 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "HEALTHADD",
+      "Series": "EQ",
+      "Security Name": "DSP MUTUAL FUND - DSP NIFTY HEALTHCARE ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "HEALTHAXIS",
+      "Series": "EQ",
+      "Security Name": "AXIS MUTUAL FUND - AXIS NIFTY HEALTHCARE ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "HEALTHCARE",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY 500 HEALTHCARE ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "HEALTHIETF",
+      "Series": "EQ",
+      "Security Name": "ICICI PRUDENTIAL MUTUAL FUND - ICICI PRUDENTIAL NIFTY HEALTHCARE ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "HEALTHY",
+      "Series": "EQ",
+      "Security Name": "ADITYA BIRLA SUN LIFE MF-ADITYA BIRLA SUN LIFE NIFTY HEALTHCARE ETF",
       "Band": "No Band",
       "Remarks": "-"
     },
@@ -23739,9 +22514,37 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "HNGSNGBEES",
+      "Series": "EQ",
+      "Security Name": "NIPPON INDIA ETF HANG SENG BEES",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "HSBCGOLD",
+      "Series": "EQ",
+      "Security Name": "HSBC MUTUAL FUND - HSBC GOLD ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "HYBRIDETF",
+      "Series": "EQ",
+      "Security Name": "MIRAE MF-MIRAE ASSET NIFTY200 MOMENTUM 30PLUS 8-13 YR G-SEC 50:50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "HYUNDAI",
       "Series": "EQ",
       "Security Name": "HYUNDAI MOTOR INDIA LIMITED",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ICICIB22",
+      "Series": "EQ",
+      "Security Name": "ICICI PRUDENTIAL MUTUAL FUND - BHARAT 22 ETF",
       "Band": "No Band",
       "Remarks": "-"
     },
@@ -23777,6 +22580,13 @@
       "Symbol": "IDFCFIRSTB",
       "Series": "EQ",
       "Security Name": "IDFC FIRST BANK LIMITED",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "IDFNIFTYET",
+      "Series": "EQ",
+      "Security Name": "BANDHAN NIFTY 50 ETF",
       "Band": "No Band",
       "Remarks": "-"
     },
@@ -23823,6 +22633,27 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "INFRA",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MF-MIRAE ASSET NIFTY INDIA INFRASTRUCTURE & LOGISTICS ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "INFRABEES",
+      "Series": "EQ",
+      "Security Name": "NIPPON INDIA ETF NIFTY INFRASTRUCTURE BEES",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "INFRAIETF",
+      "Series": "EQ",
+      "Security Name": "ICICI PRUDENTIAL MUTUAL FUND-ICICI PRUDENTIAL NIFTY INFRASTRUCTURE ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "INFY",
       "Series": "EQ",
       "Security Name": "INFOSYS LIMITED",
@@ -23833,6 +22664,20 @@
       "Symbol": "INOXWIND",
       "Series": "EQ",
       "Security Name": "INOX WIND LIMITED",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "INSUREIETF",
+      "Series": "EQ",
+      "Security Name": "ICICI PRUDENTIAL MUTUAL FUND - ICICI PRUDENTIAL BSE INSURANCE ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "INTERNET",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY INDIA INTERNET ETF",
       "Band": "No Band",
       "Remarks": "-"
     },
@@ -23858,9 +22703,86 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "IT",
+      "Series": "EQ",
+      "Security Name": "KOTAK NIFTY IT ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ITADD",
+      "Series": "EQ",
+      "Security Name": "DSP MUTUAL FUND - DSP NIFTY IT ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ITAXIS",
+      "Series": "EQ",
+      "Security Name": "AXIS MUTUAL FUND - AXIS NIFTY IT ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ITBEES",
+      "Series": "EQ",
+      "Security Name": "NIPPON LIFE INDIA ASSET MANAGEMENT LIMITED",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ITBETA",
+      "Series": "EQ",
+      "Security Name": "UTI MUTUAL FUND - UTI NIFTY IT ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "ITC",
       "Series": "EQ",
       "Security Name": "ITC LIMITED",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ITETF",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY IT ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ITIETF",
+      "Series": "EQ",
+      "Security Name": "ICICI PRUDENTIAL MUTUAL FUND - ICICI PRUDENTIAL NIFTY IT ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "IVZBANKNF",
+      "Series": "EQ",
+      "Security Name": "INVESCO MUTUAL FUND - INVESCO INDIA NIFTY BANK ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "IVZINGOLD",
+      "Series": "EQ",
+      "Security Name": "INVESCO INDIA GOLD EXCHANGE TRADED FUND",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "IVZINNIFTY",
+      "Series": "EQ",
+      "Security Name": "INVESCO INDIA NIFTY 50 EXCHANGE TRADED FUND",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "IVZSENSEX",
+      "Series": "EQ",
+      "Security Name": "INVESCO MUTUAL FUND - INVESCO INDIA BSE SENSEX ETF",
       "Band": "No Band",
       "Remarks": "-"
     },
@@ -23896,6 +22818,13 @@
       "Symbol": "JUBLFOOD",
       "Series": "EQ",
       "Security Name": "JUBILANT FOODWORKS LIMITED",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "JUNIORBEES",
+      "Series": "EQ",
+      "Security Name": "NIPPON INDIA ETF NIFTY NEXT 50 JUNIOR BEES",
       "Band": "No Band",
       "Remarks": "-"
     },
@@ -23942,6 +22871,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "LARGEMID50",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET BSE LARGEMID (60:40) STABLE DIVIDEND 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "LAURUSLABS",
       "Series": "EQ",
       "Security Name": "LAURUS LABS LIMITED",
@@ -23963,9 +22899,72 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "LICMFGOLD",
+      "Series": "EQ",
+      "Security Name": "LIC MF GOLD EXCHANGE TRADED FUND",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "LICNETFGSC",
+      "Series": "EQ",
+      "Security Name": "LIC MF - LIC MF G-SEC LT ETF - GO",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "LICNETFN50",
+      "Series": "EQ",
+      "Security Name": "LIC MF - LIC MF EXCHANGE TRADED FUND - NIFTY 50",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "LICNETFSEN",
+      "Series": "EQ",
+      "Security Name": "LIC MUTUAL FUND - LIC MF EXCHANGE TRADED FUND - SENSEX",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "LICNFNHGP",
+      "Series": "EQ",
+      "Security Name": "LIC MF - LIC MF ETF - NIFTY 100",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "LICNMID100",
+      "Series": "EQ",
+      "Security Name": "LIC MUTUAL FUND - LIC MF NIFTY MIDCAP 100 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "LODHA",
       "Series": "EQ",
       "Security Name": "LODHA DEVELOPERS LIMITED",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "LOWVOL",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY 100 LOW VOLATILITY 30 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "LOWVOL1",
+      "Series": "EQ",
+      "Security Name": "KOTAK NIFTY 100 LOW VOLATILITY 30 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "LOWVOLIETF",
+      "Series": "EQ",
+      "Security Name": "ICICI PRUDENTIAL NIFTY 100 LOW VOLATILITY 30 ETF",
       "Band": "No Band",
       "Remarks": "-"
     },
@@ -23980,6 +22979,20 @@
       "Symbol": "LTF",
       "Series": "EQ",
       "Security Name": "L&T FINANCE LIMITED",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "LTGILTBEES",
+      "Series": "EQ",
+      "Security Name": "NIPPON INDIA ETF NIFTY 8-13 YR G-SEC LONG TERM GILT",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "LTGILTCASE",
+      "Series": "EQ",
+      "Security Name": "ZERODHA FUND HOUSE - ZERODHA NIFTY 8-13 YR G-SEC ETF",
       "Band": "No Band",
       "Remarks": "-"
     },
@@ -24005,9 +23018,30 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "MAFANG",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NYSE FANG+ ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "MAHABANK",
       "Series": "EQ",
       "Security Name": "BANK OF MAHARASHTRA",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MAHKTECH",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET HANG SENG TECH ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MAKEINDIA",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY INDIA MANUFACTURING ETF",
       "Band": "No Band",
       "Remarks": "-"
     },
@@ -24026,6 +23060,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "MANUFGBEES",
+      "Series": "EQ",
+      "Security Name": "NIPPON INDIA MUTUAL FUND - NIPPON INDIA NIFTY INDIA MANUFACTURING ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "MARICO",
       "Series": "EQ",
       "Security Name": "MARICO LIMITED",
@@ -24036,6 +23077,13 @@
       "Symbol": "MARUTI",
       "Series": "EQ",
       "Security Name": "MARUTI SUZUKI INDIA LIMITED",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MASPTOP50",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET S&P 500 TOP 50 ETF",
       "Band": "No Band",
       "Remarks": "-"
     },
@@ -24061,9 +23109,366 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "METAL",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY METAL ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "METALIETF",
+      "Series": "EQ",
+      "Security Name": "ICICI PRUDENTIAL MUTUAL FUND - ICICI PRUDENTIAL NIFTY METAL ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "MFSL",
       "Series": "EQ",
       "Security Name": "MAX FINANCIAL SERVICES LIMITED",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MID150",
+      "Series": "EQ",
+      "Security Name": "KOTAK MAHINDRA MUTUAL FUND - KOTAK NIFTY MIDCAP 150 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MID150BEES",
+      "Series": "EQ",
+      "Security Name": "NIPPON INDIA ETF NIFTY MIDCAP 150",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MID150CASE",
+      "Series": "EQ",
+      "Security Name": "ZERODHA FUND HOUSE - ZERODHA NIFTY MIDCAP 150 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MIDBANKADD",
+      "Series": "EQ",
+      "Security Name": "DSP MUTUAL FUND - DSP BSE MIDSMALL PRIVATE BANKS ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MIDCAP",
+      "Series": "EQ",
+      "Security Name": "KOTAK NIFTY MIDCAP 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MIDCAPADD",
+      "Series": "EQ",
+      "Security Name": "DSP MUTUAL FUND - DSP NIFTY MIDCAP 150 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MIDCAPBETA",
+      "Series": "EQ",
+      "Security Name": "UTI MUTUAL FUND - UTI NIFTY MIDCAP 150 EXCHANGE TRADED FUND (ETF)",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MIDCAPETF",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY MIDCAP 150 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MIDCAPIETF",
+      "Series": "EQ",
+      "Security Name": "ICICI PRUDENTIAL MUTUAL FUND - ICICI PRUDENTIAL NIFTY MIDCAP 150 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MIDQ50ADD",
+      "Series": "EQ",
+      "Security Name": "DSP  MUTUAL FUND - DSP NIFTY MIDCAP 150 QUALITY 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MIDSELIETF",
+      "Series": "EQ",
+      "Security Name": "ICICI PRUDENTIAL BSE MIDCAP SELECT ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MIDSMALL",
+      "Series": "EQ",
+      "Security Name": "MIRAEASSETMF-MIRAE ASSET NIFTY MIDSMALLCAP400 MOMENTUM QUALITY 100 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MNC",
+      "Series": "EQ",
+      "Security Name": "KOTAK MAHINDRA MUTUAL FUND - KOTAK NIFTY MNC ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MOALPHA50",
+      "Series": "EQ",
+      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY ALPHA 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MOBANK10",
+      "Series": "EQ",
+      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL BSE TOP 10 BANKS ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MOCAPITAL",
+      "Series": "EQ",
+      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY CAPITAL MARKET ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MODEFENCE",
+      "Series": "EQ",
+      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY INDIA DEFENCE ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MOENERGY",
+      "Series": "EQ",
+      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY ENERGY ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MOGOLD",
+      "Series": "EQ",
+      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL GOLD ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MOGSEC",
+      "Series": "EQ",
+      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL 5 YEAR G SEC ETF - GROWTH",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MOHEALTH",
+      "Series": "EQ",
+      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL S&P BSE HEALTHCARE ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MOINFRA",
+      "Series": "EQ",
+      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL BSE INDIA INFRASTRUCTURE ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MOIPO",
+      "Series": "EQ",
+      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL BSE SELECT IPO ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MOLOWVOL",
+      "Series": "EQ",
+      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL S&P BSE LOW VOLATILITY ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MOM100",
+      "Series": "EQ",
+      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL MOST SHARES M100 ETF GO",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MOM30IETF",
+      "Series": "EQ",
+      "Security Name": "ICICI PRUDENTIAL MUTUAL FUND -  ICICI PRU NIFTY 200 MOMENTUM 30 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MOM50",
+      "Series": "EQ",
+      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL MOST SHARES M50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MOMENTUM",
+      "Series": "EQ",
+      "Security Name": "ADITYA BIRLA SUN LIFE MUTUAL FUND - ADITYA BIRLA SUN LIFE NIFTY 200 MO",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MOMENTUM30",
+      "Series": "EQ",
+      "Security Name": "KOTAK MAHINDRA MUTUAL FUND - KOTAK NIFTY 200 MOMENTUM 30 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MOMENTUM50",
+      "Series": "EQ",
+      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY 500 MOMENTUM 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MOMETAL",
+      "Series": "EQ",
+      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY METAL ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MOMGF",
+      "Series": "EQ",
+      "Security Name": "MOTILAL OSWAL MUTUAL FUND-MOTILAL OSWAL NIFTY INDIA MANUFACTURING ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MOMIDMTM",
+      "Series": "EQ",
+      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY MIDCAP150 MOMENTUM 50",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MOMMIDCAP",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET BSE MIDCAP 150 MOMENTUM 30 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MOMNC",
+      "Series": "EQ",
+      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY MNC ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MOMOMENTUM",
+      "Series": "EQ",
+      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY 200 MOMENTUM 30 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MON100",
+      "Series": "EQ",
+      "Security Name": "MOTILAL OSWAL MUTUAL FUND-MOTILAL OSWAL MOST SHARES NASDAQ 100 ETF -GO",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MON50EQUAL",
+      "Series": "EQ",
+      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY 50 EQUAL WEIGHT ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MONEXT50",
+      "Series": "EQ",
+      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY NEXT 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MONIFTY100",
+      "Series": "EQ",
+      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY 100 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MONIFTY500",
+      "Series": "EQ",
+      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY 500 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MONQ50",
+      "Series": "EQ",
+      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NASDAQ Q 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MOOILGAS",
+      "Series": "EQ",
+      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY OIL & GAS ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MOPSE",
+      "Series": "EQ",
+      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY PSE ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MOQUALITY",
+      "Series": "EQ",
+      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL S&P BSE QUALITY ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MOREALTY",
+      "Series": "EQ",
+      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY REALTY ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MOSERVICE",
+      "Series": "EQ",
+      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY SERVICES SECTOR ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MOSILVER",
+      "Series": "EQ",
+      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL SILVER ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MOSMALL250",
+      "Series": "EQ",
+      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY SMALLCAP 250 ETF",
       "Band": "No Band",
       "Remarks": "-"
     },
@@ -24082,9 +23487,51 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "MOTOUR",
+      "Series": "EQ",
+      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL NIFTY INDIA TOURISM ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MOVALUE",
+      "Series": "EQ",
+      "Security Name": "MOTILAL OSWAL MUTUAL FUND - MOTILAL OSWAL SP BSE ENHANCED VALUE ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "MPHASIS",
       "Series": "EQ",
       "Security Name": "MPHASIS LIMITED",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MSCI360",
+      "Series": "EQ",
+      "Security Name": "360 ONE MUTUAL FUND - 360 ONE MSCI INDIA ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MSCIADD",
+      "Series": "EQ",
+      "Security Name": "DSP MUTUAL FUND - DSP MSCI INDIA ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MSCIINDIA",
+      "Series": "EQ",
+      "Security Name": "KOTAK MAHINDRA MUTUAL FUND - KOTAK MSCI INDIA ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MULTICAP",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY 500 MULTICAP 50:25:25 ETF",
       "Band": "No Band",
       "Remarks": "-"
     },
@@ -24131,9 +23578,163 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "NETF",
+      "Series": "EQ",
+      "Security Name": "TATA NIFTY 50 EXCHANGE TRADED FUND",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "NEXT30ADD",
+      "Series": "EQ",
+      "Security Name": "DSP MUTUAL FUND - DSP BSE SENSEX NEXT 30 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "NEXT50",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY NEXT 50 ETF (MANXT50) - MI",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "NEXT50ADD",
+      "Series": "EQ",
+      "Security Name": "DSP MUTUAL FUND - DSP NIFTY NEXT 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "NEXT50BETA",
+      "Series": "EQ",
+      "Security Name": "UTI MUTUAL FUND - UTI NIFTY NEXT 50 EXCHANGE TRADED FUND - UTI NIFTY N",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "NEXT50ETF",
+      "Series": "EQ",
+      "Security Name": "KOTAK MAHINDRA MUTUAL FUND - KOTAK NIFTY NEXT 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "NEXT50IETF",
+      "Series": "EQ",
+      "Security Name": "ICICI PRUDENTIAL MUTUAL FUND - ICICI PRUDENTIAL NIFTY NEXT 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "NHPC",
       "Series": "EQ",
       "Security Name": "NHPC LIMITED",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "NIF100BEES",
+      "Series": "EQ",
+      "Security Name": "NIPPON INDIA ETF NIFTY 100",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "NIF100IETF",
+      "Series": "EQ",
+      "Security Name": "ICICI PRUDENTIAL NIFTY 100 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "NIF500BETA",
+      "Series": "EQ",
+      "Security Name": "UTI MUTUAL FUND - UTI NIFTY 500 EXCHANGE TRADED FUND",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "NIFTY1",
+      "Series": "EQ",
+      "Security Name": "KOTAK NIFTY 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "NIFTY100EW",
+      "Series": "EQ",
+      "Security Name": "KOTAK MAHINDRA MUTUAL FUND - KOTAK NIFTY 100 EQUAL WEIGHT ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "NIFTYADD",
+      "Series": "EQ",
+      "Security Name": "DSP  MUTUAL FUND - DSP NIFTY 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "NIFTYAXIS",
+      "Series": "EQ",
+      "Security Name": "AXIS MUTUAL FUND - AXIS NIFTY 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "NIFTYBEES",
+      "Series": "EQ",
+      "Security Name": "NIPPON INDIA ETF NIFTY 50 BEES",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "NIFTYBETA",
+      "Series": "EQ",
+      "Security Name": "UTI NIFTY 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "NIFTYBETF",
+      "Series": "EQ",
+      "Security Name": "BAJAJ FINSERV MUTUAL FUND - BAJAJ FINSERV NIFTY 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "NIFTYCASE",
+      "Series": "EQ",
+      "Security Name": "ZERODHA FUND HOUSE - ZERODHA NIFTY 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "NIFTYETF",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "NIFTYIETF",
+      "Series": "EQ",
+      "Security Name": "ICICI PRUDENTIAL NIFTY 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "NIFTYJBLK",
+      "Series": "EQ",
+      "Security Name": "JIO BLACKROCK MUTUAL FUND - JIOBLACKROCK NIFTY 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "NIFTYQLITY",
+      "Series": "EQ",
+      "Security Name": "ADITYA BIRLA SUN LIFE MUTUAL FUND - ABSL NIFTY 200 QUALITY 30 ETF",
       "Band": "No Band",
       "Remarks": "-"
     },
@@ -24145,9 +23746,37 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "NPBET",
+      "Series": "EQ",
+      "Security Name": "TATA NIFTY PRIVATE BANK EXCHANGE TRADED FUND",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "NTPC",
       "Series": "EQ",
       "Security Name": "NTPC LIMITED",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "NV20",
+      "Series": "EQ",
+      "Security Name": "KOTAK NIFTY 50 VALUE 20 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "NV20BEES",
+      "Series": "EQ",
+      "Security Name": "NIPPON INDIA ETF NIFTY 50 VALUE 20",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "NV20IETF",
+      "Series": "EQ",
+      "Security Name": "ICICI PRUDENTIAL NIFTY50 VALUE 20 ETF",
       "Band": "No Band",
       "Remarks": "-"
     },
@@ -24176,6 +23805,13 @@
       "Symbol": "OIL",
       "Series": "EQ",
       "Security Name": "OIL INDIA LIMITED",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "OILIETF",
+      "Series": "EQ",
+      "Security Name": "ICICI PRUDENTIAL MUTUAL FUND - ICICI PRUDENTIAL NIFTY OIL & GAS ETF",
       "Band": "No Band",
       "Remarks": "-"
     },
@@ -24232,6 +23868,13 @@
       "Symbol": "PGEL",
       "Series": "EQ",
       "Security Name": "PG ELECTROPLAST LIMITED",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "PHARMABEES",
+      "Series": "EQ",
+      "Security Name": "NIPPON INDIA MUTUAL FUND - NIPPON INDIA NIFTY PHARMA ETF",
       "Band": "No Band",
       "Remarks": "-"
     },
@@ -24313,6 +23956,90 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "PSUBANK",
+      "Series": "EQ",
+      "Security Name": "KOTAK NIFTY PSU BANK ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "PSUBANKADD",
+      "Series": "EQ",
+      "Security Name": "DSP MUTUAL FUND - DSP NIFTY PSU BANK ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "PSUBNKBEES",
+      "Series": "EQ",
+      "Security Name": "NIPPON INDIA ETF NIFTY PSU BANK BEES",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "PSUBNKIETF",
+      "Series": "EQ",
+      "Security Name": "ICICI PRUDENTIAL MUTUAL FUND - ICICI PRUDENTIAL NIFTY PSU BANK ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "PVTBANIETF",
+      "Series": "EQ",
+      "Security Name": "ICICI PRUDENTIAL NIFTY PRIVATE BANK ETF - NIFTY PRIVATE BANK INDEX",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "PVTBANK",
+      "Series": "EQ",
+      "Security Name": "KOTAK MAHINDRA MUTUAL FUND - KOTAK NIFTY PRIVATE BANK ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "PVTBANKADD",
+      "Series": "EQ",
+      "Security Name": "DSP MUTUAL FUND - DSP NIFTY PRIVATE BANK ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "PVTBKGROWW",
+      "Series": "EQ",
+      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY PRIVATE BANK ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "QGOLDHALF",
+      "Series": "EQ",
+      "Security Name": "QUANTUM GOLD ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "QNIFTY",
+      "Series": "EQ",
+      "Security Name": "QUANTUM NIFTY 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "QUAL30IETF",
+      "Series": "EQ",
+      "Security Name": "ICICI PRUDENTIAL MF - ICICI PRUDENTIAL NIFTY 200 QUALITY 30 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "QUALITY30",
+      "Series": "EQ",
+      "Security Name": "KOTAK MAHINDRA MUTUAL FUND - KOTAK NIFTY200 QUALITY 30 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "RADICO",
       "Series": "EQ",
       "Security Name": "RADICO KHAITAN LIMITED",
@@ -24362,9 +24089,44 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "SBIBPB",
+      "Series": "EQ",
+      "Security Name": "SBI MUTUAL FUND - SBI BSE PSU BANK ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "SBICARD",
       "Series": "EQ",
       "Security Name": "SBI CARDS AND PAYMENT SERVICES LIMITED",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SBIETFCON",
+      "Series": "EQ",
+      "Security Name": "SBI MUTUAL FUND - SBI ETF CONSUMPTION",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SBIETFIT",
+      "Series": "EQ",
+      "Security Name": "SBI MUTUAL FUND-SBI ETF IT",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SBIETFPB",
+      "Series": "EQ",
+      "Security Name": "SBI MUTUAL FUND - SBI ETF PRIVATE BANK - SBI ETF PRIVATE BANK",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SBIETFQLTY",
+      "Series": "EQ",
+      "Security Name": "SBI MUTUAL FUND - SBI - ETF QUALITY - SBI-ETF QUALITY",
       "Band": "No Band",
       "Remarks": "-"
     },
@@ -24376,9 +24138,135 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "SBIMIDMOM",
+      "Series": "EQ",
+      "Security Name": "SBI NIFTY MIDCAP150 MOMENTUM 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "SBIN",
       "Series": "EQ",
       "Security Name": "STATE BANK OF INDIA",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SBINEQWETF",
+      "Series": "EQ",
+      "Security Name": "SBI MUTUAL FUND - SBI NIFTY50 EQUAL WEIGHT ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SBINMID150",
+      "Series": "EQ",
+      "Security Name": "SBI MUTUAL FUND - SBI NIFTY MIDCAP 150 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SBISILVER",
+      "Series": "EQ",
+      "Security Name": "SBI MUTUAL FUND - SBI SILVER ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SBISMLETF",
+      "Series": "EQ",
+      "Security Name": "SBI MUTUAL FUND - SBI NIFTY SMALLCAP 250 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SBIVALETF",
+      "Series": "EQ",
+      "Security Name": "SBI MUTUAL FUND - SBI NIFTY200 VALUE 30 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SELECTIPO",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET BSE SELECT IPO ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SENSEXADD",
+      "Series": "EQ",
+      "Security Name": "DSP BSE SENSEX ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SENSEXAXIS",
+      "Series": "EQ",
+      "Security Name": "AXIS BSE SENSEX ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SENSEXBETA",
+      "Series": "EQ",
+      "Security Name": "UTI BSE SENSEX ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SENSEXETF",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET S&P BSE SENSEX ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SENSEXIETF",
+      "Series": "EQ",
+      "Security Name": "ICICI PRUDENTIAL BSE SENSEX ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SETF10GILT",
+      "Series": "EQ",
+      "Security Name": "SBI MUTUAL FUND - SBI-ETF 10 YEAR GILT",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SETFGOLD",
+      "Series": "EQ",
+      "Security Name": "SBI-ETF GOLD",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SETFNIF50",
+      "Series": "EQ",
+      "Security Name": "SBI-ETF NIFTY 50",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SETFNIFBK",
+      "Series": "EQ",
+      "Security Name": "SBI-ETF NIFTY BANK",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SETFNN50",
+      "Series": "EQ",
+      "Security Name": "SBI-ETF NIFTY NEXT 50",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SHARIABEES",
+      "Series": "EQ",
+      "Security Name": "NIPPON INDIA ETF NIFTY 50 SHARIAH BEES",
       "Band": "No Band",
       "Remarks": "-"
     },
@@ -24400,6 +24288,146 @@
       "Symbol": "SIEMENS",
       "Series": "EQ",
       "Security Name": "SIEMENS LIMITED",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SILVER",
+      "Series": "EQ",
+      "Security Name": "ADITYA BIRLA SUN LIFE MUTUAL FUND - ADITYA BIRLA SUN LIFE SILVER ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SILVER001",
+      "Series": "EQ",
+      "Security Name": "QUANT MUTUAL FUND - QUANT SILVER ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SILVER1",
+      "Series": "EQ",
+      "Security Name": "KOTAK MAHINDRA MUTUAL FUND - KOTAK SILVER ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SILVER360",
+      "Series": "EQ",
+      "Security Name": "360 ONE MUTUAL FUND - 360 ONE SILVER ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SILVERADD",
+      "Series": "EQ",
+      "Security Name": "DSP  MUTUAL FUND - DSP SILVER ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SILVERAG",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET SILVER ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SILVERAXIS",
+      "Series": "EQ",
+      "Security Name": "AXIS MUTUAL FUND - AXIS SILVER ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SILVERBEES",
+      "Series": "EQ",
+      "Security Name": "NIPPON INDIA MUTUAL FUND - NIPPON INDIA SILVER ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SILVERBETA",
+      "Series": "EQ",
+      "Security Name": "UTI MUTUAL FUND - UTI SILVER EXCHANGE TRADED FUND (UTI SILVER ETF)",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SILVERBND",
+      "Series": "EQ",
+      "Security Name": "BANDHAN MUTUAL FUND - BANDHAN SILVER ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SILVERCASE",
+      "Series": "EQ",
+      "Security Name": "ZERODHA FUND HOUSE - ZERODHA SILVER ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SILVERIETF",
+      "Series": "EQ",
+      "Security Name": "ICICI PRUDENTIAL MUTUAL FUND - ICICI PRUDENTIAL SILVER ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SMALL250",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY SMALLCAP 250 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SMALLADD",
+      "Series": "EQ",
+      "Security Name": "DSP MUTUAL FUND - DSP NIFTY SMALLCAP 250 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SMALLCAP",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MF-MIRAE ASSET NIFTY SMALLCAP 250 MOMENTUM QUALITY 100 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SMALLGROWW",
+      "Series": "EQ",
+      "Security Name": "GROWW MUTUAL FUND - GROWW NIFTY SMALLCAP 250 MOMENTUM QUALITY 100 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SMALLIETF",
+      "Series": "EQ",
+      "Security Name": "ICICI PRUDENTIAL MUTUAL FUND - ICICI PRUDENTIAL NIFTY SMALLCAP 250 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SML100CASE",
+      "Series": "EQ",
+      "Security Name": "ZERODHA FUND HOUSE - ZERODHA NIFTY SMALLCAP 100 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SNXT30BEES",
+      "Series": "EQ",
+      "Security Name": "NIPPON INDIA MUTUAL FUND - NIPPON INDIA BSE SENSEX NEXT 30 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SNXT50BETA",
+      "Series": "EQ",
+      "Security Name": "UTI BSE SENSEX NEXT 50 ETF",
       "Band": "No Band",
       "Remarks": "-"
     },
@@ -24467,6 +24495,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "TATAGOLD",
+      "Series": "EQ",
+      "Security Name": "TATA MUTUAL FUND TATA GOLD EXCHANGE TRADED FUND",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "TATAPOWER",
       "Series": "EQ",
       "Security Name": "TATA POWER COMPANY LIMITED",
@@ -24481,9 +24516,23 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "TATSILV",
+      "Series": "EQ",
+      "Security Name": "TATA MUTUAL FUND TATA SILVER EXCHANGE TRADED FUND",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "TCS",
       "Series": "EQ",
       "Security Name": "TATA CONSULTANCY SERVICES LIMITED",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "TECH",
+      "Series": "EQ",
+      "Security Name": "ADITYA BIRLA SUN LIFE MUTUAL FUND - ADITYA BIRLA SUN LIFE NIFTY IT ETF",
       "Band": "No Band",
       "Remarks": "-"
     },
@@ -24516,6 +24565,41 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "TNIDETF",
+      "Series": "EQ",
+      "Security Name": "TATA MUTUAL FUND - TATA NIFTY INDIA DIGITAL EXCHANGE TRADED FUND",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "TOP100CASE",
+      "Series": "EQ",
+      "Security Name": "ZERODHA FUND HOUSE - ZERODHA NIFTY 100 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "TOP10ADD",
+      "Series": "EQ",
+      "Security Name": "DSP MUTUAL FUND - DSP NIFTY TOP 10 EQUAL WEIGHT ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "TOP15IETF",
+      "Series": "EQ",
+      "Security Name": "ICICI PRUDENTIAL MF - ICICI PRUDENTIAL NIFTY TOP 15 EQUAL WEIGHT ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "TOP20",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY TOP 20 EQUAL WEIGHT ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "TORNTPHARM",
       "Series": "EQ",
       "Security Name": "TORRENT PHARMACEUTICALS LIMITED",
@@ -24537,6 +24621,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "TWCGOLDETF",
+      "Series": "EQ",
+      "Security Name": "THE WEALTH COMPANY MUTUAL FUND - THE WEALTH COMPANY GOLD ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "ULTRACEMCO",
       "Series": "EQ",
       "Security Name": "ULTRATECH CEMENT LIMITED",
@@ -24547,6 +24638,13 @@
       "Symbol": "UNIONBANK",
       "Series": "EQ",
       "Security Name": "UNION BANK OF INDIA",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "UNIONGOLD",
+      "Series": "EQ",
+      "Security Name": "UNION MUTUAL FUND - UNION GOLD ETF",
       "Band": "No Band",
       "Remarks": "-"
     },
@@ -24568,6 +24666,27 @@
       "Symbol": "UPL",
       "Series": "EQ",
       "Security Name": "UPL LIMITED",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "VAL30IETF",
+      "Series": "EQ",
+      "Security Name": "ICICI PRUDENTIAL MUTUAL FUND - ICICI PRUDENTIAL NIFTY200 VALUE 30 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "VALUE",
+      "Series": "EQ",
+      "Security Name": "MIRAE ASSET MUTUAL FUND - MIRAE ASSET NIFTY 500 VALUE 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "VALUEAXIS",
+      "Series": "EQ",
+      "Security Name": "AXIS MUTUAL FUND - AXIS NIFTY500 VALUE 50 ETF",
       "Band": "No Band",
       "Remarks": "-"
     },
