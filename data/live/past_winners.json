@@ -1,105 +1,105 @@
 {
-  "asOf": "2026-09-04",
+  "asOf": "2026-09-07",
   "winners": [
     {
-      "symbol": "PVP",
-      "returnPct": 95.6
-    },
-    {
       "symbol": "TBZ",
-      "returnPct": 76.1
+      "returnPct": 93.7
     },
     {
-      "symbol": "BIRLAPREC",
-      "returnPct": 65.2
-    },
-    {
-      "symbol": "DOLPHIN",
-      "returnPct": 64.0
+      "symbol": "PVP",
+      "returnPct": 87.6
     },
     {
       "symbol": "AKI",
-      "returnPct": 61.2
+      "returnPct": 77.2
     },
     {
-      "symbol": "OMAXE",
-      "returnPct": 57.8
+      "symbol": "DOLPHIN",
+      "returnPct": 75.3
     },
     {
-      "symbol": "LANCORHOL",
-      "returnPct": 56.6
+      "symbol": "BIRLAPREC",
+      "returnPct": 65.8
     },
     {
       "symbol": "INDSWFTLAB",
-      "returnPct": 55.8
+      "returnPct": 61.4
+    },
+    {
+      "symbol": "ICDSLTD",
+      "returnPct": 60.2
     },
     {
       "symbol": "SHANTIGEAR",
-      "returnPct": 54.7
-    },
-    {
-      "symbol": "SYNCOMF",
-      "returnPct": 53.0
+      "returnPct": 59.2
     },
     {
       "symbol": "PRABHA",
-      "returnPct": 49.1
+      "returnPct": 57.4
     },
     {
-      "symbol": "RATNAVEER",
-      "returnPct": 47.9
-    },
-    {
-      "symbol": "JINDWORLD",
-      "returnPct": 47.7
-    },
-    {
-      "symbol": "ARIES",
-      "returnPct": 47.4
+      "symbol": "LANCORHOL",
+      "returnPct": 55.7
     },
     {
       "symbol": "ENTERO",
-      "returnPct": 47.1
+      "returnPct": 52.8
     },
     {
-      "symbol": "SETL",
-      "returnPct": 45.5
+      "symbol": "SYNCOMF",
+      "returnPct": 50.7
+    },
+    {
+      "symbol": "JINDWORLD",
+      "returnPct": 50.3
+    },
+    {
+      "symbol": "OMAXE",
+      "returnPct": 50.2
     },
     {
       "symbol": "RAMBHAJO",
-      "returnPct": 45.1
+      "returnPct": 49.2
     },
     {
-      "symbol": "RPEL",
-      "returnPct": 43.8
-    },
-    {
-      "symbol": "KOHINOOR",
-      "returnPct": 42.2
-    },
-    {
-      "symbol": "MANINDS",
-      "returnPct": 42.1
-    },
-    {
-      "symbol": "KENNAMET",
-      "returnPct": 41.7
+      "symbol": "RATNAVEER",
+      "returnPct": 48.7
     },
     {
       "symbol": "MOREPENLAB",
-      "returnPct": 41.7
+      "returnPct": 48.1
+    },
+    {
+      "symbol": "MANINDS",
+      "returnPct": 47.6
+    },
+    {
+      "symbol": "ARIES",
+      "returnPct": 43.2
+    },
+    {
+      "symbol": "PCJEWELLER",
+      "returnPct": 42.6
+    },
+    {
+      "symbol": "OAL",
+      "returnPct": 42.0
+    },
+    {
+      "symbol": "KENNAMET",
+      "returnPct": 41.8
+    },
+    {
+      "symbol": "KABRAEXTRU",
+      "returnPct": 41.4
     },
     {
       "symbol": "WELCORP",
-      "returnPct": 40.8
+      "returnPct": 41.2
     },
     {
-      "symbol": "SUDEEPPHRM",
-      "returnPct": 38.8
-    },
-    {
-      "symbol": "UFLEX",
-      "returnPct": 38.2
+      "symbol": "AVADHSUGAR",
+      "returnPct": 39.7
     }
   ]
 }
