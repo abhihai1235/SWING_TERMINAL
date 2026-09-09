@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-08",
+  "asOf": "2026-09-09",
   "stocks": [
     {
       "Symbol": "21STCENMGM",
@@ -308,6 +308,13 @@
       "Security Name": "SUPREME ENGINEERING LIMITED",
       "Band": "2",
       "Remarks": "GSM STAGE - 0"
+    },
+    {
+      "Symbol": "SYSTMTXC",
+      "Series": "BE",
+      "Security Name": "SYSTEMATIX CORPORATE SERVICES LIMITED",
+      "Band": "2",
+      "Remarks": "-"
     },
     {
       "Symbol": "TANKUP",
@@ -1094,13 +1101,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "CEREBRAINT",
-      "Series": "BZ",
-      "Security Name": "CEREBRA INTEGRATED TECHNOLOGIES LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "CHEMBONDCH",
       "Series": "BE",
       "Security Name": "CHEMBOND CHEMICALS LIMITED",
@@ -1580,6 +1580,13 @@
       "Symbol": "FAIRCHEMOR",
       "Series": "BE",
       "Security Name": "FAIRCHEM ORGANICS LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "FASCINATE",
+      "Series": "SM",
+      "Security Name": "FASCINATE TEXTILES LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -2376,7 +2383,7 @@
     },
     {
       "Symbol": "KORE",
-      "Series": "SM",
+      "Series": "ST",
       "Security Name": "JAY JALARAM TECHNOLOGIES LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -2443,6 +2450,13 @@
       "Security Name": "LAKSHMI PRECISION SCREWS LIMITED",
       "Band": "5",
       "Remarks": "GSM STAGE - 0"
+    },
+    {
+      "Symbol": "LALITHAA",
+      "Series": "EQ",
+      "Security Name": "LALITHAA JEWELLERY MART LIMITED",
+      "Band": "5",
+      "Remarks": "-"
     },
     {
       "Symbol": "LAMOSAIC",
@@ -2763,6 +2777,13 @@
       "Symbol": "MEGAFLEX",
       "Series": "SM",
       "Security Name": "MEGA FLEX PLASTICS LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MENNPIS",
+      "Series": "BE",
+      "Security Name": "MENON PISTONS LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -4300,13 +4321,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "SYSTMTXC",
-      "Series": "BE",
-      "Security Name": "SYSTEMATIX CORPORATE SERVICES LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "TAC",
       "Series": "ST",
       "Security Name": "TAC INFOSEC LIMITED",
@@ -4450,6 +4464,13 @@
       "Symbol": "TOKYOPLAST",
       "Series": "EQ",
       "Security Name": "TOKYO PLAST INTERNATIONAL LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "TOTAL",
+      "Series": "BE",
+      "Security Name": "TOTAL TRANSPORT SYSTEMS LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -5007,6 +5028,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "ATALREAL",
+      "Series": "EQ",
+      "Security Name": "ATAL REALTECH LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "ATLANTAELE",
       "Series": "EQ",
       "Security Name": "ATLANTA ELECTRICALS LIMITED",
@@ -5343,13 +5371,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "FASCINATE",
-      "Series": "SM",
-      "Security Name": "FASCINATE TEXTILES LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "FAZE3Q",
       "Series": "EQ",
       "Security Name": "FAZE THREE LIMITED",
@@ -5637,13 +5658,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "LALITHAA",
-      "Series": "EQ",
-      "Security Name": "LALITHAA JEWELLERY MART LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "LASERPOWER",
       "Series": "EQ",
       "Security Name": "LASER POWER & INFRA LIMITED",
@@ -5724,6 +5738,13 @@
       "Symbol": "MSTCLTD",
       "Series": "EQ",
       "Security Name": "MSTC LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MVELECTRO",
+      "Series": "EQ",
+      "Security Name": "MV ELECTROSYSTEMS LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -5836,6 +5857,13 @@
       "Symbol": "PARKHOSPS",
       "Series": "EQ",
       "Security Name": "PARK MEDI WORLD LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "PKTEA",
+      "Series": "EQ",
+      "Security Name": "THE PERIA KARAMALAI TEA & PRODUCE COMPANY LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -6099,13 +6127,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "TOTAL",
-      "Series": "EQ",
-      "Security Name": "TOTAL TRANSPORT SYSTEMS LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "TRANSTEEL",
       "Series": "SM",
       "Security Name": "TRANSTEEL SEATING TECHNOLOGIES LIMITED",
@@ -6214,6 +6235,13 @@
       "Symbol": "WEWIN",
       "Series": "EQ",
       "Security Name": "WE WIN LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "WHEELS",
+      "Series": "EQ",
+      "Security Name": "WHEELS INDIA LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -7565,13 +7593,6 @@
       "Symbol": "ASTRAZEN",
       "Series": "EQ",
       "Security Name": "ASTRAZENECA PHARMA INDIA LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "ATALREAL",
-      "Series": "EQ",
-      "Security Name": "ATAL REALTECH LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -9210,6 +9231,13 @@
       "Symbol": "CREST",
       "Series": "EQ",
       "Security Name": "CREST VENTURES LIMITED",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "CRESTO",
+      "Series": "EQ",
+      "Security Name": "CRESTO TECHNO LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -13519,13 +13547,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "LASA",
-      "Series": "EQ",
-      "Security Name": "LASA SUPERGENERICS LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "LATENTVIEW",
       "Series": "EQ",
       "Security Name": "LATENT VIEW ANALYTICS LIMITED",
@@ -14303,13 +14324,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "MENNPIS",
-      "Series": "EQ",
-      "Security Name": "MENON PISTONS LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "MERCANTILE",
       "Series": "EQ",
       "Security Name": "MERCANTILE VENTURES LIMITED",
@@ -14719,13 +14733,6 @@
       "Symbol": "MUTHOOTMF",
       "Series": "EQ",
       "Security Name": "MUTHOOT MICROFIN LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MVELECTRO",
-      "Series": "EQ",
-      "Security Name": "MV ELECTROSYSTEMS LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -15895,13 +15902,6 @@
       "Symbol": "PIXTRANS",
       "Series": "EQ",
       "Security Name": "PIX TRANSMISSIONS LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "PKTEA",
-      "Series": "EQ",
-      "Security Name": "THE PERIA KARAMALAI TEA & PRODUCE COMPANY LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -17600,13 +17600,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "SELMC",
-      "Series": "EQ",
-      "Security Name": "SEL MANUFACTURING COMPANY LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "SENCO",
       "Series": "EQ",
       "Security Name": "SENCO GOLD LIMITED",
@@ -18111,13 +18104,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "SILLYMONKS",
-      "Series": "EQ",
-      "Security Name": "SILLY MONKS ENTERTAINMENT LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "SIMPLEXINF",
       "Series": "EQ",
       "Security Name": "SIMPLEX INFRASTRUCTURES LIMITED",
@@ -18387,13 +18373,6 @@
       "Symbol": "SPECTSTM",
       "Series": "SM",
       "Security Name": "SPECTRUM TALENT MANAGEMENT LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SPELS",
-      "Series": "EQ",
-      "Security Name": "SPEL SEMICONDUCTOR LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -20564,13 +20543,6 @@
       "Symbol": "WHBRADY",
       "Series": "EQ",
       "Security Name": "WH BRADY & COMPANY LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "WHEELS",
-      "Series": "EQ",
-      "Security Name": "WHEELS INDIA LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
