@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "stocks": [
     {
       "Symbol": "21STCENMGM",
@@ -416,7 +416,7 @@
     },
     {
       "Symbol": "AARADHYA",
-      "Series": "SM",
+      "Series": "ST",
       "Security Name": "AARADHYA DISPOSAL INDUSTRIES LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -1220,6 +1220,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "CURIS",
+      "Series": "ST",
+      "Security Name": "CURIS LIFESCIENCES LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "CYBERMEDIA",
       "Series": "BE",
       "Security Name": "CYBER MEDIA (INDIA) LIMITED",
@@ -1745,8 +1752,15 @@
       "Remarks": "GSM STAGE - 0"
     },
     {
-      "Symbol": "GICL",
+      "Symbol": "GFSTEELS",
       "Series": "EQ",
+      "Security Name": "GRAND FOUNDRY LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "GICL",
+      "Series": "BE",
       "Security Name": "GLOBE INTERNATIONAL CARRIERS LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -2214,6 +2228,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "JAINIK",
+      "Series": "ST",
+      "Security Name": "JAINIK POWER CABLES LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "JAKHARIA",
       "Series": "ST",
       "Security Name": "JAKHARIA FABRIC LIMITED",
@@ -2308,6 +2329,13 @@
       "Symbol": "KANCHI",
       "Series": "EQ",
       "Security Name": "KANCHI KARPOORAM LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "KANDARP",
+      "Series": "SM",
+      "Security Name": "KANDARP DIGI SMART BPO LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -2859,7 +2887,7 @@
     },
     {
       "Symbol": "MODISONLTD",
-      "Series": "EQ",
+      "Series": "BE",
       "Security Name": "MODISON LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -3258,7 +3286,7 @@
     },
     {
       "Symbol": "PENTAGON",
-      "Series": "SM",
+      "Series": "ST",
       "Security Name": "PENTAGON RUBBER LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -3456,6 +3484,13 @@
       "Symbol": "QUADPRO",
       "Series": "SM",
       "Security Name": "QUADPRO ITES LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "QUALIANCE",
+      "Series": "ST",
+      "Security Name": "QUALIANCE INTERNATIONAL LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -5000,6 +5035,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "ANMOL",
+      "Series": "EQ",
+      "Security Name": "ANMOL INDIA LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "ARCIIL",
       "Series": "SM",
       "Security Name": "ARC INSULATION & INSULATORS LIMITED",
@@ -5168,6 +5210,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "CFEL",
+      "Series": "EQ",
+      "Security Name": "CONFIDENCE FUTURISTIC ENERGETECH LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "CHETANA",
       "Series": "SM",
       "Security Name": "CHETANA EDUCATION LIMITED",
@@ -5210,13 +5259,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "CURIS",
-      "Series": "SM",
-      "Security Name": "CURIS LIFESCIENCES LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "DANGEE",
       "Series": "EQ",
       "Security Name": "DANGEE DUMS LIMITED",
@@ -5227,6 +5269,13 @@
       "Symbol": "DAVANGERE",
       "Series": "EQ",
       "Security Name": "DAVANGERE SUGAR COMPANY LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "DCG",
+      "Series": "SM",
+      "Security Name": "DCG CABLES & WIRES LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -5420,9 +5469,9 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "GFSTEELS",
+      "Symbol": "GENESYS",
       "Series": "EQ",
-      "Security Name": "GRAND FOUNDRY LIMITED",
+      "Security Name": "GENESYS INTERNATIONAL CORPORATION LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -5553,13 +5602,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "JAINIK",
-      "Series": "SM",
-      "Security Name": "JAINIK POWER CABLES LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "JINDALPOLY",
       "Series": "EQ",
       "Security Name": "JINDAL POLY FILMS LIMITED",
@@ -5605,13 +5647,6 @@
       "Symbol": "KALPATARU",
       "Series": "EQ",
       "Security Name": "KALPATARU LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "KANDARP",
-      "Series": "SM",
-      "Security Name": "KANDARP DIGI SMART BPO LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -5700,6 +5735,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "MEDICAPQ",
+      "Series": "EQ",
+      "Security Name": "MEDI CAPS LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "MERCURYEV",
       "Series": "EQ",
       "Security Name": "MERCURY EV-TECH LIMITED",
@@ -5717,6 +5759,13 @@
       "Symbol": "MMEL",
       "Series": "SM",
       "Security Name": "MOVING MEDIA ENTERTAINMENT LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MONEYBOXX",
+      "Series": "EQ",
+      "Security Name": "MONEYBOXX FINANCE LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -5794,6 +5843,13 @@
       "Symbol": "NOIDATOLL",
       "Series": "EQ",
       "Security Name": "NOIDA TOLL BRIDGE COMPANY LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "NOVARTIND",
+      "Series": "EQ",
+      "Security Name": "NOVARTIS INDIA LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -6074,6 +6130,13 @@
       "Symbol": "SPEB",
       "Series": "SM",
       "Security Name": "SPEB ADHESIVES LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SREEL",
+      "Series": "EQ",
+      "Security Name": "SREELEATHERS LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -7117,13 +7180,6 @@
       "Symbol": "ANIKINDS",
       "Series": "EQ",
       "Security Name": "ANIK INDUSTRIES LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "ANMOL",
-      "Series": "EQ",
-      "Security Name": "ANMOL INDIA LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -8836,13 +8892,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "CFEL",
-      "Series": "EQ",
-      "Security Name": "CONFIDENCE FUTURISTIC ENERGETECH LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "CGCL",
       "Series": "EQ",
       "Security Name": "CAPRI GLOBAL CAPITAL LIMITED",
@@ -9438,13 +9487,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "DCG",
-      "Series": "SM",
-      "Security Name": "DCG CABLES & WIRES LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "DCI",
       "Series": "EQ",
       "Security Name": "DC INFOTECH AND COMMUNICATION LIMITED",
@@ -9796,7 +9838,7 @@
     },
     {
       "Symbol": "DOLLEX",
-      "Series": "SM",
+      "Series": "EQ",
       "Security Name": "DOLLEX AGROTECH LIMITED",
       "Band": "20",
       "Remarks": "-"
@@ -10771,13 +10813,6 @@
       "Symbol": "GENCON",
       "Series": "EQ",
       "Security Name": "GENERIC ENGINEERING CONSTRUCTION AND PROJECTS LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "GENESYS",
-      "Series": "EQ",
-      "Security Name": "GENESYS INTERNATIONAL CORPORATION LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -14268,13 +14303,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "MEDICAPQ",
-      "Series": "EQ",
-      "Security Name": "MEDI CAPS LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "MEDICO",
       "Series": "EQ",
       "Security Name": "MEDICO REMEDIES LIMITED",
@@ -14583,13 +14611,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "MONEYBOXX",
-      "Series": "EQ",
-      "Security Name": "MONEYBOXX FINANCE LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "MONOLITH",
       "Series": "SM",
       "Security Name": "MONOLITHISCH INDIA LIMITED",
@@ -14621,6 +14642,13 @@
       "Symbol": "MOTOGENFIN",
       "Series": "EQ",
       "Security Name": "THE MOTOR & GENERAL FINANCE LIMITED",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MPEL-RE",
+      "Series": "ST",
+      "Security Name": "MANAS POLYMERS AND ENERGIES LIMITED-RE",
       "Band": "20",
       "Remarks": "-"
     },
@@ -15188,13 +15216,6 @@
       "Symbol": "NORTHARC",
       "Series": "EQ",
       "Security Name": "NORTHERN ARC CAPITAL LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "NOVARTIND",
-      "Series": "EQ",
-      "Security Name": "NOVARTIS INDIA LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -18433,13 +18454,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "SREEL",
-      "Series": "EQ",
-      "Security Name": "SREELEATHERS LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "SRGHFL",
       "Series": "EQ",
       "Security Name": "SRG HOUSING FINANCE LIMITED",
@@ -20851,13 +20865,6 @@
       "Symbol": "JAYKAY-RE1",
       "Series": "BE",
       "Security Name": "JAYKAY ENTERPRISES LIMITED-RE",
-      "Band": "40",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MPEL-RE",
-      "Series": "ST",
-      "Security Name": "MANAS POLYMERS AND ENERGIES LIMITED-RE",
       "Band": "40",
       "Remarks": "-"
     },

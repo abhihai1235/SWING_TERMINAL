@@ -1,105 +1,105 @@
 {
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "winners": [
     {
-      "symbol": "TBZ",
-      "returnPct": 93.3
+      "symbol": "PVP",
+      "returnPct": 90.3
     },
     {
-      "symbol": "PVP",
-      "returnPct": 85.8
+      "symbol": "XTRANET",
+      "returnPct": 89.9
+    },
+    {
+      "symbol": "TBZ",
+      "returnPct": 83.6
     },
     {
       "symbol": "SHANTIGEAR",
-      "returnPct": 76.1
+      "returnPct": 80.5
+    },
+    {
+      "symbol": "SREEL",
+      "returnPct": 71.0
     },
     {
       "symbol": "WHEELS",
-      "returnPct": 73.1
+      "returnPct": 66.8
     },
     {
       "symbol": "INDSWFTLAB",
-      "returnPct": 70.1
+      "returnPct": 65.3
     },
     {
-      "symbol": "DOLPHIN",
-      "returnPct": 66.6
-    },
-    {
-      "symbol": "PKTEA",
-      "returnPct": 64.3
+      "symbol": "PRABHA",
+      "returnPct": 60.1
     },
     {
       "symbol": "AKI",
       "returnPct": 59.6
     },
     {
-      "symbol": "PRABHA",
-      "returnPct": 59.5
+      "symbol": "DOLPHIN",
+      "returnPct": 59.1
     },
     {
-      "symbol": "SREEL",
-      "returnPct": 59.3
+      "symbol": "SETL",
+      "returnPct": 58.7
+    },
+    {
+      "symbol": "PKTEA",
+      "returnPct": 58.2
+    },
+    {
+      "symbol": "MANINDS",
+      "returnPct": 57.9
+    },
+    {
+      "symbol": "KABRAEXTRU",
+      "returnPct": 57.7
     },
     {
       "symbol": "BIRLAPREC",
       "returnPct": 55.5
     },
     {
-      "symbol": "SETL",
-      "returnPct": 51.1
+      "symbol": "KENNAMET",
+      "returnPct": 51.9
     },
     {
-      "symbol": "RAMBHAJO",
-      "returnPct": 50.1
+      "symbol": "NOVARTIND",
+      "returnPct": 50.9
     },
     {
-      "symbol": "MVELECTRO",
-      "returnPct": 50.0
+      "symbol": "WELCORP",
+      "returnPct": 50.9
     },
     {
-      "symbol": "SYNCOMF",
-      "returnPct": 49.7
+      "symbol": "RATNAVEER",
+      "returnPct": 50.7
     },
     {
-      "symbol": "KABRAEXTRU",
-      "returnPct": 47.8
+      "symbol": "ANMOL",
+      "returnPct": 48.5
     },
     {
       "symbol": "LANCORHOL",
       "returnPct": 47.6
     },
     {
-      "symbol": "MONQ50",
-      "returnPct": 47.6
-    },
-    {
-      "symbol": "ENTERO",
-      "returnPct": 47.1
-    },
-    {
-      "symbol": "ANTELOPUS",
-      "returnPct": 46.3
-    },
-    {
       "symbol": "ICDSLTD",
       "returnPct": 45.8
     },
     {
-      "symbol": "RATNAVEER",
-      "returnPct": 45.5
+      "symbol": "RAMBHAJO",
+      "returnPct": 44.4
+    },
+    {
+      "symbol": "ENTERO",
+      "returnPct": 44.3
     },
     {
       "symbol": "MOREPENLAB",
-      "returnPct": 45.2
-    },
-    {
-      "symbol": "INDORAMA",
-      "returnPct": 44.9
-    },
-    {
-      "symbol": "KENNAMET",
-      "returnPct": 43.4
+      "returnPct": 43.7
     }
   ]
 }
