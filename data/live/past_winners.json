@@ -1,105 +1,105 @@
 {
-  "asOf": "2026-09-11",
+  "asOf": "2026-09-15",
   "winners": [
     {
       "symbol": "TBZ",
-      "returnPct": 92.8
-    },
-    {
-      "symbol": "PVP",
-      "returnPct": 86.6
+      "returnPct": 92.1
     },
     {
       "symbol": "XTRANET",
-      "returnPct": 80.4
+      "returnPct": 83.6
+    },
+    {
+      "symbol": "PVP",
+      "returnPct": 77.3
     },
     {
       "symbol": "SHANTIGEAR",
-      "returnPct": 77.9
+      "returnPct": 69.0
     },
     {
       "symbol": "INDSWFTLAB",
-      "returnPct": 68.7
-    },
-    {
-      "symbol": "SETL",
-      "returnPct": 66.6
-    },
-    {
-      "symbol": "ANMOL",
-      "returnPct": 63.3
+      "returnPct": 65.8
     },
     {
       "symbol": "RAYMOND",
-      "returnPct": 63.1
-    },
-    {
-      "symbol": "PKTEA",
-      "returnPct": 62.1
-    },
-    {
-      "symbol": "KABRAEXTRU",
-      "returnPct": 61.2
-    },
-    {
-      "symbol": "WHEELS",
-      "returnPct": 60.8
+      "returnPct": 62.0
     },
     {
       "symbol": "AKI",
       "returnPct": 59.6
     },
     {
-      "symbol": "PRABHA",
-      "returnPct": 58.2
+      "symbol": "MONQ50",
+      "returnPct": 59.2
     },
     {
       "symbol": "DOLPHIN",
-      "returnPct": 57.9
+      "returnPct": 58.4
     },
     {
-      "symbol": "MANINDS",
-      "returnPct": 56.0
+      "symbol": "SETL",
+      "returnPct": 58.3
+    },
+    {
+      "symbol": "CFEL",
+      "returnPct": 57.2
     },
     {
       "symbol": "BIRLAPREC",
       "returnPct": 55.5
     },
     {
+      "symbol": "PRABHA",
+      "returnPct": 54.9
+    },
+    {
       "symbol": "SREEL",
       "returnPct": 53.9
     },
     {
-      "symbol": "MONQ50",
-      "returnPct": 50.0
+      "symbol": "WHEELS",
+      "returnPct": 53.5
     },
     {
-      "symbol": "SOLARA",
-      "returnPct": 49.1
+      "symbol": "KSR",
+      "returnPct": 52.2
     },
     {
-      "symbol": "NOVARTIND",
+      "symbol": "GRAVISSHO",
+      "returnPct": 51.1
+    },
+    {
+      "symbol": "OSWALSEEDS",
+      "returnPct": 48.9
+    },
+    {
+      "symbol": "AMDIND",
       "returnPct": 48.6
+    },
+    {
+      "symbol": "PKTEA",
+      "returnPct": 48.1
+    },
+    {
+      "symbol": "ANMOL",
+      "returnPct": 47.8
     },
     {
       "symbol": "LANCORHOL",
       "returnPct": 47.6
     },
     {
-      "symbol": "RPEL",
-      "returnPct": 46.9
-    },
-    {
-      "symbol": "OSWALSEEDS",
-      "returnPct": 46.2
-    },
-    {
-      "symbol": "ENTERO",
-      "returnPct": 46.1
-    },
-    {
       "symbol": "ICDSLTD",
       "returnPct": 45.8
+    },
+    {
+      "symbol": "MANINDS",
+      "returnPct": 45.6
+    },
+    {
+      "symbol": "KABRAEXTRU",
+      "returnPct": 45.1
     }
   ]
 }
