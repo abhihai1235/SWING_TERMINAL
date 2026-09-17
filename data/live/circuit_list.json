@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-16",
+  "asOf": "2026-09-17",
   "stocks": [
     {
       "Symbol": "21STCENMGM",
@@ -604,6 +604,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "AMDIND",
+      "Series": "BE",
+      "Security Name": "AMD INDUSTRIES LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "AMEYA",
       "Series": "SM",
       "Security Name": "AMEYA PRECISION ENGINEERS LIMITED",
@@ -947,6 +954,13 @@
       "Remarks": "GSM STAGE - 0"
     },
     {
+      "Symbol": "BLUEPEBBLE",
+      "Series": "ST",
+      "Security Name": "BLUE PEBBLE LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "BLUEWATER",
       "Series": "ST",
       "Security Name": "BLUE WATER LOGISTICS LIMITED",
@@ -1176,6 +1190,13 @@
       "Security Name": "CAMBRIDGE TECHNOLOGY ENTERPRISES LIMITED",
       "Band": "5",
       "Remarks": "-"
+    },
+    {
+      "Symbol": "CURAA",
+      "Series": "BE",
+      "Security Name": "CURA TECHNOLOGIES LIMITED",
+      "Band": "5",
+      "Remarks": "GSM STAGE - 0"
     },
     {
       "Symbol": "CURIS",
@@ -2305,6 +2326,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "KAVDEFENCE",
+      "Series": "BE",
+      "Security Name": "KAVVERI DEFENCE & WIRELESS TECHNOLOGIES LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "KAYA",
       "Series": "BE",
       "Security Name": "KAYA LIMITED",
@@ -2425,7 +2453,7 @@
     },
     {
       "Symbol": "KSR",
-      "Series": "EQ",
+      "Series": "BE",
       "Security Name": "KSR FOOTWEAR LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -2739,8 +2767,15 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "MEDICAMEQ",
+      "Series": "BE",
+      "Security Name": "MEDICAMEN BIOTECH LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "MEDICAPQ",
-      "Series": "EQ",
+      "Series": "BE",
       "Security Name": "MEDI CAPS LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -3278,6 +3313,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "PKTEA",
+      "Series": "BE",
+      "Security Name": "THE PERIA KARAMALAI TEA & PRODUCE COMPANY LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "PLADAINFO",
       "Series": "SM",
       "Security Name": "PLADA INFOTECH SERVICES LIMITED",
@@ -3440,7 +3482,7 @@
     },
     {
       "Symbol": "QUADPRO",
-      "Series": "SM",
+      "Series": "ST",
       "Security Name": "QUADPRO ITES LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -4615,6 +4657,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "VEEGALAND",
+      "Series": "BE",
+      "Security Name": "VEEGALAND DEVELOPERS LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "VEEKAYEM",
       "Series": "SM",
       "Security Name": "VEEKAYEM FASHION AND APPARELS LIMITED",
@@ -4707,7 +4756,7 @@
     },
     {
       "Symbol": "VILINBIO",
-      "Series": "SM",
+      "Series": "ST",
       "Security Name": "VILIN BIO MED LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -4891,6 +4940,13 @@
       "Symbol": "ABDL",
       "Series": "EQ",
       "Security Name": "ALLIED BLENDERS AND DISTILLERS LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ABH",
+      "Series": "SM",
+      "Security Name": "ABH HEALTHCARE LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -5255,6 +5311,13 @@
       "Symbol": "DPEL",
       "Series": "SM",
       "Security Name": "DIVINE POWER ENERGY LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "DUCON",
+      "Series": "EQ",
+      "Security Name": "DUCON INFRATECHNOLOGIES LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -5672,6 +5735,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "MADHURKNIT",
+      "Series": "SM",
+      "Security Name": "MADHUR KNIT CRAFTS LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "MAKERSL",
       "Series": "EQ",
       "Security Name": "MAKERS LABORATORIES LIMITED",
@@ -5857,13 +5927,6 @@
       "Symbol": "PARKHOSPS",
       "Series": "EQ",
       "Security Name": "PARK MEDI WORLD LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "PKTEA",
-      "Series": "EQ",
-      "Security Name": "THE PERIA KARAMALAI TEA & PRODUCE COMPANY LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -6466,13 +6529,6 @@
       "Symbol": "ABFRL",
       "Series": "EQ",
       "Security Name": "ADITYA BIRLA FASHION AND RETAIL LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "ABH",
-      "Series": "SM",
-      "Security Name": "ABH HEALTHCARE LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -7096,13 +7152,6 @@
       "Symbol": "AMCL",
       "Series": "SM",
       "Security Name": "ANB METAL CAST LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "AMDIND",
-      "Series": "EQ",
-      "Security Name": "AMD INDUSTRIES LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -8472,13 +8521,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "BLUEPEBBLE",
-      "Series": "SM",
-      "Security Name": "BLUE PEBBLE LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "BLUESTONE",
       "Series": "EQ",
       "Security Name": "BLUESTONE JEWELLERY AND LIFESTYLE LIMITED",
@@ -9382,13 +9424,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "CURAA",
-      "Series": "EQ",
-      "Security Name": "CURA TECHNOLOGIES LIMITED",
-      "Band": "20",
-      "Remarks": "GSM STAGE - 0"
-    },
-    {
       "Symbol": "CURRENT",
       "Series": "SM",
       "Security Name": "CURRENT INFRAPROJECTS LIMITED",
@@ -9924,13 +9959,6 @@
       "Symbol": "DUCOL",
       "Series": "SM",
       "Security Name": "DUCOL ORGANICS AND COLOURS LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "DUCON",
-      "Series": "EQ",
-      "Security Name": "DUCON INFRATECHNOLOGIES LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -13022,13 +13050,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "KAVDEFENCE",
-      "Series": "EQ",
-      "Security Name": "KAVVERI DEFENCE & WIRELESS TECHNOLOGIES LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "KAYTEX",
       "Series": "SM",
       "Security Name": "KAYTEX FABRICS LIMITED",
@@ -13911,13 +13932,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "MADHURKNIT",
-      "Series": "SM",
-      "Security Name": "MADHUR KNIT CRAFTS LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "MADRASFERT",
       "Series": "EQ",
       "Security Name": "MADRAS FERTILIZERS LIMITED",
@@ -14348,13 +14362,6 @@
       "Symbol": "MEDIASSIST",
       "Series": "EQ",
       "Security Name": "MEDI ASSIST HEALTHCARE SERVICES LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MEDICAMEQ",
-      "Series": "EQ",
-      "Security Name": "MEDICAMEN BIOTECH LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -24148,6 +24155,13 @@
       "Symbol": "SBIVALETF",
       "Series": "EQ",
       "Security Name": "SBI MUTUAL FUND - SBI NIFTY200 VALUE 30 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SECLEDBETA",
+      "Series": "EQ",
+      "Security Name": "UTI MUTUAL FUND - UTI BSE INDIA SECTOR LEADERS EXCHANGE TRADED FUND",
       "Band": "No Band",
       "Remarks": "-"
     },

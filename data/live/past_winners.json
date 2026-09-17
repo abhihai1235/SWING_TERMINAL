@@ -1,105 +1,105 @@
 {
-  "asOf": "2026-09-16",
+  "asOf": "2026-09-17",
   "winners": [
     {
-      "symbol": "TBZ",
-      "returnPct": 100.5
+      "symbol": "MONQ50",
+      "returnPct": 128.9
     },
     {
-      "symbol": "MONQ50",
-      "returnPct": 90.8
+      "symbol": "TBZ",
+      "returnPct": 110.6
     },
     {
       "symbol": "XTRANET",
-      "returnPct": 88.2
+      "returnPct": 101.1
+    },
+    {
+      "symbol": "QUINT",
+      "returnPct": 69.9
     },
     {
       "symbol": "SHANTIGEAR",
-      "returnPct": 72.1
+      "returnPct": 68.6
+    },
+    {
+      "symbol": "INDSWFTLAB",
+      "returnPct": 65.6
     },
     {
       "symbol": "PVP",
-      "returnPct": 68.4
+      "returnPct": 64.2
     },
     {
-      "symbol": "RAYMOND",
-      "returnPct": 61.6
+      "symbol": "DOLPHIN",
+      "returnPct": 63.9
     },
     {
       "symbol": "AKI",
       "returnPct": 59.6
     },
     {
-      "symbol": "KSR",
-      "returnPct": 59.4
+      "symbol": "RAYMOND",
+      "returnPct": 59.1
     },
     {
-      "symbol": "INDSWFTLAB",
-      "returnPct": 59.3
+      "symbol": "STLNETWORK",
+      "returnPct": 56.4
     },
     {
       "symbol": "BIRLAPREC",
       "returnPct": 55.5
     },
     {
-      "symbol": "DOLPHIN",
-      "returnPct": 54.5
-    },
-    {
-      "symbol": "QUINT",
-      "returnPct": 54.4
-    },
-    {
       "symbol": "SREEL",
       "returnPct": 53.9
+    },
+    {
+      "symbol": "WHEELS",
+      "returnPct": 53.2
     },
     {
       "symbol": "CFEL",
       "returnPct": 52.5
     },
     {
-      "symbol": "WHEELS",
-      "returnPct": 52.2
+      "symbol": "KSR",
+      "returnPct": 51.8
     },
     {
       "symbol": "MILKYMIST",
-      "returnPct": 52.2
+      "returnPct": 51.4
     },
     {
-      "symbol": "SETL",
-      "returnPct": 50.4
+      "symbol": "MOREPENLAB",
+      "returnPct": 50.2
     },
     {
-      "symbol": "STLNETWORK",
-      "returnPct": 49.0
+      "symbol": "AHCL",
+      "returnPct": 50.1
+    },
+    {
+      "symbol": "INDORAMA",
+      "returnPct": 50.0
+    },
+    {
+      "symbol": "GEEKAYWIRE",
+      "returnPct": 48.5
+    },
+    {
+      "symbol": "MANINDS",
+      "returnPct": 48.3
     },
     {
       "symbol": "LANCORHOL",
       "returnPct": 47.6
     },
     {
-      "symbol": "MEDICAMEQ",
-      "returnPct": 46.6
+      "symbol": "SOLARA",
+      "returnPct": 47.6
     },
     {
-      "symbol": "ANTELOPUS",
-      "returnPct": 46.5
-    },
-    {
-      "symbol": "PRABHA",
-      "returnPct": 46.5
-    },
-    {
-      "symbol": "ICDSLTD",
-      "returnPct": 45.8
-    },
-    {
-      "symbol": "MAXESTATES",
-      "returnPct": 44.1
-    },
-    {
-      "symbol": "INDORAMA",
-      "returnPct": 44.0
+      "symbol": "RATNAVEER",
+      "returnPct": 47.4
     }
   ]
 }
