@@ -1,37 +1,41 @@
 {
-  "asOf": "2026-09-17",
+  "asOf": "2026-09-18",
   "winners": [
     {
       "symbol": "MONQ50",
-      "returnPct": 128.9
+      "returnPct": 174.7
     },
     {
       "symbol": "TBZ",
-      "returnPct": 110.6
+      "returnPct": 121.1
     },
     {
       "symbol": "XTRANET",
-      "returnPct": 101.1
+      "returnPct": 107.6
     },
     {
       "symbol": "QUINT",
-      "returnPct": 69.9
+      "returnPct": 86.8
     },
     {
       "symbol": "SHANTIGEAR",
-      "returnPct": 68.6
-    },
-    {
-      "symbol": "INDSWFTLAB",
-      "returnPct": 65.6
+      "returnPct": 74.2
     },
     {
       "symbol": "PVP",
+      "returnPct": 70.6
+    },
+    {
+      "symbol": "STLNETWORK",
       "returnPct": 64.2
     },
     {
+      "symbol": "INDSWFTLAB",
+      "returnPct": 63.4
+    },
+    {
       "symbol": "DOLPHIN",
-      "returnPct": 63.9
+      "returnPct": 61.9
     },
     {
       "symbol": "AKI",
@@ -39,22 +43,38 @@
     },
     {
       "symbol": "RAYMOND",
-      "returnPct": 59.1
+      "returnPct": 59.0
     },
     {
-      "symbol": "STLNETWORK",
-      "returnPct": 56.4
+      "symbol": "AHCL",
+      "returnPct": 57.4
+    },
+    {
+      "symbol": "RAMBHAJO",
+      "returnPct": 57.0
+    },
+    {
+      "symbol": "WHEELS",
+      "returnPct": 56.9
     },
     {
       "symbol": "BIRLAPREC",
       "returnPct": 55.5
     },
     {
+      "symbol": "MASPTOP50",
+      "returnPct": 54.6
+    },
+    {
       "symbol": "SREEL",
       "returnPct": 53.9
     },
     {
-      "symbol": "WHEELS",
+      "symbol": "MANINDS",
+      "returnPct": 53.4
+    },
+    {
+      "symbol": "INDORAMA",
       "returnPct": 53.2
     },
     {
@@ -62,44 +82,24 @@
       "returnPct": 52.5
     },
     {
+      "symbol": "KABRAEXTRU",
+      "returnPct": 51.9
+    },
+    {
       "symbol": "KSR",
       "returnPct": 51.8
     },
     {
       "symbol": "MILKYMIST",
-      "returnPct": 51.4
+      "returnPct": 51.0
     },
     {
       "symbol": "MOREPENLAB",
-      "returnPct": 50.2
+      "returnPct": 50.7
     },
     {
-      "symbol": "AHCL",
-      "returnPct": 50.1
-    },
-    {
-      "symbol": "INDORAMA",
-      "returnPct": 50.0
-    },
-    {
-      "symbol": "GEEKAYWIRE",
-      "returnPct": 48.5
-    },
-    {
-      "symbol": "MANINDS",
-      "returnPct": 48.3
-    },
-    {
-      "symbol": "LANCORHOL",
-      "returnPct": 47.6
-    },
-    {
-      "symbol": "SOLARA",
-      "returnPct": 47.6
-    },
-    {
-      "symbol": "RATNAVEER",
-      "returnPct": 47.4
+      "symbol": "PRABHA",
+      "returnPct": 50.7
     }
   ]
 }
