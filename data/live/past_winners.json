@@ -1,17 +1,13 @@
 {
-  "asOf": "2026-09-21",
+  "asOf": "2026-09-22",
   "winners": [
     {
       "symbol": "TBZ",
-      "returnPct": 132.1
+      "returnPct": 143.7
     },
     {
       "symbol": "XTRANET",
-      "returnPct": 127.0
-    },
-    {
-      "symbol": "MONQ50",
-      "returnPct": 119.7
+      "returnPct": 122.3
     },
     {
       "symbol": "QUINT",
@@ -19,55 +15,55 @@
     },
     {
       "symbol": "AHCL",
-      "returnPct": 80.3
-    },
-    {
-      "symbol": "INDORAMA",
-      "returnPct": 79.2
+      "returnPct": 98.4
     },
     {
       "symbol": "PVP",
-      "returnPct": 79.2
+      "returnPct": 88.1
     },
     {
       "symbol": "RAYMOND",
-      "returnPct": 76.4
+      "returnPct": 81.6
     },
     {
       "symbol": "STLNETWORK",
-      "returnPct": 72.4
-    },
-    {
-      "symbol": "SHANTIGEAR",
-      "returnPct": 72.0
-    },
-    {
-      "symbol": "DOLPHIN",
-      "returnPct": 66.4
+      "returnPct": 81.0
     },
     {
       "symbol": "INDSWFTLAB",
-      "returnPct": 66.1
+      "returnPct": 77.6
     },
     {
-      "symbol": "RAMBHAJO",
-      "returnPct": 64.2
+      "symbol": "DOLPHIN",
+      "returnPct": 76.2
+    },
+    {
+      "symbol": "MONQ50",
+      "returnPct": 75.8
+    },
+    {
+      "symbol": "INDORAMA",
+      "returnPct": 74.2
+    },
+    {
+      "symbol": "SHANTIGEAR",
+      "returnPct": 67.6
+    },
+    {
+      "symbol": "MILKYMIST",
+      "returnPct": 66.5
+    },
+    {
+      "symbol": "KSHITIJPOL",
+      "returnPct": 65.2
     },
     {
       "symbol": "RATNAVEER",
-      "returnPct": 62.3
+      "returnPct": 61.2
     },
     {
       "symbol": "AKI",
       "returnPct": 59.6
-    },
-    {
-      "symbol": "MILKYMIST",
-      "returnPct": 58.6
-    },
-    {
-      "symbol": "KSHITIJPOL",
-      "returnPct": 57.7
     },
     {
       "symbol": "WHEELS",
@@ -78,19 +74,19 @@
       "returnPct": 55.5
     },
     {
-      "symbol": "MANINDS",
-      "returnPct": 54.9
-    },
-    {
       "symbol": "SREEL",
       "returnPct": 53.9
     },
     {
-      "symbol": "GMMPFAUDLR",
-      "returnPct": 52.7
+      "symbol": "RAMBHAJO",
+      "returnPct": 53.4
     },
     {
-      "symbol": "MOREPENLAB",
+      "symbol": "MANINDS",
+      "returnPct": 53.1
+    },
+    {
+      "symbol": "PRABHA",
       "returnPct": 52.5
     },
     {
@@ -100,6 +96,10 @@
     {
       "symbol": "KSR",
       "returnPct": 51.8
+    },
+    {
+      "symbol": "SYNCOMF",
+      "returnPct": 51.7
     }
   ]
 }

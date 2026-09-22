@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-21",
+  "asOf": "2026-09-22",
   "stocks": [
     {
       "Symbol": "21STCENMGM",
@@ -61,6 +61,13 @@
       "Symbol": "BI",
       "Series": "BE",
       "Security Name": "BILCARE LIMITED",
+      "Band": "2",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "BIKEWO",
+      "Series": "ST",
+      "Security Name": "BIKEWO GREEN TECH LIMITED",
       "Band": "2",
       "Remarks": "-"
     },
@@ -425,6 +432,13 @@
       "Symbol": "ABANSENT",
       "Series": "EQ",
       "Security Name": "ABANS ENTERPRISES LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ABH",
+      "Series": "SM",
+      "Security Name": "ABH HEALTHCARE LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -859,13 +873,6 @@
       "Symbol": "BHARATGEAR",
       "Series": "BE",
       "Security Name": "BHARAT GEARS LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "BIKEWO",
-      "Series": "ST",
-      "Security Name": "BIKEWO GREEN TECH LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -2074,6 +2081,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "INDOMIM",
+      "Series": "EQ",
+      "Security Name": "INDO-MIM LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "INDOTECH",
       "Series": "EQ",
       "Security Name": "INDO TECH TRANSFORMERS LIMITED",
@@ -2189,6 +2203,13 @@
       "Symbol": "JKIPL",
       "Series": "EQ",
       "Security Name": "JINKUSHAL INDUSTRIES LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "JSIPL",
+      "Series": "BE",
+      "Security Name": "JINDAL SUPREME (INDIA) LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -2830,13 +2851,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "MOMSBELIEF",
-      "Series": "BE",
-      "Security Name": "RAYS OF BELIEF LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "MONEYBOXX",
       "Series": "EQ",
       "Security Name": "MONEYBOXX FINANCE LIMITED",
@@ -3260,6 +3274,13 @@
       "Symbol": "POLYSIL",
       "Series": "SM",
       "Security Name": "POLYSIL IRRIGATION SYSTEMS LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "POSITRON",
+      "Series": "SM",
+      "Security Name": "POSITRON ENERGY LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -4280,7 +4301,7 @@
     },
     {
       "Symbol": "TBZ",
-      "Series": "EQ",
+      "Series": "BE",
       "Security Name": "TRIBHOVANDAS BHIMJI ZAVERI LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -4846,13 +4867,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "ABH",
-      "Series": "SM",
-      "Security Name": "ABH HEALTHCARE LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "AEGISLOG",
       "Series": "EQ",
       "Security Name": "AEGIS LOGISTICS LIMITED",
@@ -4898,6 +4912,13 @@
       "Symbol": "AKUMS",
       "Series": "EQ",
       "Security Name": "AKUMS DRUGS AND PHARMACEUTICALS LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ALKALI",
+      "Series": "EQ",
+      "Security Name": "ALKALI METALS LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -5413,6 +5434,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "GLASSWALL",
+      "Series": "EQ",
+      "Security Name": "GLASS WALL SYSTEMS (INDIA) LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "GOPAL",
       "Series": "EQ",
       "Security Name": "GOPAL SNACKS LIMITED",
@@ -5493,13 +5521,6 @@
       "Symbol": "INDOKEM",
       "Series": "EQ",
       "Security Name": "INDOKEM LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "INDOMIM",
-      "Series": "EQ",
-      "Security Name": "INDO-MIM LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -5871,13 +5892,6 @@
       "Symbol": "PNGJL",
       "Series": "EQ",
       "Security Name": "P N GADGIL JEWELLERS LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "POSITRON",
-      "Series": "SM",
-      "Security Name": "POSITRON ENERGY LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -6963,13 +6977,6 @@
       "Symbol": "ALIVUS",
       "Series": "EQ",
       "Security Name": "ALIVUS LIFE SCIENCES LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "ALKALI",
-      "Series": "EQ",
-      "Security Name": "ALKALI METALS LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -10929,13 +10936,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "GLASSWALL",
-      "Series": "EQ",
-      "Security Name": "GLASS WALL SYSTEMS (INDIA) LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "GLAXO",
       "Series": "EQ",
       "Security Name": "GLAXOSMITHKLINE PHARMACEUTICALS LIMITED",
@@ -11590,6 +11590,13 @@
       "Symbol": "HERITGFOOD",
       "Series": "EQ",
       "Security Name": "HERITAGE FOODS LIMITED",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "HEROMOTORS",
+      "Series": "EQ",
+      "Security Name": "HERO MOTORS LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -14607,6 +14614,13 @@
       "Symbol": "MOLDTKPAC",
       "Series": "EQ",
       "Security Name": "MOLD-TEK PACKAGING LIMITED",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MOMSBELIEF",
+      "Series": "EQ",
+      "Security Name": "RAYS OF BELIEF LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -18552,6 +18566,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "SSRETAIL",
+      "Series": "EQ",
+      "Security Name": "SS RETAIL LIMITED",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "SSWL",
       "Series": "EQ",
       "Security Name": "STEEL STRIPS WHEELS LIMITED",
@@ -20936,6 +20957,13 @@
       "Series": "EQ",
       "Security Name": "ZYDUS WELLNESS LIMITED",
       "Band": "20",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "CENTEXT-RE",
+      "Series": "BE",
+      "Security Name": "CENTURY EXTRUSIONS LIMITED-RE",
+      "Band": "40",
       "Remarks": "-"
     },
     {
