@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-22",
+  "asOf": "2026-09-23",
   "stocks": [
     {
       "Symbol": "21STCENMGM",
@@ -191,6 +191,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "NRL",
+      "Series": "BE",
+      "Security Name": "NUPUR RECYCLERS LIMITED",
+      "Band": "2",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "OILCOUNTUB",
       "Series": "BE",
       "Security Name": "OIL COUNTRY TUBULAR LIMITED",
@@ -233,9 +240,23 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "RAMASTEEL",
+      "Series": "BE",
+      "Security Name": "RAMA STEEL TUBES LIMITED",
+      "Band": "2",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "RELINFRA",
       "Series": "BE",
       "Security Name": "RELIANCE INFRASTRUCTURE LIMITED",
+      "Band": "2",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SAAKSHI",
+      "Series": "ST",
+      "Security Name": "SAAKSHI MEDTECH AND PANELS LIMITED",
       "Band": "2",
       "Remarks": "-"
     },
@@ -1416,6 +1437,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "DUCON",
+      "Series": "EQ",
+      "Security Name": "DUCON INFRATECHNOLOGIES LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "E2E",
       "Series": "BE",
       "Security Name": "E2E NETWORKS LIMITED",
@@ -2319,6 +2347,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "KHERIAAUTO",
+      "Series": "ST",
+      "Security Name": "KHERIA AUTOCOMP LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "KILITCH",
       "Series": "BE",
       "Security Name": "KILITCH DRUGS (INDIA) LIMITED",
@@ -2865,6 +2900,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "MOS",
+      "Series": "SM",
+      "Security Name": "MOS UTILITY LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "MOXSH",
       "Series": "SM",
       "Security Name": "MOXSH OVERSEAS EDUCON LIMITED",
@@ -3050,13 +3092,6 @@
       "Symbol": "NORBTEAEXP",
       "Series": "EQ",
       "Security Name": "NORBEN TEA & EXPORTS LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "NRL",
-      "Series": "BE",
-      "Security Name": "NUPUR RECYCLERS LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -3481,13 +3516,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "RAMASTEEL",
-      "Series": "BE",
-      "Security Name": "RAMA STEEL TUBES LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "RAMCOSYS",
       "Series": "EQ",
       "Security Name": "RAMCO SYSTEMS LIMITED",
@@ -3617,13 +3645,6 @@
       "Symbol": "S&SPOWER",
       "Series": "EQ",
       "Security Name": "S&S POWER SWITCHGEARS LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SAAKSHI",
-      "Series": "ST",
-      "Security Name": "SAAKSHI MEDTECH AND PANELS LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -4034,6 +4055,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "SONA",
+      "Series": "BE",
+      "Security Name": "SONASELECTION INDIA LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "SONAL",
       "Series": "EQ",
       "Security Name": "SONAL MERCANTILE LIMITED",
@@ -4076,6 +4104,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "SPECTRAA",
+      "Series": "ST",
+      "Security Name": "SPECTRAA TECHNOLOGY SOLUTIONS LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "SPECTRUM",
       "Series": "BE",
       "Security Name": "SPECTRUM ELECTRICAL INDUSTRIES LIMITED",
@@ -4100,6 +4135,13 @@
       "Symbol": "SREEL",
       "Series": "BE",
       "Security Name": "SREELEATHERS LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SRGHFL",
+      "Series": "EQ",
+      "Security Name": "SRG HOUSING FINANCE LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -4972,6 +5014,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "ARVEE",
+      "Series": "EQ",
+      "Security Name": "ARVEE LABORATORIES (INDIA) LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "ARVINDPORT",
       "Series": "SM",
       "Security Name": "ARVIND PORT AND INFRA LIMITED",
@@ -5080,6 +5129,13 @@
       "Symbol": "BESTAGRO",
       "Series": "EQ",
       "Security Name": "BEST AGROLIFE LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "BEWLTD",
+      "Series": "SM",
+      "Security Name": "BEW ENGINEERING LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -5203,6 +5259,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "CUBEXTUB",
+      "Series": "EQ",
+      "Security Name": "CUBEX TUBINGS LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "DANGEE",
       "Series": "EQ",
       "Security Name": "DANGEE DUMS LIMITED",
@@ -5262,13 +5325,6 @@
       "Symbol": "DPEL",
       "Series": "SM",
       "Security Name": "DIVINE POWER ENERGY LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "DUCON",
-      "Series": "EQ",
-      "Security Name": "DUCON INFRATECHNOLOGIES LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -5546,6 +5602,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "ISFT",
+      "Series": "EQ",
+      "Security Name": "INTRASOFT TECHNOLOGIES LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "IZMO",
       "Series": "EQ",
       "Security Name": "IZMO LIMITED",
@@ -5714,6 +5777,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "MANUGRAPH",
+      "Series": "EQ",
+      "Security Name": "MANUGRAPH INDIA LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "MERCURYEV",
       "Series": "EQ",
       "Security Name": "MERCURY EV-TECH LIMITED",
@@ -5738,13 +5808,6 @@
       "Symbol": "MOREPENLAB",
       "Series": "EQ",
       "Security Name": "MOREPEN LABORATORIES LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MOS",
-      "Series": "SM",
-      "Security Name": "MOS UTILITY LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -6123,13 +6186,6 @@
       "Symbol": "SPEB",
       "Series": "SM",
       "Security Name": "SPEB ADHESIVES LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SRGHFL",
-      "Series": "EQ",
-      "Security Name": "SRG HOUSING FINANCE LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -7485,13 +7541,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "ARVEE",
-      "Series": "EQ",
-      "Security Name": "ARVEE LABORATORIES (INDIA) LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "ARVIND",
       "Series": "EQ",
       "Security Name": "ARVIND LIMITED",
@@ -8258,13 +8307,6 @@
       "Symbol": "BETA",
       "Series": "EQ",
       "Security Name": "BETA DRUGS LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "BEWLTD",
-      "Series": "SM",
-      "Security Name": "BEW ENGINEERING LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -9343,13 +9385,6 @@
       "Symbol": "CUBEINVIT",
       "Series": "IV",
       "Security Name": "CUBE HIGHWAYS TRUST",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "CUBEXTUB",
-      "Series": "EQ",
-      "Security Name": "CUBEX TUBINGS LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -12420,13 +12455,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "ISFT",
-      "Series": "EQ",
-      "Security Name": "INTRASOFT TECHNOLOGIES LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "ISGEC",
       "Series": "EQ",
       "Security Name": "ISGEC HEAVY ENGINEERING LIMITED",
@@ -14103,13 +14131,6 @@
       "Symbol": "MANORAMA",
       "Series": "EQ",
       "Security Name": "MANORAMA INDUSTRIES LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "MANUGRAPH",
-      "Series": "EQ",
-      "Security Name": "MANUGRAPH INDIA LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -16686,13 +16707,6 @@
       "Symbol": "RBMINFRA",
       "Series": "SM",
       "Security Name": "RBM INFRACON LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "RCDL-RE",
-      "Series": "ST",
-      "Security Name": "RAJGOR CASTOR DERIVATIVES LIMITED-RE",
       "Band": "20",
       "Remarks": "-"
     },
