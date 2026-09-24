@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-23",
+  "asOf": "2026-09-24",
   "winners": [
     {
       "symbol": "TBZ",
@@ -7,99 +7,99 @@
     },
     {
       "symbol": "XTRANET",
-      "returnPct": 111.2
+      "returnPct": 108.6
     },
     {
       "symbol": "QUINT",
       "returnPct": 104.7
     },
     {
-      "symbol": "AHCL",
-      "returnPct": 104.0
-    },
-    {
-      "symbol": "PVP",
-      "returnPct": 97.5
-    },
-    {
       "symbol": "STLNETWORK",
-      "returnPct": 90.1
+      "returnPct": 98.9
+    },
+    {
+      "symbol": "AHCL",
+      "returnPct": 96.9
     },
     {
       "symbol": "RAYMOND",
-      "returnPct": 81.3
+      "returnPct": 95.8
     },
     {
-      "symbol": "MANINDS",
-      "returnPct": 77.8
-    },
-    {
-      "symbol": "INDSWFTLAB",
-      "returnPct": 77.3
-    },
-    {
-      "symbol": "DOLPHIN",
-      "returnPct": 76.0
-    },
-    {
-      "symbol": "MILKYMIST",
-      "returnPct": 74.8
+      "symbol": "PVP",
+      "returnPct": 87.7
     },
     {
       "symbol": "KSHITIJPOL",
-      "returnPct": 73.1
-    },
-    {
-      "symbol": "INDORAMA",
-      "returnPct": 68.2
-    },
-    {
-      "symbol": "SHANTIGEAR",
-      "returnPct": 66.2
+      "returnPct": 81.4
     },
     {
       "symbol": "KABRAEXTRU",
-      "returnPct": 63.4
+      "returnPct": 79.7
     },
     {
-      "symbol": "WHEELS",
-      "returnPct": 61.5
+      "symbol": "INDSWFTLAB",
+      "returnPct": 75.7
     },
     {
-      "symbol": "RATNAVEER",
-      "returnPct": 60.8
+      "symbol": "MANINDS",
+      "returnPct": 73.5
+    },
+    {
+      "symbol": "CUBEXTUB",
+      "returnPct": 72.8
+    },
+    {
+      "symbol": "INDORAMA",
+      "returnPct": 71.1
+    },
+    {
+      "symbol": "MILKYMIST",
+      "returnPct": 70.3
+    },
+    {
+      "symbol": "DOLPHIN",
+      "returnPct": 66.7
+    },
+    {
+      "symbol": "SHANTIGEAR",
+      "returnPct": 65.8
     },
     {
       "symbol": "AKI",
       "returnPct": 59.6
     },
     {
-      "symbol": "CUBEXTUB",
-      "returnPct": 57.1
+      "symbol": "WHEELS",
+      "returnPct": 57.3
     },
     {
-      "symbol": "SUBEXLTD",
-      "returnPct": 56.5
+      "symbol": "RATNAVEER",
+      "returnPct": 57.2
     },
     {
       "symbol": "BIRLAPREC",
       "returnPct": 55.5
     },
     {
-      "symbol": "ARVEE",
-      "returnPct": 54.7
-    },
-    {
-      "symbol": "FEDDERSHOL",
-      "returnPct": 54.7
-    },
-    {
-      "symbol": "RAMBHAJO",
-      "returnPct": 54.5
+      "symbol": "MAXESTATES",
+      "returnPct": 55.3
     },
     {
       "symbol": "SREEL",
       "returnPct": 53.9
+    },
+    {
+      "symbol": "TECHNOCRAF",
+      "returnPct": 52.7
+    },
+    {
+      "symbol": "CFEL",
+      "returnPct": 52.5
+    },
+    {
+      "symbol": "KSR",
+      "returnPct": 51.8
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-23",
+  "asOf": "2026-09-24",
   "stocks": [
     {
       "Symbol": "21STCENMGM",
@@ -19,6 +19,13 @@
       "Symbol": "ABMINTLLTD",
       "Series": "BE",
       "Security Name": "ABM INTERNATIONAL LIMITED",
+      "Band": "2",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "AGASTYAEN",
+      "Series": "BE",
+      "Security Name": "AGASTYA ENERGY AND INFRASTRUCTURE LIMITED",
       "Band": "2",
       "Remarks": "-"
     },
@@ -233,6 +240,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "RADIOWALLA",
+      "Series": "ST",
+      "Security Name": "RADIOWALLA NETWORK LIMITED",
+      "Band": "2",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "RAJRILTD",
       "Series": "BE",
       "Security Name": "RAJ RAYON INDUSTRIES LIMITED",
@@ -264,13 +278,6 @@
       "Symbol": "SABAR",
       "Series": "ST",
       "Security Name": "SABAR FLEX INDIA LIMITED",
-      "Band": "2",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SANGINITA",
-      "Series": "BE",
-      "Security Name": "SANGINITA CHEMICALS LIMITED",
       "Band": "2",
       "Remarks": "-"
     },
@@ -334,6 +341,13 @@
       "Symbol": "TGL",
       "Series": "ST",
       "Security Name": "TEERTH GOPICON LIMITED",
+      "Band": "2",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "TIRUPATIFL",
+      "Series": "BE",
+      "Security Name": "TIRUPATI FORGE LIMITED",
       "Band": "2",
       "Remarks": "-"
     },
@@ -618,6 +632,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "ALKALI",
+      "Series": "BE",
+      "Security Name": "ALKALI METALS LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "ALPHAGEO",
       "Series": "BE",
       "Security Name": "ALPHAGEO (INDIA) LIMITED",
@@ -831,6 +852,13 @@
       "Symbol": "AVSL",
       "Series": "ST",
       "Security Name": "AVSL INDUSTRIES LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "AXIOMGAS",
+      "Series": "ST",
+      "Security Name": "AXIOM GAS ENGINEERING LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -1139,6 +1167,13 @@
       "Symbol": "CORDELIA",
       "Series": "EQ",
       "Security Name": "WATERWAYS LEISURE TOURISM LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "CORDSCABLE",
+      "Series": "BE",
+      "Security Name": "CORDS CABLE INDUSTRIES LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -2249,6 +2284,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "KABRAEXTRU",
+      "Series": "EQ",
+      "Security Name": "KABRA EXTRUSION TECHNIK LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "KAKATCEM",
       "Series": "EQ",
       "Security Name": "KAKATIYA CEMENT SUGAR & INDUSTRIES LIMITED",
@@ -2375,6 +2417,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "KLL",
+      "Series": "ST",
+      "Security Name": "KAUSHALYA LOGISTICS LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "KODYTECH",
       "Series": "ST",
       "Security Name": "KODY TECHNOLAB LIMITED",
@@ -2464,6 +2513,13 @@
       "Security Name": "LAKSHMI PRECISION SCREWS LIMITED",
       "Band": "5",
       "Remarks": "GSM STAGE - 0"
+    },
+    {
+      "Symbol": "LAKSHYA",
+      "Series": "SM",
+      "Security Name": "LAKSHYA POWERTECH LIMITED",
+      "Band": "5",
+      "Remarks": "-"
     },
     {
       "Symbol": "LALITHAA",
@@ -2838,7 +2894,7 @@
     },
     {
       "Symbol": "MILKYMIST",
-      "Series": "EQ",
+      "Series": "BE",
       "Security Name": "MILKY MIST DAIRY FOOD LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -3243,6 +3299,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "PATILAUTOM",
+      "Series": "ST",
+      "Security Name": "PATIL AUTOMATION LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "PATTECH",
       "Series": "SM",
       "Security Name": "PATTECH FITWELL TUBE COMPONENTS LIMITED",
@@ -3484,13 +3547,6 @@
       "Symbol": "RADHIKAJWE",
       "Series": "BE",
       "Security Name": "RADHIKA JEWELTECH LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "RADIOWALLA",
-      "Series": "ST",
-      "Security Name": "RADIOWALLA NETWORK LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -4433,13 +4489,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "TIRUPATIFL",
-      "Series": "BE",
-      "Security Name": "TIRUPATI FORGE LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "TOKYOPLAST",
       "Series": "EQ",
       "Security Name": "TOKYO PLAST INTERNATIONAL LIMITED",
@@ -4958,13 +5007,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "ALKALI",
-      "Series": "EQ",
-      "Security Name": "ALKALI METALS LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "ALLCARGO",
       "Series": "EQ",
       "Security Name": "ALLCARGO LOGISTICS LIMITED",
@@ -5252,6 +5294,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "CRESTO",
+      "Series": "EQ",
+      "Security Name": "CRESTO TECHNO LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "CRIZAC",
       "Series": "EQ",
       "Security Name": "CRIZAC LIMITED",
@@ -5353,6 +5402,13 @@
       "Symbol": "ECORECO",
       "Series": "EQ",
       "Security Name": "ECO RECYCLING LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "EKI",
+      "Series": "EQ",
+      "Security Name": "EKI ENERGY SERVICES LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -5665,13 +5721,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "KABRAEXTRU",
-      "Series": "EQ",
-      "Security Name": "KABRA EXTRUSION TECHNIK LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "KALPATARU",
       "Series": "EQ",
       "Security Name": "KALPATARU LIMITED",
@@ -5700,13 +5749,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "KLL",
-      "Series": "SM",
-      "Security Name": "KAUSHALYA LOGISTICS LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "KOHINOOR",
       "Series": "EQ",
       "Security Name": "KOHINOOR FOODS LIMITED",
@@ -5717,13 +5759,6 @@
       "Symbol": "KUSUMGAR",
       "Series": "EQ",
       "Security Name": "KUSUMGAR LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "LAKSHYA",
-      "Series": "SM",
-      "Security Name": "LAKSHYA POWERTECH LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -5969,6 +6004,13 @@
       "Symbol": "PRASOLCHEM",
       "Series": "EQ",
       "Security Name": "PRASOL CHEMICALS LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "PRESSTONIC",
+      "Series": "SM",
+      "Security Name": "PRESSTONIC ENGINEERING LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -9228,13 +9270,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "CORDSCABLE",
-      "Series": "EQ",
-      "Security Name": "CORDS CABLE INDUSTRIES LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "COROMANDEL",
       "Series": "EQ",
       "Security Name": "COROMANDEL INTERNATIONAL LIMITED",
@@ -9322,13 +9357,6 @@
       "Symbol": "CREST",
       "Series": "EQ",
       "Security Name": "CREST VENTURES LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "CRESTO",
-      "Series": "EQ",
-      "Security Name": "CRESTO TECHNO LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -10092,13 +10120,6 @@
       "Symbol": "EKC",
       "Series": "EQ",
       "Security Name": "EVEREST KANTO CYLINDER LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "EKI",
-      "Series": "EQ",
-      "Security Name": "EKI ENERGY SERVICES LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -15697,7 +15718,7 @@
     },
     {
       "Symbol": "PARIN",
-      "Series": "SM",
+      "Series": "EQ",
       "Security Name": "PARIN ENTERPRISES LIMITED",
       "Band": "20",
       "Remarks": "-"
@@ -15755,13 +15776,6 @@
       "Symbol": "PATELRMART",
       "Series": "EQ",
       "Security Name": "PATEL RETAIL LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "PATILAUTOM",
-      "Series": "SM",
-      "Security Name": "PATIL AUTOMATION LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -16231,13 +16245,6 @@
       "Symbol": "PREMIUM",
       "Series": "SM",
       "Security Name": "PREMIUM PLAST LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "PRESSTONIC",
-      "Series": "SM",
-      "Security Name": "PRESSTONIC ENGINEERING LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
