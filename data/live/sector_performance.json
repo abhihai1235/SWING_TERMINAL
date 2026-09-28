@@ -1,60 +1,60 @@
 {
-  "asOf": "2026-09-25",
+  "asOf": "2026-09-28",
   "sectors": [
     {
-      "name": "Metal",
-      "relativeStrength": 0.59,
-      "count": 15
-    },
-    {
-      "name": "Realty",
-      "relativeStrength": 0.58,
+      "name": "It",
+      "relativeStrength": -0.33,
       "count": 10
     },
     {
-      "name": "Auto",
-      "relativeStrength": 0.52,
-      "count": 15
-    },
-    {
-      "name": "Psu Bank",
-      "relativeStrength": 0.38,
-      "count": 12
-    },
-    {
-      "name": "Energy",
-      "relativeStrength": 0.24,
-      "count": 40
-    },
-    {
-      "name": "Bank",
-      "relativeStrength": 0.24,
-      "count": 9
+      "name": "Pharma",
+      "relativeStrength": -1.14,
+      "count": 20
     },
     {
       "name": "Fmcg",
-      "relativeStrength": 0.18,
+      "relativeStrength": -1.33,
       "count": 15
     },
     {
-      "name": "It",
-      "relativeStrength": 0.08,
+      "name": "Media",
+      "relativeStrength": -1.42,
       "count": 10
     },
     {
       "name": "Chemicals",
-      "relativeStrength": -0.05,
+      "relativeStrength": -1.44,
       "count": 20
     },
     {
-      "name": "Pharma",
-      "relativeStrength": -0.17,
-      "count": 20
+      "name": "Metal",
+      "relativeStrength": -1.89,
+      "count": 15
     },
     {
-      "name": "Media",
-      "relativeStrength": -0.19,
+      "name": "Bank",
+      "relativeStrength": -1.9,
+      "count": 9
+    },
+    {
+      "name": "Realty",
+      "relativeStrength": -1.98,
       "count": 10
+    },
+    {
+      "name": "Auto",
+      "relativeStrength": -2.01,
+      "count": 15
+    },
+    {
+      "name": "Energy",
+      "relativeStrength": -2.09,
+      "count": 40
+    },
+    {
+      "name": "Psu Bank",
+      "relativeStrength": -3.2,
+      "count": 12
     }
   ]
 }
