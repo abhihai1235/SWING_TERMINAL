@@ -1,13 +1,13 @@
 {
-  "asOf": "2026-09-28",
+  "asOf": "2026-09-29",
   "winners": [
+    {
+      "symbol": "AHCL",
+      "returnPct": 150.1
+    },
     {
       "symbol": "TBZ",
       "returnPct": 143.7
-    },
-    {
-      "symbol": "AHCL",
-      "returnPct": 138.2
     },
     {
       "symbol": "CUBEXTUB",
@@ -18,28 +18,40 @@
       "returnPct": 104.7
     },
     {
-      "symbol": "STLNETWORK",
-      "returnPct": 99.1
-    },
-    {
-      "symbol": "KABRAEXTRU",
-      "returnPct": 92.4
+      "symbol": "SYNCOMF",
+      "returnPct": 94.6
     },
     {
       "symbol": "RAYMOND",
-      "returnPct": 91.9
+      "returnPct": 92.8
     },
     {
-      "symbol": "XTRANET",
-      "returnPct": 90.0
+      "symbol": "STLNETWORK",
+      "returnPct": 89.1
+    },
+    {
+      "symbol": "KABRAEXTRU",
+      "returnPct": 85.0
     },
     {
       "symbol": "INDSWFTLAB",
-      "returnPct": 78.7
+      "returnPct": 80.9
+    },
+    {
+      "symbol": "XTRANET",
+      "returnPct": 80.5
+    },
+    {
+      "symbol": "RETAIL",
+      "returnPct": 77.5
+    },
+    {
+      "symbol": "INDORAMA",
+      "returnPct": 74.0
     },
     {
       "symbol": "MANINDS",
-      "returnPct": 71.8
+      "returnPct": 72.9
     },
     {
       "symbol": "MILKYMIST",
@@ -50,56 +62,44 @@
       "returnPct": 69.8
     },
     {
-      "symbol": "INDORAMA",
-      "returnPct": 69.6
-    },
-    {
-      "symbol": "PVP",
-      "returnPct": 69.4
-    },
-    {
-      "symbol": "WHEELS",
-      "returnPct": 67.6
-    },
-    {
-      "symbol": "SYNCOMF",
-      "returnPct": 65.1
-    },
-    {
-      "symbol": "BPLPHARMA",
-      "returnPct": 64.5
-    },
-    {
       "symbol": "KSHITIJPOL",
       "returnPct": 63.8
     },
     {
+      "symbol": "PVP",
+      "returnPct": 60.9
+    },
+    {
       "symbol": "RATNAVEER",
-      "returnPct": 60.6
+      "returnPct": 60.7
     },
     {
       "symbol": "AKI",
       "returnPct": 59.6
     },
     {
+      "symbol": "WHEELS",
+      "returnPct": 58.9
+    },
+    {
       "symbol": "DOLPHIN",
-      "returnPct": 57.6
+      "returnPct": 58.3
     },
     {
-      "symbol": "SHANTIGEAR",
-      "returnPct": 57.6
+      "symbol": "TNTELE",
+      "returnPct": 57.9
     },
     {
-      "symbol": "BIRLAPREC",
-      "returnPct": 55.5
+      "symbol": "SALSTEEL",
+      "returnPct": 57.2
     },
     {
-      "symbol": "SREEL",
-      "returnPct": 53.9
+      "symbol": "RAMBHAJO",
+      "returnPct": 57.1
     },
     {
-      "symbol": "TECHNOCRAF",
-      "returnPct": 53.3
+      "symbol": "SSDL",
+      "returnPct": 55.9
     }
   ]
 }

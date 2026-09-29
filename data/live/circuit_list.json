@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-28",
+  "asOf": "2026-09-29",
   "stocks": [
     {
       "Symbol": "21STCENMGM",
@@ -35,6 +35,13 @@
       "Security Name": "AGASTYA ENERGY AND INFRASTRUCTURE LIMITED",
       "Band": "2",
       "Remarks": "-"
+    },
+    {
+      "Symbol": "AGSTRA",
+      "Series": "BZ",
+      "Security Name": "AGS TRANSACT TECHNOLOGIES LIMITED",
+      "Band": "2",
+      "Remarks": "GSM STAGE - 0"
     },
     {
       "Symbol": "AMANTA",
@@ -520,6 +527,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "ADROITIND",
+      "Series": "BE",
+      "Security Name": "ADROIT INDUSTRIES (INDIA) LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "AEROPLANE",
       "Series": "EQ",
       "Security Name": "AMIR CHAND JAGDISH KUMAR (EXPORTS) LIMITED",
@@ -553,13 +567,6 @@
       "Security Name": "AGRI-TECH (INDIA) LIMITED",
       "Band": "5",
       "Remarks": "-"
-    },
-    {
-      "Symbol": "AGSTRA",
-      "Series": "BZ",
-      "Security Name": "AGS TRANSACT TECHNOLOGIES LIMITED",
-      "Band": "5",
-      "Remarks": "GSM STAGE - 0"
     },
     {
       "Symbol": "AGUL",
@@ -807,6 +814,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "ATALREAL",
+      "Series": "EQ",
+      "Security Name": "ATAL REALTECH LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "ATMASTCO",
       "Series": "SM",
       "Security Name": "ATMASTCO LIMITED",
@@ -815,7 +829,7 @@
     },
     {
       "Symbol": "AUROIMPEX",
-      "Series": "SM",
+      "Series": "ST",
       "Security Name": "AURO IMPEX & CHEMICALS LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -1181,6 +1195,13 @@
       "Symbol": "CORDSCABLE",
       "Series": "BE",
       "Security Name": "CORDS CABLE INDUSTRIES LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "COREIN",
+      "Series": "ST",
+      "Security Name": "COREINTEGRA CONSULTING SERVICES LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -1892,6 +1913,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "GSPLTRANS",
+      "Series": "BE",
+      "Security Name": "GSPL TRANSMISSION LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "GSTL",
       "Series": "SM",
       "Security Name": "GLOBESECURE TECHNOLOGIES LIMITED",
@@ -1965,6 +1993,13 @@
       "Symbol": "HILTON",
       "Series": "EQ",
       "Security Name": "HILTON METAL FORGING LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "HINDCON",
+      "Series": "EQ",
+      "Security Name": "HINDCON CHEMICALS LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -3320,6 +3355,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "POOJALOGIS",
+      "Series": "ST",
+      "Security Name": "POOJA LOGISTICS LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "POSITRON",
       "Series": "SM",
       "Security Name": "POSITRON ENERGY LIMITED",
@@ -4272,6 +4314,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "SWASTIKAIN",
+      "Series": "BE",
+      "Security Name": "SWASTIKA INFRA LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "SWISSMLTRY",
       "Series": "BE",
       "Security Name": "SWISS MILITARY CONSUMER GOODS LIMITED",
@@ -4513,6 +4562,13 @@
       "Symbol": "UFBL",
       "Series": "BE",
       "Security Name": "UNITED FOODBRANDS LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "UGARSUGAR",
+      "Series": "BE",
+      "Security Name": "THE UGAR SUGAR WORKS LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -5031,13 +5087,6 @@
       "Symbol": "ASTAR",
       "Series": "EQ",
       "Security Name": "ASIAN STAR COMPANY LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "ATALREAL",
-      "Series": "EQ",
-      "Security Name": "ATAL REALTECH LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -5567,13 +5616,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "HINDCON",
-      "Series": "EQ",
-      "Security Name": "HINDCON CHEMICALS LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "HORIZONIND",
       "Series": "EQ",
       "Security Name": "HORIZON INDUSTRIAL PARKS LIMITED",
@@ -5724,6 +5766,13 @@
       "Symbol": "KUSUMGAR",
       "Series": "EQ",
       "Security Name": "KUSUMGAR LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "LANDSMILL",
+      "Series": "EQ",
+      "Security Name": "LANDSMILL GREEN LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -6036,6 +6085,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "RETAIL",
+      "Series": "EQ",
+      "Security Name": "JHS SVENDGAARD RETAIL VENTURES LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "RICHA",
       "Series": "SM",
       "Security Name": "RICHA INFO SYSTEMS LIMITED",
@@ -6162,6 +6218,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "SHRIKRISH",
+      "Series": "EQ",
+      "Security Name": "SHRI KRISHNA DEVCON LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "SHYAMTEL",
       "Series": "EQ",
       "Security Name": "SHYAM TELECOM LIMITED",
@@ -6200,6 +6263,13 @@
       "Symbol": "SPEB",
       "Series": "SM",
       "Security Name": "SPEB ADHESIVES LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "STARTECK",
+      "Series": "EQ",
+      "Security Name": "STARTECK FINANCE LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -6258,6 +6328,13 @@
       "Security Name": "LEELA PALACES HOTELS & RESORTS LIMITED",
       "Band": "10",
       "Remarks": "-"
+    },
+    {
+      "Symbol": "TNTELE",
+      "Series": "EQ",
+      "Security Name": "TAMILNADU TELECOMMUNICATION LIMITED",
+      "Band": "10",
+      "Remarks": "GSM STAGE - 0"
     },
     {
       "Symbol": "TRANSTEEL",
@@ -7170,13 +7247,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "ANANDRATHI",
-      "Series": "EQ",
-      "Security Name": "ANAND RATHI WEALTH LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "ANANTAM",
       "Series": "IV",
       "Security Name": "ANANTAM HIGHWAYS TRUST",
@@ -7502,6 +7572,13 @@
       "Symbol": "ARMANFIN",
       "Series": "EQ",
       "Security Name": "ARMAN FINANCIAL SERVICES LIMITED",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ARMEE",
+      "Series": "EQ",
+      "Security Name": "ARMEE INFOTECH LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -10131,6 +10208,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "ELEVATE",
+      "Series": "EQ",
+      "Security Name": "ELEVATE CAMPUSES LIMITED",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "ELGIEQUIP",
       "Series": "EQ",
       "Security Name": "ELGI EQUIPMENTS LIMITED",
@@ -10267,13 +10351,6 @@
       "Symbol": "ENKEIWHEL",
       "Series": "EQ",
       "Security Name": "ENKEI WHEELS (INDIA) LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "ENRIN",
-      "Series": "EQ",
-      "Security Name": "SIEMENS ENERGY INDIA LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -13624,13 +13701,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "LANDSMILL",
-      "Series": "EQ",
-      "Security Name": "LANDSMILL GREEN LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "LAOPALA",
       "Series": "EQ",
       "Security Name": "LA OPALA RG LIMITED",
@@ -16872,13 +16942,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "RETAIL",
-      "Series": "EQ",
-      "Security Name": "JHS SVENDGAARD RETAIL VENTURES LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "RGL",
       "Series": "EQ",
       "Security Name": "RENAISSANCE GLOBAL LIMITED",
@@ -18111,13 +18174,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "SHRIKRISH",
-      "Series": "EQ",
-      "Security Name": "SHRI KRISHNA DEVCON LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "SHRINGARMS",
       "Series": "EQ",
       "Security Name": "SHRINGAR HOUSE OF MANGALSUTRA LIMITED",
@@ -18653,13 +18709,6 @@
       "Symbol": "STARPAPER",
       "Series": "EQ",
       "Security Name": "STAR PAPER MILLS LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "STARTECK",
-      "Series": "EQ",
-      "Security Name": "STARTECK FINANCE LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -19623,13 +19672,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "TNTELE",
-      "Series": "EQ",
-      "Security Name": "TAMILNADU TELECOMMUNICATION LIMITED",
-      "Band": "20",
-      "Remarks": "GSM STAGE - 0"
-    },
-    {
       "Symbol": "TOLINS",
       "Series": "EQ",
       "Security Name": "TOLINS TYRES LIMITED",
@@ -19889,23 +19931,9 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "UGARSUGAR",
-      "Series": "EQ",
-      "Security Name": "THE UGAR SUGAR WORKS LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "UGROCAP",
       "Series": "EQ",
       "Security Name": "UGRO CAPITAL LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "UJJIVANSFB",
-      "Series": "EQ",
-      "Security Name": "UJJIVAN SMALL FINANCE BANK LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -21011,7 +21039,7 @@
     {
       "Symbol": "PARTY-RE",
       "Series": "ST",
-      "Security Name": "PARTY CRUISERS LIMITED-RE",
+      "Security Name": "PARTY CRUISERS LTD-RE",
       "Band": "40",
       "Remarks": "-"
     },
@@ -21152,6 +21180,13 @@
       "Symbol": "AMBUJACEM",
       "Series": "EQ",
       "Security Name": "AMBUJA CEMENTS LIMITED",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ANANDRATHI",
+      "Series": "EQ",
+      "Security Name": "ANAND RATHI WEALTH LIMITED",
       "Band": "No Band",
       "Remarks": "-"
     },
@@ -21873,6 +21908,13 @@
       "Symbol": "ENIFTY",
       "Series": "EQ",
       "Security Name": "EDELWEISS MUTUAL FUND - EDELWEISS NIFTY 50 ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ENRIN",
+      "Series": "EQ",
+      "Security Name": "SIEMENS ENERGY INDIA LIMITED",
       "Band": "No Band",
       "Remarks": "-"
     },
@@ -24680,6 +24722,13 @@
       "Symbol": "TWCGOLDETF",
       "Series": "EQ",
       "Security Name": "THE WEALTH COMPANY MUTUAL FUND - THE WEALTH COMPANY GOLD ETF",
+      "Band": "No Band",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "UJJIVANSFB",
+      "Series": "EQ",
+      "Security Name": "UJJIVAN SMALL FINANCE BANK LIMITED",
       "Band": "No Band",
       "Remarks": "-"
     },
