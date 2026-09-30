@@ -1,17 +1,10 @@
 {
-  "asOf": "2026-09-29",
+  "asOf": "2026-09-30",
   "stocks": [
     {
       "Symbol": "21STCENMGM",
       "Series": "EQ",
       "Security Name": "21ST CENTURY MANAGEMENT SERVICES LIMITED",
-      "Band": "2",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "ABAN",
-      "Series": "BE",
-      "Security Name": "ABAN OFFSHORE LIMITED",
       "Band": "2",
       "Remarks": "-"
     },
@@ -49,13 +42,6 @@
       "Security Name": "AMANTA HEALTHCARE LIMITED",
       "Band": "2",
       "Remarks": "-"
-    },
-    {
-      "Symbol": "ANKITMETAL",
-      "Series": "BZ",
-      "Security Name": "ANKIT METAL & POWER LIMITED",
-      "Band": "2",
-      "Remarks": "GSM STAGE - 0"
     },
     {
       "Symbol": "ANSALAPI",
@@ -121,6 +107,13 @@
       "Remarks": "GSM STAGE - 0"
     },
     {
+      "Symbol": "GFSTEELS",
+      "Series": "BE",
+      "Security Name": "GRAND FOUNDRY LIMITED",
+      "Band": "2",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "GOLDTECH",
       "Series": "BE",
       "Security Name": "AION-TECH SOLUTIONS LIMITED",
@@ -138,13 +131,6 @@
       "Symbol": "HOACFOODS",
       "Series": "ST",
       "Security Name": "HOAC FOODS INDIA LIMITED",
-      "Band": "2",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "IMPEXFERRO",
-      "Series": "BZ",
-      "Security Name": "IMPEX FERRO TECH LIMITED",
       "Band": "2",
       "Remarks": "-"
     },
@@ -275,13 +261,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "RELINFRA",
-      "Series": "BE",
-      "Security Name": "RELIANCE INFRASTRUCTURE LIMITED",
-      "Band": "2",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "SAAKSHI",
       "Series": "ST",
       "Security Name": "SAAKSHI MEDTECH AND PANELS LIMITED",
@@ -313,13 +292,6 @@
       "Symbol": "SEYAIND",
       "Series": "BE",
       "Security Name": "SEYA INDUSTRIES LIMITED",
-      "Band": "2",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SIMBHALS",
-      "Series": "BZ",
-      "Security Name": "SIMBHAOLI SUGARS LIMITED",
       "Band": "2",
       "Remarks": "-"
     },
@@ -401,13 +373,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "VIVIMEDLAB",
-      "Series": "BE",
-      "Security Name": "VIVIMED LABS LIMITED",
-      "Band": "2",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "WELINV",
       "Series": "BE",
       "Security Name": "WELSPUN INVESTMENTS AND COMMERCIALS LIMITED",
@@ -471,6 +436,20 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "AASTHA",
+      "Series": "EQ",
+      "Security Name": "AASTHA SPINTEX LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ABAN",
+      "Series": "BE",
+      "Security Name": "ABAN OFFSHORE LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "ABANSENT",
       "Series": "EQ",
       "Security Name": "ABANS ENTERPRISES LIMITED",
@@ -530,6 +509,13 @@
       "Symbol": "ADROITIND",
       "Series": "BE",
       "Security Name": "ADROIT INDUSTRIES (INDIA) LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "ADROITINFO",
+      "Series": "BE",
+      "Security Name": "ADROIT INFOTECH LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -695,6 +681,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "ANKITMETAL",
+      "Series": "BZ",
+      "Security Name": "ANKIT METAL & POWER LIMITED",
+      "Band": "5",
+      "Remarks": "GSM STAGE - 0"
+    },
+    {
       "Symbol": "ANMOL",
       "Series": "BE",
       "Security Name": "ANMOL INDIA LIMITED",
@@ -717,7 +710,7 @@
     },
     {
       "Symbol": "APOORVA",
-      "Series": "EQ",
+      "Series": "BE",
       "Security Name": "APOORVA LEASING FINANCE AND INVESTMENT COMPANY LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -1234,6 +1227,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "CRESTO",
+      "Series": "BE",
+      "Security Name": "CRESTO TECHNO LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "CRSL",
       "Series": "BE",
       "Security Name": "CRESSANDA RAILWAY SOLUTIONS LIMITED",
@@ -1473,7 +1473,7 @@
     },
     {
       "Symbol": "DSFCL",
-      "Series": "EQ",
+      "Series": "BE",
       "Security Name": "DCM SHRIRAM FINE CHEMICALS LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -1524,6 +1524,13 @@
       "Symbol": "EEPL",
       "Series": "ST",
       "Security Name": "EPPELTONE ENGINEERS LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "EKI",
+      "Series": "BE",
+      "Security Name": "EKI ENERGY SERVICES LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -1757,13 +1764,6 @@
       "Security Name": "GENSOL ENGINEERING LIMITED",
       "Band": "5",
       "Remarks": "GSM STAGE - 0"
-    },
-    {
-      "Symbol": "GFSTEELS",
-      "Series": "BE",
-      "Security Name": "GRAND FOUNDRY LIMITED",
-      "Band": "5",
-      "Remarks": "-"
     },
     {
       "Symbol": "GICL",
@@ -2285,7 +2285,7 @@
     },
     {
       "Symbol": "KABRAEXTRU",
-      "Series": "EQ",
+      "Series": "BE",
       "Security Name": "KABRA EXTRUSION TECHNIK LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -2424,6 +2424,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "KMSUGAR",
+      "Series": "BE",
+      "Security Name": "K.M.SUGAR MILLS LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "KODYTECH",
       "Series": "ST",
       "Security Name": "KODY TECHNOLAB LIMITED",
@@ -2537,7 +2544,7 @@
     },
     {
       "Symbol": "LCCINFOTEC",
-      "Series": "EQ",
+      "Series": "BE",
       "Security Name": "LCC INFOTECH LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -2936,7 +2943,7 @@
     },
     {
       "Symbol": "MONEYBOXX",
-      "Series": "EQ",
+      "Series": "BE",
       "Security Name": "MONEYBOXX FINANCE LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -3034,7 +3041,7 @@
     },
     {
       "Symbol": "NAMAN",
-      "Series": "SM",
+      "Series": "ST",
       "Security Name": "NAMAN INDUSTRIES PROXIMA LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -3552,7 +3559,7 @@
     },
     {
       "Symbol": "RAJTV",
-      "Series": "EQ",
+      "Series": "BE",
       "Security Name": "RAJ TELEVISION NETWORK LIMITED",
       "Band": "5",
       "Remarks": "-"
@@ -3589,6 +3596,13 @@
       "Symbol": "REFRACTORY",
       "Series": "SM",
       "Security Name": "REFRACTORY SHAPES LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "RELINFRA",
+      "Series": "BE",
+      "Security Name": "RELIANCE INFRASTRUCTURE LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -3631,6 +3645,13 @@
       "Symbol": "RITEZONE",
       "Series": "SM",
       "Security Name": "RITE ZONE CHEMCON INDIA LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "RKEC",
+      "Series": "BE",
+      "Security Name": "RKEC PROJECTS LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -4009,6 +4030,13 @@
       "Symbol": "SILKFLEX",
       "Series": "SM",
       "Security Name": "SILKFLEX POLYMERS (INDIA) LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "SIMBHALS",
+      "Series": "BZ",
+      "Security Name": "SIMBHAOLI SUGARS LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -4776,13 +4804,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "VINOD",
-      "Series": "ST",
-      "Security Name": "VINOD TEXWORLD LIMITED",
-      "Band": "5",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "VINSYS",
       "Series": "ST",
       "Security Name": "VINSYS IT SERVICES INDIA LIMITED",
@@ -4842,6 +4863,13 @@
       "Symbol": "VITAL",
       "Series": "EQ",
       "Security Name": "VITAL CHEMTECH LIMITED",
+      "Band": "5",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "VIVIMEDLAB",
+      "Series": "BE",
+      "Security Name": "VIVIMED LABS LIMITED",
       "Band": "5",
       "Remarks": "-"
     },
@@ -4955,13 +4983,6 @@
       "Series": "EQ",
       "Security Name": "ZENITH EXPORTS LIMITED",
       "Band": "5",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "AASTHA",
-      "Series": "EQ",
-      "Security Name": "AASTHA SPINTEX LIMITED",
-      "Band": "10",
       "Remarks": "-"
     },
     {
@@ -5294,13 +5315,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "CRESTO",
-      "Series": "EQ",
-      "Security Name": "CRESTO TECHNO LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "CRIZAC",
       "Series": "EQ",
       "Security Name": "CRIZAC LIMITED",
@@ -5402,13 +5416,6 @@
       "Symbol": "ECORECO",
       "Series": "EQ",
       "Security Name": "ECO RECYCLING LIMITED",
-      "Band": "10",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "EKI",
-      "Series": "EQ",
-      "Security Name": "EKI ENERGY SERVICES LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -5675,6 +5682,13 @@
       "Symbol": "IZMO",
       "Series": "EQ",
       "Security Name": "IZMO LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "JHS",
+      "Series": "EQ",
+      "Security Name": "JHS SVENDGAARD LABORATORIES LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -6176,6 +6190,13 @@
       "Remarks": "-"
     },
     {
+      "Symbol": "SATKARTAR",
+      "Series": "SM",
+      "Security Name": "SAT KARTAR LIFE LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
       "Symbol": "SAWALIYA",
       "Series": "SM",
       "Security Name": "SAWALIYA FOOD PRODUCTS LIMITED",
@@ -6424,6 +6445,13 @@
       "Symbol": "VIGOR",
       "Series": "SM",
       "Security Name": "VIGOR PLAST INDIA LIMITED",
+      "Band": "10",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "VINOD",
+      "Series": "SM",
+      "Security Name": "VINOD TEXWORLD LIMITED",
       "Band": "10",
       "Remarks": "-"
     },
@@ -6774,13 +6802,6 @@
       "Symbol": "ADOR",
       "Series": "EQ",
       "Security Name": "ADOR WELDING LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "ADROITINFO",
-      "Series": "EQ",
-      "Security Name": "ADROIT INFOTECH LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -7376,6 +7397,13 @@
       "Symbol": "ANZEN",
       "Series": "IV",
       "Security Name": "ANZEN INDIA ENERGY YIELD PLUS TRUST",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "AONESTEELS",
+      "Series": "EQ",
+      "Security Name": "A-ONE STEELS INDIA LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -12763,13 +12791,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "JHS",
-      "Series": "EQ",
-      "Security Name": "JHS SVENDGAARD LABORATORIES LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "JINDALPHOT",
       "Series": "EQ",
       "Security Name": "JINDAL PHOTO LIMITED",
@@ -13361,13 +13382,6 @@
       "Symbol": "KMEW",
       "Series": "EQ",
       "Security Name": "KNOWLEDGE MARINE & ENGINEERING WORKS LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "KMSUGAR",
-      "Series": "EQ",
-      "Security Name": "K.M.SUGAR MILLS LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -14740,6 +14754,13 @@
       "Symbol": "MONARCH",
       "Series": "EQ",
       "Security Name": "MONARCH NETWORTH CAPITAL LIMITED",
+      "Band": "20",
+      "Remarks": "-"
+    },
+    {
+      "Symbol": "MONEYVIEW",
+      "Series": "EQ",
+      "Security Name": "MONEYVIEW LIMITED",
       "Band": "20",
       "Remarks": "-"
     },
@@ -17026,13 +17047,6 @@
       "Remarks": "-"
     },
     {
-      "Symbol": "RKEC",
-      "Series": "EQ",
-      "Security Name": "RKEC PROJECTS LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
       "Symbol": "RKFORGE",
       "Series": "EQ",
       "Security Name": "RAMKRISHNA FORGINGS LIMITED",
@@ -17603,13 +17617,6 @@
       "Symbol": "SATIN",
       "Series": "EQ",
       "Security Name": "SATIN CREDITCARE NETWORK LIMITED",
-      "Band": "20",
-      "Remarks": "-"
-    },
-    {
-      "Symbol": "SATKARTAR",
-      "Series": "SM",
-      "Security Name": "SAT KARTAR LIFE LIMITED",
       "Band": "20",
       "Remarks": "-"
     },

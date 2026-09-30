@@ -1,13 +1,13 @@
 {
-  "asOf": "2026-09-29",
+  "asOf": "2026-09-30",
   "winners": [
-    {
-      "symbol": "AHCL",
-      "returnPct": 150.1
-    },
     {
       "symbol": "TBZ",
       "returnPct": 143.7
+    },
+    {
+      "symbol": "AHCL",
+      "returnPct": 137.7
     },
     {
       "symbol": "CUBEXTUB",
@@ -18,88 +18,88 @@
       "returnPct": 104.7
     },
     {
-      "symbol": "SYNCOMF",
-      "returnPct": 94.6
-    },
-    {
       "symbol": "RAYMOND",
-      "returnPct": 92.8
-    },
-    {
-      "symbol": "STLNETWORK",
-      "returnPct": 89.1
-    },
-    {
-      "symbol": "KABRAEXTRU",
-      "returnPct": 85.0
-    },
-    {
-      "symbol": "INDSWFTLAB",
-      "returnPct": 80.9
-    },
-    {
-      "symbol": "XTRANET",
-      "returnPct": 80.5
+      "returnPct": 97.3
     },
     {
       "symbol": "RETAIL",
-      "returnPct": 77.5
+      "returnPct": 95.2
     },
     {
-      "symbol": "INDORAMA",
-      "returnPct": 74.0
+      "symbol": "XTRANET",
+      "returnPct": 89.5
     },
     {
-      "symbol": "MANINDS",
-      "returnPct": 72.9
+      "symbol": "STLNETWORK",
+      "returnPct": 87.3
+    },
+    {
+      "symbol": "SYNCOMF",
+      "returnPct": 86.5
+    },
+    {
+      "symbol": "KABRAEXTRU",
+      "returnPct": 79.6
     },
     {
       "symbol": "MILKYMIST",
       "returnPct": 70.3
     },
     {
+      "symbol": "INDSWFTLAB",
+      "returnPct": 70.2
+    },
+    {
       "symbol": "BODALCHEM",
       "returnPct": 69.8
+    },
+    {
+      "symbol": "INDORAMA",
+      "returnPct": 68.8
     },
     {
       "symbol": "KSHITIJPOL",
       "returnPct": 63.8
     },
     {
-      "symbol": "PVP",
-      "returnPct": 60.9
+      "symbol": "MANINDS",
+      "returnPct": 63.5
     },
     {
       "symbol": "RATNAVEER",
-      "returnPct": 60.7
+      "returnPct": 60.5
+    },
+    {
+      "symbol": "SALSTEEL",
+      "returnPct": 60.4
+    },
+    {
+      "symbol": "WHEELS",
+      "returnPct": 60.2
     },
     {
       "symbol": "AKI",
       "returnPct": 59.6
     },
     {
-      "symbol": "WHEELS",
-      "returnPct": 58.9
+      "symbol": "JHS",
+      "returnPct": 59.0
+    },
+    {
+      "symbol": "MOREPENLAB",
+      "returnPct": 57.0
+    },
+    {
+      "symbol": "HINDCON",
+      "returnPct": 55.8
+    },
+    {
+      "symbol": "BIRLAPREC",
+      "returnPct": 55.5
     },
     {
       "symbol": "DOLPHIN",
-      "returnPct": 58.3
-    },
-    {
-      "symbol": "TNTELE",
-      "returnPct": 57.9
-    },
-    {
-      "symbol": "SALSTEEL",
-      "returnPct": 57.2
-    },
-    {
-      "symbol": "RAMBHAJO",
-      "returnPct": 57.1
-    },
-    {
-      "symbol": "SSDL",
-      "returnPct": 55.9
+      "returnPct": 55.1
     }
   ]
 }
