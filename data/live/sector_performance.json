@@ -1,60 +1,60 @@
 {
-  "asOf": "2026-09-30",
+  "asOf": "2026-10-01",
   "sectors": [
     {
-      "name": "Media",
-      "relativeStrength": 1.85,
-      "count": 10
-    },
-    {
-      "name": "Bank",
-      "relativeStrength": 1.13,
-      "count": 9
-    },
-    {
       "name": "It",
-      "relativeStrength": 1.02,
+      "relativeStrength": 1.51,
       "count": 10
-    },
-    {
-      "name": "Realty",
-      "relativeStrength": 0.99,
-      "count": 10
-    },
-    {
-      "name": "Psu Bank",
-      "relativeStrength": 0.83,
-      "count": 12
-    },
-    {
-      "name": "Auto",
-      "relativeStrength": 0.72,
-      "count": 15
-    },
-    {
-      "name": "Energy",
-      "relativeStrength": 0.7,
-      "count": 40
-    },
-    {
-      "name": "Chemicals",
-      "relativeStrength": 0.65,
-      "count": 20
-    },
-    {
-      "name": "Metal",
-      "relativeStrength": -0.9,
-      "count": 15
-    },
-    {
-      "name": "Fmcg",
-      "relativeStrength": -0.93,
-      "count": 15
     },
     {
       "name": "Pharma",
-      "relativeStrength": -1.72,
+      "relativeStrength": -0.48,
       "count": 20
+    },
+    {
+      "name": "Bank",
+      "relativeStrength": -0.6,
+      "count": 9
+    },
+    {
+      "name": "Energy",
+      "relativeStrength": -0.75,
+      "count": 40
+    },
+    {
+      "name": "Psu Bank",
+      "relativeStrength": -1.15,
+      "count": 12
+    },
+    {
+      "name": "Fmcg",
+      "relativeStrength": -1.16,
+      "count": 15
+    },
+    {
+      "name": "Realty",
+      "relativeStrength": -1.54,
+      "count": 10
+    },
+    {
+      "name": "Chemicals",
+      "relativeStrength": -1.88,
+      "count": 20
+    },
+    {
+      "name": "Media",
+      "relativeStrength": -2.22,
+      "count": 10
+    },
+    {
+      "name": "Metal",
+      "relativeStrength": -2.74,
+      "count": 15
+    },
+    {
+      "name": "Auto",
+      "relativeStrength": -3.08,
+      "count": 15
     }
   ]
 }
